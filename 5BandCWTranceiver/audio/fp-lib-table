@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "audioModule2")(type "KiCad")(uri "$(KIPRJMOD)/audioModule2.pretty")(options "")(descr ""))
+)
