@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "7fdfdff_80000001",
+    "visible_layers": "7fcfdff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "preselector.kicad_prl",
+    "filename": "tr_switch.kicad_prl",
     "version": 3
   },
   "project": {

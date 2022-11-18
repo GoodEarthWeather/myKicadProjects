@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.2032,
         0.6096
       ],
       "via_dimensions": [
@@ -347,7 +348,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "preselector.kicad_pro",
+    "filename": "tr_switch.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -426,7 +427,7 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "6f2c3d19-d4e9-42f1-a4a4-8f8c301ff52b",
       ""
     ]
   ],
