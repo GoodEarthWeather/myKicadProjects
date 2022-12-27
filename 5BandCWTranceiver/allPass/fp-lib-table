@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "allpass")(type "KiCad")(uri "$(KIPRJMOD)/allpass.pretty")(options "")(descr ""))
+)
