@@ -3417,7 +3417,7 @@
     (property "Value" "1uF" (id 1) (at 269.24 137.795 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "qsd_revB:0603-CAP" (id 2) (at 264.16 134.62 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 264.16 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 264.16 134.62 0)
@@ -3512,7 +3512,7 @@
     (property "Value" "1uF" (id 1) (at 57.15 234.315 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "qsd_revB:0603-CAP" (id 2) (at 52.07 231.14 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 52.07 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 52.07 231.14 0)
@@ -4135,7 +4135,7 @@
     (property "Value" "1uF" (id 1) (at 110.744 234.061 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "qsd_revB:0603-CAP" (id 2) (at 105.41 231.14 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (id 2) (at 105.41 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 105.41 231.14 0)
@@ -4330,7 +4330,7 @@
       (reference "#SUPPLY013") (unit 1) (value "GND") (footprint "qsd_revB:")
     )
     (path "/572fef4a-43c1-4dd3-9b8b-8ccbb7785bb7"
-      (reference "C1") (unit 1) (value "1uF") (footprint "qsd_revB:0603-CAP")
+      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/0a922d06-2359-4fa0-998b-5450e24dec4f"
       (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4339,7 +4339,7 @@
       (reference "C3") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/e7df8372-4aeb-4f39-9550-a13fa35030aa"
-      (reference "C4") (unit 1) (value "1uF") (footprint "qsd_revB:0603-CAP")
+      (reference "C4") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/fc8d494b-ccb6-48f0-8792-578faade50ed"
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -4354,7 +4354,7 @@
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/4c702797-9cc3-4799-9723-9a86c9e6efd4"
-      (reference "C11") (unit 1) (value "1uF") (footprint "qsd_revB:0603-CAP")
+      (reference "C11") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/34e7dd80-c472-473e-a03d-21ea2317bbb8"
       (reference "C12") (unit 1) (value "0.15uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
