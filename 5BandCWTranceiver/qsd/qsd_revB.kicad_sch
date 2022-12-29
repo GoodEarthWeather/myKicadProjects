@@ -140,7 +140,7 @@
           (stroke (width 0.2032) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 1.778 0) (mid 0.2221 1.8083) (end -1.778 0.508)
+        (arc (start 1.778 0) (mid 0.222 1.8083) (end -1.778 0.508)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -3030,7 +3030,7 @@
     (uuid f552890d-69e3-4fde-afe2-2cb3241bfcc6)
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:MCP1801") (at 74.93 226.06 0)
+  (symbol (lib_id "qsd_revB-eagle-import:MCP1801") (at 74.93 226.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0315fd48-c0fb-4188-b56f-c3e9fb48dbeb)
     (property "Reference" "IC1" (id 0) (at 74.93 200.66 0)
@@ -3052,7 +3052,7 @@
     (pin "5" (uuid 60351768-4a7a-4d5a-bfc5-46dcf083a168))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 354.33 109.22 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 354.33 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0503d592-f327-40fa-a4d2-5c64fc876e7c)
     (property "Reference" "R27" (id 0) (at 350.52 106.68 0)
@@ -3071,7 +3071,7 @@
     (pin "2" (uuid 4c6dd607-7167-4625-92de-607f8a981fc9))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 119.38 58.42 90)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 119.38 58.42 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 07d678ca-1c8c-46c9-aa5b-6d2a0679c45d)
     (property "Reference" "R5" (id 0) (at 116.84 56.3626 90)
@@ -3090,7 +3090,7 @@
     (pin "2" (uuid 5c548ee7-7506-48df-a2aa-3a071c41ae02))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:SN74LVC1G04DBVT") (at 111.76 149.86 0) (mirror y)
+  (symbol (lib_id "qsd_revB-eagle-import:SN74LVC1G04DBVT") (at 111.76 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 090097b9-68e0-46b5-bf2f-161fc627a8cd)
     (property "Reference" "IC2" (id 0) (at 106.426 145.542 0)
@@ -3112,7 +3112,7 @@
     (pin "5" (uuid 217c1be2-4f78-40a8-bbfb-270beacccb76))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 76.2 157.48 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 76.2 157.48 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0a922d06-2359-4fa0-998b-5450e24dec4f)
     (property "Reference" "C2" (id 0) (at 80.772 155.829 0)
@@ -3131,7 +3131,7 @@
     (pin "2" (uuid 373d6195-3e79-467b-be6a-472a80e216f9))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 388.62 38.1 90)
+  (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 388.62 38.1 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b55d8d2-09d9-48e9-9d26-658aeb4af9e0)
     (property "Reference" "C19" (id 0) (at 386.842 35.941 90)
@@ -3150,7 +3150,7 @@
     (pin "2" (uuid ef1fa07e-7421-45cf-9a06-636dc3e7720e))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 160.02 182.88 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 160.02 182.88 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0bb5798b-ed04-4d61-82c2-98bf9bfcc52c)
     (property "Reference" "#SUPPLY05" (id 0) (at 160.02 182.88 0)
@@ -3168,7 +3168,7 @@
     (pin "1" (uuid 5827962f-728a-4dac-99cc-d16a269862c3))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:R-TRIMM3296W") (at 391.16 81.28 90)
+  (symbol (lib_id "qsd_revB-eagle-import:R-TRIMM3296W") (at 391.16 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0f62c5f3-092e-4053-b4b3-df33ca73c298)
     (property "Reference" "R32" (id 0) (at 392.43 80.01 90)
@@ -3219,7 +3219,7 @@
     (pin "2" (uuid e0359811-cbe8-4a40-a13b-a9608a8ab055))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 251.46 134.62 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 251.46 134.62 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2cce3e98-1f6a-48c3-a864-eedcc682138a)
     (property "Reference" "C10" (id 0) (at 256.54 130.81 0)
@@ -3238,7 +3238,7 @@
     (pin "2" (uuid 93705c94-db9c-4c02-b4c8-ad09776befec))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 289.56 109.22 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 289.56 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 31c0c5d6-f2fd-4c78-836e-b4282fb318e1)
     (property "Reference" "C14" (id 0) (at 294.64 106.68 0)
@@ -3257,7 +3257,7 @@
     (pin "2" (uuid 96d8648d-3c90-4e0e-950b-0df29f14aa14))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 187.96 170.18 90)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 187.96 170.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 330cd96d-fe90-422b-b40a-5a7b40af2fd0)
     (property "Reference" "R10" (id 0) (at 195.072 168.1226 90)
@@ -3276,7 +3276,7 @@
     (pin "2" (uuid 74b5a292-7ae8-4082-8e5a-99eeddce5098))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 274.32 109.22 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 274.32 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 34e7dd80-c472-473e-a03d-21ea2317bbb8)
     (property "Reference" "C12" (id 0) (at 279.4 106.68 0)
@@ -3295,7 +3295,7 @@
     (pin "2" (uuid 644921fd-c14a-4597-930c-b0fa3f5e0fab))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 383.54 127 270)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 383.54 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3c5626e3-f55f-4df9-9bbd-49163c553c77)
     (property "Reference" "C18" (id 0) (at 378.46 126.619 90)
@@ -3333,7 +3333,7 @@
     (pin "2" (uuid 33d0cbcc-33a6-41e5-b834-176ea7f939cf))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:T50-TRIFILAR") (at 157.48 88.9 0)
+  (symbol (lib_id "qsd_revB-eagle-import:T50-TRIFILAR") (at 157.48 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 40e76835-7f5d-462b-994c-793ea29bad2a)
     (property "Reference" "T1" (id 0) (at 162.56 63.5 0)
@@ -3355,7 +3355,7 @@
     (pin "5" (uuid 43398745-248b-458e-b59a-fa4ab3dc6e73))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 377.19 81.28 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 377.19 81.28 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 43397eee-b630-49d5-97b5-dd49ad4e80aa)
     (property "Reference" "R28" (id 0) (at 374.65 77.47 0)
@@ -3374,7 +3374,7 @@
     (pin "2" (uuid 8e93472f-1094-4ed4-b7c7-0736fd0e8fbe))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 378.46 99.06 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 378.46 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 44435af8-d264-484f-b609-a2d53c47bb5a)
     (property "Reference" "#SUPPLY011" (id 0) (at 378.46 99.06 0)
@@ -3408,7 +3408,7 @@
     (pin "3" (uuid 3680e994-91cc-45dc-b61d-05909f76817b))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 264.16 134.62 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 264.16 134.62 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4c702797-9cc3-4799-9723-9a86c9e6efd4)
     (property "Reference" "C11" (id 0) (at 264.16 130.81 0)
@@ -3427,7 +3427,7 @@
     (pin "2" (uuid 549108d4-fcb0-4e07-9b12-7179ceaeb4de))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 193.04 86.36 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 193.04 86.36 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 509bdd40-7aac-401c-9129-0653b09782bb)
     (property "Reference" "C6" (id 0) (at 196.596 84.455 0)
@@ -3484,7 +3484,7 @@
     (pin "5" (uuid d8055a1b-4447-476d-bb0c-27157044c99d))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 68.58 0)
+  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 68.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 56465497-74a2-4d82-88a1-a8f9ead25726)
     (property "Reference" "JP3" (id 0) (at 30.48 62.738 0)
@@ -3503,7 +3503,7 @@
     (pin "2" (uuid 6f28edef-2ca4-47f0-a710-1338a3f1ca3a))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 52.07 231.14 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 52.07 231.14 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 572fef4a-43c1-4dd3-9b8b-8ccbb7785bb7)
     (property "Reference" "C1" (id 0) (at 57.404 228.981 0)
@@ -3522,7 +3522,7 @@
     (pin "2" (uuid 81095ceb-fae5-4b93-8237-f0f5d10cb9cc))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 297.18 109.22 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 297.18 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 59cf1f4c-3c5e-4212-a0d9-c5ed9febcb10)
     (property "Reference" "C15" (id 0) (at 302.26 106.68 0)
@@ -3561,7 +3561,7 @@
     (pin "3" (uuid fe658418-853f-418f-aced-1cf98b3de0bb))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 45.72 88.9 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 45.72 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 73ab0f42-fabd-421a-a09f-638c437207bd)
     (property "Reference" "#SUPPLY01" (id 0) (at 45.72 88.9 0)
@@ -3579,7 +3579,7 @@
     (pin "1" (uuid d0027965-b88c-4b1a-9adc-4fa7f8d87c00))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 358.14 71.12 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 358.14 71.12 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 74874b52-0cde-45d8-9708-d7caa38b345e)
     (property "Reference" "R19" (id 0) (at 355.092 69.0626 0)
@@ -3598,7 +3598,7 @@
     (pin "2" (uuid bdc3e60e-0f58-44d2-8904-9b092b57c123))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:SN74AUP2G79DCUR") (at 119.38 137.16 0)
+  (symbol (lib_id "qsd_revB-eagle-import:SN74AUP2G79DCUR") (at 119.38 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 79d3ff95-f0e6-490c-b20a-937f853d4e57)
     (property "Reference" "IC3" (id 0) (at 138.684 132.842 0)
@@ -3623,7 +3623,7 @@
     (pin "8" (uuid e81c76cf-15c4-4666-ba1d-3e5f84815f19))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M03PTH") (at 416.56 76.2 180)
+  (symbol (lib_id "qsd_revB-eagle-import:M03PTH") (at 416.56 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7b7c240b-7137-40e2-bccb-d1d7a4e54bda)
     (property "Reference" "JP9" (id 0) (at 419.1 82.042 0)
@@ -3643,7 +3643,7 @@
     (pin "3" (uuid 751908b0-a23f-454f-95b1-8a3767184477))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 358.14 66.04 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 358.14 66.04 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ea5ba3e-f4ed-4124-afc2-234cf732c41e)
     (property "Reference" "R18" (id 0) (at 355.092 63.9826 0)
@@ -3662,7 +3662,7 @@
     (pin "2" (uuid 2dffad56-a99d-4bd6-b00f-01ee42bec2cb))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 101.6 48.26 270)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 101.6 48.26 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 84ad4079-33e7-4814-934b-5708492e271b)
     (property "Reference" "C3" (id 0) (at 103.124 44.831 90)
@@ -3681,7 +3681,7 @@
     (pin "2" (uuid b826bd5c-2676-49a6-a058-fc298a1a422b))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 33.02 0)
+  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 86787d85-9fc3-4609-b83a-b9579b1db027)
     (property "Reference" "JP1" (id 0) (at 30.48 27.178 0)
@@ -3700,7 +3700,7 @@
     (pin "2" (uuid 3a332cca-32e4-4725-acb2-458919a098bb))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 147.32 200.66 0) (mirror x)
+  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 147.32 200.66 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8cf14c2f-0cf0-4be8-b422-e27f957871ed)
     (property "Reference" "JP6" (id 0) (at 144.78 206.502 0)
@@ -3719,7 +3719,7 @@
     (pin "2" (uuid 4e763710-73fb-493a-9601-f7703cdd5ceb))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 384.81 119.38 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 384.81 119.38 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8f8841fc-9965-4501-8db8-a76c00b90fac)
     (property "Reference" "R31" (id 0) (at 381.762 117.0686 0)
@@ -3738,7 +3738,7 @@
     (pin "2" (uuid 8be04000-035b-414a-a413-ba6f37569f29))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 73.66 57.15 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 73.66 57.15 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 957eec1b-96a6-459f-bea6-761b058f3d96)
     (property "Reference" "#SUPPLY02" (id 0) (at 73.66 57.15 0)
@@ -3756,7 +3756,7 @@
     (pin "1" (uuid 136db5bf-38b6-49d3-bbd6-643f8f9e11bd))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 50.8 0)
+  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 33.02 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 96618d10-a892-417b-8231-b9913e999edd)
     (property "Reference" "JP2" (id 0) (at 30.48 44.958 0)
@@ -3794,7 +3794,7 @@
     (pin "2" (uuid 5e149095-a8e9-4f61-903c-846c0e29051b))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 274.32 132.08 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 274.32 132.08 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a8aaf415-31fe-483e-8839-e3c8df904e42)
     (property "Reference" "#SUPPLY06" (id 0) (at 274.32 132.08 0)
@@ -3812,7 +3812,7 @@
     (pin "1" (uuid 3f1c9b36-ce15-46e9-a9a0-a746b7206add))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 281.94 109.22 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 281.94 109.22 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a8fd90c3-93bd-4d70-a767-e358a34a4f2a)
     (property "Reference" "C13" (id 0) (at 287.02 106.68 0)
@@ -3831,7 +3831,7 @@
     (pin "2" (uuid a3d48712-6425-4567-bfb7-b3e996e2ec40))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 388.62 45.72 270)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 388.62 45.72 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid abb9bfee-0dc5-4f3d-8928-e9403ce614e9)
     (property "Reference" "C20" (id 0) (at 383.286 45.085 90)
@@ -3850,7 +3850,7 @@
     (pin "2" (uuid 81003040-bf7d-4e34-b9cb-cf3e5cbe1420))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 81.28 90)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 81.28 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b31f0d05-62a8-4227-873a-b57997f15921)
     (property "Reference" "R7" (id 0) (at 144.78 78.4606 90)
@@ -3903,7 +3903,7 @@
     (pin "2" (uuid 95be6288-d810-4d10-b99c-cca29d291694))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 58.42 90)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 58.42 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c0cff5cc-d12e-4314-a7a6-6931a7066358)
     (property "Reference" "R6" (id 0) (at 152.4 55.6006 90)
@@ -3922,7 +3922,7 @@
     (pin "2" (uuid 0db67f87-c15c-49e1-9067-413fea0d132b))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 91.44 137.16 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 91.44 137.16 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c16809e4-8e39-406b-b1ba-3ee251a4d820)
     (property "Reference" "R1" (id 0) (at 84.328 136.4234 0)
@@ -3941,7 +3941,7 @@
     (pin "2" (uuid a79a282c-22ca-4656-b8ad-178b4e4d8dea))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 200.66 86.36 0)
+  (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 200.66 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c3ca66d4-db1c-417d-a273-bd0f42094bd2)
     (property "Reference" "C7" (id 0) (at 201.676 85.725 0)
@@ -3979,7 +3979,7 @@
     (pin "8" (uuid 16d61c85-9f7b-4860-9582-574efc4a69e6))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 354.33 104.14 180)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 354.33 104.14 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d201188f-2b6f-4f6b-b512-313bbd681d84)
     (property "Reference" "R26" (id 0) (at 350.52 101.6 0)
@@ -3998,7 +3998,7 @@
     (pin "2" (uuid f4b531c3-5c46-445a-9bbc-9131d45f9f6d))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 403.86 50.8 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 403.86 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d2ca4370-085c-410f-81c7-ad2e3a2ca126)
     (property "Reference" "#SUPPLY013" (id 0) (at 403.86 50.8 0)
@@ -4016,7 +4016,7 @@
     (pin "1" (uuid 6ae8ce6d-4007-436a-85df-46f2891ccd31))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 388.62 88.9 270)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 388.62 88.9 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d9283183-8c51-4d19-9475-e73179280a95)
     (property "Reference" "C21" (id 0) (at 383.54 92.71 90)
@@ -4054,7 +4054,7 @@
     (pin "2" (uuid f8a0c577-67e4-4a39-9d4a-b1937bf4d9cb))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:SN74CBTLV3253") (at 236.22 119.38 0)
+  (symbol (lib_id "qsd_revB-eagle-import:SN74CBTLV3253") (at 236.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6a28993-e055-4a11-9855-d585df23cdab)
     (property "Reference" "IC5" (id 0) (at 250.698 72.898 0)
@@ -4087,7 +4087,7 @@
     (pin "9" (uuid b2523393-37e6-4b18-b259-d14172df786d))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 24.13 226.06 0)
+  (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 24.13 226.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e74fe1a7-e6bb-4074-98d7-46ff7172b437)
     (property "Reference" "JP4" (id 0) (at 21.59 220.218 0)
@@ -4106,7 +4106,7 @@
     (pin "2" (uuid ca086153-bfc4-4b18-85d8-23b7490ccb4a))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:R-TRIMM3296W") (at 185.42 88.9 180)
+  (symbol (lib_id "qsd_revB-eagle-import:R-TRIMM3296W") (at 185.42 88.9 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e77cdba9-df1d-409f-b12f-bec7ebba09c1)
     (property "Reference" "R9" (id 0) (at 179.07 87.63 0)
@@ -4126,7 +4126,7 @@
     (pin "3" (uuid 5093f824-3cda-42dc-a753-091d63e5c002))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 105.41 231.14 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 105.41 231.14 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e7df8372-4aeb-4f39-9550-a13fa35030aa)
     (property "Reference" "C4" (id 0) (at 110.998 228.981 0)
@@ -4145,7 +4145,7 @@
     (pin "2" (uuid 1bed94cf-998a-4278-897a-12037110f80e))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 185.42 73.66 90)
+  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 185.42 73.66 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ea505101-ccf9-4547-a897-6133e97a8a41)
     (property "Reference" "R8" (id 0) (at 182.88 71.6026 90)
@@ -4198,7 +4198,7 @@
     (pin "2" (uuid 054d65b3-286f-4ee1-b477-7bb22baadac5))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 147.32 109.22 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 147.32 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f70601c7-2bfc-418d-899c-37bdbea42b74)
     (property "Reference" "#SUPPLY04" (id 0) (at 147.32 109.22 0)
@@ -4216,7 +4216,7 @@
     (pin "1" (uuid 7b985459-ccaa-4dd0-94b6-dbef696681bf))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 105.41 251.46 0)
+  (symbol (lib_id "qsd_revB-eagle-import:GND") (at 105.41 251.46 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fb7940d4-89b3-4616-b80b-5c8bc0c38492)
     (property "Reference" "#SUPPLY03" (id 0) (at 105.41 251.46 0)
@@ -4234,7 +4234,7 @@
     (pin "1" (uuid 06700a17-3a73-42a5-88ce-21233e49968a))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 149.86 157.48 180)
+  (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 149.86 157.48 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fc8d494b-ccb6-48f0-8792-578faade50ed)
     (property "Reference" "C5" (id 0) (at 153.924 155.321 0)
@@ -4253,7 +4253,7 @@
     (pin "2" (uuid 59c329dd-75a9-4538-b877-700260c16ea4))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:M03PTH") (at 416.56 96.52 180)
+  (symbol (lib_id "qsd_revB-eagle-import:M03PTH") (at 416.56 96.52 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fcd0b083-f0d9-4a2e-81ab-0e21e96f750e)
     (property "Reference" "JP8" (id 0) (at 419.1 102.362 0)
@@ -4273,7 +4273,7 @@
     (pin "3" (uuid e6fbaa97-cf95-4a71-8e3f-2ebbcf4a0c5f))
   )
 
-  (symbol (lib_id "qsd_revB-eagle-import:TS5A23157") (at 185.42 157.48 0)
+  (symbol (lib_id "qsd_revB-eagle-import:TS5A23157") (at 185.42 157.48 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ffac7405-1df4-4353-8ca6-a801236eeef6)
     (property "Reference" "IC4" (id 0) (at 192.024 122.936 0)
