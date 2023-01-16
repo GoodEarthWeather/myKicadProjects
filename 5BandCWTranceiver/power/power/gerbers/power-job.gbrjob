@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.10)"
     },
-    "CreationDate": "2023-01-14T14:32:42-08:00"
+    "CreationDate": "2023-01-14T17:08:10-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "audioModule2",
-      "GUID": "61756469-6f4d-46f6-9475-6c65322e6b69",
+      "Name": "power",
+      "GUID": "706f7765-722e-46b6-9963-61645f706362",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 79.475,
-      "Y": 32.485
+      "X": 57.5,
+      "Y": 40.7
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,54 +27,54 @@
       "PadToPad": 0.1524,
       "PadToTrack": 0.1524,
       "TrackToTrack": 0.1524,
-      "MinLineWidth": 0.254,
+      "MinLineWidth": 1.27,
       "TrackToRegion": 0.254,
       "RegionToRegion": 0.254
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "audioModule2-F_Cu.gbr",
+      "Path": "power-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-B_Cu.gbr",
+      "Path": "power-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-F_Paste.gbr",
+      "Path": "power-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-B_Paste.gbr",
+      "Path": "power-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-F_Silkscreen.gbr",
+      "Path": "power-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-B_Silkscreen.gbr",
+      "Path": "power-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audioModule2-F_Mask.gbr",
+      "Path": "power-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "audioModule2-B_Mask.gbr",
+      "Path": "power-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "audioModule2-Edge_Cuts.gbr",
+      "Path": "power-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
