@@ -2865,7 +2865,7 @@
     (property "Reference" "R14" (id 0) (at 213.36 102.87 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "604" (id 1) (at 213.36 106.68 90)
+    (property "Value" "11K" (id 1) (at 213.36 106.68 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 210.82 102.87 0)
@@ -2905,7 +2905,7 @@
     (property "Reference" "C8" (id 0) (at 181.61 123.19 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "4.7uF" (id 1) (at 179.07 133.35 90)
+    (property "Value" "47uF" (id 1) (at 179.07 133.35 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (id 2) (at 182.88 127 0)
@@ -3964,7 +3964,7 @@
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/2dabde6a-e117-4ebe-a2c4-fdfad659f488"
-      (reference "C8") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+      (reference "C8") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/0747bbd6-9f56-4e24-bb75-d67f9e506c16"
       (reference "C9") (unit 1) (value "CAP_POLPTH1") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
@@ -4099,7 +4099,7 @@
       (reference "R13") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/23101c8c-519d-4170-a1e1-a0d1c385ffb8"
-      (reference "R14") (unit 1) (value "604") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R14") (unit 1) (value "11K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/7f251369-eace-44ab-848c-cd3c5957381c"
       (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
