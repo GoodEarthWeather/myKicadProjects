@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "qsd_revB-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/qsd_revB-eagle-import.kicad_sym")(options "")(descr ""))
+)

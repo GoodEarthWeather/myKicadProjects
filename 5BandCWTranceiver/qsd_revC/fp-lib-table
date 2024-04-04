@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "qsd_revB")(type "KiCad")(uri "$(KIPRJMOD)/qsd_revC.pretty")(options "")(descr ""))
+)
