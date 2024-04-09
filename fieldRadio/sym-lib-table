@@ -4,4 +4,5 @@
   (lib (name "powerAmp_RevB-eagle-import")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/powerAmp/powerAmp_RevB/powerAmp_RevB-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "audioModule2-eagle-import")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/audio/audioModule2-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "qsd_revB-eagle-import")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/qsd/qsd_revB-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "main-eagle-import")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/main-eagle-import.kicad_sym")(options "")(descr ""))
 )

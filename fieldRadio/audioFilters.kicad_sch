@@ -3252,7 +3252,5 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid be94d8f4-845b-4eda-8aaf-6a9d96aff5c7)
     )
-    (instances
-    )
   )
 )

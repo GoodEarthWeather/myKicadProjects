@@ -2464,6 +2464,11 @@
     )
     (pin "1" (uuid 5aba509c-dfb3-4b8a-82e7-090c82c86144))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+          (reference "#SUPPLY03") (unit 1)
+        )
+      )
       (project ""
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
           (reference "#SUPPLY03") (unit 1)
@@ -2677,6 +2682,11 @@
     )
     (pin "1" (uuid 4280e1d5-c3be-48bb-8f1e-7ea167235ced))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+          (reference "#SUPPLY05") (unit 1)
+        )
+      )
       (project ""
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
           (reference "#SUPPLY05") (unit 1)
@@ -3339,6 +3349,11 @@
     )
     (pin "1" (uuid 6fc50f80-88c9-414a-9095-d15b7c576299))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+          (reference "#SUPPLY04") (unit 1)
+        )
+      )
       (project ""
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
           (reference "#SUPPLY04") (unit 1)
@@ -3457,6 +3472,11 @@
     )
     (pin "1" (uuid 06053d52-2c5a-46bb-93e1-27853fa2e222))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+          (reference "#SUPPLY02") (unit 1)
+        )
+      )
       (project ""
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
           (reference "#SUPPLY02") (unit 1)
@@ -3863,6 +3883,11 @@
     )
     (pin "1" (uuid 8e73e860-7df5-47ee-9d85-a51cffff4073))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+          (reference "#SUPPLY01") (unit 1)
+        )
+      )
       (project ""
         (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
           (reference "#SUPPLY01") (unit 1)

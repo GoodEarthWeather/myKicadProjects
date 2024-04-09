@@ -1,29 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-    "design_settings": {
-      "defaults": {
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
-        "other_line_width": 0.15,
-        "silk_line_width": 0.15,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
-      },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {
-        "min_copper_edge_clearance": 0.0,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
-      },
-      "track_widths": [],
-      "via_dimensions": []
-    },
     "layer_presets": [],
     "viewports": []
   },
@@ -232,7 +209,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -247,7 +224,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fieldRadio.kicad_pro",
+    "filename": "temp1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -299,7 +276,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": true,
+      "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -312,8 +289,18 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "myDrawingSheet.kicad_wks",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -322,47 +309,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617",
-      ""
-    ],
-    [
-      "07223125-3b0c-43ef-b5d7-ce26f2ddaddd",
-      "TRSwitch"
-    ],
-    [
-      "6a8dc824-6730-4320-bf89-77665ebbf86c",
-      "LPF"
-    ],
-    [
-      "de17e96d-acc8-4488-9767-c0e10e15a863",
-      "powerAmp"
-    ],
-    [
-      "f0aa9a49-1e26-47fb-bcc4-e46a9f74019c",
-      "AudioFilters"
-    ],
-    [
-      "ac2f1cb1-df94-4091-865f-0947d1b52aed",
-      "Audio"
-    ],
-    [
-      "512242cc-0139-4734-9d04-132f2cbfd246",
-      "Preselector"
-    ],
-    [
-      "75918d39-3f78-4c42-b57f-e1e8147edd37",
-      "controller"
-    ],
-    [
-      "b9a43a44-ac26-41be-aaf6-05c85180cb06",
-      "qsd"
-    ],
-    [
-      "a07c0629-fa52-4cc1-9263-ae3b29f1aaaa",
-      "HPLP Filters"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

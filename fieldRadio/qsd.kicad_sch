@@ -2814,6 +2814,11 @@
     )
     (pin "1" (uuid 5827962f-728a-4dac-99cc-d16a269862c3))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY05") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY05") (unit 1)
@@ -3154,6 +3159,11 @@
     )
     (pin "1" (uuid 6812fb0d-4044-496c-b738-1d82e542e951))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY011") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY011") (unit 1)
@@ -3538,6 +3548,11 @@
     )
     (pin "1" (uuid 3f1c9b36-ce15-46e9-a9a0-a746b7206add))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY06") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY06") (unit 1)
@@ -3848,6 +3863,11 @@
     )
     (pin "1" (uuid 6ae8ce6d-4007-436a-85df-46f2891ccd31))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY013") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY013") (unit 1)
@@ -4043,6 +4063,11 @@
     )
     (pin "1" (uuid 7b985459-ccaa-4dd0-94b6-dbef696681bf))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY04") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY04") (unit 1)
@@ -4068,6 +4093,11 @@
     )
     (pin "1" (uuid 06700a17-3a73-42a5-88ce-21233e49968a))
     (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+          (reference "#SUPPLY03") (unit 1)
+        )
+      )
       (project ""
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "#SUPPLY03") (unit 1)
