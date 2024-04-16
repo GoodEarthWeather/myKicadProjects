@@ -20,13 +20,13 @@
       "footprints": true,
       "graphics": true,
       "keepouts": false,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": true,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "7fdfcff_80000001",
+    "visible_layers": "7fcfcff_80000001",
     "zone_display_mode": 0
   },
   "meta": {

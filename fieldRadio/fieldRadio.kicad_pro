@@ -356,8 +356,16 @@
       "controller"
     ],
     [
+      "07566e3b-8dce-4b8a-bb35-93365cd4b65e",
+      "clock"
+    ],
+    [
       "b9a43a44-ac26-41be-aaf6-05c85180cb06",
       "qsd"
+    ],
+    [
+      "56bfcbb6-5b4c-41a3-a0f1-0c3e063460f4",
+      "powerInput"
     ],
     [
       "a07c0629-fa52-4cc1-9263-ae3b29f1aaaa",
