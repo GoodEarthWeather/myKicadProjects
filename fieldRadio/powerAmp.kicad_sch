@@ -1851,6 +1851,9 @@
   (junction (at 229.87 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 6ad02073-0558-42a4-92fa-4add44c180cf)
   )
+  (junction (at 290.83 85.09) (diameter 0) (color 0 0 0 0)
+    (uuid 6c542329-9e8a-4d00-9803-019609467b79)
+  )
   (junction (at 266.7 102.87) (diameter 0) (color 0 0 0 0)
     (uuid 78b4f57d-87a1-40a6-aee3-9b92852a7ba5)
   )
@@ -1919,6 +1922,9 @@
   )
   (junction (at 318.77 64.77) (diameter 0) (color 0 0 0 0)
     (uuid dbd8a1a9-07aa-484f-a091-14a9076c76d0)
+  )
+  (junction (at 318.77 85.09) (diameter 0) (color 0 0 0 0)
+    (uuid df9b9b53-7f32-4c4f-aa8a-5ca15958fce2)
   )
   (junction (at 335.28 88.9) (diameter 0) (color 0 0 0 0)
     (uuid e180dde6-4903-4140-b75a-0d953e86a21d)
@@ -2009,10 +2015,6 @@
   (wire (pts (xy 274.32 85.09) (xy 248.92 85.09))
     (stroke (width 0) (type default))
     (uuid 15f0d92b-6ab4-490f-910b-9dc406a56107)
-  )
-  (wire (pts (xy 274.32 85.09) (xy 274.32 87.63))
-    (stroke (width 0) (type default))
-    (uuid 18ea2ccb-ab1e-45f2-9cac-a52844f8cc26)
   )
   (wire (pts (xy 318.77 44.45) (xy 330.2 44.45))
     (stroke (width 0) (type default))
@@ -2326,6 +2328,10 @@
     (stroke (width 0) (type default))
     (uuid 7290aba7-9701-4a7f-9efd-a4c38f1a6ef8)
   )
+  (wire (pts (xy 290.83 85.09) (xy 297.815 85.09))
+    (stroke (width 0) (type default))
+    (uuid 73742bfe-8711-4369-b90e-ef66ca6a35b1)
+  )
   (wire (pts (xy 128.27 125.73) (xy 128.27 123.19))
     (stroke (width 0) (type default))
     (uuid 76b4a759-32c2-4848-9992-ad433bc92b23)
@@ -2386,7 +2392,7 @@
     (stroke (width 0) (type default))
     (uuid 88b9c71c-dd58-4314-93ef-cbae5656906d)
   )
-  (wire (pts (xy 318.77 82.55) (xy 318.77 88.9))
+  (wire (pts (xy 318.77 82.55) (xy 318.77 85.09))
     (stroke (width 0) (type default))
     (uuid 8a879a57-ae24-4204-b768-0f231ca93af7)
   )
@@ -2482,6 +2488,10 @@
     (stroke (width 0) (type default))
     (uuid b0228418-dad2-4b8d-a837-f46810bb487f)
   )
+  (wire (pts (xy 318.77 85.09) (xy 318.77 88.9))
+    (stroke (width 0) (type default))
+    (uuid b1a44fb7-a71f-4cda-a1db-a8ef5681de1a)
+  )
   (wire (pts (xy 107.95 53.34) (xy 107.95 57.15))
     (stroke (width 0) (type default))
     (uuid b37dfe9b-86e2-4206-b48a-71e2c86a5a0e)
@@ -2558,6 +2568,10 @@
     (stroke (width 0) (type default))
     (uuid c9b0f093-79f7-44a9-9a01-140d009dab54)
   )
+  (wire (pts (xy 290.83 73.66) (xy 290.83 72.39))
+    (stroke (width 0) (type default))
+    (uuid cab37569-adce-4076-be80-cd582cefaf0f)
+  )
   (wire (pts (xy 229.87 166.37) (xy 232.41 166.37))
     (stroke (width 0) (type default))
     (uuid d272b8d4-f0e2-4442-a68e-d456487deeea)
@@ -2565,6 +2579,10 @@
   (wire (pts (xy 229.87 102.87) (xy 181.61 102.87))
     (stroke (width 0) (type default))
     (uuid d3a8e1a9-d4d6-43c3-a281-bf9d31297aeb)
+  )
+  (wire (pts (xy 307.975 85.09) (xy 318.77 85.09))
+    (stroke (width 0) (type default))
+    (uuid d41b35f7-ce13-4cc7-bee8-c6f65ce5441d)
   )
   (wire (pts (xy 148.59 184.15) (xy 148.59 199.39))
     (stroke (width 0) (type default))
@@ -2598,7 +2616,7 @@
     (stroke (width 0) (type default))
     (uuid e11a3537-54f2-4cd9-a01e-8d25f34fd41b)
   )
-  (wire (pts (xy 290.83 85.09) (xy 290.83 72.39))
+  (wire (pts (xy 290.83 85.09) (xy 290.83 83.82))
     (stroke (width 0) (type default))
     (uuid e149b93f-0231-4d49-b155-8d68e56bcb25)
   )
@@ -2614,7 +2632,7 @@
     (stroke (width 0) (type default))
     (uuid e361bb8a-04a4-4cb6-9815-caeef73a0bbc)
   )
-  (wire (pts (xy 274.32 97.79) (xy 274.32 102.87))
+  (wire (pts (xy 274.32 85.09) (xy 274.32 102.87))
     (stroke (width 0) (type default))
     (uuid e465fa88-d7f1-49b0-b621-89893197c888)
   )
@@ -2765,7 +2783,7 @@
   (symbol (lib_id "Device:L_Ferrite") (at 318.77 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a836b4-edc4-42ef-8d3c-88fa9aaa608b)
-    (property "Reference" "L2" (at 321.31 91.44 0)
+    (property "Reference" "L23" (at 321.31 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "L_Ferrite" (at 321.31 93.98 0)
@@ -2782,7 +2800,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "L2") (unit 1)
+          (reference "L23") (unit 1)
         )
       )
       (project "powerAmp"
@@ -2796,10 +2814,10 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 243.84 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 064cfa62-d813-4f7a-a10e-43231bb68feb)
-    (property "Reference" "R2" (at 242.57 100.33 0)
+    (property "Reference" "R36" (at 242.57 100.33 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "1K" (at 242.57 106.68 0)
+    (property "Value" "0" (at 242.57 106.68 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 243.84 102.87 0)
@@ -2816,7 +2834,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R2") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "powerAmp"
@@ -2830,7 +2848,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 233.68 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 069f8616-7a29-40f1-b13c-bd4a3139a001)
-    (property "Reference" "C3" (at 234.95 136.779 0)
+    (property "Reference" "C46" (at 234.95 136.779 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 235.204 141.859 0)
@@ -2847,7 +2865,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C3") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
       (project "powerAmp"
@@ -2861,7 +2879,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 295.91 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09240223-5739-461a-b628-1fdf9b36eb2f)
-    (property "Reference" "C7" (at 297.434 51.689 0)
+    (property "Reference" "C48" (at 297.434 51.689 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.01uF" (at 297.18 56.769 0)
@@ -2878,7 +2896,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C7") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
       (project ""
@@ -2897,7 +2915,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 115.57 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ae43dd7-a6ca-44b7-83f2-6cda74ca824e)
-    (property "Reference" "R5" (at 109.22 137.16 0)
+    (property "Reference" "R28" (at 109.22 137.16 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "100k" (at 116.84 137.16 0)
@@ -2917,7 +2935,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R5") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "powerAmp"
@@ -2931,7 +2949,7 @@
   (symbol (lib_id "Device:Q_NPN_BCEC") (at 316.23 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e2dd31c-3677-43ae-8f05-ad412b598280)
-    (property "Reference" "Q1" (at 322.58 71.12 0)
+    (property "Reference" "Q13" (at 322.58 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PBSS4360Z" (at 322.58 73.66 0)
@@ -2950,7 +2968,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "Q1") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
       (project "powerAmp"
@@ -2964,7 +2982,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:OPA1679IDR") (at 242.57 69.85 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fc0af60-7c5e-465c-98a4-0c40535accc6)
-    (property "Reference" "U$2" (at 245.11 73.025 0)
+    (property "Reference" "U$1" (at 245.11 73.025 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "OPA1679IDR" (at 245.11 64.77 0)
@@ -2993,7 +3011,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U$2") (unit 2)
+          (reference "U$1") (unit 2)
         )
       )
       (project ""
@@ -3012,7 +3030,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 204.47 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15f78139-6d94-44b2-bfa9-7b1fafdf24a2)
-    (property "Reference" "R9" (at 203.2 70.6374 0)
+    (property "Reference" "R34" (at 203.2 70.6374 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "36K" (at 202.184 76.2 0)
@@ -3032,7 +3050,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R9") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project ""
@@ -3051,7 +3069,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 308.61 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ba61ca8-eff1-4195-94e0-1ee4595db443)
-    (property "Reference" "#SUPPLY02" (at 308.61 64.77 0)
+    (property "Reference" "#SUPPLY010" (at 308.61 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.705 67.945 0)
@@ -3067,7 +3085,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY02") (unit 1)
+          (reference "#SUPPLY010") (unit 1)
         )
       )
       (project ""
@@ -3086,7 +3104,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 107.95 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e747565-f7ad-415f-b1ff-c794f09a92cc)
-    (property "Reference" "R21" (at 101.6 48.26 90)
+    (property "Reference" "R27" (at 101.6 48.26 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0" (at 104.14 50.8 90)
@@ -3103,7 +3121,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R21") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project ""
@@ -3122,7 +3140,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 190.5 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ff3ac5b-2ac9-4f8f-9379-12556c2b5d06)
-    (property "Reference" "C2" (at 191.77 135.509 0)
+    (property "Reference" "C43" (at 191.77 135.509 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 192.024 140.589 0)
@@ -3139,7 +3157,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C2") (unit 1)
+          (reference "C43") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3153,7 +3171,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 222.25 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23285c5a-7b12-49c4-b32b-ecfe8278cf8e)
-    (property "Reference" "C18" (at 222.758 49.911 90)
+    (property "Reference" "C44" (at 222.758 49.911 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.22uF" (at 224.79 57.023 90)
@@ -3173,7 +3191,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C18") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
       (project ""
@@ -3189,13 +3207,39 @@
     )
   )
 
+  (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 290.83 78.74 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 28e4430f-9fbe-42a2-93a4-fd3413b64364)
+    (property "Reference" "R38" (at 284.48 78.74 90)
+      (effects (font (size 1.778 1.5113)) (justify right top))
+    )
+    (property "Value" "0" (at 287.02 81.28 90)
+      (effects (font (size 1.778 1.5113)) (justify right top))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 290.83 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 290.83 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cff16559-9d95-43ec-ae76-136da46f7ce9))
+    (pin "2" (uuid d3d1983c-c108-4dc5-99df-0e723f7d2421))
+    (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
+          (reference "R38") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "powerAmp_RevB-eagle-import:3296W-1-505LF") (at 261.62 105.41 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e687927-3955-4336-8c63-93be156bb630)
-    (property "Reference" "VR3" (at 261.62 127 0)
+    (property "Reference" "VR1" (at 274.955 112.395 90)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
-    (property "Value" "3296W-1-505LF" (at 256.54 111.76 0)
+    (property "Value" "3296W-1-505LF" (at 286.385 115.57 90)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" (at 261.62 105.41 0)
@@ -3210,7 +3254,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "VR3") (unit 1)
+          (reference "VR1") (unit 1)
         )
       )
       (project ""
@@ -3229,7 +3273,7 @@
   (symbol (lib_id "74xGxx:74LVC2G34") (at 172.72 165.1 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aed3650-b573-4833-b6b2-3027f56d6296)
-    (property "Reference" "U2" (at 171.45 157.48 0)
+    (property "Reference" "U3" (at 171.45 157.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G34" (at 175.26 160.02 0)
@@ -3250,7 +3294,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U2") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
       (project "powerAmp"
@@ -3264,7 +3308,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:OPA1679IDR") (at 267.97 72.39 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40f359aa-e8bc-4d4c-ab4e-c4039d94c199)
-    (property "Reference" "U$2" (at 270.51 69.215 0)
+    (property "Reference" "U$1" (at 270.51 69.215 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "OPA1679IDR" (at 270.51 77.47 0)
@@ -3293,7 +3337,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U$2") (unit 3)
+          (reference "U$1") (unit 3)
         )
       )
       (project ""
@@ -3312,7 +3356,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 156.21 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46ef7791-0c18-4f00-822c-2403dcd88336)
-    (property "Reference" "C14" (at 156.718 49.911 90)
+    (property "Reference" "C39" (at 156.718 49.911 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.22uF" (at 158.75 57.023 90)
@@ -3332,7 +3376,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C14") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
       (project ""
@@ -3351,7 +3395,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 326.39 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 474bc18f-fb20-4238-9861-099417a3e190)
-    (property "Reference" "C1" (at 325.12 78.74 90)
+    (property "Reference" "C50" (at 325.12 78.74 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "1uF" (at 334.01 78.74 90)
@@ -3368,7 +3412,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C1") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3382,7 +3426,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:OPA1679IDR") (at 181.61 72.39 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cc8f330-0552-463d-8506-7fc2c95c4de2)
-    (property "Reference" "U$2" (at 184.15 69.215 0)
+    (property "Reference" "U$1" (at 184.15 69.215 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "OPA1679IDR" (at 184.15 77.47 0)
@@ -3411,7 +3455,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U$2") (unit 5)
+          (reference "U$1") (unit 5)
         )
       )
       (project ""
@@ -3430,7 +3474,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 137.16 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 511ca6ca-1c86-41e8-b3f2-11a64d5df8db)
-    (property "Reference" "R7" (at 135.636 72.6694 0)
+    (property "Reference" "R31" (at 135.636 72.6694 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "33K" (at 135.128 78.74 0)
@@ -3450,7 +3494,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R7") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project ""
@@ -3466,10 +3510,36 @@
     )
   )
 
+  (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 302.895 85.09 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 53793625-93e6-49fc-b631-c9a50d1bbab5)
+    (property "Reference" "R40" (at 300.99 83.185 0)
+      (effects (font (size 1.778 1.5113)) (justify right top))
+    )
+    (property "Value" "DNP" (at 302.26 89.535 0)
+      (effects (font (size 1.778 1.5113)) (justify right top))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 302.895 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 302.895 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f35a553-e040-491f-8c09-9d1a52747fdb))
+    (pin "2" (uuid 39ddd759-ffd8-4488-b99c-50e35a0b0aa2))
+    (instances
+      (project "fieldRadio"
+        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
+          (reference "R40") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "powerAmp_RevB-eagle-import:OPA1679IDR") (at 181.61 72.39 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54fa6277-207f-48fc-8ba5-08367c4ef83e)
-    (property "Reference" "U$2" (at 184.15 75.565 0)
+    (property "Reference" "U$1" (at 184.15 75.565 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "OPA1679IDR" (at 184.15 67.31 0)
@@ -3498,7 +3568,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U$2") (unit 1)
+          (reference "U$1") (unit 1)
         )
       )
       (project ""
@@ -3517,7 +3587,7 @@
   (symbol (lib_id "74xGxx:74LVC1G08") (at 114.3 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c04e62e-73e1-457e-ae2f-f5a0240fdf8f)
-    (property "Reference" "U4" (at 125.73 70.7391 0)
+    (property "Reference" "U1" (at 125.73 70.7391 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC1G08" (at 125.73 73.2791 0)
@@ -3537,7 +3607,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3551,7 +3621,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 223.52 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e9b7a2a-18d0-4b54-b026-65fc586e33f4)
-    (property "Reference" "#SUPPLY07" (at 223.52 146.05 0)
+    (property "Reference" "#SUPPLY08" (at 223.52 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.615 149.225 0)
@@ -3567,7 +3637,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY07") (unit 1)
+          (reference "#SUPPLY08") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3614,7 +3684,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 229.87 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 616d2ae0-660e-4201-aead-18acef1aaa51)
-    (property "Reference" "C15" (at 231.394 82.169 0)
+    (property "Reference" "C45" (at 231.394 82.169 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.022uF" (at 231.394 87.249 0)
@@ -3634,7 +3704,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C15") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
       (project ""
@@ -3653,7 +3723,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 161.29 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62832516-11f1-4f5c-b685-8f41c44bdcd7)
-    (property "Reference" "#SUPPLY08" (at 161.29 107.95 0)
+    (property "Reference" "#SUPPLY05" (at 161.29 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 159.385 111.125 0)
@@ -3669,7 +3739,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY08") (unit 1)
+          (reference "#SUPPLY05") (unit 1)
         )
       )
       (project ""
@@ -3688,7 +3758,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP_POLPTH1") (at 285.75 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64955e90-795b-4570-8dbb-13ab629cef78)
-    (property "Reference" "C9" (at 286.766 51.435 0)
+    (property "Reference" "C47" (at 286.766 51.435 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "CAP_POLPTH1" (at 286.766 56.261 0)
@@ -3705,7 +3775,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C9") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
       (project ""
@@ -3724,7 +3794,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 137.16 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64e3ab6b-0b6a-486f-8b3d-1036482cee37)
-    (property "Reference" "R4" (at 138.43 195.58 0)
+    (property "Reference" "R32" (at 138.43 195.58 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "47K" (at 138.43 201.93 0)
@@ -3744,7 +3814,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R4") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3758,7 +3828,7 @@
   (symbol (lib_id "74xGxx:74LVC2G04") (at 172.72 205.74 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6acb8323-30b1-4acb-91db-547f3e810b7e)
-    (property "Reference" "U1" (at 171.45 198.12 0)
+    (property "Reference" "U4" (at 171.45 198.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G04" (at 175.26 200.66 0)
@@ -3779,7 +3849,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U1") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
       (project "powerAmp"
@@ -3793,7 +3863,7 @@
   (symbol (lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1") (at 208.28 184.15 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75faa171-9202-4cdf-984e-e8c0d18db102)
-    (property "Reference" "Q2" (at 214.63 182.88 0)
+    (property "Reference" "Q12" (at 214.63 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "QH8K51TR" (at 199.39 180.34 0)
@@ -3816,7 +3886,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "Q2") (unit 2)
+          (reference "Q12") (unit 2)
         )
       )
       (project "powerAmp"
@@ -3830,7 +3900,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:M02PTH") (at 261.62 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77cf6217-e09a-45eb-8098-21327e5fedd0)
-    (property "Reference" "JP3" (at 260.35 87.63 90)
+    (property "Reference" "JP1" (at 260.35 87.63 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "M02PTH" (at 250.19 92.71 90)
@@ -3847,7 +3917,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "JP3") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3861,7 +3931,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 129.54 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 788ae95b-7ebf-4997-9bdf-dc8ca50226e9)
-    (property "Reference" "R3" (at 134.62 80.01 90)
+    (property "Reference" "R30" (at 134.62 80.01 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "47K" (at 135.89 82.55 90)
@@ -3881,7 +3951,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R3") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3895,10 +3965,10 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 300.99 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7aceb50e-cb67-4afd-9c8c-716237856cce)
-    (property "Reference" "R1" (at 293.37 71.6534 0)
+    (property "Reference" "R39" (at 299.72 69.85 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
-    (property "Value" "0" (at 304.292 71.882 0)
+    (property "Value" "10" (at 299.72 76.2 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 300.99 72.39 0)
@@ -3912,7 +3982,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R1") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
       (project ""
@@ -3931,7 +4001,7 @@
   (symbol (lib_id "74xGxx:74LVC2G34") (at 172.72 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82c0e654-2a5e-4728-86a6-85f4d86fb03d)
-    (property "Reference" "U2" (at 172.72 139.7 0)
+    (property "Reference" "U3" (at 172.72 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G34" (at 176.53 142.24 0)
@@ -3952,7 +4022,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3966,7 +4036,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 107.95 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89dbc4fc-3905-4498-aece-17c2116bb055)
-    (property "Reference" "#SUPPLY012" (at 107.95 59.69 0)
+    (property "Reference" "#SUPPLY01" (at 107.95 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.045 62.865 0)
@@ -3982,7 +4052,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY012") (unit 1)
+          (reference "#SUPPLY01") (unit 1)
         )
       )
       (project "powerAmp"
@@ -3996,7 +4066,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 156.21 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c8e3f4a-0eb6-4d9e-95fb-f25f33dee716)
-    (property "Reference" "C4" (at 157.48 127.889 0)
+    (property "Reference" "C40" (at 157.48 127.889 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "1uF" (at 157.734 132.969 0)
@@ -4013,7 +4083,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C4") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4027,7 +4097,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 129.54 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3320d5c-237c-4cca-a6a9-4a2f9b14c9cd)
-    (property "Reference" "#SUPPLY03" (at 129.54 92.71 0)
+    (property "Reference" "#SUPPLY02" (at 129.54 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.635 95.885 0)
@@ -4043,7 +4113,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY03") (unit 1)
+          (reference "#SUPPLY02") (unit 1)
         )
       )
       (project ""
@@ -4062,7 +4132,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 275.59 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6cacd97-c803-458e-89af-367d170c7329)
-    (property "Reference" "#SUPPLY05" (at 275.59 185.42 0)
+    (property "Reference" "#SUPPLY09" (at 275.59 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.685 188.595 0)
@@ -4078,7 +4148,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY05") (unit 1)
+          (reference "#SUPPLY09") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4092,7 +4162,7 @@
   (symbol (lib_id "74xGxx:74LVC2G04") (at 200.66 130.81 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a85e319b-d761-4108-aa69-717e031b8396)
-    (property "Reference" "U1" (at 207.01 129.54 0)
+    (property "Reference" "U4" (at 207.01 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC2G04" (at 207.01 132.08 0)
@@ -4113,7 +4183,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U1") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
       (project "powerAmp"
@@ -4127,7 +4197,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 344.17 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b10f2938-f0f4-45c1-8087-2a4ee7d3fa29)
-    (property "Reference" "#SUPPLY06" (at 344.17 93.98 0)
+    (property "Reference" "#SUPPLY011" (at 344.17 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.265 97.155 0)
@@ -4143,7 +4213,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY06") (unit 1)
+          (reference "#SUPPLY011") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4157,7 +4227,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 153.67 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2c5b0a8-32de-45f7-9091-78722b095b5b)
-    (property "Reference" "R8" (at 153.416 73.1774 0)
+    (property "Reference" "R33" (at 153.416 73.1774 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "8.2K" (at 151.384 78.994 0)
@@ -4177,7 +4247,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R8") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
       (project ""
@@ -4196,7 +4266,7 @@
   (symbol (lib_id "Device:L_Ferrite_Coupled") (at 229.87 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b381b0b1-39ab-4c05-b863-5ec51cadde73)
-    (property "Reference" "L1" (at 233.68 171.704 90)
+    (property "Reference" "L22" (at 233.68 171.704 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "L_Ferrite_Coupled" (at 233.68 174.244 90)
@@ -4215,7 +4285,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "L1") (unit 1)
+          (reference "L22") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4229,7 +4299,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 222.25 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b84bbe17-09c8-4aea-bd95-af34a96a069c)
-    (property "Reference" "R13" (at 220.472 70.3834 0)
+    (property "Reference" "R35" (at 220.472 70.3834 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "11K" (at 220.472 75.946 0)
@@ -4249,7 +4319,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R13") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
       (project ""
@@ -4260,45 +4330,6 @@
       (project "powerAmp"
         (path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
           (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 274.32 92.71 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ba105837-9e06-4662-9965-7593b1cae8d0)
-    (property "Reference" "R15" (at 276.352 92.7354 90)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Value" "1K" (at 276.352 95.25 90)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 274.32 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 274.32 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "603-RC0603FR-071KL" (at 274.32 92.71 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 0bb237b7-3c36-4dd2-83be-cd2c222b4c4e))
-    (pin "2" (uuid 8d83e328-7f8e-4ff2-9f4c-9b7ab1a82636))
-    (instances
-      (project "fieldRadio"
-        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R15") (unit 1)
-        )
-      )
-      (project ""
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-          (reference "R15") (unit 1)
-        )
-      )
-      (project "powerAmp"
-        (path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-          (reference "R15") (unit 1)
         )
       )
     )
@@ -4307,7 +4338,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 139.7 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc68a8a1-a4a2-4c67-ba5a-432595e75944)
-    (property "Reference" "#SUPPLY010" (at 139.7 139.7 0)
+    (property "Reference" "#SUPPLY04" (at 139.7 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.795 142.875 0)
@@ -4323,7 +4354,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY010") (unit 1)
+          (reference "#SUPPLY04") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4337,7 +4368,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 327.66 101.6 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bce2ba5f-cb70-4b2f-b92b-92d3133bb011)
-    (property "Reference" "C6" (at 326.39 97.79 90)
+    (property "Reference" "C51" (at 326.39 97.79 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "1uF" (at 335.28 97.79 90)
@@ -4354,7 +4385,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C6") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4368,7 +4399,7 @@
   (symbol (lib_id "74xGxx:74LVC2G04") (at 172.72 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd42c22b-4fd7-458c-ae28-2549381327cd)
-    (property "Reference" "U1" (at 171.45 176.53 0)
+    (property "Reference" "U4" (at 171.45 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2G04" (at 175.26 179.07 0)
@@ -4389,7 +4420,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4403,7 +4434,7 @@
   (symbol (lib_id "Regulator_Linear:MIC5205-3.3YM5") (at 139.7 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0936df2-cd09-4077-9069-8610af17e177)
-    (property "Reference" "U3" (at 139.7 116.84 0)
+    (property "Reference" "U2" (at 139.7 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC5205-3.3YM5" (at 139.7 119.38 0)
@@ -4423,7 +4454,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4437,7 +4468,7 @@
   (symbol (lib_id "74xGxx:74LVC2G34") (at 223.52 130.81 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce29fe34-d833-44fd-8dac-87e81db383b2)
-    (property "Reference" "U2" (at 229.87 129.54 0)
+    (property "Reference" "U3" (at 229.87 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC2G34" (at 229.87 132.08 0)
@@ -4458,7 +4489,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U2") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
       (project "powerAmp"
@@ -4472,7 +4503,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:OPA1679IDR") (at 125.73 45.72 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d083eb6c-4193-4c6e-8bed-de8b6ee512ce)
-    (property "Reference" "U$2" (at 128.27 42.545 0)
+    (property "Reference" "U$1" (at 128.27 42.545 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "OPA1679IDR" (at 128.27 50.8 0)
@@ -4501,7 +4532,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "U$2") (unit 4)
+          (reference "U$1") (unit 4)
         )
       )
       (project ""
@@ -4520,7 +4551,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 123.19 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d41f51c8-7db3-4e5b-b92c-120958c17c1b)
-    (property "Reference" "C5" (at 124.46 127.889 0)
+    (property "Reference" "C38" (at 124.46 127.889 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 124.714 132.969 0)
@@ -4537,7 +4568,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C5") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4551,10 +4582,10 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 281.94 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9bcd9a9-a340-401d-98c0-3844ecd370f3)
-    (property "Reference" "R14" (at 279.908 83.0834 0)
+    (property "Reference" "R37" (at 279.908 83.0834 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
-    (property "Value" "3K" (at 281.178 88.9 0)
+    (property "Value" "10K" (at 281.178 88.9 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 281.94 85.09 0)
@@ -4571,7 +4602,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R14") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
       (project ""
@@ -4590,7 +4621,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 161.29 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de13e0f2-e58c-4cc2-84c5-b6bd1aedd8ac)
-    (property "Reference" "C17" (at 160.782 80.137 0)
+    (property "Reference" "C41" (at 160.782 80.137 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 160.528 85.471 0)
@@ -4610,7 +4641,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C17") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
       (project ""
@@ -4629,7 +4660,7 @@
   (symbol (lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1") (at 208.28 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de477b56-7f80-403a-becd-bb0ced7d8426)
-    (property "Reference" "Q2" (at 214.63 163.83 0)
+    (property "Reference" "Q12" (at 214.63 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "QH8K51TR" (at 199.39 161.29 0)
@@ -4652,7 +4683,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "Q2") (unit 1)
+          (reference "Q12") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4666,7 +4697,7 @@
   (symbol (lib_id "Diode:1N4148") (at 99.06 146.05 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3be813a-1828-4de7-b1fa-b61aad8fc487)
-    (property "Reference" "D1" (at 95.25 146.05 90)
+    (property "Reference" "D19" (at 95.25 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 93.98 148.59 90)
@@ -4689,7 +4720,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "D1") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4703,7 +4734,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 308.61 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e82a6e2d-1a74-4e83-87b6-27ce032478fa)
-    (property "Reference" "C8" (at 310.388 51.943 0)
+    (property "Reference" "C49" (at 310.388 51.943 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 310.642 56.769 0)
@@ -4720,7 +4751,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C8") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
       (project ""
@@ -4739,7 +4770,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 119.38 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e93d55e1-c2e5-43f7-a025-79e953c4ae75)
-    (property "Reference" "C10" (at 111.76 143.51 90)
+    (property "Reference" "C37" (at 111.76 143.51 90)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "33pF" (at 120.65 143.51 90)
@@ -4756,7 +4787,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C10") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4770,7 +4801,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP") (at 171.45 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f149694e-4336-45f7-8a0b-aed91118ad18)
-    (property "Reference" "C19" (at 172.72 92.329 0)
+    (property "Reference" "C42" (at 172.72 92.329 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0.1uF" (at 172.974 97.409 0)
@@ -4787,7 +4818,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "C19") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
       (project ""
@@ -4806,7 +4837,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 129.54 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4)
-    (property "Reference" "#SUPPLY01" (at 129.54 201.93 0)
+    (property "Reference" "#SUPPLY03" (at 129.54 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.635 205.105 0)
@@ -4822,7 +4853,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY01") (unit 1)
+          (reference "#SUPPLY03") (unit 1)
         )
       )
       (project ""
@@ -4841,7 +4872,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 199.39 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f67957aa-233c-43ae-a7ea-04a0d2c89062)
-    (property "Reference" "#SUPPLY04" (at 199.39 175.26 0)
+    (property "Reference" "#SUPPLY06" (at 199.39 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 197.485 178.435 0)
@@ -4857,7 +4888,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY04") (unit 1)
+          (reference "#SUPPLY06") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4871,7 +4902,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:GND") (at 200.66 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6e20cbd-7e72-4079-8c06-6eeeafe617c4)
-    (property "Reference" "#SUPPLY09" (at 200.66 146.05 0)
+    (property "Reference" "#SUPPLY07" (at 200.66 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.755 149.225 0)
@@ -4887,7 +4918,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "#SUPPLY09") (unit 1)
+          (reference "#SUPPLY07") (unit 1)
         )
       )
       (project "powerAmp"
@@ -4901,7 +4932,7 @@
   (symbol (lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES") (at 128.27 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffb2a04f-519f-4d64-837d-926b42c94e96)
-    (property "Reference" "R18" (at 120.65 57.6834 0)
+    (property "Reference" "R29" (at 120.65 57.6834 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0" (at 131.572 57.912 0)
@@ -4918,7 +4949,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-          (reference "R18") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project ""

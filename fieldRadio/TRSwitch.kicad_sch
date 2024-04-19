@@ -1235,7 +1235,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "Q5") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -1298,7 +1298,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "Q7") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -1360,7 +1360,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1391,7 +1391,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1422,7 +1422,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1462,7 +1462,7 @@
   (symbol (lib_id "Device:L_Small") (at 311.15 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c3a63fb-67df-4940-a4fa-09af8344d839)
-    (property "Reference" "L21" (at 312.42 121.92 0)
+    (property "Reference" "L4" (at 312.42 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47uH" (at 312.42 124.46 0)
@@ -1479,7 +1479,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "L21") (unit 1)
+          (reference "L4") (unit 1)
         )
       )
     )
@@ -1697,7 +1697,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1758,7 +1758,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R12") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1851,7 +1851,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1882,7 +1882,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1922,7 +1922,7 @@
   (symbol (lib_id "Device:L_Small") (at 299.72 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a40106a7-9949-4077-9ca2-a1b627c2cb1d)
-    (property "Reference" "L20" (at 300.99 99.06 0)
+    (property "Reference" "L3" (at 300.99 99.06 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47uH" (at 300.99 101.6 0)
@@ -1939,7 +1939,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "L20") (unit 1)
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -2003,7 +2003,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "Q6") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2012,7 +2012,7 @@
   (symbol (lib_id "Device:L_Small") (at 265.43 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b16ac90c-efe3-47dd-90b2-6da779ba025d)
-    (property "Reference" "L19" (at 266.7 121.92 0)
+    (property "Reference" "L2" (at 266.7 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47uH" (at 266.7 124.46 0)
@@ -2029,7 +2029,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "L19") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -2059,7 +2059,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2151,7 +2151,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2213,7 +2213,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2253,7 +2253,7 @@
   (symbol (lib_id "Device:L_Small") (at 196.85 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e46f0f79-01a9-48e3-9afd-975509aeb293)
-    (property "Reference" "L18" (at 196.85 124.46 90)
+    (property "Reference" "L1" (at 196.85 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47uH" (at 196.85 127 90)
@@ -2270,7 +2270,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "L18") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -2301,7 +2301,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2332,7 +2332,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R13") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2363,7 +2363,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "R9") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )

@@ -1351,7 +1351,7 @@
   (symbol (lib_id "Device:C") (at 187.96 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00e9772c-a0d2-42ed-8d55-08959651b446)
-    (property "Reference" "C12" (at 191.77 115.5699 0)
+    (property "Reference" "C63" (at 191.77 115.5699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 191.77 118.1099 0)
@@ -1368,7 +1368,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C12") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
       (project ""
@@ -1382,7 +1382,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 308.61 87.63 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01d27ced-5961-4820-a27d-c12f680eb83b)
-    (property "Reference" "U4" (at 308.61 77.47 0)
+    (property "Reference" "U8" (at 308.61 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 308.61 80.01 0)
@@ -1405,7 +1405,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U4") (unit 2)
+          (reference "U8") (unit 2)
         )
       )
       (project ""
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "Device:R_US") (at 276.86 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0206d366-3299-4b82-b21b-9ce1750511f6)
-    (property "Reference" "R22" (at 274.32 63.5 90)
+    (property "Reference" "R62" (at 274.32 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 279.4 63.5 90)
@@ -1436,7 +1436,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R22") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
       (project ""
@@ -1450,7 +1450,7 @@
   (symbol (lib_id "power:GND") (at 142.24 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 071ccd62-50fe-475f-b6d8-6f605a5451b5)
-    (property "Reference" "#PWR05" (at 142.24 129.54 0)
+    (property "Reference" "#PWR016" (at 142.24 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 128.27 0)
@@ -1466,7 +1466,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project ""
@@ -1480,7 +1480,7 @@
   (symbol (lib_id "power:GND") (at 187.96 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d0feeda-67ca-4054-bb4a-27b50ea94d02)
-    (property "Reference" "#PWR07" (at 187.96 129.54 0)
+    (property "Reference" "#PWR018" (at 187.96 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 128.27 0)
@@ -1496,7 +1496,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project ""
@@ -1510,7 +1510,7 @@
   (symbol (lib_id "Device:R_US") (at 203.2 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dac76c4-efcb-4a68-805d-41e07d97414e)
-    (property "Reference" "R14" (at 200.66 52.07 90)
+    (property "Reference" "R54" (at 200.66 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 205.74 52.07 90)
@@ -1527,7 +1527,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R14") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
       (project ""
@@ -1541,7 +1541,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 113.03 175.26 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12d152e2-92ac-4a00-92fb-07bd2f73c800)
-    (property "Reference" "U2" (at 111.76 173.9899 0)
+    (property "Reference" "U6" (at 111.76 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA1678" (at 111.76 176.5299 0)
@@ -1564,7 +1564,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U2") (unit 3)
+          (reference "U6") (unit 3)
         )
       )
       (project ""
@@ -1578,7 +1578,7 @@
   (symbol (lib_id "Device:C") (at 142.24 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 149d67ae-cae8-40d5-9531-44ab97286a5f)
-    (property "Reference" "C4" (at 146.05 73.6599 0)
+    (property "Reference" "C55" (at 146.05 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 146.05 76.1999 0)
@@ -1595,7 +1595,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C4") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
       (project ""
@@ -1641,7 +1641,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 170.18 175.26 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22c28c0e-67e8-4fe1-a4cf-d8fb0e0c6cf2)
-    (property "Reference" "U4" (at 168.91 173.9899 0)
+    (property "Reference" "U8" (at 168.91 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA1678" (at 168.91 176.5299 0)
@@ -1664,7 +1664,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U4") (unit 3)
+          (reference "U8") (unit 3)
         )
       )
       (project ""
@@ -1678,7 +1678,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 99.06 175.26 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22d9cb2d-0146-4cda-abbe-b730dbd0734e)
-    (property "Reference" "U1" (at 97.79 173.9899 0)
+    (property "Reference" "U5" (at 97.79 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA1678" (at 97.79 176.5299 0)
@@ -1701,7 +1701,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U1") (unit 3)
+          (reference "U5") (unit 3)
         )
       )
       (project ""
@@ -1715,7 +1715,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 154.94 107.95 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25b5bd75-5df8-41e4-aee3-b067f228cacf)
-    (property "Reference" "U1" (at 156.21 101.6 0)
+    (property "Reference" "U5" (at 156.21 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 158.75 104.14 0)
@@ -1738,7 +1738,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U1") (unit 2)
+          (reference "U5") (unit 2)
         )
       )
       (project ""
@@ -1752,7 +1752,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 256.54 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a64f3f2-c2bd-42f0-9baf-4af7b8c34ecd)
-    (property "Reference" "U3" (at 257.81 59.69 0)
+    (property "Reference" "U7" (at 257.81 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 260.35 62.23 0)
@@ -1775,7 +1775,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U3") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project ""
@@ -1789,7 +1789,7 @@
   (symbol (lib_id "Device:C") (at 125.73 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b217e4d-6b8f-43e5-9eb4-2cc63adf320c)
-    (property "Reference" "C2" (at 129.54 146.0499 0)
+    (property "Reference" "C53" (at 129.54 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 129.54 148.5899 0)
@@ -1806,7 +1806,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C2") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
       (project ""
@@ -1820,7 +1820,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 125.73 175.26 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c0a095d-b529-40dd-a689-49240de6e9bf)
-    (property "Reference" "U3" (at 124.46 173.9899 0)
+    (property "Reference" "U7" (at 124.46 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OPA1678" (at 124.46 176.5299 0)
@@ -1843,7 +1843,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U3") (unit 3)
+          (reference "U7") (unit 3)
         )
       )
       (project ""
@@ -1857,7 +1857,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dbfe3b3-a934-4089-893e-1e9b7f4406da)
-    (property "Reference" "R12" (at 180.34 102.87 90)
+    (property "Reference" "R52" (at 180.34 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 185.42 102.87 90)
@@ -1874,7 +1874,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R12") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
       (project ""
@@ -1888,7 +1888,7 @@
   (symbol (lib_id "Device:R_US") (at 137.16 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3349dc7f-89c7-4a3e-83ca-d2a2c54fdcf9)
-    (property "Reference" "R2" (at 134.62 60.96 90)
+    (property "Reference" "R42" (at 134.62 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 139.7 60.96 90)
@@ -1905,7 +1905,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R2") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project ""
@@ -1919,7 +1919,7 @@
   (symbol (lib_id "Device:R_US") (at 137.16 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 390b6a4f-71ac-444d-87d1-9a21daf68417)
-    (property "Reference" "R5" (at 134.62 107.95 90)
+    (property "Reference" "R45" (at 134.62 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.23K" (at 139.7 107.95 90)
@@ -1936,7 +1936,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R5") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project ""
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "Device:C") (at 153.67 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44c42e63-857d-4d09-b4a9-95f2907eb8cb)
-    (property "Reference" "C7" (at 154.94 172.72 0)
+    (property "Reference" "C58" (at 154.94 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 154.94 177.8 0)
@@ -1967,7 +1967,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C7") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
       (project ""
@@ -1981,7 +1981,7 @@
   (symbol (lib_id "Device:C") (at 137.16 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 520f8641-2de5-4f3b-802e-869b9fc34b34)
-    (property "Reference" "C3" (at 138.43 172.72 0)
+    (property "Reference" "C54" (at 138.43 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 138.43 177.8 0)
@@ -1998,7 +1998,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C3") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
       (project ""
@@ -2012,7 +2012,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 529d624e-9fbf-4529-9905-5048e24e4f13)
-    (property "Reference" "R17" (at 231.14 66.04 90)
+    (property "Reference" "R57" (at 231.14 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "51.1K" (at 236.22 66.04 90)
@@ -2029,7 +2029,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R17") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
       (project ""
@@ -2043,7 +2043,7 @@
   (symbol (lib_id "Device:C") (at 187.96 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52ec7ce5-1676-4938-bcd4-a1ea09b2faf7)
-    (property "Reference" "C11" (at 191.77 73.6599 0)
+    (property "Reference" "C62" (at 191.77 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 191.77 76.1999 0)
@@ -2060,7 +2060,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C11") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
       (project ""
@@ -2074,7 +2074,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 153.67 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53fda1fb-12bd-4536-80e1-aab5c0e3fc58)
-    (property "Reference" "U1" (at 154.94 59.69 0)
+    (property "Reference" "U5" (at 154.94 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 157.48 62.23 0)
@@ -2097,7 +2097,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U1") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
       (project ""
@@ -2111,7 +2111,7 @@
   (symbol (lib_id "Device:C") (at 142.24 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 568223d6-6e85-494d-a51f-dbe8ebf407b0)
-    (property "Reference" "C5" (at 146.05 115.5699 0)
+    (property "Reference" "C56" (at 146.05 115.5699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 146.05 118.1099 0)
@@ -2128,7 +2128,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C5") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
       (project ""
@@ -2142,7 +2142,7 @@
   (symbol (lib_id "power:GND") (at 238.76 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5745a04b-39bd-4cb4-89ea-e90a2c48774a)
-    (property "Reference" "#PWR09" (at 238.76 129.54 0)
+    (property "Reference" "#PWR020" (at 238.76 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 128.27 0)
@@ -2158,7 +2158,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project ""
@@ -2172,7 +2172,7 @@
   (symbol (lib_id "Device:R_US") (at 153.67 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57f68414-f080-401c-9b4b-13209c194c27)
-    (property "Reference" "R7" (at 151.13 52.07 90)
+    (property "Reference" "R47" (at 151.13 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 156.21 52.07 90)
@@ -2189,7 +2189,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R7") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project ""
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58319152-bac4-4428-b8fd-79903efd094d)
-    (property "Reference" "R10" (at 180.34 60.96 90)
+    (property "Reference" "R50" (at 180.34 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 185.42 60.96 90)
@@ -2220,7 +2220,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R10") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
       (project ""
@@ -2234,7 +2234,7 @@
   (symbol (lib_id "power:GND") (at 142.24 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c4f583a-faec-4766-9d0c-d124ee9a7c4a)
-    (property "Reference" "#PWR04" (at 142.24 87.63 0)
+    (property "Reference" "#PWR015" (at 142.24 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 86.36 0)
@@ -2250,7 +2250,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project ""
@@ -2264,7 +2264,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 204.47 107.95 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76b68b3f-5d68-4613-b9ef-ca5d50ccc6b3)
-    (property "Reference" "U2" (at 205.74 101.6 0)
+    (property "Reference" "U6" (at 205.74 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 208.28 104.14 0)
@@ -2287,7 +2287,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U2") (unit 2)
+          (reference "U6") (unit 2)
         )
       )
       (project ""
@@ -2301,7 +2301,7 @@
   (symbol (lib_id "Device:C") (at 144.78 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b064677-1d8b-471d-a40e-a357ce34140a)
-    (property "Reference" "C6" (at 146.05 172.72 0)
+    (property "Reference" "C57" (at 146.05 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 146.05 177.8 0)
@@ -2318,7 +2318,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C6") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
       (project ""
@@ -2332,7 +2332,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fe6591b-8f40-443d-8aeb-5a9e439d5b11)
-    (property "Reference" "R18" (at 231.14 102.87 90)
+    (property "Reference" "R58" (at 231.14 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 236.22 102.87 90)
@@ -2349,7 +2349,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R18") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
       (project ""
@@ -2363,7 +2363,7 @@
   (symbol (lib_id "power:GND") (at 105.41 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 867c21e8-0c5a-4de5-b4ef-792d45b08a89)
-    (property "Reference" "#PWR02" (at 105.41 160.02 0)
+    (property "Reference" "#PWR014" (at 105.41 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 158.75 0)
@@ -2379,7 +2379,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project ""
@@ -2393,7 +2393,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 113.03 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91cb5445-26f3-405b-8e77-03a53e85c2c2)
-    (property "Reference" "C1" (at 116.84 145.4149 0)
+    (property "Reference" "C52" (at 116.84 145.4149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 116.84 147.9549 0)
@@ -2410,7 +2410,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C1") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
       (project ""
@@ -2424,7 +2424,7 @@
   (symbol (lib_id "Device:C") (at 238.76 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9524f0d3-6dd6-4c7b-bc44-1fa4277f13b0)
-    (property "Reference" "C13" (at 242.57 73.6599 0)
+    (property "Reference" "C64" (at 242.57 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 242.57 76.1999 0)
@@ -2441,7 +2441,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C13") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
       (project ""
@@ -2455,7 +2455,7 @@
   (symbol (lib_id "Device:R_US") (at 137.16 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95426ea0-b124-4683-83d4-dd9a448d6175)
-    (property "Reference" "R3" (at 134.62 66.04 90)
+    (property "Reference" "R43" (at 134.62 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 139.7 66.04 90)
@@ -2472,7 +2472,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R3") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project ""
@@ -2486,7 +2486,7 @@
   (symbol (lib_id "Device:C") (at 238.76 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0fbbaf8-8c31-444a-8589-c494a935cb8e)
-    (property "Reference" "C14" (at 242.57 115.5699 0)
+    (property "Reference" "C65" (at 242.57 115.5699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.01u" (at 242.57 118.1099 0)
@@ -2503,7 +2503,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C14") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
       (project ""
@@ -2517,7 +2517,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a996afea-648c-4908-99f1-c773ad3d8622)
-    (property "Reference" "R13" (at 180.34 107.95 90)
+    (property "Reference" "R53" (at 180.34 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "23.2K" (at 185.42 107.95 90)
@@ -2534,7 +2534,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R13") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
       (project ""
@@ -2548,7 +2548,7 @@
   (symbol (lib_id "Device:R_US") (at 144.78 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b287d006-4390-4a5d-ac7e-faf098769b50)
-    (property "Reference" "R6" (at 143.51 144.78 90)
+    (property "Reference" "R46" (at 143.51 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 144.78 149.86 90)
@@ -2565,7 +2565,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R6") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project ""
@@ -2579,7 +2579,7 @@
   (symbol (lib_id "Device:R_US") (at 156.21 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3d4e910-085f-4ce7-90a2-67e126d6d557)
-    (property "Reference" "R9" (at 152.4 153.67 0)
+    (property "Reference" "R49" (at 152.4 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 152.4 156.21 0)
@@ -2596,7 +2596,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R9") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project ""
@@ -2610,7 +2610,7 @@
   (symbol (lib_id "power:GND") (at 187.96 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b921cb66-66fd-43f1-a747-7f9ed993a1b4)
-    (property "Reference" "#PWR06" (at 187.96 87.63 0)
+    (property "Reference" "#PWR017" (at 187.96 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 86.36 0)
@@ -2626,7 +2626,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project ""
@@ -2640,7 +2640,7 @@
   (symbol (lib_id "Device:C") (at 165.1 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc951676-6115-4700-87c4-effde1b2e63f)
-    (property "Reference" "C8" (at 166.37 152.4 0)
+    (property "Reference" "C59" (at 166.37 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 166.37 157.48 0)
@@ -2657,7 +2657,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C8") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
       (project ""
@@ -2671,7 +2671,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid beb27022-33ac-4698-9809-f25d7ef525da)
-    (property "Reference" "R19" (at 231.14 107.95 90)
+    (property "Reference" "R59" (at 231.14 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "178K" (at 236.22 107.95 90)
@@ -2688,7 +2688,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R19") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
       (project ""
@@ -2702,7 +2702,7 @@
   (symbol (lib_id "power:GND") (at 238.76 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf5a9fbf-12cd-4d61-8238-ad14bd29fe28)
-    (property "Reference" "#PWR08" (at 238.76 87.63 0)
+    (property "Reference" "#PWR019" (at 238.76 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 86.36 0)
@@ -2718,7 +2718,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project ""
@@ -2732,7 +2732,7 @@
   (symbol (lib_id "Device:R_US") (at 205.74 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4073d63-780e-4fd7-9975-4fa248a9f9d5)
-    (property "Reference" "R15" (at 203.2 93.98 90)
+    (property "Reference" "R55" (at 203.2 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 208.28 93.98 90)
@@ -2749,7 +2749,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R15") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
       (project ""
@@ -2763,7 +2763,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 200.66 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5b7df16-749d-48e3-86e7-37a445b373c4)
-    (property "Reference" "U4" (at 201.93 156.21 0)
+    (property "Reference" "U8" (at 201.93 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 204.47 153.67 0)
@@ -2786,7 +2786,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U4") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
       (project ""
@@ -2800,7 +2800,7 @@
   (symbol (lib_id "Device:C") (at 182.88 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c64f024f-1c14-4f03-b814-9d0e5eb79106)
-    (property "Reference" "C10" (at 184.15 172.72 0)
+    (property "Reference" "C61" (at 184.15 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 184.15 177.8 0)
@@ -2817,7 +2817,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C10") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
       (project ""
@@ -2831,7 +2831,7 @@
   (symbol (lib_id "Device:R_US") (at 256.54 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc90c745-434f-4e54-89c7-cbf24870aeb9)
-    (property "Reference" "R21" (at 254 93.98 90)
+    (property "Reference" "R61" (at 254 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 259.08 93.98 90)
@@ -2848,7 +2848,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R21") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
       (project ""
@@ -2862,7 +2862,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 176.53 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce6c1789-eda0-45b7-aead-4db7cf6f22d9)
-    (property "Reference" "C9" (at 180.34 153.0349 0)
+    (property "Reference" "C60" (at 180.34 153.0349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 180.34 155.5749 0)
@@ -2879,7 +2879,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "C9") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
       (project ""
@@ -2893,7 +2893,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf6ff815-94bc-4492-9ea5-c739db8aeb55)
-    (property "Reference" "R11" (at 180.34 66.04 90)
+    (property "Reference" "R51" (at 180.34 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "11.3K" (at 185.42 66.04 90)
@@ -2910,7 +2910,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R11") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
       (project ""
@@ -2924,7 +2924,7 @@
   (symbol (lib_id "Device:R_US") (at 256.54 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3a6f654-1d38-4417-9283-6f457d9d49a5)
-    (property "Reference" "R20" (at 254 52.07 90)
+    (property "Reference" "R60" (at 254 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 259.08 52.07 90)
@@ -2941,7 +2941,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R20") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
       (project ""
@@ -2955,7 +2955,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 257.81 107.95 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6d2d608-7d61-4d5f-a26d-58f26ae36a2f)
-    (property "Reference" "U3" (at 259.08 101.6 0)
+    (property "Reference" "U7" (at 259.08 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 261.62 104.14 0)
@@ -2978,7 +2978,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U3") (unit 2)
+          (reference "U7") (unit 2)
         )
       )
       (project ""
@@ -2992,7 +2992,7 @@
   (symbol (lib_id "Device:R_US") (at 137.16 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e38b5d6a-dde4-4f60-8079-f7f6e36b49df)
-    (property "Reference" "R4" (at 134.62 102.87 90)
+    (property "Reference" "R44" (at 134.62 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 139.7 102.87 90)
@@ -3009,7 +3009,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R4") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project ""
@@ -3023,7 +3023,7 @@
   (symbol (lib_id "Device:R_US") (at 233.68 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6b080cd-4037-4469-84ac-5a8ec16bb91b)
-    (property "Reference" "R16" (at 231.14 60.96 90)
+    (property "Reference" "R56" (at 231.14 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 236.22 60.96 90)
@@ -3040,7 +3040,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R16") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
       (project ""
@@ -3054,7 +3054,7 @@
   (symbol (lib_id "Device:R_US") (at 153.67 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb79eeab-1d41-4a06-93b9-21131c2c5795)
-    (property "Reference" "R8" (at 151.13 93.98 90)
+    (property "Reference" "R48" (at 151.13 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 156.21 93.98 90)
@@ -3071,7 +3071,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R8") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
       (project ""
@@ -3085,7 +3085,7 @@
   (symbol (lib_id "Device:R_US") (at 124.46 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef3b435d-0ce5-4808-9f2a-81b127d7d00e)
-    (property "Reference" "R1" (at 121.92 66.04 90)
+    (property "Reference" "R41" (at 121.92 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5K" (at 127 66.04 90)
@@ -3102,7 +3102,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R1") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project ""
@@ -3116,7 +3116,7 @@
   (symbol (lib_id "Amplifier_Operational:OPA1678") (at 204.47 66.04 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1db813e-398b-4f1a-9deb-63f4a796b727)
-    (property "Reference" "U2" (at 204.47 72.39 0)
+    (property "Reference" "U6" (at 204.47 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "OPA1678" (at 207.01 69.85 0)
@@ -3139,7 +3139,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "U2") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
       (project ""
@@ -3153,7 +3153,7 @@
   (symbol (lib_id "Device:R_US") (at 276.86 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f635b07b-6190-47ef-bf75-11a22e357828)
-    (property "Reference" "R23" (at 274.32 105.41 90)
+    (property "Reference" "R63" (at 274.32 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 279.4 105.41 90)
@@ -3170,7 +3170,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "R23") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
       (project ""
@@ -3184,7 +3184,7 @@
   (symbol (lib_id "power:GND") (at 96.52 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fecf7ae8-1e98-448f-b592-6fb82fd0d97b)
-    (property "Reference" "#PWR01" (at 96.52 194.31 0)
+    (property "Reference" "#PWR013" (at 96.52 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 193.04 0)
@@ -3200,7 +3200,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project ""
