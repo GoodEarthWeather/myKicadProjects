@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\David\Documents\kicad_projects\myKicadProjects\1BandCWTransceiver\powerAmp\powerAmp.kicad_sch</source>
+    <date>4/23/2024 6:12:45 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>powerAmp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>474bc18f-fb20-4238-9861-099417a3e190</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ff3ac5b-2ac9-4f8f-9379-12556c2b5d06</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>069f8616-7a29-40f1-b13c-bd4a3139a001</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c8e3f4a-0eb6-4d9e-95fb-f25f33dee716</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d41f51c8-7db3-4e5b-b92c-120958c17c1b</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bce2ba5f-cb70-4b2f-b92b-92d3133bb011</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09240223-5739-461a-b628-1fdf9b36eb2f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e82a6e2d-1a74-4e83-87b6-27ce032478fa</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>CAP_POLPTH1</value>
+      <footprint>Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP_POLPTH1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64955e90-795b-4570-8dbb-13ab629cef78</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78d53fb2-8615-4bc5-a164-0a2dd8a7fc0a</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2ec7c1d-6f4a-4f74-a277-663b7c0c0a5b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92c3dffb-00f6-4250-94cc-2bb7a7c3cf4b</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82c31d8a-ae5c-448b-bb63-1988f17c2512</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">710-885012206073</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Value" value="710-885012206073"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46ef7791-0c18-4f00-822c-2403dcd88336</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.022uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">80-C0603C223K3R</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Value" value="80-C0603C223K3R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>616d2ae0-660e-4201-aead-18acef1aaa51</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">710-885012206071</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Value" value="710-885012206071"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de13e0f2-e58c-4cc2-84c5-b6bd1aedd8ac</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">710-885012206073</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Value" value="710-885012206073"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23285c5a-7b12-49c4-b32b-ecfe8278cf8e</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f149694e-4336-45f7-8a0b-aed91118ad18</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>UCC27517DBVR</value>
+      <footprint>SOT95P280X145-5N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ucc27517</datasheet>
+      <fields>
+        <field name="Description">4A/4A Single Channel High-speed Low-side Gate Driver</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27517DBVR</field>
+        <field name="Mouser Part Number">595-UCC27517DBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27517DBVR?qs=Brs2XCuyt3cZR2K0W764eA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UCC27517DBVR" description="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <property name="Description" value="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-UCC27517DBVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27517DBVR?qs=Brs2XCuyt3cZR2K0W764eA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="UCC27517DBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>120a54a3-382f-4dad-88db-9fc882f3ce4d</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>UCC27517DBVR</value>
+      <footprint>SOT95P280X145-5N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ucc27517</datasheet>
+      <fields>
+        <field name="Description">4A/4A Single Channel High-speed Low-side Gate Driver</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27517DBVR</field>
+        <field name="Mouser Part Number">595-UCC27517DBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27517DBVR?qs=Brs2XCuyt3cZR2K0W764eA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="UCC27517DBVR" description="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <property name="Description" value="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-UCC27517DBVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27517DBVR?qs=Brs2XCuyt3cZR2K0W764eA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="UCC27517DBVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="4A/4A Single Channel High-speed Low-side Gate Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96bee70d-15de-4e27-aa67-9a4d63cab0e9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>567b2cb0-4be8-4b7d-a565-186c84b798c1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7e75121-dc4d-46f6-ae33-9f06561e1490</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89c18b9c-1cb9-45ef-bf7e-879d882b206b</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f864b1b6-4eef-439c-a377-b3311f670600</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77cf6217-e09a-45eb-8098-21327e5fedd0</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6da1c49-f5f8-4bd8-8a1f-6e9f0765716a</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>026d934d-d564-4c37-9113-57bb727fc2e9</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac2dd344-9bcd-43ef-97cf-410a56901723</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>M02PTH</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="M02PTH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eba3e869-9c4e-40f7-aa3e-e2c1bcfc73f2</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L_Ferrite_Coupled</value>
+      <footprint>SamacSys_Parts:Transformer_Balun_Amidon-T50</footprint>
+      <libsource lib="Device" part="L_Ferrite_Coupled" description="Coupled inductor with ferrite core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="Coupled inductor with ferrite core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic coupled"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b381b0b1-39ab-4c05-b863-5ec51cadde73</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>NSS1C301ET4G</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin4</footprint>
+      <libsource lib="Device" part="Q_NPN_BCEC" description="NPN transistor, base/collector/emitter, collector connected to mounting plane"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="NPN transistor, base/collector/emitter, collector connected to mounting plane"/>
+      <property name="ki_keywords" value="transistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e2dd31c-3677-43ae-8f05-ad412b598280</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN10H220LPDW</value>
+      <footprint>SamacSys_Parts:DMN10H220LPDW13</footprint>
+      <libsource lib="Device" part="Q_Dual_NMOS_S1G1S2G2D2D2D1D1" description="Dual NMOS transistor, 8 pin package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="Dual NMOS transistor, 8 pin package"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de477b56-7f80-403a-becd-bb0ced7d8426 75faa171-9202-4cdf-984e-e8c0d18db102</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aceb50e-cb67-4afd-9c8c-716237856cce</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93f7a6ca-3e3e-498e-9685-635297cd623b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0733KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0733KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>788ae95b-7ebf-4997-9bdf-dc8ca50226e9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0733KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0733KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64e3ab6b-0b6a-486f-8b3d-1036482cee37</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0733KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0733KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81757a8e-bdea-40ac-8b8e-ec0dbfca4d67</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0733KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0733KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20dec0d9-ddb4-4d28-b4e7-32c49498f4ae</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0733KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0733KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>511ca6ca-1c86-41e8-b3f2-11a64d5df8db</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>8.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-078K2L</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-078K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2c5b0a8-32de-45f7-9091-78722b095b5b</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>36K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0736KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0736KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f78139-6d94-44b2-bfa9-7b1fafdf24a2</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8fd83ac-46bb-4978-8853-0e34794a172e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>11K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-0711KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-0711KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b84bbe17-09c8-4aea-bd95-af34a96a069c</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Value">603-RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Value" value="603-RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba105837-9e06-4662-9965-7593b1cae8d0</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffb2a04f-519f-4d64-837d-926b42c94e96</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e747565-f7ad-415f-b1ff-c794f09a92cc</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>1:1</value>
+      <footprint>Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50</footprint>
+      <libsource lib="Device" part="Transformer_1P_1S" description="Transformer, single primary, single secondary"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="Transformer, single primary, single secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f966aba-3eff-4d59-ac16-a6d03631436a</tstamps>
+    </comp>
+    <comp ref="U$2">
+      <value>OPA1679IDR</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="OPA1679IDR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40f359aa-e8bc-4d4c-ab4e-c4039d94c199 d083eb6c-4193-4c6e-8bed-de8b6ee512ce 54fa6277-207f-48fc-8ba5-08367c4ef83e 4cc8f330-0552-463d-8506-7fc2c95c4de2 0fc0af60-7c5e-465c-98a4-0c40535accc6</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MIC5235-5.0YM5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MIC5205-3.3YM5" description="150mA low dropout linear regulator, fixed 3.3V output, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <property name="ki_description" value="150mA low dropout linear regulator, fixed 3.3V output, SOT-23-5"/>
+      <property name="ki_keywords" value="150mA low-noise LDO linear voltage regulator fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0936df2-cd09-4077-9069-8610af17e177</tstamps>
+    </comp>
+    <comp ref="VR3">
+      <value>3296W-1-505LF</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="powerAmp_RevB-eagle-import" part="3296W-1-505LF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="powerAmp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e687927-3955-4336-8c63-93be156bb630</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite_Coupled">
+      <description>Coupled inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite_Coupled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Dual_NMOS_S1G1S2G2D2D2D1D1">
+      <description>Dual NMOS transistor, 8 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SO*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Dual_NMOS_S1G1S2G2D2D2D1D1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCEC">
+      <description>NPN transistor, base/collector/emitter, collector connected to mounting plane</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+        <pin num="4" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_1P_1S">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_1S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MIC5205-3.3YM5">
+      <description>150mA low dropout linear regulator, fixed 3.3V output, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5205-3.3YM5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="UCC27517DBVR">
+      <description>4A/4A Single Channel High-speed Low-side Gate Driver</description>
+      <docs>http://www.ti.com/lit/gpn/ucc27517</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">UCC27517DBVR</field>
+        <field name="Footprint">SOT95P280X145-5N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/ucc27517</field>
+        <field name="Description">4A/4A Single Channel High-speed Low-side Gate Driver</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-UCC27517DBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27517DBVR?qs=Brs2XCuyt3cZR2K0W764eA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27517DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IN+" type="passive"/>
+        <pin num="4" name="IN-" type="passive"/>
+        <pin num="5" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="3296W-1-505LF">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">3296W-1-505LF</field>
+        <field name="Footprint">powerAmp_RevB:3296W-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="bidirectional"/>
+        <pin num="2" name="WIPER" type="bidirectional"/>
+        <pin num="3" name="CW" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="CAP0603-CAP">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP0603-CAP</field>
+        <field name="Footprint">powerAmp_RevB:0603-CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="CAP_POLPTH1">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_POLPTH1</field>
+        <field name="Footprint">powerAmp_RevB:CPOL-RADIAL-100UF-25V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="M02PTH">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">M02PTH</field>
+        <field name="Footprint">powerAmp_RevB:1X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="OPA1679IDR">
+      <fields>
+        <field name="Value">OPA1679IDR</field>
+        <field name="Footprint">powerAmp_RevB:SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="-IN" type="input"/>
+        <pin num="10" name="+IN" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+IN" type="input"/>
+        <pin num="13" name="-IN" type="input"/>
+        <pin num="14" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerAmp_RevB-eagle-import" part="RESISTOR0603-RES">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0603-RES</field>
+        <field name="Footprint">powerAmp_RevB:0603-RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/David/Documents/SamacSys_PCB_Library/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="powerAmp_RevB-eagle-import">
+      <uri>C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/powerAmp/powerAmp_RevB/powerAmp_RevB-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VCC5.0">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VDD" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="IN+" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="/VCC12">
+      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="C" pintype="passive"/>
+      <node ref="U$2" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="IN-" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="SB" pintype="passive"/>
+      <node ref="U$2" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC1-IN+)">
+      <node ref="IC1" pin="3" pinfunction="IN+" pintype="passive"/>
+      <node ref="IC2" pin="4" pinfunction="IN-" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(IC1-OUT)">
+      <node ref="IC1" pin="5" pinfunction="OUT" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC2-OUT)">
+      <node ref="IC2" pin="5" pinfunction="OUT" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J1-In)">
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="SA" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q1-E)">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q2A-G)">
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q2B-G)">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(T1-AA)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="AA" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(T1-AB)">
+      <node ref="L1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="AB" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U$2A-+IN)">
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$2" pin="3" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(U$2A--IN)">
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$2" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U$2" pin="2" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U$2B-+IN)">
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$2" pin="5" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U$2B--IN)">
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$2" pin="10" pinfunction="+IN" pintype="input"/>
+      <node ref="U$2" pin="6" pinfunction="-IN" pintype="input"/>
+      <node ref="U$2" pin="7" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="21" name="Net-(U$2C--IN)">
+      <node ref="JP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$2" pin="9" pinfunction="-IN" pintype="input"/>
+      <node ref="VR3" pin="1" pinfunction="CCW" pintype="bidirectional"/>
+      <node ref="VR3" pin="2" pinfunction="WIPER" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(U$2C-OUT)">
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$2" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(U$2D-+IN)">
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$2" pin="12" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(U$2D--IN)">
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$2" pin="13" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U$2D-OUT)">
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$2" pin="14" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(VR3-CW)">
+      <node ref="JP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VR3" pin="3" pinfunction="CW" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U3-BP-Pad4)">
+      <node ref="U3" pin="4" pinfunction="BP" pintype="input"/>
+    </net>
+  </nets>
+</export>
