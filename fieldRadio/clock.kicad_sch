@@ -508,7 +508,7 @@
   (symbol (lib_id "Oscillator:Si5351A-B-GT") (at 192.405 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23e5764f-fe7d-47b0-8020-72505abd4010)
-    (property "Reference" "U10" (at 194.7284 111.76 0)
+    (property "Reference" "U8" (at 194.7284 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Si5351A-B-GT" (at 194.7284 114.3 0)
@@ -533,7 +533,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "U10") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -542,7 +542,7 @@
   (symbol (lib_id "power:GND") (at 192.405 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 347e06fd-7a77-46ff-bb05-0af3deabfe63)
-    (property "Reference" "#PWR031" (at 192.405 121.285 0)
+    (property "Reference" "#PWR038" (at 192.405 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.215 116.84 0)
@@ -558,7 +558,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -567,7 +567,7 @@
   (symbol (lib_id "Device:R_US") (at 213.36 104.775 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3571b1fa-7d37-4a3c-a406-c859a8d463e5)
-    (property "Reference" "R142" (at 208.915 102.87 90)
+    (property "Reference" "R135" (at 208.915 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 216.535 102.87 90)
@@ -584,7 +584,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "R142") (unit 1)
+          (reference "R135") (unit 1)
         )
       )
     )
@@ -593,7 +593,7 @@
   (symbol (lib_id "power:GND") (at 168.91 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38255c21-579b-4faf-b0ba-38832a428ce1)
-    (property "Reference" "#PWR030" (at 168.91 106.045 0)
+    (property "Reference" "#PWR037" (at 168.91 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.085 101.6 0)
@@ -609,7 +609,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -646,7 +646,7 @@
   (symbol (lib_id "Device:R_US") (at 213.36 94.615 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91009119-e22c-44d3-824a-c23958be2280)
-    (property "Reference" "R140" (at 208.915 92.71 90)
+    (property "Reference" "R133" (at 208.915 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 216.535 92.71 90)
@@ -663,7 +663,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "R140") (unit 1)
+          (reference "R133") (unit 1)
         )
       )
     )
@@ -672,13 +672,13 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af9b8841-7919-4e9c-bb33-b1295598c036)
-    (property "Reference" "C126" (at 140.97 86.995 0)
+    (property "Reference" "C133" (at 140.97 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22uF" (at 138.43 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 144.78 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 88.9 0)
@@ -689,7 +689,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "C126") (unit 1)
+          (reference "C133") (unit 1)
         )
       )
     )
@@ -698,13 +698,13 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d193e0f8-badf-42d0-ac74-d311a7eacc43)
-    (property "Reference" "C127" (at 151.13 86.995 0)
+    (property "Reference" "C134" (at 151.13 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22uF" (at 148.59 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.94 88.9 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 154.94 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 154.94 88.9 0)
@@ -715,7 +715,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "C127") (unit 1)
+          (reference "C134") (unit 1)
         )
       )
     )
@@ -724,7 +724,7 @@
   (symbol (lib_id "Device:R_US") (at 213.36 99.695 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d32824fe-7668-431a-84d2-171b97fec864)
-    (property "Reference" "R141" (at 208.915 97.79 90)
+    (property "Reference" "R134" (at 208.915 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 216.535 97.79 90)
@@ -741,7 +741,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07566e3b-8dce-4b8a-bb35-93365cd4b65e"
-          (reference "R141") (unit 1)
+          (reference "R134") (unit 1)
         )
       )
     )

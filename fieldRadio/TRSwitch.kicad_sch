@@ -1470,7 +1470,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1501,7 +1501,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1553,7 +1553,7 @@
     (property "Value" "47uH" (at 312.42 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P7.62mm_Vertical_Fastron_MECC" (at 311.15 123.19 0)
+    (property "Footprint" "Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 311.15 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 311.15 123.19 0)
@@ -1657,7 +1657,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1782,7 +1782,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1812,7 +1812,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1874,7 +1874,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2019,7 +2019,7 @@
     (property "Value" "47uH" (at 300.99 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P7.62mm_Vertical_Fastron_MECC" (at 299.72 100.33 0)
+    (property "Footprint" "Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 299.72 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 299.72 100.33 0)
@@ -2109,7 +2109,7 @@
     (property "Value" "47uH" (at 266.7 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P7.62mm_Vertical_Fastron_MECC" (at 265.43 123.19 0)
+    (property "Footprint" "Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 265.43 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 123.19 0)
@@ -2150,7 +2150,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2180,7 +2180,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2279,7 +2279,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2310,7 +2310,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2362,7 +2362,7 @@
     (property "Value" "47uH" (at 196.85 127 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_THT:L_Axial_L11.0mm_D4.5mm_P7.62mm_Vertical_Fastron_MECC" (at 196.85 129.54 0)
+    (property "Footprint" "Inductor_THT:L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 196.85 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 129.54 0)
@@ -2404,7 +2404,7 @@
       )
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/07223125-3b0c-43ef-b5d7-ce26f2ddaddd"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )

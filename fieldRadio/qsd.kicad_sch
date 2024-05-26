@@ -547,13 +547,13 @@
       )
     )
     (symbol "qsd_revB-eagle-import:SN74AUP2G79DCUR" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 24.13 7.62 0)
+      (property "Reference" "IC1002" (at 19.304 4.318 0)
         (effects (font (size 1.778 1.5113)) (justify left))
       )
-      (property "Value" "SN74AUP2G79DCUR" (at 24.13 5.08 0)
+      (property "Value" "SN74AUP2G79DCUR" (at 3.81 -12.7 0)
         (effects (font (size 1.778 1.5113)) (justify left))
       )
-      (property "Footprint" "qsd_revB:SOP50P310X90-8N" (at 0 0 0)
+      (property "Footprint" "qsd_revB:SOP50P310X90-8N" (at 5.08 3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -595,15 +595,15 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
-        (pin bidirectional line (at 0 0 0) (length 5.08)
+        (pin input line (at 0 0 0) (length 5.08)
           (name "1CLK" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 0 -2.54 0) (length 5.08)
+        (pin input line (at 0 -2.54 0) (length 5.08)
           (name "1D" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 0 -5.08 0) (length 5.08)
+        (pin output line (at 0 -5.08 0) (length 5.08)
           (name "2Q" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -611,26 +611,26 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 -7.62 180) (length 5.08)
+        (pin input line (at 27.94 -7.62 180) (length 5.08)
           (name "2CLK" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 -5.08 180) (length 5.08)
+        (pin input line (at 27.94 -5.08 180) (length 5.08)
           (name "2D" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 -2.54 180) (length 5.08)
+        (pin output line (at 27.94 -2.54 180) (length 5.08)
           (name "1Q" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 0 180) (length 5.08)
+        (pin input line (at 27.94 0 180) (length 5.08)
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
       )
     )
     (symbol "qsd_revB-eagle-import:SN74CBTLV3253" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 14.478 46.482 0)
+      (property "Reference" "IC1004" (at 14.478 46.482 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
       (property "Value" "SN74CBTLV3253" (at 12.7 -2.54 0)
@@ -678,7 +678,7 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
-        (pin bidirectional line (at -5.08 5.08 0) (length 5.08)
+        (pin input line (at -5.08 5.08 0) (length 5.08)
           (name "1~{OE}" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -698,19 +698,19 @@
           (name "2B4" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -5.08 10.16 0) (length 5.08)
+        (pin input line (at -5.08 10.16 0) (length 5.08)
           (name "S0" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -5.08 2.54 0) (length 5.08)
+        (pin input line (at -5.08 2.54 0) (length 5.08)
           (name "2~{OE}" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 27.94 10.16 180) (length 5.08)
+        (pin input line (at 27.94 10.16 180) (length 5.08)
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -5.08 7.62 0) (length 5.08)
+        (pin input line (at -5.08 7.62 0) (length 5.08)
           (name "S1" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -1067,7 +1067,7 @@
       )
     )
     (symbol "qsd_revB-eagle-import:TS5A23157" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at 6.604 34.544 0)
+      (property "Reference" "IC1003" (at 6.604 34.544 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
       (property "Value" "TS5A23157" (at 6.096 -3.302 0)
@@ -1163,7 +1163,7 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
-        (pin bidirectional line (at -5.08 5.08 0) (length 5.08)
+        (pin input line (at -5.08 5.08 0) (length 5.08)
           (name "IN1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -1183,7 +1183,7 @@
           (name "NO2" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -5.08 2.54 0) (length 5.08)
+        (pin input line (at -5.08 2.54 0) (length 5.08)
           (name "IN2" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
@@ -1195,7 +1195,7 @@
           (name "NC2" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 20.32 5.08 180) (length 5.08)
+        (pin input line (at 20.32 5.08 180) (length 5.08)
           (name "V+" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -2551,7 +2551,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8eefff60-30a3-4c24-a2fa-0b2dda99259f)
   )
-  (hierarchical_label "sideband_sel" (shape input) (at 154.94 203.2 180) (fields_autoplaced)
+  (hierarchical_label "SIDEBAND_SEL" (shape input) (at 154.94 203.2 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f0fadac6-d5dc-479f-b95e-3ee9531fb5e8)
   )
@@ -2563,7 +2563,7 @@
   (symbol (lib_id "Regulator_Linear:MCP1802x-xx02xOT") (at 80.01 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0704d9ad-73b5-434f-bbe3-4eb0df422588)
-    (property "Reference" "U15" (at 80.01 200.66 0)
+    (property "Reference" "U9" (at 80.01 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP1802x-xx02xOT" (at 80.01 203.2 0)
@@ -2583,7 +2583,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "U15") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -2592,7 +2592,7 @@
   (symbol (lib_id "Device:Q_NJFET_DSG") (at 129.54 50.8 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07add09f-c1fc-4b6e-942d-c8653e8286d3)
-    (property "Reference" "Q24" (at 129.54 41.91 90)
+    (property "Reference" "Q20" (at 129.54 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "J309" (at 129.54 44.45 90)
@@ -2610,7 +2610,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "Q24") (unit 1)
+          (reference "Q20") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2624,7 +2624,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 303.53 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 166e7b76-2cc9-40d6-ab5c-5377bec0d039)
-    (property "Reference" "R150" (at 300.99 81.28 0)
+    (property "Reference" "R143" (at 300.99 81.28 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "47k" (at 309.88 81.28 0)
@@ -2641,7 +2641,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R150") (unit 1)
+          (reference "R143") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2655,7 +2655,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 185.42 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17d89e72-bf08-4cc2-beb0-963fa5ce761c)
-    (property "Reference" "R147" (at 182.88 71.6026 90)
+    (property "Reference" "R140" (at 182.88 71.6026 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "4.32K" (at 183.642 74.422 90)
@@ -2672,7 +2672,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R147") (unit 1)
+          (reference "R140") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 284.48 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bd121a2-7f71-4184-acfc-f1fa857b9878)
-    (property "Reference" "C139" (at 289.56 99.06 0)
+    (property "Reference" "C146" (at 289.56 99.06 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "470pF" (at 293.37 104.14 0)
@@ -2703,7 +2703,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C139") (unit 1)
+          (reference "C146") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2717,7 +2717,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 52.07 231.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1be47dda-91c5-41ca-ac56-45252a26a8e7)
-    (property "Reference" "C128" (at 57.404 228.981 0)
+    (property "Reference" "C135" (at 57.404 228.981 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1uF" (at 57.15 234.315 0)
@@ -2734,7 +2734,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C128") (unit 1)
+          (reference "C135") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2748,7 +2748,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 284.48 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fe1061b-90ec-4b1d-9e91-9685d51bd1dd)
-    (property "Reference" "C138" (at 289.56 82.55 0)
+    (property "Reference" "C145" (at 289.56 82.55 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "470pF" (at 292.1 88.9 0)
@@ -2765,7 +2765,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C138") (unit 1)
+          (reference "C145") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2779,7 +2779,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 187.96 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24e0bff9-cbc7-4947-b817-079093e17ce8)
-    (property "Reference" "R149" (at 195.072 168.1226 90)
+    (property "Reference" "R142" (at 195.072 168.1226 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "10k" (at 195.58 170.688 90)
@@ -2796,7 +2796,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R149") (unit 1)
+          (reference "R142") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2810,7 +2810,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 193.04 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27ff9b4c-d7a3-4502-8936-83341eea3b3f)
-    (property "Reference" "C134" (at 196.596 84.455 0)
+    (property "Reference" "C141" (at 196.596 84.455 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 199.644 89.789 0)
@@ -2827,7 +2827,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C134") (unit 1)
+          (reference "C141") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2841,7 +2841,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 251.46 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 283310a8-8ae6-4216-ad3f-6043a7b2d630)
-    (property "Reference" "C136" (at 256.54 130.81 0)
+    (property "Reference" "C143" (at 256.54 130.81 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 258.572 137.541 0)
@@ -2858,7 +2858,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C136") (unit 1)
+          (reference "C143") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2872,7 +2872,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 303.53 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38c245c9-0dfa-4086-aaeb-abc79e9b64fa)
-    (property "Reference" "R152" (at 300.99 97.79 0)
+    (property "Reference" "R145" (at 300.99 97.79 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "47k" (at 309.88 97.79 0)
@@ -2889,7 +2889,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R152") (unit 1)
+          (reference "R145") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 123.19 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 394d5297-f177-4f4b-9e6b-56a1eb704d8f)
-    (property "Reference" "C132" (at 123.19 66.04 90)
+    (property "Reference" "C139" (at 123.19 66.04 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 120.65 73.66 90)
@@ -2920,7 +2920,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C132") (unit 1)
+          (reference "C139") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2934,7 +2934,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 386.08 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d9ea9a1-7363-4fdc-a2ec-7eb5e0f51f95)
-    (property "Reference" "C143" (at 380.746 75.565 90)
+    (property "Reference" "C150" (at 380.746 75.565 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 389.636 75.565 90)
@@ -2951,7 +2951,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C143") (unit 1)
+          (reference "C150") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2965,7 +2965,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 105.41 231.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45a330ca-cbd5-457e-b2ce-6ba6f194aa69)
-    (property "Reference" "C131" (at 110.998 228.981 0)
+    (property "Reference" "C138" (at 110.998 228.981 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1uF" (at 110.744 234.061 0)
@@ -2982,7 +2982,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C131") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -2996,7 +2996,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 330.2 102.87 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ad14f70-7de6-438a-8e25-9b4f1301eb9b)
-    (property "Reference" "R154" (at 327.66 100.33 0)
+    (property "Reference" "R147" (at 327.66 100.33 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "49.9" (at 337.82 100.33 0)
@@ -3013,7 +3013,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R154") (unit 1)
+          (reference "R147") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:TS5A23157") (at 185.42 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d82252d-100e-432f-868f-e0818fe31b4a)
-    (property "Reference" "IC4" (at 192.024 122.936 0)
+    (property "Reference" "IC5" (at 192.024 122.936 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "TS5A23157" (at 191.516 160.782 0)
@@ -3052,7 +3052,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC4") (unit 1)
+          (reference "IC5") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3066,7 +3066,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 365.76 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d049be1-8e01-420c-ac2a-79d797ba9298)
-    (property "Reference" "C140" (at 360.426 84.455 90)
+    (property "Reference" "C147" (at 360.426 84.455 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 369.316 84.455 90)
@@ -3083,7 +3083,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C140") (unit 1)
+          (reference "C147") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3097,7 +3097,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:SN74CBTLV3253") (at 236.22 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6259be84-ab0a-4763-a4c9-bf5886150b3e)
-    (property "Reference" "IC5" (at 250.698 72.898 0)
+    (property "Reference" "IC6" (at 250.698 72.898 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "SN74CBTLV3253" (at 248.92 121.92 0)
@@ -3128,7 +3128,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC5") (unit 1)
+          (reference "IC6") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3172,7 +3172,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6be0eecc-3e25-4de5-a947-461a038ad013)
-    (property "Reference" "R146" (at 144.78 78.4606 90)
+    (property "Reference" "R139" (at 144.78 78.4606 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 143.51 81.534 90)
@@ -3189,7 +3189,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R146") (unit 1)
+          (reference "R139") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3203,7 +3203,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 119.38 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cff3e12-f8c8-4690-8555-d7708b072beb)
-    (property "Reference" "R144" (at 116.84 56.3626 90)
+    (property "Reference" "R137" (at 116.84 56.3626 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100" (at 117.602 59.182 90)
@@ -3220,7 +3220,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R144") (unit 1)
+          (reference "R137") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3234,7 +3234,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 147.32 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b0624a2-f6f0-4834-8289-3e043a7666b6)
-    (property "Reference" "R145" (at 152.4 55.6006 90)
+    (property "Reference" "R138" (at 152.4 55.6006 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100" (at 153.67 58.674 90)
@@ -3251,7 +3251,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R145") (unit 1)
+          (reference "R138") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3265,7 +3265,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 303.53 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85a3f0d4-2ea6-491c-aafc-61f86cc4a1b0)
-    (property "Reference" "R153" (at 300.99 102.87 0)
+    (property "Reference" "R146" (at 300.99 102.87 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "47k" (at 309.88 102.87 0)
@@ -3282,7 +3282,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R153") (unit 1)
+          (reference "R146") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3296,7 +3296,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 91.44 137.16 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 896fdaf5-bd22-4bfb-815a-39c829a08283)
-    (property "Reference" "R143" (at 84.328 136.4234 0)
+    (property "Reference" "R136" (at 84.328 136.4234 0)
       (effects (font (size 1.778 1.5113)) (justify right top))
     )
     (property "Value" "0" (at 95.25 136.652 0)
@@ -3313,7 +3313,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R143") (unit 1)
+          (reference "R136") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3357,7 +3357,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 303.53 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c24f715-b955-42a8-9990-e63101566d61)
-    (property "Reference" "R151" (at 300.99 87.63 0)
+    (property "Reference" "R144" (at 300.99 87.63 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "47k" (at 309.88 87.63 0)
@@ -3374,7 +3374,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R151") (unit 1)
+          (reference "R144") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3388,7 +3388,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 200.66 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ce0c054-b39e-4839-b03f-dcf381ed90e0)
-    (property "Reference" "C135" (at 201.676 85.725 0)
+    (property "Reference" "C142" (at 201.676 85.725 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "10uF" (at 201.676 90.551 0)
@@ -3405,7 +3405,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C135") (unit 1)
+          (reference "C142") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3419,7 +3419,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 365.76 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90260c01-b58b-4f26-b54c-de7e1921a224)
-    (property "Reference" "C141" (at 360.426 92.075 90)
+    (property "Reference" "C148" (at 360.426 92.075 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 369.316 92.075 90)
@@ -3436,7 +3436,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C141") (unit 1)
+          (reference "C148") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3450,7 +3450,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 264.16 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 903fef9e-841f-436b-a01e-7846f2973004)
-    (property "Reference" "C137" (at 264.16 130.81 0)
+    (property "Reference" "C144" (at 264.16 130.81 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1uF" (at 269.24 137.795 0)
@@ -3467,7 +3467,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C137") (unit 1)
+          (reference "C144") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3481,7 +3481,7 @@
   (symbol (lib_id "SamacSys_Parts:INA821ID") (at 341.63 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ea1afb1-2233-46f7-913b-f7f306ce294f)
-    (property "Reference" "IC6" (at 355.6 63.5 0)
+    (property "Reference" "IC7" (at 355.6 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA821ID" (at 355.6 66.04 0)
@@ -3522,7 +3522,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC6") (unit 1)
+          (reference "IC7") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3536,7 +3536,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 388.62 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a63c0160-e947-4ea2-a08d-93139ce87eb8)
-    (property "Reference" "C145" (at 383.286 45.085 90)
+    (property "Reference" "C152" (at 383.286 45.085 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 392.176 45.085 90)
@@ -3553,7 +3553,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C145") (unit 1)
+          (reference "C152") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3567,7 +3567,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 149.86 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae028edc-d4b2-44f9-b363-ab91bf82a8c0)
-    (property "Reference" "C133" (at 153.924 155.321 0)
+    (property "Reference" "C140" (at 153.924 155.321 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 157.226 160.401 0)
@@ -3584,7 +3584,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C133") (unit 1)
+          (reference "C140") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3598,7 +3598,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:M02PTH") (at 100.33 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae1f3394-63ba-4b3a-a8d2-cc425b92c37d)
-    (property "Reference" "JP3" (at 97.79 65.278 0)
+    (property "Reference" "JP2" (at 97.79 65.278 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "M02PTH" (at 97.79 76.2 0)
@@ -3615,7 +3615,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3659,7 +3659,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:SN74LVC1G04DBVT") (at 111.76 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c03553b8-1ebe-402f-8d4e-6f3f15d281ce)
-    (property "Reference" "IC2" (at 106.426 145.542 0)
+    (property "Reference" "IC3" (at 106.426 145.542 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "SN74LVC1G04DBVT" (at 113.03 160.02 0)
@@ -3679,7 +3679,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC2") (unit 1)
+          (reference "IC3") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3693,7 +3693,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 76.2 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca7feb48-43b9-470d-b23f-3972a327ce63)
-    (property "Reference" "C129" (at 80.772 155.829 0)
+    (property "Reference" "C136" (at 80.772 155.829 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 83.312 160.147 0)
@@ -3710,7 +3710,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C129") (unit 1)
+          (reference "C136") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3724,7 +3724,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 334.01 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd5b8a84-b329-4ff1-97b6-5c67f2732af1)
-    (property "Reference" "R155" (at 331.47 71.12 0)
+    (property "Reference" "R148" (at 331.47 71.12 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "49.9" (at 341.63 71.12 0)
@@ -3741,7 +3741,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R155") (unit 1)
+          (reference "R148") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3755,13 +3755,13 @@
   (symbol (lib_id "qsd_revB-eagle-import:SN74AUP2G79DCUR") (at 119.38 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf466968-7a84-44b1-8471-228247567921)
-    (property "Reference" "IC3" (at 138.684 132.842 0)
+    (property "Reference" "IC4" (at 138.684 132.842 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "SN74AUP2G79DCUR" (at 123.19 149.86 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
-    (property "Footprint" "qsd_revB:SOP50P310X90-8N" (at 119.38 137.16 0)
+    (property "Footprint" "qsd_revB:SOP50P310X90-8N" (at 124.46 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 119.38 137.16 0)
@@ -3778,7 +3778,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC3") (unit 1)
+          (reference "IC4") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3822,7 +3822,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)") (at 388.62 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d70c6eae-cd84-47e8-aa48-c1a9b3cdcf3c)
-    (property "Reference" "C144" (at 386.842 35.941 90)
+    (property "Reference" "C151" (at 386.842 35.941 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "10uF" (at 398.018 35.433 90)
@@ -3839,7 +3839,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C144") (unit 1)
+          (reference "C151") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3853,7 +3853,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 383.54 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9c386f9-e0b5-468e-9933-df2a1b0104da)
-    (property "Reference" "C142" (at 378.206 114.935 90)
+    (property "Reference" "C149" (at 378.206 114.935 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 387.096 114.935 90)
@@ -3870,7 +3870,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C142") (unit 1)
+          (reference "C149") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3918,7 +3918,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:CAP0603-CAP") (at 101.6 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee74a400-9b36-4ed9-a98e-d826797aca01)
-    (property "Reference" "C130" (at 103.124 44.831 90)
+    (property "Reference" "C137" (at 103.124 44.831 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.01uF" (at 102.616 52.705 90)
@@ -3935,7 +3935,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "C130") (unit 1)
+          (reference "C137") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "SamacSys_Parts:INA821ID") (at 341.63 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f21bc737-9b10-4306-9b23-3087b80e8233)
-    (property "Reference" "IC7" (at 355.6 92.71 0)
+    (property "Reference" "IC8" (at 355.6 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA821ID" (at 355.6 95.25 0)
@@ -3990,7 +3990,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "IC7") (unit 1)
+          (reference "IC8") (unit 1)
         )
       )
       (project "qsd_revC"
@@ -4004,7 +4004,7 @@
   (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 185.42 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f39e43b6-2ce5-4ee2-b263-9afd49400e68)
-    (property "Reference" "R148" (at 182.88 86.8426 90)
+    (property "Reference" "R141" (at 182.88 86.8426 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "4.32K" (at 183.642 89.662 90)
@@ -4021,7 +4021,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R148") (unit 1)
+          (reference "R141") (unit 1)
         )
       )
       (project "qsd_revC"

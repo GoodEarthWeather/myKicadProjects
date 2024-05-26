@@ -1308,7 +1308,6 @@
   )
 
   (no_connect (at 293.37 182.88) (uuid 1a609f95-b8b3-404f-b19e-6cc564492ca8))
-  (no_connect (at 293.37 177.8) (uuid 29b49630-724e-4353-938b-18cbf1454356))
   (no_connect (at 293.37 187.96) (uuid 7bfaab41-a7b6-4a48-887e-2fa69dd2e2e8))
 
   (wire (pts (xy 76.2 205.74) (xy 78.74 205.74))
@@ -2864,7 +2863,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 081d4bc5-8b64-4d16-890c-8402bc1f4881)
-    (property "Reference" "R122" (at 358.14 152.4 0)
+    (property "Reference" "R115" (at 358.14 152.4 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 367.03 152.4 0)
@@ -2881,7 +2880,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R122") (unit 1)
+          (reference "R115") (unit 1)
         )
       )
     )
@@ -2890,7 +2889,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09ea3357-7df3-4a22-8c7a-50ba9ffca6b0)
-    (property "Reference" "R101" (at 125.73 172.72 0)
+    (property "Reference" "R96" (at 125.73 172.72 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 135.89 172.72 0)
@@ -2907,7 +2906,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R101") (unit 1)
+          (reference "R96") (unit 1)
         )
       )
     )
@@ -2916,7 +2915,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 217.17 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0c8bb6-ee8b-4228-bb6d-ed6517fa24b4)
-    (property "Reference" "R119" (at 214.63 78.74 0)
+    (property "Reference" "R112" (at 214.63 78.74 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "47K" (at 215.9 82.55 0)
@@ -2933,7 +2932,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R119") (unit 1)
+          (reference "R112") (unit 1)
         )
       )
     )
@@ -2942,7 +2941,7 @@
   (symbol (lib_id "Device:C") (at 128.27 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c31d61d-1ed6-4f5b-97a8-fb7a9be2ceac)
-    (property "Reference" "C100" (at 128.27 55.88 0)
+    (property "Reference" "C108" (at 128.27 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470pF" (at 128.27 60.96 0)
@@ -2959,7 +2958,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C100") (unit 1)
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -2968,7 +2967,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 71.12 205.74 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11042276-a2fa-4ea8-a5d5-dece06caa01b)
-    (property "Reference" "R98" (at 68.58 201.93 0)
+    (property "Reference" "R92" (at 68.58 201.93 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 68.58 207.01 0)
@@ -2985,7 +2984,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R98") (unit 1)
+          (reference "R92") (unit 1)
         )
       )
     )
@@ -2994,7 +2993,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 205.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1191160a-5a80-4db4-b54f-7d0a98a11eca)
-    (property "Reference" "R112" (at 130.81 203.2 0)
+    (property "Reference" "R105" (at 130.81 203.2 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 138.43 203.2 0)
@@ -3011,7 +3010,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R112") (unit 1)
+          (reference "R105") (unit 1)
         )
       )
     )
@@ -3020,7 +3019,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 193.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19219d74-1f3e-49bd-a88f-f0e0b8e769d2)
-    (property "Reference" "R132" (at 362.458 190.4746 0)
+    (property "Reference" "R125" (at 362.458 190.4746 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 373.634 190.754 0)
@@ -3037,7 +3036,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R132") (unit 1)
+          (reference "R125") (unit 1)
         )
       )
     )
@@ -3046,7 +3045,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 134.62 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b72c11e-1cb7-4413-a8a7-1bda00e5f3ec)
-    (property "Reference" "R114" (at 127 210.82 0)
+    (property "Reference" "R107" (at 127 210.82 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 138.43 210.82 0)
@@ -3063,7 +3062,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R114") (unit 1)
+          (reference "R107") (unit 1)
         )
       )
     )
@@ -3072,7 +3071,7 @@
   (symbol (lib_id "Device:C") (at 180.34 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c333173-1306-4935-9e25-a9870035c92b)
-    (property "Reference" "C109" (at 176.53 212.09 0)
+    (property "Reference" "C116" (at 176.53 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 175.26 217.17 0)
@@ -3089,7 +3088,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C109") (unit 1)
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -3098,7 +3097,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21f0b7bb-145d-4e76-beed-9e60c0018859)
-    (property "Reference" "R137" (at 358.14 208.28 0)
+    (property "Reference" "R130" (at 358.14 208.28 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 368.3 208.28 0)
@@ -3115,7 +3114,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R137") (unit 1)
+          (reference "R130") (unit 1)
         )
       )
     )
@@ -3124,7 +3123,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 190.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 264a515e-41d8-4724-af52-abf5dc94028a)
-    (property "Reference" "R108" (at 130.81 187.96 0)
+    (property "Reference" "R101" (at 130.81 187.96 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 139.7 187.96 0)
@@ -3141,7 +3140,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R108") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -3150,7 +3149,7 @@
   (symbol (lib_id "Device:C") (at 161.29 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26fbc7e6-7480-47f6-b4f4-c9399ea376a3)
-    (property "Reference" "C104" (at 157.48 212.09 0)
+    (property "Reference" "C112" (at 157.48 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 156.21 217.17 0)
@@ -3167,7 +3166,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C104") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -3176,7 +3175,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ea847b1-303e-4d57-9852-87cd1e0c5b7b)
-    (property "Reference" "R104" (at 125.73 180.34 0)
+    (property "Reference" "R99" (at 125.73 180.34 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 135.89 180.34 0)
@@ -3193,7 +3192,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R104") (unit 1)
+          (reference "R99") (unit 1)
         )
       )
     )
@@ -3202,7 +3201,7 @@
   (symbol (lib_id "main-eagle-import:GND") (at 60.96 210.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 345e1349-128f-4653-9838-cd7ddb2f35e5)
-    (property "Reference" "#SUPPLY017" (at 60.96 210.82 0)
+    (property "Reference" "#SUPPLY016" (at 60.96 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.865 213.995 0)
@@ -3218,7 +3217,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "#SUPPLY017") (unit 1)
+          (reference "#SUPPLY016") (unit 1)
         )
       )
     )
@@ -3227,7 +3226,7 @@
   (symbol (lib_id "Device:C") (at 353.06 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a8e6cfc-24a4-4dd6-89ec-b052570ce4c5)
-    (property "Reference" "C125" (at 349.25 212.09 0)
+    (property "Reference" "C132" (at 349.25 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 347.98 217.17 0)
@@ -3244,7 +3243,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C125") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -3253,7 +3252,7 @@
   (symbol (lib_id "Device:C") (at 289.56 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b7e39bd-db1c-469e-b6f7-6fa4c08b29ce)
-    (property "Reference" "C115" (at 288.29 81.28 90)
+    (property "Reference" "C122" (at 288.29 81.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 295.91 81.28 90)
@@ -3270,7 +3269,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C115") (unit 1)
+          (reference "C122") (unit 1)
         )
       )
     )
@@ -3279,7 +3278,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 198.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ed4bef9-5e06-4a5a-8473-bf2ba9f7d768)
-    (property "Reference" "R134" (at 362.458 195.5546 0)
+    (property "Reference" "R127" (at 362.458 195.5546 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 373.634 195.834 0)
@@ -3296,7 +3295,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R134") (unit 1)
+          (reference "R127") (unit 1)
         )
       )
     )
@@ -3305,7 +3304,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41a3416c-ee4b-48ea-8bea-aaafea1a219f)
-    (property "Reference" "R120" (at 358.14 106.68 0)
+    (property "Reference" "R113" (at 358.14 106.68 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 368.3 106.68 0)
@@ -3322,7 +3321,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R120") (unit 1)
+          (reference "R113") (unit 1)
         )
       )
     )
@@ -3331,7 +3330,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4254b072-d886-427d-8b03-57ea769b7de3)
-    (property "Reference" "R113" (at 130.048 205.7146 0)
+    (property "Reference" "R106" (at 130.048 205.7146 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 141.224 205.994 0)
@@ -3348,7 +3347,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R113") (unit 1)
+          (reference "R106") (unit 1)
         )
       )
     )
@@ -3357,7 +3356,7 @@
   (symbol (lib_id "Device:C") (at 340.36 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4992cca4-97a6-4d0a-9003-1c7e4cce0813)
-    (property "Reference" "C123" (at 336.55 212.09 0)
+    (property "Reference" "C130" (at 336.55 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 335.28 217.17 0)
@@ -3374,7 +3373,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C123") (unit 1)
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -3383,7 +3382,7 @@
   (symbol (lib_id "Device:C") (at 295.91 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cdc15fc-f145-4aa6-a234-721233932c6e)
-    (property "Reference" "C116" (at 292.1 212.09 0)
+    (property "Reference" "C123" (at 292.1 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 290.83 217.17 0)
@@ -3400,7 +3399,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C116") (unit 1)
+          (reference "C123") (unit 1)
         )
       )
     )
@@ -3409,7 +3408,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d8d57c0-7033-4745-b61f-fd0dad9729f4)
-    (property "Reference" "R130" (at 356.87 175.26 0)
+    (property "Reference" "R123" (at 356.87 175.26 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 367.03 175.26 0)
@@ -3426,7 +3425,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R130") (unit 1)
+          (reference "R123") (unit 1)
         )
       )
     )
@@ -3435,7 +3434,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 172.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f0f844a-2edc-4bac-9344-e9354fcc1c0d)
-    (property "Reference" "R129" (at 361.188 170.1546 0)
+    (property "Reference" "R122" (at 361.188 170.1546 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 372.364 170.434 0)
@@ -3452,7 +3451,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R129") (unit 1)
+          (reference "R122") (unit 1)
         )
       )
     )
@@ -3461,7 +3460,7 @@
   (symbol (lib_id "Device:C") (at 143.51 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f2486d8-6ee6-41e5-878d-0f990fade208)
-    (property "Reference" "C101" (at 143.51 50.8 0)
+    (property "Reference" "C109" (at 143.51 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 143.51 55.88 0)
@@ -3478,7 +3477,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C101") (unit 1)
+          (reference "C109") (unit 1)
         )
       )
     )
@@ -3487,7 +3486,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f589a87-aa8d-44d6-b305-2b581cfda82d)
-    (property "Reference" "R131" (at 361.95 162.56 0)
+    (property "Reference" "R124" (at 361.95 162.56 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 372.11 162.56 0)
@@ -3504,7 +3503,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R131") (unit 1)
+          (reference "R124") (unit 1)
         )
       )
     )
@@ -3513,7 +3512,7 @@
   (symbol (lib_id "Device:C") (at 214.63 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50416da5-7458-4210-8592-e97388fe08c5)
-    (property "Reference" "C113" (at 210.82 72.39 90)
+    (property "Reference" "C120" (at 210.82 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1nF" (at 218.44 72.39 90)
@@ -3530,7 +3529,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C113") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -3539,7 +3538,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55a16ccb-7044-44d9-a066-5365ca211524)
-    (property "Reference" "R110" (at 127 195.58 0)
+    (property "Reference" "R103" (at 127 195.58 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 137.16 195.58 0)
@@ -3556,7 +3555,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R110") (unit 1)
+          (reference "R103") (unit 1)
         )
       )
     )
@@ -3565,7 +3564,7 @@
   (symbol (lib_id "Device:C") (at 308.61 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56e64d9b-bd15-4a4e-ab59-3a62891ab41f)
-    (property "Reference" "C118" (at 304.8 212.09 0)
+    (property "Reference" "C125" (at 304.8 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 303.53 217.17 0)
@@ -3582,7 +3581,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C118") (unit 1)
+          (reference "C125") (unit 1)
         )
       )
     )
@@ -3641,7 +3640,7 @@
   (symbol (lib_id "Device:C") (at 289.56 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fd8026b-d0cc-4c06-88ed-a07efaf2acf8)
-    (property "Reference" "C114" (at 287.02 64.77 90)
+    (property "Reference" "C121" (at 287.02 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 295.91 64.77 90)
@@ -3658,7 +3657,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C114") (unit 1)
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -3667,7 +3666,7 @@
   (symbol (lib_id "Device:C") (at 186.69 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67007dc0-98e7-42f7-b347-617292a6431e)
-    (property "Reference" "C110" (at 186.69 82.55 0)
+    (property "Reference" "C117" (at 186.69 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 186.69 87.63 0)
@@ -3684,7 +3683,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C110") (unit 1)
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -3693,7 +3692,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67a2cfc6-dfe9-4c76-bf33-b41c41f2760c)
-    (property "Reference" "R125" (at 361.95 157.48 0)
+    (property "Reference" "R118" (at 361.95 157.48 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 370.84 157.48 0)
@@ -3710,7 +3709,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R125") (unit 1)
+          (reference "R118") (unit 1)
         )
       )
     )
@@ -3719,7 +3718,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69c1c1d3-49c8-486f-86d5-ae02d6084688)
-    (property "Reference" "R102" (at 125.73 175.26 0)
+    (property "Reference" "R97" (at 125.73 175.26 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 135.89 175.26 0)
@@ -3736,7 +3735,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R102") (unit 1)
+          (reference "R97") (unit 1)
         )
       )
     )
@@ -3745,7 +3744,7 @@
   (symbol (lib_id "main-eagle-import:MOSFET-NCHANNELBSS138") (at 60.96 198.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6beb2603-6341-4503-9c52-dfae552ef410)
-    (property "Reference" "Q23" (at 55.88 196.7037 0)
+    (property "Reference" "Q19" (at 55.88 196.7037 0)
       (effects (font (size 1.778 1.5113)) (justify left))
     )
     (property "Value" "MOSFET-NCHANNELBSS138" (at 55.88 200.5137 0)
@@ -3763,7 +3762,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "Q23") (unit 1)
+          (reference "Q19") (unit 1)
         )
       )
     )
@@ -3772,7 +3771,7 @@
   (symbol (lib_id "Device:C") (at 74.93 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d5baa32-0fe8-4427-bd39-e9d47fbaa53b)
-    (property "Reference" "C98" (at 74.93 50.8 0)
+    (property "Reference" "C106" (at 74.93 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 74.93 55.88 0)
@@ -3789,7 +3788,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C98") (unit 1)
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -3823,7 +3822,7 @@
   (symbol (lib_id "Regulator_Linear:MIC5219-3.3YM5") (at 113.03 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 729a1b4c-4615-49e6-981e-f9c2ee75e741)
-    (property "Reference" "U9" (at 113.03 31.75 0)
+    (property "Reference" "U7" (at 113.03 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIC5219-3.3YM5" (at 113.03 34.29 0)
@@ -3843,7 +3842,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "U9") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3852,7 +3851,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78e79285-9aff-43df-b7b1-b26ce2b00493)
-    (property "Reference" "R126" (at 358.14 162.56 0)
+    (property "Reference" "R119" (at 358.14 162.56 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 367.03 162.56 0)
@@ -3869,7 +3868,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R126") (unit 1)
+          (reference "R119") (unit 1)
         )
       )
     )
@@ -3878,7 +3877,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 59.69 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 791c981d-eae6-4005-aa42-31b74f94f4fb)
-    (property "Reference" "R96" (at 53.34 63.5 0)
+    (property "Reference" "R90" (at 53.34 63.5 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 60.96 63.5 0)
@@ -3895,7 +3894,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R96") (unit 1)
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -3904,7 +3903,7 @@
   (symbol (lib_id "Device:C") (at 327.66 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b922fd9-5ee6-4ee8-9c07-bc7c81dfbe05)
-    (property "Reference" "C121" (at 323.85 212.09 0)
+    (property "Reference" "C128" (at 323.85 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 322.58 217.17 0)
@@ -3921,7 +3920,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C121") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -3930,7 +3929,7 @@
   (symbol (lib_id "main-eagle-import:GND") (at 120.015 123.19 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e01a356-3af4-4172-9b1d-05b0d9d9f554)
-    (property "Reference" "#SUPPLY031" (at 120.015 123.19 0)
+    (property "Reference" "#SUPPLY017" (at 120.015 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 126.365 0)
@@ -3946,7 +3945,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "#SUPPLY031") (unit 1)
+          (reference "#SUPPLY017") (unit 1)
         )
       )
     )
@@ -3955,7 +3954,7 @@
   (symbol (lib_id "Device:C") (at 346.71 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f88231d-238b-479f-b912-3a94f255f0ce)
-    (property "Reference" "C124" (at 342.9 212.09 0)
+    (property "Reference" "C131" (at 342.9 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 341.63 217.17 0)
@@ -3972,7 +3971,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C124") (unit 1)
+          (reference "C131") (unit 1)
         )
       )
     )
@@ -3981,7 +3980,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86ed26a4-f500-4018-a77f-bbe9946bdbae)
-    (property "Reference" "R128" (at 361.188 167.6146 0)
+    (property "Reference" "R121" (at 361.188 167.6146 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 372.364 167.894 0)
@@ -3998,7 +3997,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R128") (unit 1)
+          (reference "R121") (unit 1)
         )
       )
     )
@@ -4007,7 +4006,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c90867f-ca3c-4b51-8f8b-d8b95cfd3d87)
-    (property "Reference" "R111" (at 125.73 203.2 0)
+    (property "Reference" "R104" (at 125.73 203.2 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 135.89 203.2 0)
@@ -4024,7 +4023,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R111") (unit 1)
+          (reference "R104") (unit 1)
         )
       )
     )
@@ -4033,7 +4032,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90235a76-c06d-4ad9-87f1-97676fb1dac7)
-    (property "Reference" "R133" (at 358.14 195.58 0)
+    (property "Reference" "R126" (at 358.14 195.58 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 368.3 195.58 0)
@@ -4050,7 +4049,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R133") (unit 1)
+          (reference "R126") (unit 1)
         )
       )
     )
@@ -4059,7 +4058,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9608acb3-c896-4b74-a7fa-8c683bb93008)
-    (property "Reference" "R121" (at 361.95 107.95 0)
+    (property "Reference" "R114" (at 361.95 107.95 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 369.57 107.95 0)
@@ -4076,7 +4075,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R121") (unit 1)
+          (reference "R114") (unit 1)
         )
       )
     )
@@ -4085,7 +4084,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 167.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9758cf56-0c47-4418-b8ee-57f8401eded0)
-    (property "Reference" "R127" (at 361.188 165.0746 0)
+    (property "Reference" "R120" (at 361.188 165.0746 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 372.364 165.354 0)
@@ -4102,7 +4101,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R127") (unit 1)
+          (reference "R120") (unit 1)
         )
       )
     )
@@ -4111,7 +4110,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 120.015 114.935 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a495571-7a3f-4e73-b412-6b0307dd8d8e)
-    (property "Reference" "RV3" (at 117.475 113.6649 0)
+    (property "Reference" "RV2" (at 117.475 113.6649 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Potentiometer" (at 117.475 116.2049 0)
@@ -4129,7 +4128,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "RV3") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -4138,7 +4137,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 193.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b77271e-b127-4e74-aa82-c621a6cf71e9)
-    (property "Reference" "R109" (at 130.048 190.4746 0)
+    (property "Reference" "R102" (at 130.048 190.4746 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 141.224 190.754 0)
@@ -4155,7 +4154,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R109") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -4164,7 +4163,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fdbe33e-d898-4431-9e9c-48cf8ac2d3cc)
-    (property "Reference" "R124" (at 358.14 157.48 0)
+    (property "Reference" "R117" (at 358.14 157.48 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 367.03 157.48 0)
@@ -4181,7 +4180,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R124") (unit 1)
+          (reference "R117") (unit 1)
         )
       )
     )
@@ -4190,7 +4189,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0479cd6-08b3-499e-81fe-c6b0233cd9b7)
-    (property "Reference" "R138" (at 363.22 208.28 0)
+    (property "Reference" "R131" (at 363.22 208.28 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 373.38 208.28 0)
@@ -4207,7 +4206,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R138") (unit 1)
+          (reference "R131") (unit 1)
         )
       )
     )
@@ -4216,7 +4215,7 @@
   (symbol (lib_id "Device:C") (at 321.31 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1cb94de-c3f8-45d9-8002-9ddda1f7827c)
-    (property "Reference" "C120" (at 317.5 212.09 0)
+    (property "Reference" "C127" (at 317.5 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 316.23 217.17 0)
@@ -4233,7 +4232,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C120") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -4314,7 +4313,7 @@
   (symbol (lib_id "Device:C") (at 186.69 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3bf7e88-84e5-463a-97d1-3aaf5fb3607b)
-    (property "Reference" "C111" (at 182.88 212.09 0)
+    (property "Reference" "C118" (at 182.88 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 181.61 217.17 0)
@@ -4331,7 +4330,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C111") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -4340,7 +4339,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 171.45 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4bc8943-1520-4deb-9954-b01062583a1c)
-    (property "Reference" "R118" (at 166.37 165.1 0)
+    (property "Reference" "R111" (at 166.37 165.1 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "2.7K" (at 173.99 165.1 0)
@@ -4357,7 +4356,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R118") (unit 1)
+          (reference "R111") (unit 1)
         )
       )
     )
@@ -4366,7 +4365,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5a23495-e2f3-4d97-b140-577ace0fa13f)
-    (property "Reference" "R99" (at 127 167.64 0)
+    (property "Reference" "R94" (at 127 167.64 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 135.89 167.64 0)
@@ -4383,7 +4382,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R99") (unit 1)
+          (reference "R94") (unit 1)
         )
       )
     )
@@ -4392,13 +4391,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 205.74 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9172b23-8e3c-4664-9ebb-0a4794335987)
-    (property "Reference" "J10" (at 205.105 66.04 0)
+    (property "Reference" "J11" (at 205.105 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 205.105 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 205.74 73.66 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 205.74 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 73.66 0)
@@ -4411,7 +4410,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -4420,7 +4419,7 @@
   (symbol (lib_id "Device:C") (at 154.94 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad19475a-d3ef-4434-abfb-6fb366fae19a)
-    (property "Reference" "C103" (at 151.13 212.09 0)
+    (property "Reference" "C111" (at 151.13 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 149.86 217.17 0)
@@ -4437,7 +4436,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C103") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -4446,7 +4445,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ada634c5-1af1-4aaa-933b-e3fb457c90b7)
-    (property "Reference" "R107" (at 127 187.96 0)
+    (property "Reference" "R100" (at 127 187.96 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 135.89 187.96 0)
@@ -4463,7 +4462,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R107") (unit 1)
+          (reference "R100") (unit 1)
         )
       )
     )
@@ -4472,7 +4471,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af78258a-4a81-4bc5-aebd-98e357da67ae)
-    (property "Reference" "R135" (at 358.14 200.66 0)
+    (property "Reference" "R128" (at 358.14 200.66 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 368.3 200.66 0)
@@ -4489,7 +4488,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R135") (unit 1)
+          (reference "R128") (unit 1)
         )
       )
     )
@@ -4498,7 +4497,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b120d549-19f6-4197-a240-7123dfe4faa4)
-    (property "Reference" "R100" (at 127 170.18 0)
+    (property "Reference" "R95" (at 127 170.18 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 135.89 170.18 0)
@@ -4515,7 +4514,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R100") (unit 1)
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -4524,7 +4523,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b662c06e-324e-4f99-b50e-d35269df4ceb)
-    (property "Reference" "R139" (at 360.68 213.36 0)
+    (property "Reference" "R132" (at 360.68 213.36 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 368.3 213.36 0)
@@ -4541,7 +4540,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R139") (unit 1)
+          (reference "R132") (unit 1)
         )
       )
     )
@@ -4550,7 +4549,7 @@
   (symbol (lib_id "Device:C") (at 167.64 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6b70069-8ec2-4a6b-8677-5a5e10e1ddcf)
-    (property "Reference" "C105" (at 163.83 110.49 0)
+    (property "Reference" "C113" (at 163.83 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 162.56 115.57 0)
@@ -4567,7 +4566,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C105") (unit 1)
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -4602,7 +4601,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 364.49 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9b18cfe-92b8-49c9-aa32-b49344765ea9)
-    (property "Reference" "R123" (at 361.95 152.4 0)
+    (property "Reference" "R116" (at 361.95 152.4 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 370.84 152.4 0)
@@ -4619,7 +4618,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R123") (unit 1)
+          (reference "R116") (unit 1)
         )
       )
     )
@@ -4628,7 +4627,7 @@
   (symbol (lib_id "Device:C") (at 302.26 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid beb4f95b-38b0-44a0-ad4c-8e8a65211001)
-    (property "Reference" "C117" (at 298.45 212.09 0)
+    (property "Reference" "C124" (at 298.45 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 297.18 217.17 0)
@@ -4645,7 +4644,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C117") (unit 1)
+          (reference "C124") (unit 1)
         )
       )
     )
@@ -4654,7 +4653,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 171.45 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0d41284-02d0-4c40-8584-42f68c7e832f)
-    (property "Reference" "R117" (at 166.37 162.56 0)
+    (property "Reference" "R110" (at 166.37 162.56 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "2.7K" (at 172.72 162.56 0)
@@ -4671,7 +4670,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R117") (unit 1)
+          (reference "R110") (unit 1)
         )
       )
     )
@@ -4680,7 +4679,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 52.07 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2527136-0f75-4aef-8c94-ab45979936a4)
-    (property "Reference" "R95" (at 46.99 53.34 90)
+    (property "Reference" "R89" (at 46.99 53.34 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "9.09K" (at 44.45 58.42 90)
@@ -4697,7 +4696,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R95") (unit 1)
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -4706,7 +4705,7 @@
   (symbol (lib_id "Device:C") (at 90.17 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c44df22b-8986-4112-845e-f70c2498c5e7)
-    (property "Reference" "C99" (at 90.17 50.8 0)
+    (property "Reference" "C107" (at 90.17 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 90.17 55.88 0)
@@ -4723,7 +4722,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C99") (unit 1)
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -4732,7 +4731,7 @@
   (symbol (lib_id "Device:C") (at 314.96 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c88316d8-cf38-45eb-8d1d-389407e99d90)
-    (property "Reference" "C119" (at 311.15 212.09 0)
+    (property "Reference" "C126" (at 311.15 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 309.88 217.17 0)
@@ -4749,7 +4748,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C119") (unit 1)
+          (reference "C126") (unit 1)
         )
       )
     )
@@ -4758,7 +4757,7 @@
   (symbol (lib_id "Device:C") (at 193.04 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cddbb870-3186-4f41-8502-6ea0339de1ea)
-    (property "Reference" "C112" (at 189.23 212.09 0)
+    (property "Reference" "C119" (at 189.23 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 187.96 217.17 0)
@@ -4775,7 +4774,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C112") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -4784,7 +4783,7 @@
   (symbol (lib_id "Device:C") (at 334.01 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5072d28-56cb-4318-8b76-a13516378e9c)
-    (property "Reference" "C122" (at 330.2 212.09 0)
+    (property "Reference" "C129" (at 330.2 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 328.93 217.17 0)
@@ -4801,7 +4800,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C122") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -4810,7 +4809,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 157.48 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ddbc9011-823d-45ff-b071-9972f5df64e9)
-    (property "Reference" "R115" (at 149.86 106.68 0)
+    (property "Reference" "R108" (at 149.86 106.68 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 161.29 106.68 0)
@@ -4827,7 +4826,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R115") (unit 1)
+          (reference "R108") (unit 1)
         )
       )
     )
@@ -4861,7 +4860,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 157.48 110.49 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e16e61a1-74b5-453d-99c9-605be3470d56)
-    (property "Reference" "R116" (at 154.94 107.95 0)
+    (property "Reference" "R109" (at 154.94 107.95 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1K" (at 162.56 107.95 0)
@@ -4878,7 +4877,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R116") (unit 1)
+          (reference "R109") (unit 1)
         )
       )
     )
@@ -4912,7 +4911,7 @@
   (symbol (lib_id "Device:C") (at 60.96 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec2f7b4c-263f-43db-bf30-6cde77f8844f)
-    (property "Reference" "C97" (at 57.15 68.58 90)
+    (property "Reference" "C105" (at 57.15 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1uF" (at 57.15 71.12 90)
@@ -4929,7 +4928,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C97") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -4938,7 +4937,7 @@
   (symbol (lib_id "Device:C") (at 148.59 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee8378aa-6a7d-4a84-a7fc-709a551a04a2)
-    (property "Reference" "C102" (at 144.78 212.09 0)
+    (property "Reference" "C110" (at 144.78 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 143.51 217.17 0)
@@ -4955,7 +4954,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C102") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -4964,7 +4963,7 @@
   (symbol (lib_id "Device:C") (at 173.99 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efc5ec0f-9f88-406b-ac28-6ee770d47410)
-    (property "Reference" "C108" (at 170.18 212.09 0)
+    (property "Reference" "C115" (at 170.18 212.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 168.91 217.17 0)
@@ -4981,7 +4980,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C108") (unit 1)
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -4990,7 +4989,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 133.35 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f354b381-f55c-4322-a66c-a9441e65e236)
-    (property "Reference" "R103" (at 127 177.8 0)
+    (property "Reference" "R98" (at 127 177.8 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39K" (at 135.89 177.8 0)
@@ -5007,7 +5006,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R103") (unit 1)
+          (reference "R98") (unit 1)
         )
       )
     )
@@ -5016,7 +5015,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 173.99 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f56d3bb3-3554-4cc5-86f5-3f7ed0a165da)
-    (property "Reference" "C107" (at 171.45 82.55 0)
+    (property "Reference" "C114" (at 171.45 82.55 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10uF" (at 168.91 87.63 0)
@@ -5033,7 +5032,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "C107") (unit 1)
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -5042,7 +5041,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 60.96 187.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f771ccd3-8bb2-4f32-a296-6c8e21baff18)
-    (property "Reference" "R97" (at 63.5 185.42 90)
+    (property "Reference" "R91" (at 63.5 185.42 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "220" (at 63.5 189.23 90)
@@ -5059,7 +5058,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R97") (unit 1)
+          (reference "R91") (unit 1)
         )
       )
     )
@@ -5068,7 +5067,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 109.855 126.365 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7729e2b-7b0e-4fce-a5da-2c5fafe5ba57)
-    (property "Reference" "R105" (at 108.585 126.365 90)
+    (property "Reference" "R93" (at 108.585 126.365 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "100" (at 108.585 128.905 90)
@@ -5085,7 +5084,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R105") (unit 1)
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -5119,7 +5118,7 @@
   (symbol (lib_id "main-eagle-import:RESISTOR0603") (at 365.76 203.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feea8281-a309-4496-a003-50858a8910c8)
-    (property "Reference" "R136" (at 362.458 200.6346 0)
+    (property "Reference" "R129" (at 362.458 200.6346 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "39k" (at 373.634 200.914 0)
@@ -5136,7 +5135,7 @@
     (instances
       (project "fieldRadio"
         (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-          (reference "R136") (unit 1)
+          (reference "R129") (unit 1)
         )
       )
     )
