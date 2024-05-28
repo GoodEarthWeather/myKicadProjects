@@ -3009,7 +3009,7 @@
     (property "Value" "TS5A23157" (at 145.796 145.542 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "audioModule2:MSOP10" (at 139.7 142.24 0)
+    (property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm" (at 139.7 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 139.7 142.24 0)

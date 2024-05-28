@@ -2764,7 +2764,7 @@
     (property "Value" "5227161-3" (at 52.07 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "52271613" (at 52.07 20.32 0)
+    (property "Footprint" "SamacSys_Parts:52271613" (at 52.07 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1307191_BNC_Connectors&DocType=Catalog%20Section&DocLang=English&PartCntxt=5227161-3&DocFormat=pdf" (at 52.07 22.86 0)
