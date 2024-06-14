@@ -18,14 +18,14 @@
       "dimensions": false,
       "footprints": true,
       "graphics": false,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       0,
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffc3cff_fffffff9",
+    "visible_layers": "ffcfcff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {

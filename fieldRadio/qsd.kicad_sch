@@ -1795,10 +1795,6 @@
     (stroke (width 0) (type default))
     (uuid 66d63d27-6e7c-48db-b59f-a3b62058195a)
   )
-  (wire (pts (xy 66.04 137.16) (xy 86.36 137.16))
-    (stroke (width 0) (type default))
-    (uuid 682e4127-091a-49ba-a5cd-67a1841f4ec1)
-  )
   (wire (pts (xy 392.43 107.95) (xy 381 107.95))
     (stroke (width 0) (type default))
     (uuid 685bf778-717b-400b-bbf1-e845fe26c0c0)
@@ -2075,7 +2071,7 @@
     (stroke (width 0) (type default))
     (uuid b8bdc482-9e2d-4521-98c9-5c73036fb11a)
   )
-  (wire (pts (xy 96.52 137.16) (xy 116.84 137.16))
+  (wire (pts (xy 66.04 137.16) (xy 116.84 137.16))
     (stroke (width 0) (type default))
     (uuid b8df628c-8d0b-4c70-bbb2-875a19838f2d)
   )
@@ -3218,37 +3214,6 @@
       (project "qsd_revC"
         (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
           (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "qsd_revB-eagle-import:RESISTOR0603-RES") (at 91.44 137.16 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 896fdaf5-bd22-4bfb-815a-39c829a08283)
-    (property "Reference" "R136" (at 84.328 136.4234 0)
-      (effects (font (size 1.778 1.5113)) (justify right top))
-    )
-    (property "Value" "0" (at 95.25 136.652 0)
-      (effects (font (size 1.778 1.5113)) (justify right top))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 91.44 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 91.44 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1783aead-048a-4d15-975a-bfaf421d6d8b))
-    (pin "2" (uuid a79a282c-22ca-4656-b8ad-178b4e4d8dea))
-    (instances
-      (project "fieldRadio"
-        (path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-          (reference "R136") (unit 1)
-        )
-      )
-      (project "qsd_revC"
-        (path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-          (reference "R1") (unit 1)
         )
       )
     )
