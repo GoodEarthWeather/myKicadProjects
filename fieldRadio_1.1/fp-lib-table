@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "qsd")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/qsd/qsd_revB.pretty")(options "")(descr ""))
+)
