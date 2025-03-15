@@ -4140,7 +4140,7 @@
     (property "Reference" "C41" (at 145.288 44.196 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "89p" (at 147.32 51.308 90)
+    (property "Value" "0.22uF" (at 147.32 51.308 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 144.78 48.895 0)

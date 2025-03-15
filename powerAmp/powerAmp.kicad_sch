@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5c7fcd87-e9b0-4f6c-8f25-d414a19db244)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 60.706 26.67) (size 44.704 25.654) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 62e9d3d9-ac99-40a4-8966-2438c2801dd6)
+    (property "Sheetname" "Amplifier" (at 60.706 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "amplifier.kicad_sch" (at 60.706 52.9086 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "powerAmp"
+        (path "/5c7fcd87-e9b0-4f6c-8f25-d414a19db244" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
