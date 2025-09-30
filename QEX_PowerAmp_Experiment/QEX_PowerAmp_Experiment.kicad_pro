@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "powerAmp.kicad_pro",
+    "filename": "QEX_PowerAmp_Experiment.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -324,24 +324,8 @@
   },
   "sheets": [
     [
-      "5c7fcd87-e9b0-4f6c-8f25-d414a19db244",
+      "935e9e9c-82c1-4356-84c2-284f4c07cb3d",
       ""
-    ],
-    [
-      "e98a3c6e-78cb-47b7-882f-57c6dcd37449",
-      "controller"
-    ],
-    [
-      "cc81414a-acce-4e50-acc3-98c51f205b72",
-      "dcPower"
-    ],
-    [
-      "e4d8fd1a-b415-4048-aea5-99f0249cb50c",
-      "lowPassFilter"
-    ],
-    [
-      "0b5e76ae-4387-4ecb-bb24-6cb03f1dafd6",
-      "Buttons"
     ]
   ],
   "text_variables": {}
