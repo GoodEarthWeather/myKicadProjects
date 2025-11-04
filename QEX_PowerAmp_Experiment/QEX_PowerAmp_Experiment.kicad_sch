@@ -2734,6 +2734,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -3154,2876 +3292,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Transformer_1P_1S"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "T"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Transformer_1P_1S"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Transformer, single primary, single secondary"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transformer coil magnet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Transformer_1P_1S_0_1"
-				(arc
-					(start -1.27 3.81)
-					(mid -1.656 2.9336)
-					(end -2.54 2.5654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.27)
-					(mid -1.656 0.3936)
-					(end -2.54 0.0254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -1.27)
-					(mid -1.656 -2.1464)
-					(end -2.54 -2.5146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -3.81)
-					(mid -1.656 -4.6864)
-					(end -2.54 -5.0546)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 5.08)
-					(mid -1.642 4.708)
-					(end -1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.642 2.168)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.642 -0.372)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.642 -2.912)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 5.08) (xy -0.635 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -5.08) (xy 0.635 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 3.81)
-					(mid 1.6457 4.7117)
-					(end 2.54 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 1.27)
-					(mid 1.6457 2.1717)
-					(end 2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 -1.27)
-					(mid 1.6457 -0.3683)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.5654)
-					(mid 1.6599 2.9299)
-					(end 1.2954 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0.0254)
-					(mid 1.6599 0.3899)
-					(end 1.2954 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.5146)
-					(mid 1.6599 -2.1501)
-					(end 1.2954 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.3208 -3.81)
-					(mid 1.6711 -2.9085)
-					(end 2.5654 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5654 -5.0546)
-					(mid 1.6851 -4.6902)
-					(end 1.3208 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Transformer_1P_1S_1_1"
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 7.62)
-					(name "AA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 7.62)
-					(name "AB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 7.62)
-					(name "SB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 7.62)
-					(name "SA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OPA1679IDR_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$401"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "OPA1679IDR"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_2_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_3_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_4_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_5_0"
-				(text "V+"
-					(at 1.27 3.175 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "V-"
-					(at 1.27 -4.445 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OPA1679IDR_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$401"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "OPA1679IDR"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_2_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_3_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_4_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_5_0"
-				(text "V+"
-					(at 1.27 3.175 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "V-"
-					(at 1.27 -4.445 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OPA1679IDR_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$401"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "OPA1679IDR"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_2_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_3_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_4_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_5_0"
-				(text "V+"
-					(at 1.27 3.175 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "V-"
-					(at 1.27 -4.445 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OPA1679IDR_4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$401"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "OPA1679IDR"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_2_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_3_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_4_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_5_0"
-				(text "V+"
-					(at 1.27 3.175 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "V-"
-					(at 1.27 -4.445 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6959,6 +4227,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "powerAmp_RevB-eagle-import:CAP0603-CAP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7218,804 +4611,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "powerAmp_RevB-eagle-import:M02PTH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 5.842 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "M02PTH"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "powerAmp_RevB:1X02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "M02PTH_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "powerAmp_RevB-eagle-import:OPA1679IDR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$401"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "OPA1679IDR"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_1_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_2_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_3_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_4_0"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -2.54) (xy -3.175 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1679IDR_5_0"
-				(text "V+"
-					(at 1.27 3.175 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "V-"
-					(at 1.27 -4.445 900)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "powerAmp_RevB-eagle-import:RESISTOR0603-RES"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8233,27 +4828,16 @@
 		)
 		(uuid "95ceb3ed-a7d7-4f46-a5b5-e573dd4a910f")
 	)
-	(text "to 5K pot\n\nAv approx. 3.3 for 5W output"
-		(exclude_from_sim no)
-		(at 259.842 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc6ce807-24d0-4171-96b7-128d5ef961fe")
-	)
 	(text "Keyer Input\nActive high"
 		(exclude_from_sim no)
-		(at 80.772 63.5 0)
+		(at 148.844 51.054 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
 			)
 			(justify left bottom)
 		)
-		(uuid "fb527929-5a76-4386-92c7-ed3f3a2f2a66")
+		(uuid "c10bb230-e639-41da-ba62-e324dde200ed")
 	)
 	(junction
 		(at 111.76 176.53)
@@ -8262,22 +4846,16 @@
 		(uuid "01fd9e06-458e-47aa-a09f-b6514b7e7cba")
 	)
 	(junction
-		(at 170.18 74.93)
+		(at 213.36 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07d574f2-e808-4556-9a23-d146f61fbaef")
+		(uuid "06f4349d-47b8-453e-9c8a-9cb792c20481")
 	)
 	(junction
-		(at 297.18 39.37)
+		(at 234.95 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0abebbfd-5438-41bc-8a59-6ad99b886f3c")
-	)
-	(junction
-		(at 170.18 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e86af0a-1fe7-477d-99bc-1729cff58217")
 	)
 	(junction
 		(at 223.52 209.55)
@@ -8286,28 +4864,22 @@
 		(uuid "1040e68b-ce15-4fdd-a135-de2ab7df5945")
 	)
 	(junction
-		(at 297.18 54.61)
+		(at 234.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "116d155f-066d-4394-8897-f470a7ea739b")
 	)
 	(junction
-		(at 226.06 22.86)
+		(at 165.1 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18872662-c2ac-4580-b320-0a0567cb6dd3")
+		(uuid "118a5f4c-0e22-4f97-998e-8e85174f1258")
 	)
 	(junction
-		(at 273.05 25.4)
+		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18abf5b4-d32a-412f-9965-cef2e1ae4d71")
-	)
-	(junction
-		(at 149.86 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b2910e6-315c-4be6-b9e1-e1c7b037fc23")
+		(uuid "144bc457-b894-467d-a4bf-55a71208349b")
 	)
 	(junction
 		(at 151.13 189.23)
@@ -8334,16 +4906,16 @@
 		(uuid "2b50dda1-3501-4cf0-a19f-ecb198a5d161")
 	)
 	(junction
+		(at 135.89 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee102f4-6253-4eb7-8a96-81232acb2141")
+	)
+	(junction
 		(at 281.94 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fc03105-2814-4573-b0e5-1b3906ca79aa")
-	)
-	(junction
-		(at 160.02 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3324d408-a5b9-4560-951d-d219dc33ad00")
 	)
 	(junction
 		(at 184.15 173.99)
@@ -8358,18 +4930,6 @@
 		(uuid "37c31fc7-2461-4c86-97b7-9039743f92d9")
 	)
 	(junction
-		(at 219.71 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3864b9c8-cd77-4e58-8de6-bcc666bd4a8f")
-	)
-	(junction
-		(at 86.36 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "393ff7e0-e6b3-471a-86d4-a06c3ad4700f")
-	)
-	(junction
 		(at 262.89 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8382,22 +4942,10 @@
 		(uuid "3afdc404-c85a-4282-9cda-5697d8479218")
 	)
 	(junction
-		(at 236.22 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ba14774-ade1-4bd7-ad81-ae792d3b8e89")
-	)
-	(junction
 		(at 63.5 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40c04320-bfc7-490b-a417-cdf9fcf4624b")
-	)
-	(junction
-		(at 241.3 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4824cc17-4fe1-4945-ad51-0aeea24cae8e")
 	)
 	(junction
 		(at 36.83 234.95)
@@ -8406,16 +4954,10 @@
 		(uuid "48640397-9c24-47d7-93e9-f9725b199fa8")
 	)
 	(junction
-		(at 200.66 67.31)
+		(at 213.36 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e6baf82-1448-4d68-8aef-496f449563d1")
-	)
-	(junction
-		(at 280.67 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b151aea-f7e5-4577-8b9e-c1d8bc4032ea")
+		(uuid "4c71cad2-b4a2-4bbf-bdb8-08232e38289c")
 	)
 	(junction
 		(at 205.74 184.15)
@@ -8430,46 +4972,16 @@
 		(uuid "5d4c0b31-1e47-4aab-8527-cdbbb696df59")
 	)
 	(junction
-		(at 245.11 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e4585cf-3601-4a05-9131-cdbc03e9475d")
-	)
-	(junction
 		(at 260.35 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61853683-497e-445e-b8ee-b9a89b9f14eb")
 	)
 	(junction
-		(at 107.95 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61974c65-26f7-4309-bc2c-81d6fc160fa9")
-	)
-	(junction
-		(at 149.86 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6335d0a4-3503-455f-8a16-33bc2cc40641")
-	)
-	(junction
-		(at 154.94 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a336e3f-79e9-4231-8ca2-38a798f05f9f")
-	)
-	(junction
 		(at 86.36 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abd475b-1a9e-4696-8f97-2eadcd3f5a99")
-	)
-	(junction
-		(at 218.44 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad02073-0558-42a4-92fa-4add44c180cf")
 	)
 	(junction
 		(at 91.44 190.5)
@@ -8526,12 +5038,6 @@
 		(uuid "9140aba1-6296-4692-a55d-c2198a4aa5b3")
 	)
 	(junction
-		(at 307.34 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93e77c4c-4ce9-4e38-be8e-13c290af7cd3")
-	)
-	(junction
 		(at 205.74 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8542,18 +5048,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98d3b61e-7427-48ad-a92d-eabbcf4dee22")
-	)
-	(junction
-		(at 218.44 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b0f93ef-a45a-4738-a37f-ee43c3ce3020")
-	)
-	(junction
-		(at 185.42 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f9a1dc2-1e64-4561-84e9-c59e56eccfbe")
 	)
 	(junction
 		(at 210.82 181.61)
@@ -8580,28 +5074,22 @@
 		(uuid "aa5d7f69-7391-43bb-be2f-9589043f04ca")
 	)
 	(junction
-		(at 92.71 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcc398a5-d362-43b5-85ec-5ac559471283")
-	)
-	(junction
 		(at 95.25 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2aa7cbe-0516-4dc5-915b-4362d1e855c9")
 	)
 	(junction
-		(at 307.34 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd57b11c-150c-41b4-91ce-1c93234759a7")
-	)
-	(junction
-		(at 323.85 85.09)
+		(at 370.84 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f72ab1-6f81-4b8f-9678-e585719b0cd5")
+	)
+	(junction
+		(at 358.14 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db41c5f7-420e-4fde-b276-9c2075420647")
 	)
 	(junction
 		(at 223.52 194.31)
@@ -8610,7 +5098,7 @@
 		(uuid "db5c2bd4-4f0d-4391-a7de-9da46e7ba012")
 	)
 	(junction
-		(at 307.34 59.69)
+		(at 245.11 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbd8a1a9-07aa-484f-a091-14a9076c76d0")
@@ -8634,10 +5122,10 @@
 		(uuid "e1f74bea-cbfa-41ae-95f7-418df9ec2fc1")
 	)
 	(junction
-		(at 218.44 97.79)
+		(at 236.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5442204-415c-4843-94a6-ae77304e34ac")
+		(uuid "e3d236d8-6704-4060-9ea9-ee6f30c1666c")
 	)
 	(junction
 		(at 80.01 176.53)
@@ -8652,46 +5140,22 @@
 		(uuid "e74068d3-758d-4bad-bb7e-75208a54e67a")
 	)
 	(junction
-		(at 307.34 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8d82bb3-4da2-4bce-8fa5-8874d7b40752")
-	)
-	(junction
-		(at 160.02 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e940102d-56f5-4099-9fb6-c006a24dfaa7")
-	)
-	(junction
-		(at 219.71 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea6b1b5b-c43d-4476-be69-ede114e9a5ee")
-	)
-	(junction
 		(at 213.36 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f265bb2e-24c8-4c84-b201-ef43acd1b68c")
 	)
 	(junction
-		(at 307.34 39.37)
+		(at 245.11 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6067e6d-0c8e-43d7-ac9b-1c2a723778cd")
 	)
 	(junction
-		(at 280.67 83.82)
+		(at 245.11 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f68ac044-af7a-4fda-aec1-51cbf2fbce33")
-	)
-	(junction
-		(at 132.08 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd4c7d1c-8c57-45d5-ae7b-8381a3e73b19")
+		(uuid "f68cb290-7bd0-403f-b76c-de7abdd0dd99")
 	)
 	(wire
 		(pts
@@ -8705,6 +5169,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 128.27) (xy 205.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0101bf20-4b13-4419-be16-4268f994cab5")
+	)
+	(wire
+		(pts
 			(xy 251.46 181.61) (xy 252.73 181.61)
 		)
 		(stroke
@@ -8712,16 +5186,6 @@
 			(type default)
 		)
 		(uuid "0313874e-ba4d-444d-a8a5-c6829f4aff27")
-	)
-	(wire
-		(pts
-			(xy 280.67 67.31) (xy 280.67 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0461b4fc-78d8-4042-b149-b90e53ff2b2b")
 	)
 	(wire
 		(pts
@@ -8735,26 +5199,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 64.77) (xy 154.94 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c3c04c-6c4b-4c5d-8552-dca1efe1a3db")
-	)
-	(wire
-		(pts
-			(xy 284.48 67.31) (xy 280.67 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074067f2-9601-41c4-857e-3b0f762cbffd")
-	)
-	(wire
-		(pts
 			(xy 45.72 245.11) (xy 44.45 245.11)
 		)
 		(stroke
@@ -8762,16 +5206,6 @@
 			(type default)
 		)
 		(uuid "08215f17-2878-4581-9a08-f866ebb0a333")
-	)
-	(wire
-		(pts
-			(xy 160.02 85.09) (xy 137.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09039133-a4cd-4c87-ad15-e7527470ab7c")
 	)
 	(wire
 		(pts
@@ -8785,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 62.23) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a14ffde-10ee-42de-8bb4-865312e25ec7")
+	)
+	(wire
+		(pts
 			(xy 213.36 194.31) (xy 205.74 194.31)
 		)
 		(stroke
@@ -8795,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 173.99) (xy 299.72 173.99)
+			(xy 295.91 173.99) (xy 302.26 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8805,17 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 49.53) (xy 200.66 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be455d7-9219-470e-8eb0-7925a3f97f66")
-	)
-	(wire
-		(pts
-			(xy 295.91 154.94) (xy 295.91 163.83)
+			(xy 295.91 154.94) (xy 295.91 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8875,13 +5309,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 69.85) (xy 248.92 69.85)
+			(xy 205.74 88.9) (xy 245.11 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1245d3e4-4bf0-4cef-b111-fbab91884155")
+		(uuid "1251e82c-98e1-4b1b-984a-897c3218f6d1")
+	)
+	(wire
+		(pts
+			(xy 227.33 50.8) (xy 227.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a750f1-e885-4be6-84fe-e2bb1937dc9b")
 	)
 	(wire
 		(pts
@@ -8912,26 +5356,6 @@
 			(type default)
 		)
 		(uuid "1420efa4-e37e-47d7-8c6b-e456060d1dce")
-	)
-	(wire
-		(pts
-			(xy 185.42 49.53) (xy 154.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1427eabc-18a4-411d-bd11-428ec8bd285d")
-	)
-	(wire
-		(pts
-			(xy 139.7 49.53) (xy 132.08 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152dc8ca-1ae6-4745-a4ba-ab361a35bfc2")
 	)
 	(wire
 		(pts
@@ -8975,13 +5399,33 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 39.37) (xy 318.77 39.37)
+			(xy 213.36 62.23) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0d0598-f49f-4e6a-87a4-bb40dc0cefa8")
+	)
+	(wire
+		(pts
+			(xy 245.11 20.32) (xy 256.54 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b76dda6-c6aa-47ae-bb6b-77bc98c39061")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b80b038-520c-44f7-af2a-2ca4ef87ecb4")
 	)
 	(wire
 		(pts
@@ -9005,6 +5449,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 45.72) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d08abdf-df17-4122-8a28-47af3ddf8e10")
+	)
+	(wire
+		(pts
 			(xy 170.18 173.99) (xy 184.15 173.99)
 		)
 		(stroke
@@ -9012,26 +5466,6 @@
 			(type default)
 		)
 		(uuid "1f54fe37-cd49-4985-a66a-35d6c77ed2af")
-	)
-	(wire
-		(pts
-			(xy 149.86 69.85) (xy 162.56 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f956cf2-b76b-4fb9-b9c3-2661e20caba1")
-	)
-	(wire
-		(pts
-			(xy 160.02 97.79) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ce5f01-00e9-4ddd-a65e-815d60dce969")
 	)
 	(wire
 		(pts
@@ -9055,23 +5489,13 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 163.83) (xy 299.72 163.83)
+			(xy 295.91 168.91) (xy 302.26 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23e71cff-b188-4c97-8a8b-237e71ec0b4c")
-	)
-	(wire
-		(pts
-			(xy 241.3 49.53) (xy 218.44 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b9bd59-5e1d-4f98-99d2-d7e767a14be0")
 	)
 	(wire
 		(pts
@@ -9082,6 +5506,16 @@
 			(type default)
 		)
 		(uuid "261da476-b9f3-45c2-8c56-b8985d78e81d")
+	)
+	(wire
+		(pts
+			(xy 265.43 64.77) (xy 281.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262e1dc9-eff5-4f53-a8f6-8fc4694c78dd")
 	)
 	(wire
 		(pts
@@ -9115,43 +5549,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 160.02 97.79)
+			(xy 358.14 22.86) (xy 365.76 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28dc4853-8406-4831-960e-0129c7942ce0")
+		(uuid "2d1642a4-c777-4f55-b01a-392ff7819e24")
 	)
 	(wire
 		(pts
-			(xy 177.8 67.31) (xy 185.42 67.31)
+			(xy 281.94 64.77) (xy 281.94 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a0557af-99f5-4d4f-a3f5-32287aa44770")
-	)
-	(wire
-		(pts
-			(xy 132.08 49.53) (xy 132.08 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2adf8031-c396-4042-8cb1-90a52ba48945")
-	)
-	(wire
-		(pts
-			(xy 226.06 22.86) (xy 231.14 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c571beb-df13-4086-bc14-251535da0959")
+		(uuid "2da2be53-adfe-447a-9c7f-8c389e2e45f9")
 	)
 	(wire
 		(pts
@@ -9175,16 +5589,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 39.37) (xy 284.48 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2a23c2-3a3d-4608-b202-a512743d7d58")
-	)
-	(wire
-		(pts
 			(xy 198.12 189.23) (xy 198.12 170.18)
 		)
 		(stroke
@@ -9195,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 77.47) (xy 323.85 77.47)
+			(xy 368.3 81.28) (xy 370.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9215,7 +5619,17 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 59.69) (xy 307.34 59.69)
+			(xy 236.22 57.15) (xy 236.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c1e8d1-8d66-4635-a9e3-fd59d2b975ec")
+	)
+	(wire
+		(pts
+			(xy 247.65 38.1) (xy 245.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9235,16 +5649,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 25.4) (xy 273.05 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361ffda1-e96e-489e-9980-62a2ca7bad34")
-	)
-	(wire
-		(pts
 			(xy 205.74 209.55) (xy 213.36 209.55)
 		)
 		(stroke
@@ -9252,26 +5656,6 @@
 			(type default)
 		)
 		(uuid "36972579-ad01-4368-8424-6987e7d0a987")
-	)
-	(wire
-		(pts
-			(xy 91.44 69.85) (xy 92.71 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e119ef-2f7a-461c-9aad-a94c89f97f75")
-	)
-	(wire
-		(pts
-			(xy 132.08 69.85) (xy 137.16 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375fb0e4-801c-4d69-a5d2-50c5b1699807")
 	)
 	(wire
 		(pts
@@ -9285,17 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 200.66 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3862ae54-0889-40d0-a519-841ecb949575")
-	)
-	(wire
-		(pts
-			(xy 284.48 54.61) (xy 297.18 54.61)
+			(xy 222.25 35.56) (xy 234.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9325,13 +5699,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 67.31) (xy 218.44 67.31)
+			(xy 222.25 33.02) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bd73262-7ee1-4541-8298-a0d7411e1d75")
+		(uuid "3ea59398-f44b-4df0-9c66-2babfa633155")
 	)
 	(wire
 		(pts
@@ -9355,7 +5729,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 54.61) (xy 297.18 57.15)
+			(xy 234.95 35.56) (xy 234.95 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9375,63 +5749,33 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 173.99) (xy 325.12 180.34)
+			(xy 213.36 48.26) (xy 227.33 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41d7d815-8d4e-44ab-a662-526437b40bac")
+		(uuid "41f36720-e3a2-4f98-bbb9-2e8beb24ece1")
 	)
 	(wire
 		(pts
-			(xy 218.44 67.31) (xy 223.52 67.31)
+			(xy 185.42 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42b93640-dc22-413d-916b-9e4ab2755ea6")
+		(uuid "421eed35-e2de-405c-a683-c04771a1eb1e")
 	)
 	(wire
 		(pts
-			(xy 297.18 39.37) (xy 307.34 39.37)
+			(xy 234.95 20.32) (xy 245.11 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4318fcb5-9334-4981-bad4-6943832d199d")
-	)
-	(wire
-		(pts
-			(xy 280.67 64.77) (xy 280.67 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43517857-dc34-437c-9cc4-569534c4e1d8")
-	)
-	(wire
-		(pts
-			(xy 241.3 64.77) (xy 248.92 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "440e56b8-e696-4feb-9521-3e1f16f39a02")
-	)
-	(wire
-		(pts
-			(xy 219.71 29.21) (xy 226.06 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b6e426-ab84-4dac-982c-c6f88954bf2a")
 	)
 	(wire
 		(pts
@@ -9495,13 +5839,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 67.31) (xy 280.67 67.31)
+			(xy 342.9 30.48) (xy 353.06 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "480d982e-ed93-4182-ba56-524a67b1b02e")
+		(uuid "48361e86-c32d-42b9-9eaa-2fe65865c134")
 	)
 	(wire
 		(pts
@@ -9535,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 50.8) (xy 297.18 54.61)
+			(xy 234.95 31.75) (xy 234.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9545,7 +5889,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 85.09) (xy 323.85 85.09)
+			(xy 368.3 88.9) (xy 370.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9565,13 +5909,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 97.79) (xy 236.22 97.79)
+			(xy 227.33 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53c9fb16-345e-4be6-a61b-732d0354f86d")
+		(uuid "529ac37a-bdbc-4475-91c7-af94deea2116")
 	)
 	(wire
 		(pts
@@ -9615,13 +5959,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 83.82) (xy 280.67 83.82)
+			(xy 222.25 20.32) (xy 222.25 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "563d1a38-1630-440a-ad5c-520fb2f64217")
+		(uuid "56cbc9d1-05e8-4bed-b128-80abe15c5329")
 	)
 	(wire
 		(pts
@@ -9635,16 +5979,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 97.79) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5760e242-d884-4525-b413-5cdf8762836e")
-	)
-	(wire
-		(pts
 			(xy 184.15 149.86) (xy 184.15 173.99)
 		)
 		(stroke
@@ -9655,13 +5989,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 35.56) (xy 273.05 25.4)
+			(xy 165.1 57.15) (xy 165.1 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "591d63f6-821d-4e92-9e3b-4f3f756ad3b8")
+		(uuid "585d8712-b45c-4d26-ac5d-d4bbbed6e576")
 	)
 	(wire
 		(pts
@@ -9672,16 +6006,6 @@
 			(type default)
 		)
 		(uuid "59246183-19db-497c-aaa5-edfbf7cd497b")
-	)
-	(wire
-		(pts
-			(xy 273.05 25.4) (xy 280.67 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac78c45-312a-4b17-9811-4c204cfa2cbb")
 	)
 	(wire
 		(pts
@@ -9715,17 +6039,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 72.39) (xy 107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec167aa-12aa-453f-8790-2a888aba7479")
-	)
-	(wire
-		(pts
-			(xy 307.34 77.47) (xy 313.69 77.47)
+			(xy 354.33 81.28) (xy 360.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9765,16 +6079,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 80.01) (xy 280.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6106191f-5a55-4fe1-ae3e-cd642e1653f7")
-	)
-	(wire
-		(pts
 			(xy 198.12 170.18) (xy 238.76 170.18)
 		)
 		(stroke
@@ -9795,7 +6099,17 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 39.37) (xy 297.18 39.37)
+			(xy 171.45 48.26) (xy 189.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6487f35e-fc21-4508-b8ce-697aa4cd9e78")
+	)
+	(wire
+		(pts
+			(xy 222.25 20.32) (xy 234.95 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9805,23 +6119,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 27.94) (xy 245.11 35.56)
+			(xy 226.06 62.23) (xy 245.11 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65915df6-1978-47c5-a4bd-523167cf0d16")
-	)
-	(wire
-		(pts
-			(xy 86.36 78.74) (xy 86.36 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6669102a-39f1-48a7-a5fd-21c9055d3a42")
+		(uuid "664601f0-7359-4af2-95e6-41532ce31fde")
 	)
 	(wire
 		(pts
@@ -9865,26 +6169,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 83.82) (xy 218.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f84cd4-9488-4b2f-b15f-3d9e11632cf3")
-	)
-	(wire
-		(pts
-			(xy 185.42 67.31) (xy 185.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b52c9e8-9a62-4da1-9af3-2229dd721180")
-	)
-	(wire
-		(pts
 			(xy 260.35 190.5) (xy 262.89 190.5)
 		)
 		(stroke
@@ -9892,36 +6176,6 @@
 			(type default)
 		)
 		(uuid "6b550ca7-eb72-4e37-96fa-8ba701595e90")
-	)
-	(wire
-		(pts
-			(xy 264.16 83.82) (xy 264.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b95e6a9-560c-4d0c-b88d-83a47b5925e4")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 160.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d804895-0241-410f-a259-c558912c828a")
-	)
-	(wire
-		(pts
-			(xy 266.7 35.56) (xy 273.05 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700e1973-c210-46b9-a5c5-6aca82069fc7")
 	)
 	(wire
 		(pts
@@ -9965,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 48.26) (xy 213.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7519ec57-7cd2-40e9-9d8d-76f7e3f45bdd")
+	)
+	(wire
+		(pts
 			(xy 97.79 246.38) (xy 110.49 246.38)
 		)
 		(stroke
@@ -9995,36 +6259,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 147.32) (xy 281.94 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b184d4c-45d4-490d-a4da-35d18b924da1")
-	)
-	(wire
-		(pts
-			(xy 200.66 67.31) (xy 205.74 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cba27a8-b26c-4e33-ad8e-83f2f8589f1f")
-	)
-	(wire
-		(pts
-			(xy 107.95 69.85) (xy 120.65 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e76ede3-9f51-49f4-92fb-1e42bcb200fc")
-	)
-	(wire
-		(pts
 			(xy 295.91 190.5) (xy 295.91 173.99)
 		)
 		(stroke
@@ -10032,6 +6266,16 @@
 			(type default)
 		)
 		(uuid "7ea86af5-4ae5-4b8b-bed6-95bafcc53535")
+	)
+	(wire
+		(pts
+			(xy 342.9 35.56) (xy 353.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8de6ae-a240-4342-b16c-49f21ad59847")
 	)
 	(wire
 		(pts
@@ -10045,17 +6289,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 86.36) (xy 160.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82d8e694-f01a-451a-a183-40be449cdf36")
-	)
-	(wire
-		(pts
-			(xy 307.34 59.69) (xy 307.34 62.23)
+			(xy 245.11 38.1) (xy 245.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10085,36 +6319,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e84809-b842-42d5-bde7-cae761cd39ae")
-	)
-	(wire
-		(pts
-			(xy 218.44 67.31) (xy 218.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a79b8f-2884-4c6d-9e08-6da03103a9bc")
-	)
-	(wire
-		(pts
-			(xy 261.62 85.09) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88c9ef47-af3b-40f4-9026-dde829335739")
-	)
-	(wire
-		(pts
 			(xy 107.95 105.41) (xy 85.09 105.41)
 		)
 		(stroke
@@ -10125,7 +6329,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 77.47) (xy 323.85 85.09)
+			(xy 370.84 81.28) (xy 370.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10155,33 +6359,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 74.295) (xy 170.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0dded5-97f0-402f-b271-4a7c18b13d7f")
-	)
-	(wire
-		(pts
-			(xy 149.86 97.79) (xy 149.86 100.33)
+			(xy 39.37 129.54) (xy 39.37 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d993805-eccc-4f11-943d-bb34d855f3e8")
-	)
-	(wire
-		(pts
-			(xy 281.94 147.32) (xy 307.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec71097-9f66-465d-bd8f-4e4cbd36de7c")
 	)
 	(wire
 		(pts
@@ -10245,16 +6429,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 149.86 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927b13de-a1b2-4c42-9cb3-5b1a43c05216")
-	)
-	(wire
-		(pts
 			(xy 80.01 176.53) (xy 80.01 190.5)
 		)
 		(stroke
@@ -10262,16 +6436,6 @@
 			(type default)
 		)
 		(uuid "942a676e-f22b-4e37-b5a9-5b267ed25132")
-	)
-	(wire
-		(pts
-			(xy 218.44 62.23) (xy 218.44 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b9926a-6923-4d22-94a9-a7e0924d3712")
 	)
 	(wire
 		(pts
@@ -10295,16 +6459,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 83.82) (xy 288.29 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98bd471c-261b-4d19-813b-c1fb71cf8666")
-	)
-	(wire
-		(pts
 			(xy 238.76 170.18) (xy 238.76 179.07)
 		)
 		(stroke
@@ -10325,26 +6479,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 149.86 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ded2866-77b6-4537-aa4e-8098f0d61fd0")
-	)
-	(wire
-		(pts
-			(xy 298.45 83.82) (xy 307.34 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5db84d-fac1-490b-8f7c-3e0650ff5bfd")
-	)
-	(wire
-		(pts
 			(xy 213.36 162.56) (xy 210.82 162.56)
 		)
 		(stroke
@@ -10352,16 +6486,6 @@
 			(type default)
 		)
 		(uuid "9fe50ef7-dcb2-4569-b844-87eb63d2ff3c")
-	)
-	(wire
-		(pts
-			(xy 241.3 22.86) (xy 248.92 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a024892c-eea3-4fdd-89e7-9756abaa0996")
 	)
 	(wire
 		(pts
@@ -10375,16 +6499,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 69.85) (xy 236.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22c392e-c605-4d08-8158-259d40010cc8")
-	)
-	(wire
-		(pts
 			(xy 85.09 105.41) (xy 85.09 110.49)
 		)
 		(stroke
@@ -10395,33 +6509,13 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 83.82) (xy 307.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a35afc0b-d074-4cc9-b684-fbf2d9832e42")
-	)
-	(wire
-		(pts
-			(xy 320.04 163.83) (xy 349.25 163.83)
+			(xy 312.42 168.91) (xy 320.04 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a44b8638-7167-4aed-b5d6-845c3e0d51fd")
-	)
-	(wire
-		(pts
-			(xy 154.94 49.53) (xy 147.32 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55e1730-9cc6-449f-95c7-a4b048ce6ae3")
 	)
 	(wire
 		(pts
@@ -10465,6 +6559,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 88.9) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a651b431-9cbb-4ce3-b6a8-780fddbb725d")
+	)
+	(wire
+		(pts
 			(xy 276.86 154.94) (xy 295.91 154.94)
 		)
 		(stroke
@@ -10472,16 +6576,6 @@
 			(type default)
 		)
 		(uuid "a745957a-ed35-4fe5-9187-8c32277ccc1d")
-	)
-	(wire
-		(pts
-			(xy 219.71 35.56) (xy 229.87 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96be59d-baad-48f8-b573-8db3c4d43094")
 	)
 	(wire
 		(pts
@@ -10495,23 +6589,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 35.56) (xy 219.71 29.21)
+			(xy 165.1 54.61) (xy 165.1 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa06f489-8671-4fca-a659-e9fc41af66d3")
-	)
-	(wire
-		(pts
-			(xy 264.16 67.31) (xy 266.7 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8a688f-5fa8-4705-b079-d93e40bd66a2")
+		(uuid "a9d4e0d6-f8a0-478e-b8e9-0d0bc33bc2fc")
 	)
 	(wire
 		(pts
@@ -10535,16 +6619,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 67.31) (xy 299.72 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba8ed51-4a71-45cc-9401-0c88bf2eba05")
-	)
-	(wire
-		(pts
 			(xy 223.52 194.31) (xy 231.14 194.31)
 		)
 		(stroke
@@ -10555,7 +6629,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 39.37) (xy 297.18 43.18)
+			(xy 234.95 20.32) (xy 234.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -10575,7 +6649,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 59.69) (xy 309.88 62.23)
+			(xy 247.65 38.1) (xy 247.65 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10595,16 +6669,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 64.77) (xy 154.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84e5c3c-d5ba-45dc-a996-457d3d15ea34")
-	)
-	(wire
-		(pts
 			(xy 110.49 111.76) (xy 107.95 111.76)
 		)
 		(stroke
@@ -10615,43 +6679,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 35.56) (xy 256.54 35.56)
+			(xy 313.69 173.99) (xy 313.69 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9f4b0bf-0db6-4be5-8479-6200d3cf86ee")
+		(uuid "bbbcbcbc-0c68-4343-8f88-690995b520fc")
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 236.22 83.82)
+			(xy 245.11 62.23) (xy 245.11 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc0f536c-79d4-447f-b5f2-b44d2d1de3e3")
-	)
-	(wire
-		(pts
-			(xy 238.76 64.77) (xy 241.3 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc8836f4-9951-4b33-96ef-07d16eafd9ac")
-	)
-	(wire
-		(pts
-			(xy 86.36 76.2) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd39139f-5dad-4e57-893e-79d59f5870b8")
+		(uuid "c072a656-93c3-4ce7-8a6b-e81f88e5ac4b")
 	)
 	(wire
 		(pts
@@ -10665,13 +6709,23 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 39.37) (xy 307.34 59.69)
+			(xy 245.11 20.32) (xy 245.11 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1d98d75-1b53-4560-b935-8bd4e9a873d2")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 171.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eaace4-fb58-45a0-933d-1b89aeabbe3a")
 	)
 	(wire
 		(pts
@@ -10725,37 +6779,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c88ada2b-7621-4273-aad9-48cb536309af")
-	)
-	(wire
-		(pts
-			(xy 218.44 49.53) (xy 213.36 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b0f093-79f7-44a9-9a01-140d009dab54")
-	)
-	(wire
-		(pts
-			(xy 307.34 85.09) (xy 307.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb86f051-0bb3-4aa7-85c6-1688960e1245")
-	)
-	(wire
-		(pts
-			(xy 307.34 83.82) (xy 307.34 85.09)
+			(xy 354.33 81.28) (xy 354.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10775,13 +6799,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 35.56) (xy 245.11 35.56)
+			(xy 236.22 45.72) (xy 236.22 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccd010cb-d963-4fec-90ed-82e3931fde56")
+		(uuid "cd4b55c8-8722-46cf-9d32-667a53360410")
 	)
 	(wire
 		(pts
@@ -10815,6 +6839,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 45.72) (xy 237.49 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eee40e-cbca-4ef4-bcfa-1e8ef2384a80")
+	)
+	(wire
+		(pts
 			(xy 279.4 163.83) (xy 281.94 163.83)
 		)
 		(stroke
@@ -10825,33 +6859,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 22.86) (xy 226.06 22.86)
+			(xy 170.18 48.26) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d34460df-ba86-4475-9f13-cb29dc4e9ad4")
-	)
-	(wire
-		(pts
-			(xy 218.44 97.79) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a8e1a9-d4d6-43c3-a281-bf9d31297aeb")
-	)
-	(wire
-		(pts
-			(xy 248.92 27.94) (xy 245.11 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ece23c-8f25-4988-99d0-f010426d2cd5")
+		(uuid "d3f488d0-f8ac-422c-a5da-f87b294824e7")
 	)
 	(wire
 		(pts
@@ -10862,16 +6876,6 @@
 			(type default)
 		)
 		(uuid "d5477eff-d1ef-48a0-b4a9-905b71b3a918")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ce9073-f652-421d-afde-0d7f90c33390")
 	)
 	(wire
 		(pts
@@ -10895,16 +6899,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 107.95 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a3ac95-a904-48e2-b6ac-f369d7c83f66")
-	)
-	(wire
-		(pts
 			(xy 255.27 170.18) (xy 260.35 170.18)
 		)
 		(stroke
@@ -10915,13 +6909,33 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 173.99) (xy 320.04 173.99)
+			(xy 373.38 22.86) (xy 377.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92e1f50-e3da-4cd5-a32c-8f294fee53cf")
+	)
+	(wire
+		(pts
+			(xy 312.42 173.99) (xy 313.69 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da4f7ab6-5cfe-4eb0-b895-97d5bdf8a2ab")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc54c259-d468-4631-bd61-7f89a2193537")
 	)
 	(wire
 		(pts
@@ -10935,13 +6949,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 29.21) (xy 219.71 27.94)
+			(xy 165.1 54.61) (xy 171.45 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dec93025-1b2b-44fa-8201-857d959c8136")
+		(uuid "dcadf4d3-c1d3-4d46-8667-7348f8059dde")
 	)
 	(wire
 		(pts
@@ -10965,23 +6979,13 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 85.09) (xy 313.69 85.09)
+			(xy 354.33 88.9) (xy 360.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0b1ba9c-e966-406f-88dd-658e5fb28722")
-	)
-	(wire
-		(pts
-			(xy 223.52 62.23) (xy 218.44 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11a3537-54f2-4cd9-a01e-8d25f34fd41b")
 	)
 	(wire
 		(pts
@@ -11005,13 +7009,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 92.71 73.66)
+			(xy 358.14 25.4) (xy 358.14 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4886188-c954-4703-830d-0caba41f437c")
+		(uuid "e1b9f26d-4ebb-458f-9fdf-666578f3ea20")
 	)
 	(wire
 		(pts
@@ -11025,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 85.09) (xy 323.85 87.63)
+			(xy 370.84 88.9) (xy 370.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11065,7 +7069,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 128.27) (xy 205.74 128.27)
+			(xy 115.57 128.27) (xy 135.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11085,26 +7089,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 170.18 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe4d868-cecf-44d2-ba2d-f71557f99d75")
-	)
-	(wire
-		(pts
-			(xy 236.22 96.52) (xy 236.22 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec50c83d-15ab-4474-bfad-aaa0d4a4ab65")
-	)
-	(wire
-		(pts
 			(xy 36.83 233.68) (xy 36.83 234.95)
 		)
 		(stroke
@@ -11112,26 +7096,6 @@
 			(type default)
 		)
 		(uuid "ed3042c8-9ba1-4432-9424-1c800cb5c528")
-	)
-	(wire
-		(pts
-			(xy 185.42 67.31) (xy 187.96 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7a955f-0060-4460-a47a-f1ce2e3d6cae")
-	)
-	(wire
-		(pts
-			(xy 149.86 74.93) (xy 149.86 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efab5f7e-0bb3-481b-8b9c-63b780d0bd49")
 	)
 	(wire
 		(pts
@@ -11145,36 +7109,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 25.4) (xy 280.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a1b46e-eea9-46cd-a599-3ec270635815")
-	)
-	(wire
-		(pts
-			(xy 170.18 74.93) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ea9d29-a70f-422a-b66b-6af089f4963f")
-	)
-	(wire
-		(pts
-			(xy 307.34 72.39) (xy 307.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39242e1-c661-4f44-bc24-379ccff23c0b")
-	)
-	(wire
-		(pts
 			(xy 73.66 251.46) (xy 73.66 254)
 		)
 		(stroke
@@ -11185,13 +7119,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 64.77) (xy 241.3 49.53)
+			(xy 245.11 67.31) (xy 265.43 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f47c3c15-40d1-43fc-bdc9-d0d6b42f19ab")
+		(uuid "f5944ab0-42fa-4322-a3fc-e1e2346fcee4")
 	)
 	(wire
 		(pts
@@ -11235,26 +7169,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 49.53) (xy 200.66 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f886ffaf-1f6a-4587-bede-09aad32c7906")
-	)
-	(wire
-		(pts
-			(xy 86.36 76.2) (xy 92.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8991fca-f5a9-42d1-be48-db8e5de2f3a0")
-	)
-	(wire
-		(pts
 			(xy 73.66 241.3) (xy 73.66 220.98)
 		)
 		(stroke
@@ -11272,16 +7186,6 @@
 			(type default)
 		)
 		(uuid "f9213217-30d3-477c-9aa7-1dc16ab255d4")
-	)
-	(wire
-		(pts
-			(xy 284.48 50.8) (xy 284.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5cc55f-2239-445f-8559-91e77678d1ed")
 	)
 	(wire
 		(pts
@@ -11305,23 +7209,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 22.86) (xy 226.06 26.67)
+			(xy 185.42 72.39) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd02e37c-31cf-48ce-96f4-f47528482596")
-	)
-	(wire
-		(pts
-			(xy 130.81 69.85) (xy 132.08 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe276b31-4f82-46e6-9162-872c14ea41bb")
+		(uuid "fb56dca3-a36c-4635-ab3d-9d1dbac0611b")
 	)
 	(wire
 		(pts
@@ -11335,6 +7229,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 59.69) (xy 213.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec1442f-49df-43e8-9f37-360635f0d744")
+	)
+	(wire
+		(pts
 			(xy 110.49 246.38) (xy 110.49 220.98)
 		)
 		(stroke
@@ -11342,6 +7246,26 @@
 			(type default)
 		)
 		(uuid "ffb6420d-93da-4962-b31c-a73b7ea46845")
+	)
+	(label "followerPower"
+		(at 246.38 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09abed6e-1ea9-4313-9f37-80d0c6381760")
+	)
+	(label "switcherPower"
+		(at 246.38 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12764915-a30d-4e5a-bf64-65983bda151c")
 	)
 	(label "rfin"
 		(at 142.24 203.2 0)
@@ -11362,16 +7286,6 @@
 			(justify left bottom)
 		)
 		(uuid "3c51cd93-5c01-4a81-9f80-3f96205adabf")
-	)
-	(label "VCC5.0"
-		(at 205.74 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "750aed20-0b82-4c66-beb4-41397579a09c")
 	)
 	(label "rf_enable"
 		(at 144.78 234.95 0)
@@ -11395,7 +7309,7 @@
 	)
 	(global_label "VDD12"
 		(shape input)
-		(at 318.77 39.37 0)
+		(at 256.54 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11405,34 +7319,12 @@
 		)
 		(uuid "2f5afcc4-a32e-45d6-ae10-4c9cb7fe0919")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2613 39.37 0)
+			(at 265.0313 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD12"
-		(shape input)
-		(at 137.16 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "384554e2-3ffb-4b29-979d-efe6073ce084")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.6687 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11461,7 +7353,7 @@
 	)
 	(hierarchical_label "pwrOut"
 		(shape output)
-		(at 349.25 163.83 0)
+		(at 320.04 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11469,74 +7361,6 @@
 			(justify left)
 		)
 		(uuid "dd4b2d15-6030-46f3-ac28-dcf962c5d5c0")
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 236.22 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02fa4ea8-bd80-476a-9f93-33bdb1ffc79c")
-		(property "Reference" "R8"
-			(at 233.934 21.336 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1k"
-			(at 235.204 26.162 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c03be738-9ff5-4994-8816-99eae8d7b725")
-		)
-		(pin "2"
-			(uuid "36664849-b590-42ee-a5e5-83fe217e890e")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
@@ -11620,7 +7444,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 284.48 45.72 180)
+		(at 222.25 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11628,7 +7452,7 @@
 		(dnp no)
 		(uuid "09240223-5739-461a-b628-1fdf9b36eb2f")
 		(property "Reference" "C53"
-			(at 286.004 45.339 0)
+			(at 223.774 27.559 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11637,7 +7461,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 285.75 50.419 0)
+			(at 223.52 32.639 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11646,7 +7470,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 284.48 45.72 0)
+			(at 222.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +7479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 45.72 0)
+			(at 222.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +7488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 284.48 45.72 0)
+			(at 222.25 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,24 +7505,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11772,7 +7578,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN_BCEC")
-		(at 304.8 67.31 0)
+		(at 242.57 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11781,7 +7587,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e2dd31c-3677-43ae-8f05-ad412b598280")
 		(property "Reference" "Q13"
-			(at 311.15 66.04 0)
+			(at 248.92 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +7596,7 @@
 			)
 		)
 		(property "Value" "NSS1C301ET4G"
-			(at 311.15 68.58 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +7605,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin4"
-			(at 309.88 64.77 0)
+			(at 247.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +7614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 304.8 67.31 0)
+			(at 242.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,7 +7623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 304.8 67.31 0)
+			(at 242.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +7631,7 @@
 			)
 		)
 		(property "MouserPN" "863-NSS1C301ET4G"
-			(at 304.8 67.31 0)
+			(at 242.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,140 +7668,6 @@
 				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
 					(reference "Q1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "OPA1679IDR_2")
-		(lib_id "powerAmp_RevB-eagle-import:OPA1679IDR")
-		(at 231.14 64.77 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fc0af60-7c5e-465c-98a4-0c40535accc6")
-		(property "Reference" "U6"
-			(at 229.362 58.674 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "OPA1679IDR"
-			(at 233.68 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserPN" "595-OPA1679IDR"
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8d5df1fc-5823-451d-82cf-c63d48b6fd73")
-		)
-		(pin "6"
-			(uuid "aa1d3239-81d4-4212-8a56-e966a88e3268")
-		)
-		(pin "7"
-			(uuid "dd7ae9c7-e47d-4f28-b899-d6d6d37bcbaf")
-		)
-		(pin "13"
-			(uuid "b129afbb-eaae-4e72-9bd9-c2ceed20c233")
-		)
-		(pin "1"
-			(uuid "2f99573c-64c0-46ef-bbc7-7ce32fa59d92")
-		)
-		(pin "11"
-			(uuid "b8f4a68e-10cd-4b2c-a526-46dd1e0b1a72")
-		)
-		(pin "4"
-			(uuid "d7d0813c-f595-4f1c-b7e5-52db9427bc7b")
-		)
-		(pin "9"
-			(uuid "56e0cbe2-0aec-4db6-ab75-400116e0a313")
-		)
-		(pin "3"
-			(uuid "29d503e3-c671-4eac-a5ad-e939d12f5b39")
-		)
-		(pin "2"
-			(uuid "7f6ea50d-c47b-4dc3-a1db-7213674d854e")
-		)
-		(pin "10"
-			(uuid "28b88ef4-dd56-489a-a6f1-e862a5209721")
-		)
-		(pin "8"
-			(uuid "fa9f0da9-cb85-4c85-a1f8-566e51509f4c")
-		)
-		(pin "14"
-			(uuid "0309bc39-dff1-4456-9a84-ec78fb4f2230")
-		)
-		(pin "12"
-			(uuid "469cd1cb-c5f9-497c-996a-9191acc86745")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "U$1")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$2")
-					(unit 2)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "U$2")
-					(unit 2)
 				)
 			)
 		)
@@ -12145,93 +7817,6 @@
 			(project "powerAmp"
 				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 193.04 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15f78139-6d94-44b2-bfa9-7b1fafdf24a2")
-		(property "Reference" "R34"
-			(at 191.77 65.5574 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "603-RC0603FR-0736KL"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd8fc82c-2372-4ab9-b58f-1c5bd1ca2b34")
-		)
-		(pin "2"
-			(uuid "31bc72e3-7b37-4039-ae03-b411f4438425")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12467,93 +8052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 210.82 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23285c5a-7b12-49c4-b32b-ecfe8278cf8e")
-		(property "Reference" "C50"
-			(at 211.328 44.831 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "710-885012206073"
-			(at 210.82 49.53 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 210.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc83cf23-e446-4a86-a627-d51de5b41357")
-		)
-		(pin "2"
-			(uuid "c81031fb-1f04-4fac-8d59-ac8a1a81a15c")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
 		(at 36.83 228.6 90)
 		(unit 1)
@@ -12699,139 +8197,6 @@
 		)
 	)
 	(symbol
-		(lib_name "OPA1679IDR_1")
-		(lib_id "powerAmp_RevB-eagle-import:OPA1679IDR")
-		(at 256.54 67.31 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40f359aa-e8bc-4d4c-ab4e-c4039d94c199")
-		(property "Reference" "U6"
-			(at 254.762 63.246 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "OPA1679IDR"
-			(at 259.08 72.39 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserPN" "595-OPA1679IDR"
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "a8091706-fc03-485f-99de-85f037326f50")
-		)
-		(pin "8"
-			(uuid "e25f0cb2-d101-4680-8039-e28dc3ef0e9b")
-		)
-		(pin "9"
-			(uuid "5745a04b-39bd-4cb4-89ea-e90a2c48774a")
-		)
-		(pin "6"
-			(uuid "ea33075e-c731-43a5-8003-f4a7abb54e00")
-		)
-		(pin "4"
-			(uuid "78bc14e3-2ba1-4868-96fc-511166619351")
-		)
-		(pin "13"
-			(uuid "1c8e2936-4452-4c26-ad08-a883d91060a2")
-		)
-		(pin "3"
-			(uuid "9e6ca986-9613-4825-bf33-885845f1e68e")
-		)
-		(pin "11"
-			(uuid "162cb56b-f090-4b7a-9ed7-100b203b102c")
-		)
-		(pin "7"
-			(uuid "c1f94532-efa9-48d7-a63c-008b06c7364b")
-		)
-		(pin "12"
-			(uuid "e5f5b085-7f61-4d41-afde-3f03d6f1e4b6")
-		)
-		(pin "2"
-			(uuid "995a4e36-f0d4-405b-bc9a-1c40af1e9200")
-		)
-		(pin "5"
-			(uuid "13993837-168c-49cb-927c-3e6b692d277f")
-		)
-		(pin "14"
-			(uuid "0ab324fb-b500-4c30-a887-5c55838822c6")
-		)
-		(pin "1"
-			(uuid "cc589635-9605-432f-9e65-3ec4cd0d20be")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "U$1")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$2")
-					(unit 3)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "U$2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
 		(at 101.6 196.85 0)
 		(unit 1)
@@ -12898,94 +8263,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 144.78 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46ef7791-0c18-4f00-822c-2403dcd88336")
-		(property "Reference" "C41"
-			(at 145.288 44.831 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "710-885012206073"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7264e754-94bf-45f8-8f07-c4ba0c236301")
-		)
-		(pin "2"
-			(uuid "71ebaa7f-b6f6-4306-8ae2-f18bcc629bcd")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 316.23 85.09 270)
+		(at 363.22 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12993,7 +8271,7 @@
 		(dnp no)
 		(uuid "474bc18f-fb20-4238-9861-099417a3e190")
 		(property "Reference" "C56"
-			(at 314.96 81.28 90)
+			(at 361.95 85.09 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13002,7 +8280,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 323.85 81.28 90)
+			(at 370.84 85.09 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13011,7 +8289,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 316.23 85.09 0)
+			(at 363.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13020,7 +8298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 85.09 0)
+			(at 363.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +8307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 85.09 0)
+			(at 363.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13065,7 +8343,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 149.86 102.87 0)
+		(at 39.37 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13073,7 +8351,7 @@
 		(dnp no)
 		(uuid "47542967-3b24-4d5f-b729-50357cee3962")
 		(property "Reference" "#SUPPLY06"
-			(at 149.86 102.87 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +8360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.955 106.045 0)
+			(at 37.465 137.795 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13091,7 +8369,7 @@
 			)
 		)
 		(property "Footprint" "powerAmp_RevB:"
-			(at 149.86 102.87 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +8378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 102.87 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13109,7 +8387,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 102.87 0)
+			(at 39.37 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,158 +8413,33 @@
 		)
 	)
 	(symbol
-		(lib_name "OPA1679IDR_3")
-		(lib_id "powerAmp_RevB-eagle-import:OPA1679IDR")
-		(at 170.18 67.31 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cc8f330-0552-463d-8506-7fc2c95c4de2")
-		(property "Reference" "U$1"
-			(at 172.72 64.135 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA1679IDR"
-			(at 172.72 72.39 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "2d1e1fda-3c36-4d71-895c-6f1946ddf04d")
-		)
-		(pin "4"
-			(uuid "f0fd0799-ace0-42b0-a563-79b81de9738f")
-		)
-		(pin "1"
-			(uuid "24035063-7ab7-4be8-88be-04b5982c2ab3")
-		)
-		(pin "2"
-			(uuid "f6920382-955e-4669-b35e-e4ae1b32eab2")
-		)
-		(pin "3"
-			(uuid "7edf21b1-0f48-41ee-8599-c8761f59d115")
-		)
-		(pin "5"
-			(uuid "94455251-5102-4d3e-aa0d-0c30094b12e0")
-		)
-		(pin "6"
-			(uuid "5b9536e6-7603-44f1-a118-861f0261b018")
-		)
-		(pin "7"
-			(uuid "6cbdf4ec-eac4-40fc-94a8-59dac61c3c0b")
-		)
-		(pin "12"
-			(uuid "3c846592-3d01-462c-9eb1-d42ea5787a7d")
-		)
-		(pin "9"
-			(uuid "4f9c6c97-2f8b-444f-8f40-f70f453f3b19")
-		)
-		(pin "8"
-			(uuid "15ac0fdc-619f-46ee-b7a1-6308d23dadab")
-		)
-		(pin "13"
-			(uuid "c9c273b8-83b4-47cb-8b65-a54fef06e598")
-		)
-		(pin "10"
-			(uuid "a71694a5-5e46-4ab3-a5ef-1f1d96640705")
-		)
-		(pin "14"
-			(uuid "b02778bb-f0c3-4d88-9b35-2bc576d999dc")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "U$1")
-					(unit 5)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "U$1")
-					(unit 5)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$2")
-					(unit 5)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "U$2")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 219.71 22.86 0)
-		(mirror y)
+		(lib_id "Device:L_Ferrite_Coupled")
+		(at 307.34 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4dd6a990-906e-4806-a636-a2f86ff64af6")
-		(property "Reference" "J4"
-			(at 215.9 23.114 0)
+		(fields_autoplaced yes)
+		(uuid "4dc3eba0-92e0-486f-a576-0a64348f9d11")
+		(property "Reference" "L1"
+			(at 307.086 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Ext Mod"
-			(at 220.0274 19.05 0)
+		(property "Value" "L_Ferrite_Coupled"
+			(at 307.086 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 219.71 22.86 0)
+		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50"
+			(at 307.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,76 +8448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 219.71 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27f40495-f934-4ac0-a77d-d5b5c28a0192")
-		)
-		(pin "2"
-			(uuid "844372be-add3-406d-9f5c-3b1b3a670a49")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 297.18 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f99ce7c-6a6c-427f-a78a-82f052c7c86e")
-		(property "Reference" "#SUPPLY09"
-			(at 297.18 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.275 62.865 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "powerAmp_RevB:"
-			(at 297.18 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 59.69 0)
+			(at 307.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +8457,91 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 59.69 0)
+			(at 307.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 307.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fa85d53-ceb3-4bd8-91a0-2719b39dfee2")
+		)
+		(pin "1"
+			(uuid "080090c2-3ef8-42d8-addb-c41d9be13559")
+		)
+		(pin "4"
+			(uuid "767ada88-770c-41c9-96c5-fd5b2d376a8c")
+		)
+		(pin "2"
+			(uuid "f5383aec-3900-4638-819b-a969907efdbc")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "powerAmp_RevB-eagle-import:GND")
+		(at 234.95 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f99ce7c-6a6c-427f-a78a-82f052c7c86e")
+		(property "Reference" "#SUPPLY09"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.045 43.815 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "powerAmp_RevB:"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,34 +8567,34 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 280.67 59.69 90)
+		(lib_id "powerAmp_RevB-eagle-import:GND")
+		(at 377.19 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "5083844a-c14b-49e1-89cc-0a022f0657a3")
-		(property "Reference" "R4"
-			(at 282.575 59.055 90)
+		(dnp no)
+		(uuid "55d6d429-5424-4b21-8d61-2f47de82b542")
+		(property "Reference" "#SUPPLY018"
+			(at 377.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 375.285 28.575 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "0"
-			(at 283.21 61.595 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 280.67 59.69 0)
+		(property "Footprint" "powerAmp_RevB:"
+			(at 377.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 59.69 0)
+			(at 377.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +8612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 59.69 0)
+			(at 377.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,50 +8620,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0b7d98b-db84-479a-bcdc-20c57a806c2e")
-		)
-		(pin "2"
-			(uuid "7c3f5ab3-a6b5-405b-9d5c-aa50912db7dc")
+			(uuid "8d8211a5-72f3-4857-b3ec-657795dbcbb7")
 		)
 		(instances
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R4")
+					(reference "#SUPPLY018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 125.73 69.85 180)
+		(lib_id "power:+5VA")
+		(at 135.89 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "511ca6ca-1c86-41e8-b3f2-11a64d5df8db")
-		(property "Reference" "R30"
-			(at 124.206 67.5894 0)
+		(fields_autoplaced yes)
+		(uuid "601ed35f-7afc-42fa-96e2-fd3fdfe06adb")
+		(property "Reference" "#PWR04"
+			(at 135.89 132.08 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
-			)
-		)
-		(property "Value" "603-RC0603FR-0733KL"
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 125.73 69.85 0)
+		(property "Value" "+5VA"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +8668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 69.85 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,348 +8676,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7e8eac31-6145-4cd6-8741-61a068767f13")
-		)
-		(pin "2"
-			(uuid "4e7ee89e-e3bd-4c59-a6e1-e370f451c381")
+			(uuid "4d32a4ec-0c29-4163-9f61-872455b7c34f")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R30")
-					(unit 1)
-				)
-			)
 			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "OPA1679IDR_4")
-		(lib_id "powerAmp_RevB-eagle-import:OPA1679IDR")
-		(at 170.18 67.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54fa6277-207f-48fc-8ba5-08367c4ef83e")
-		(property "Reference" "U6"
-			(at 172.212 62.484 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "OPA1679IDR"
-			(at 172.72 62.23 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserPN" "595-OPA1679IDR"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0650eb2-979b-4bda-ab40-56676fbfe3b8")
-		)
-		(pin "2"
-			(uuid "f9068831-8f5b-4b4f-886a-9c4e538eb3c4")
-		)
-		(pin "3"
-			(uuid "9c7765b1-1026-4264-833e-5fa1c39587b3")
-		)
-		(pin "6"
-			(uuid "e8fb11fe-21c5-43f5-944b-31f7210e71d1")
-		)
-		(pin "12"
-			(uuid "d8692eed-5562-49f8-a79d-846e9b07adc5")
-		)
-		(pin "9"
-			(uuid "e2abd178-8064-4007-90ca-c19283e9a271")
-		)
-		(pin "14"
-			(uuid "c220845f-0c8c-493d-9dab-24045c5ea388")
-		)
-		(pin "5"
-			(uuid "59d05f7d-7e41-49bb-bb6c-6a610d2054ae")
-		)
-		(pin "13"
-			(uuid "687f9c55-574c-4bf6-aabe-f465a0fa80a1")
-		)
-		(pin "10"
-			(uuid "73300044-cde1-4afa-9e8a-04dfe08ba097")
-		)
-		(pin "8"
-			(uuid "e7751768-dd0b-4f77-a82a-4d3cd80d9bd4")
-		)
-		(pin "7"
-			(uuid "3da09163-34cb-4218-b711-0c117f82453b")
-		)
-		(pin "11"
-			(uuid "00b3c6a8-12a4-4d15-9378-0b36de22bd81")
-		)
-		(pin "4"
-			(uuid "b09eb0b3-eb67-4453-98ec-8def25f43678")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "U$1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$2")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "U$2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_1P_1S")
-		(at 309.88 168.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f966aba-3eff-4d59-ac16-a6d03631436a")
-		(property "Reference" "T1"
-			(at 309.8927 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1:1"
-			(at 309.8927 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50"
-			(at 309.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "555eee58-4482-4828-8220-371806227de3")
-		)
-		(pin "3"
-			(uuid "eeed2cea-70af-4eec-9df9-9d102b255c92")
-		)
-		(pin "4"
-			(uuid "bd557250-7113-4df4-b8ee-375f2b189443")
-		)
-		(pin "2"
-			(uuid "36f8cf1a-99c6-4c90-bc7e-4732d19ab71c")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 218.44 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "616d2ae0-660e-4201-aead-18acef1aaa51")
-		(property "Reference" "C51"
-			(at 219.964 78.359 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "80-C0603C223K3R"
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e10569ca-2487-43d7-a8dd-e670b1d7b741")
-		)
-		(pin "2"
-			(uuid "afadc09f-0628-42ff-b630-9cf4ae0a8b3f")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C15")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13947,74 +8785,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 234.95 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71d1e69e-6aba-41b3-b78c-ad84b8b0a89b")
-		(property "Reference" "R6"
-			(at 230.124 38.354 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1k"
-			(at 237.236 38.354 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b10076b-b04d-4535-8b04-650c2f586486")
-		)
-		(pin "2"
-			(uuid "8de8dbbe-af5d-49c0-a203-daffa91942fc")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14337,168 +9107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:M02PTH")
-		(at 261.62 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77cf6217-e09a-45eb-8098-21327e5fedd0")
-		(property "Reference" "JP1"
-			(at 260.35 96.52 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "M02PTH"
-			(at 250.19 91.44 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 261.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7820134d-6f1e-4151-9b79-44abd58c17e9")
-		)
-		(pin "2"
-			(uuid "b542db32-9316-415a-baf2-4fccdbc85c69")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 107.95 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "788ae95b-7ebf-4997-9bdf-dc8ca50226e9")
-		(property "Reference" "R28"
-			(at 113.03 73.66 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "603-RC0603FR-0733KL"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14487bac-21ce-4ae8-bd3c-c07740c99fd0")
-		)
-		(pin "2"
-			(uuid "d019d577-b70e-40ea-9bef-2e0a4e78fdbe")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
 		(at 223.52 203.2 0)
 		(unit 1)
@@ -14580,7 +9188,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 289.56 67.31 180)
+		(at 213.36 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14588,7 +9196,7 @@
 		(dnp no)
 		(uuid "7aceb50e-cb67-4afd-9c8c-716237856cce")
 		(property "Reference" "R38"
-			(at 287.274 65.786 0)
+			(at 211.836 52.324 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14597,7 +9205,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 288.544 70.612 0)
+			(at 211.582 55.372 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14606,7 +9214,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 289.56 67.31 0)
+			(at 213.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14615,7 +9223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 67.31 0)
+			(at 213.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +9232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 67.31 0)
+			(at 213.36 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,6 +9354,83 @@
 		)
 	)
 	(symbol
+		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
+		(at 220.98 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "83fdd78c-3509-4fe8-b539-342477fc7ec4")
+		(property "Reference" "R10"
+			(at 223.266 58.674 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0"
+			(at 221.488 64.008 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MouserPN" ""
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a079d518-564b-4184-a841-5565b7f3a2c2")
+		)
+		(pin "2"
+			(uuid "54fd2f75-283b-44b0-8365-d2b8a2804b4c")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
 		(at 86.36 250.19 0)
 		(unit 1)
@@ -14812,7 +9497,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 97.79 73.66 0)
+		(at 176.53 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14820,7 +9505,7 @@
 		(dnp no)
 		(uuid "866f3ee1-7ed8-4c18-bd24-ed4ba8841200")
 		(property "Reference" "J6"
-			(at 96.52 71.374 0)
+			(at 175.26 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14829,7 +9514,7 @@
 			)
 		)
 		(property "Value" "Key In"
-			(at 94.742 79.248 0)
+			(at 173.482 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +9523,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 97.79 73.66 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +9532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 73.66 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +9541,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 73.66 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14871,7 +9556,7 @@
 			(uuid "fbf09b35-6ded-4da5-bdc2-0e6cdd57ce1d")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J6")
 					(unit 1)
@@ -14880,76 +9565,8 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 293.37 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "88ea58db-0471-4604-ba51-5c01b2996fce")
-		(property "Reference" "R3"
-			(at 287.528 83.312 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0"
-			(at 295.91 83.566 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 293.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df745bcb-5baa-4758-ac73-031bd7f3a24a")
-		)
-		(pin "2"
-			(uuid "bbeb8614-b812-40c9-8d73-96f632ab55e1")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 86.36 69.85 0)
+		(at 165.1 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14958,7 +9575,7 @@
 		(dnp no)
 		(uuid "8d48ff5a-0e7e-41ff-a464-853a7b11eec6")
 		(property "Reference" "J5"
-			(at 82.55 70.104 0)
+			(at 167.64 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14966,7 +9583,7 @@
 			)
 		)
 		(property "Value" "Key In"
-			(at 86.6774 66.04 0)
+			(at 165.4174 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +9591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 69.85 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,7 +9600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 69.85 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14992,7 +9609,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 86.36 69.85 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15246,34 +9863,35 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 280.67 74.93 90)
+		(lib_id "Device:R_Small_US")
+		(at 342.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93f7a6ca-3e3e-498e-9685-635297cd623b")
-		(property "Reference" "R37"
-			(at 282.575 74.295 90)
+		(fields_autoplaced yes)
+		(uuid "93634de5-00ae-4be3-b7b4-372453921dc3")
+		(property "Reference" "R9"
+			(at 345.44 31.7499 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 283.21 76.835 90)
+		(property "Value" "50m"
+			(at 345.44 34.2899 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 280.67 74.93 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 342.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15281,8 +9899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 280.67 74.93 0)
+		(property "Datasheet" "~"
+			(at 342.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15290,36 +9908,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 280.67 74.93 0)
+		(property "Description" "Current Sense Resistors - SMD 0805 0.05ohm 1%"
+			(at 342.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8ccb72de-6024-43d4-ade2-d4865e02937d")
+		(property "MouserPN" "667-ERJ-L06KF50MV"
+			(at 342.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c6669651-5af1-4117-aa3c-0a3825e5d421")
+			(uuid "d1088cdf-f651-4483-b3c6-c3d60b3c3a15")
+		)
+		(pin "1"
+			(uuid "c315dbe5-14d2-4551-ac4f-2191f37b07f7")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project ""
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15752,90 +10368,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 107.95 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3320d5c-237c-4cca-a6a9-4a2f9b14c9cd")
-		(property "Reference" "#SUPPLY02"
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.045 90.805 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "powerAmp_RevB:"
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac060b34-f677-47ee-900d-de2d436a0594")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "#SUPPLY02")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "#SUPPLY02")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#SUPPLY03")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "#SUPPLY03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 325.12 182.88 0)
+		(at 313.69 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15843,7 +10376,7 @@
 		(dnp no)
 		(uuid "a6cacd97-c803-458e-89af-367d170c7329")
 		(property "Reference" "#SUPPLY08"
-			(at 325.12 182.88 0)
+			(at 313.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,16 +10385,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.215 186.055 0)
+			(at 311.785 180.975 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "powerAmp_RevB:"
-			(at 325.12 182.88 0)
+			(at 313.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +10404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 182.88 0)
+			(at 313.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15879,7 +10413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 182.88 0)
+			(at 313.69 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,6 +10439,71 @@
 			(project "powerAmp"
 				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
 					(reference "#SUPPLY05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "powerAmp_RevB-eagle-import:GND")
+		(at 358.14 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9da65f6-9c50-4dfd-aaba-553b2d7316c8")
+		(property "Reference" "#SUPPLY011"
+			(at 358.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.235 46.355 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "powerAmp_RevB:"
+			(at 358.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "054e5f66-f51e-4788-b2aa-6517b6c7578c")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "#SUPPLY011")
 					(unit 1)
 				)
 			)
@@ -15972,28 +10571,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "a99df7ce-2c2c-42b9-a0af-1995fa88957e")
+			(uuid "a99df7ce-2c2c-42b9-a0af-1995fa88957f")
 		)
 		(pin "1"
-			(uuid "0526e0bb-c596-4983-a9f0-c831a58e8108")
+			(uuid "0526e0bb-c596-4983-a9f0-c831a58e8109")
 		)
 		(pin "8"
-			(uuid "31041de7-7b46-4c40-ac09-2de46050afeb")
+			(uuid "31041de7-7b46-4c40-ac09-2de46050afec")
 		)
 		(pin "2"
-			(uuid "e23210cb-fd1e-4f37-997d-798b3c23dff5")
+			(uuid "e23210cb-fd1e-4f37-997d-798b3c23dff6")
 		)
 		(pin "3"
-			(uuid "d5588088-37ed-44a5-b206-3bacb62c62bf")
+			(uuid "d5588088-37ed-44a5-b206-3bacb62c62c0")
 		)
 		(pin "5"
-			(uuid "daae260b-019c-4575-8b51-4bfa60d6cbde")
+			(uuid "daae260b-019c-4575-8b51-4bfa60d6cbdf")
 		)
 		(pin "4"
-			(uuid "04acde47-14fb-4e45-8e6f-7dacb96d809e")
+			(uuid "04acde47-14fb-4e45-8e6f-7dacb96d809f")
 		)
 		(pin "7"
-			(uuid "abc91b94-7018-4893-97ac-de49c4326a30")
+			(uuid "abc91b94-7018-4893-97ac-de49c4326a31")
 		)
 		(instances
 			(project ""
@@ -16006,7 +10605,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 323.85 90.17 0)
+		(at 370.84 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16014,7 +10613,7 @@
 		(dnp no)
 		(uuid "b10f2938-f0f4-45c1-8087-2a4ee7d3fa29")
 		(property "Reference" "#SUPPLY010"
-			(at 323.85 90.17 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16023,7 +10622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.945 93.345 0)
+			(at 368.935 97.155 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16032,7 +10631,7 @@
 			)
 		)
 		(property "Footprint" "powerAmp_RevB:"
-			(at 323.85 90.17 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16041,7 +10640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 90.17 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16050,7 +10649,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 90.17 0)
+			(at 370.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16082,16 +10681,16 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 142.24 69.85 180)
+		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
+		(at 368.3 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b2c5b0a8-32de-45f7-9091-78722b095b5b")
-		(property "Reference" "R31"
-			(at 141.986 68.0974 0)
+		(uuid "b26e6851-ba3f-41c0-b761-407f4c219836")
+		(property "Reference" "C6"
+			(at 366.522 20.574 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16099,18 +10698,17 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "603-RC0603FR-078K2L"
-			(at 142.24 69.85 0)
+		(property "Value" "0.1uF"
+			(at 377.698 20.828 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 142.24 69.85 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 368.3 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16119,7 +10717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 69.85 0)
+			(at 368.3 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16128,7 +10726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 69.85 0)
+			(at 368.3 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16136,33 +10734,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1747514-84b8-48bd-8139-cb62e6af9645")
+			(uuid "fd18a379-c091-461d-8aec-ae48ceb01acc")
 		)
 		(pin "2"
-			(uuid "dc293504-8b38-48c4-933a-87973ac3dddb")
+			(uuid "f222a10a-ad36-40fb-bc9d-889cf3da0eaf")
 		)
 		(instances
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16332,17 +10912,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 35.56 125.73 0)
-		(mirror y)
+		(at 270.51 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6de2bf1-d2db-406b-82ca-e8d780fddbdd")
 		(property "Reference" "J1"
-			(at 35.56 116.84 0)
+			(at 270.51 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16350,7 +10928,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 35.56 119.38 0)
+			(at 270.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,7 +10936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 125.73 0)
+			(at 270.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,7 +10945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 125.73 0)
+			(at 270.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16376,7 +10954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 125.73 0)
+			(at 270.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16402,95 +10980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 210.82 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b84bbe17-09c8-4aea-bd95-af34a96a069c")
-		(property "Reference" "R35"
-			(at 209.042 65.3034 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "603-RC0603FR-0711KL"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a8a64e8-0b04-48e4-b608-5cc887a127c8")
-		)
-		(pin "2"
-			(uuid "074bd178-4b8d-4443-a5fb-cfcbc87a942c")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Current:INA180A2")
-		(at 340.36 52.07 0)
+		(at 360.68 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16499,7 +10990,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8fe13ba-f192-4d62-8e06-154ca56533e1")
 		(property "Reference" "U5"
-			(at 351.028 47.8791 0)
+			(at 371.348 28.8291 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +10998,7 @@
 			)
 		)
 		(property "Value" "INA180A2"
-			(at 351.028 50.4191 0)
+			(at 371.348 31.3691 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16515,7 +11006,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 341.63 50.8 0)
+			(at 361.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +11015,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 344.17 48.26 0)
+			(at 364.49 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +11024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 52.07 0)
+			(at 360.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16559,93 +11050,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 236.22 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba105837-9e06-4662-9965-7593b1cae8d0")
-		(property "Reference" "R36"
-			(at 238.252 91.4654 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "603-RC0603FR-071KL"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bb237b7-3c36-4dd2-83be-cd2c222b4c4e")
-		)
-		(pin "2"
-			(uuid "8d83e328-7f8e-4ff2-9f4c-9b7ab1a82636")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16891,7 +11295,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 316.23 77.47 270)
+		(at 363.22 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16899,7 +11303,7 @@
 		(dnp no)
 		(uuid "bce2ba5f-cb70-4b2f-b92b-92d3133bb011")
 		(property "Reference" "C55"
-			(at 314.96 73.66 90)
+			(at 361.95 77.47 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16908,7 +11312,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 323.85 73.66 90)
+			(at 370.84 77.47 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16917,7 +11321,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 316.23 77.47 0)
+			(at 363.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +11330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 77.47 0)
+			(at 363.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +11339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 77.47 0)
+			(at 363.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17031,28 +11435,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "a99df7ce-2c2c-42b9-a0af-1995fa88957e")
+			(uuid "a99df7ce-2c2c-42b9-a0af-1995fa889580")
 		)
 		(pin "1"
-			(uuid "0526e0bb-c596-4983-a9f0-c831a58e8108")
+			(uuid "0526e0bb-c596-4983-a9f0-c831a58e810a")
 		)
 		(pin "8"
-			(uuid "31041de7-7b46-4c40-ac09-2de46050afeb")
+			(uuid "31041de7-7b46-4c40-ac09-2de46050afed")
 		)
 		(pin "2"
-			(uuid "e23210cb-fd1e-4f37-997d-798b3c23dff5")
+			(uuid "e23210cb-fd1e-4f37-997d-798b3c23dff7")
 		)
 		(pin "3"
-			(uuid "d5588088-37ed-44a5-b206-3bacb62c62bf")
+			(uuid "d5588088-37ed-44a5-b206-3bacb62c62c1")
 		)
 		(pin "5"
-			(uuid "daae260b-019c-4575-8b51-4bfa60d6cbde")
+			(uuid "daae260b-019c-4575-8b51-4bfa60d6cbe0")
 		)
 		(pin "4"
-			(uuid "04acde47-14fb-4e45-8e6f-7dacb96d809e")
+			(uuid "04acde47-14fb-4e45-8e6f-7dacb96d80a0")
 		)
 		(pin "7"
-			(uuid "abc91b94-7018-4893-97ac-de49c4326a30")
+			(uuid "abc91b94-7018-4893-97ac-de49c4326a32")
 		)
 		(instances
 			(project ""
@@ -17139,272 +11543,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 231.14 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cacb8575-d3cd-4271-86a6-9b59fe72ced1")
-		(property "Reference" "J7"
-			(at 229.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ext Mod"
-			(at 228.092 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 231.14 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 231.14 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fabff58-38c3-4e97-ae36-077e0334e461")
-		)
-		(pin "2"
-			(uuid "1d95960e-4757-466c-abe7-092356a4e401")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:OPA1679IDR")
-		(at 256.54 25.4 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d083eb6c-4193-4c6e-8bed-de8b6ee512ce")
-		(property "Reference" "U6"
-			(at 256.54 21.844 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "OPA1679IDR"
-			(at 259.08 30.48 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 256.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserPN" "595-OPA1679IDR"
-			(at 256.54 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "b00f55cd-2fd0-4be3-95f5-ff701f60c355")
-		)
-		(pin "13"
-			(uuid "ba823e13-91c7-47a9-b198-7b27ae88618f")
-		)
-		(pin "14"
-			(uuid "63644b3f-486a-46db-be27-481471e940f4")
-		)
-		(pin "5"
-			(uuid "5d8a28c6-6df5-45ab-9edb-7044acd28be7")
-		)
-		(pin "2"
-			(uuid "3fb671b9-d92c-4461-b5f9-364ad6f28f76")
-		)
-		(pin "6"
-			(uuid "f68acb09-bdd5-4085-8822-493fae58c9ac")
-		)
-		(pin "7"
-			(uuid "7b072e1d-c75b-4f95-bf53-16d37a13e14a")
-		)
-		(pin "10"
-			(uuid "2ce385c3-4671-4b23-a75a-b56748c3ad0d")
-		)
-		(pin "8"
-			(uuid "4de18440-75ee-4258-97b2-84b7e9b573fd")
-		)
-		(pin "1"
-			(uuid "9fde6d70-9e21-4eb7-b45f-07b9be3feb8e")
-		)
-		(pin "3"
-			(uuid "95d6c65b-84dc-4ff5-be9a-e638e22120dd")
-		)
-		(pin "9"
-			(uuid "33a4c653-d8a9-4521-b2a7-8b479d546d62")
-		)
-		(pin "11"
-			(uuid "bcf2209b-31b1-4beb-9a0e-01501e1dc31e")
-		)
-		(pin "4"
-			(uuid "354c4ef2-3aea-44be-a8ef-234224731ccf")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "U6")
-					(unit 4)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "U$1")
-					(unit 4)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$2")
-					(unit 4)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "U$2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 219.71 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0fdbc8d-d137-4b20-8c80-edb1e7907f1b")
-		(property "Reference" "#SUPPLY016"
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.805 41.275 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "powerAmp_RevB:"
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0393d7ad-05e0-46dc-874d-d064a8438bcb")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "#SUPPLY016")
 					(unit 1)
 				)
 			)
@@ -17550,93 +11688,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 149.86 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de13e0f2-e58c-4cc2-84c5-b6bd1aedd8ac")
-		(property "Reference" "C43"
-			(at 149.352 75.057 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "710-885012206071"
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9d7dac9-cbbf-4204-819c-cc96a1f4e4ef")
-		)
-		(pin "2"
-			(uuid "8bb8ae6f-c2e7-453e-8bb9-bb8cfac7befc")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17840,6 +11891,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 222.25 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e43b4eab-4aae-4e02-8381-b46438a7ddb0")
+		(property "Reference" "J4"
+			(at 222.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91b0e35a-227d-4005-a91b-a65a2d745a47")
+		)
+		(pin "1"
+			(uuid "0aba63bc-87c0-4e34-aade-6f999ad351ba")
+		)
+		(pin "3"
+			(uuid "ef7a8061-c32b-4126-930a-1280f3b12b4f")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 63.5 256.54 0)
 		(unit 1)
@@ -17987,7 +12108,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 297.18 45.72 180)
+		(at 234.95 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17995,7 +12116,7 @@
 		(dnp no)
 		(uuid "e82a6e2d-1a74-4e83-87b6-27ce032478fa")
 		(property "Reference" "C54"
-			(at 298.958 45.593 0)
+			(at 236.728 26.543 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18004,7 +12125,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 299.212 50.419 0)
+			(at 236.982 31.369 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18013,7 +12134,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 297.18 45.72 0)
+			(at 234.95 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18022,7 +12143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 45.72 0)
+			(at 234.95 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18031,7 +12152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 45.72 0)
+			(at 234.95 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18156,34 +12277,34 @@
 		)
 	)
 	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:CAP0603-CAP")
-		(at 160.02 88.9 180)
+		(lib_id "power:+5VA")
+		(at 358.14 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f149694e-4336-45f7-8a0b-aed91118ad18")
-		(property "Reference" "C46"
-			(at 161.29 88.519 0)
+		(fields_autoplaced yes)
+		(uuid "eb995753-4c3b-4e10-8b60-fd01d2d8fa5f")
+		(property "Reference" "#PWR05"
+			(at 358.14 26.67 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
+				(hide yes)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 161.544 93.599 0)
+		(property "Value" "+5VA"
+			(at 358.14 17.78 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 160.02 88.9 0)
+		(property "Footprint" ""
+			(at 358.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18192,7 +12313,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 88.9 0)
+			(at 358.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 358.14 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41497a6e-346f-4407-a1d3-75e5ce4cb855")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
+		(at 236.22 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ed344b-422f-4cc0-bf30-0535a0c5b741")
+		(property "Reference" "R3"
+			(at 234.696 49.784 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0"
+			(at 234.442 52.832 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 236.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18201,7 +12388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 88.9 0)
+			(at 236.22 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18209,33 +12396,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f9478d4-122a-4960-956c-35916e723b41")
+			(uuid "7fd0def3-cf53-41e6-919a-50f41240963d")
 		)
 		(pin "2"
-			(uuid "3d349242-813e-4b0d-b017-d7c82e86c036")
+			(uuid "55e8a3ae-fa75-4585-93c1-7ed017f1d540")
 		)
 		(instances
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-			(project "powerAmp"
-				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
-					(reference "C19")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18338,142 +12507,6 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/de17e96d-acc8-4488-9767-c0e10e15a863"
 					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 271.78 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f288cce7-2219-40ef-ac6a-f0c39a31aa71")
-		(property "Reference" "R5"
-			(at 269.494 65.786 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0"
-			(at 270.764 70.612 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a3763362-d598-41c4-9160-e9cbdb6bf045")
-		)
-		(pin "2"
-			(uuid "994df418-c9d1-4a5b-bb17-7e1582c43814")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerAmp_RevB-eagle-import:RESISTOR0603-RES")
-		(at 261.62 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5efe3b3-5223-4625-84bb-08a22e5b1781")
-		(property "Reference" "R7"
-			(at 259.334 34.036 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1k"
-			(at 260.604 38.862 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 261.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad7b01bb-ea9b-45d3-bba4-0796b721fdd3")
-		)
-		(pin "2"
-			(uuid "88a297e2-b5ac-43dc-96a1-10518b373580")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18719,6 +12752,72 @@
 		)
 	)
 	(symbol
+		(lib_id "powerAmp_RevB-eagle-import:GND")
+		(at 236.22 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd39bf14-4aed-4664-9efd-b6289035181d")
+		(property "Reference" "#SUPPLY019"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.315 61.595 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "powerAmp_RevB:"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d142916e-ad52-4404-a0db-2b474d6e8a6a")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "#SUPPLY019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN_BCEC")
 		(at 105.41 120.65 0)
 		(unit 1)
@@ -18811,7 +12910,7 @@
 	)
 	(symbol
 		(lib_id "powerAmp_RevB-eagle-import:GND")
-		(at 86.36 81.28 0)
+		(at 165.1 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18819,7 +12918,7 @@
 		(dnp no)
 		(uuid "fee1c858-014b-4bf0-a0a7-4c17d8cc61b7")
 		(property "Reference" "#SUPPLY017"
-			(at 86.36 81.28 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18828,7 +12927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.455 84.455 0)
+			(at 163.195 62.865 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18837,7 +12936,7 @@
 			)
 		)
 		(property "Footprint" "powerAmp_RevB:"
-			(at 86.36 81.28 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18846,7 +12945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 81.28 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +12954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 81.28 0)
+			(at 165.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18870,6 +12969,140 @@
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY017")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 78.74)
+		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd80463c-0e7b-4149-ae31-129d8ab712c2")
+		(property "Sheetname" "switcher"
+			(at 190.5 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switcher.kicad_sch"
+			(at 190.5 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "keyShapedIn" input
+			(at 190.5 83.82 180)
+			(uuid "19a38c13-f7bf-41f6-8e38-03d6dc7bd111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pwrOut" output
+			(at 205.74 88.9 0)
+			(uuid "d27f9772-5eda-426d-a166-82be37c596f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 43.18)
+		(size 16.51 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4646cd1-93d1-4f34-ab29-845658bec98b")
+		(property "Sheetname" "KeyShaper"
+			(at 189.23 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyShaper.kicad_sch"
+			(at 189.23 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "keyIn" input
+			(at 189.23 48.26 180)
+			(uuid "93a7d5d0-b64c-4593-b9e1-36fee89a6302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "keyFB" input
+			(at 205.74 62.23 0)
+			(uuid "602cbde8-d955-4ea1-af66-e5946c391ba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "keyOut" output
+			(at 205.74 48.26 0)
+			(uuid "0a99cb95-6556-4b13-ad0e-6398a8959afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(page "2")
 				)
 			)
 		)
