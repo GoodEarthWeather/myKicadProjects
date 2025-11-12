@@ -500,14 +500,6 @@
     [
       "935e9e9c-82c1-4356-84c2-284f4c07cb3d",
       "Root"
-    ],
-    [
-      "d4646cd1-93d1-4f34-ab29-845658bec98b",
-      "KeyShaper"
-    ],
-    [
-      "cd80463c-0e7b-4149-ae31-129d8ab712c2",
-      "switcher"
     ]
   ],
   "text_variables": {}
