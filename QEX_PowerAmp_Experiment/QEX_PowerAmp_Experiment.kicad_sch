@@ -21662,10 +21662,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a17a8653-d3a7-4aad-98a4-ee47989007ee")
 		(property "Reference" "R10"
-			(at 179.07 63.4999 0)
+			(at 178.816 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
