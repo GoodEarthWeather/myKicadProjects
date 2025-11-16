@@ -13573,6 +13573,16 @@
 		)
 		(uuid "0088e520-52de-4172-b999-6d3df54fcba8")
 	)
+	(label "cm2"
+		(at 298.45 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "080a05aa-82a1-4ba2-8d9a-3c88cd76d21f")
+	)
 	(label "rfin"
 		(at 147.32 177.8 0)
 		(effects
@@ -13582,6 +13592,16 @@
 			(justify left bottom)
 		)
 		(uuid "162c2e25-b132-45d0-9ffa-6bcc0a19fed0")
+	)
+	(label "k3"
+		(at 120.65 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "194db63e-fb04-4d6c-85e4-b953f6d070f4")
 	)
 	(label "sw_enable"
 		(at 257.81 24.13 0)
@@ -13603,6 +13623,136 @@
 		)
 		(uuid "3c51cd93-5c01-4a81-9f80-3f96205adabf")
 	)
+	(label "G2"
+		(at 245.11 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bf1afe1-1dd4-4e52-ac63-035837a82682")
+	)
+	(label "k2"
+		(at 92.71 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f16b1a5-f2e9-46ab-aa36-393da551e642")
+	)
+	(label "k9"
+		(at 257.81 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "510d14e2-16fa-42e9-af8a-16e19a880390")
+	)
+	(label "G1"
+		(at 245.11 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e2e3089-2f19-4eec-ae55-cecda68979f5")
+	)
+	(label "keyIn"
+		(at 48.26 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "702b92cd-9c11-48fd-8ca2-3cc64e42dc2e")
+	)
+	(label "cm1"
+		(at 283.21 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "722744a4-be24-457e-82c9-18e26e5fc72c")
+	)
+	(label "k5"
+		(at 160.02 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "817b2d2c-5404-4a55-937f-87ae08d74b5a")
+	)
+	(label "cs_out"
+		(at 114.3 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a210d431-e7cc-4bbc-af46-bc7b2fbd9bbe")
+	)
+	(label "D1"
+		(at 288.29 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5241031-ae2d-4c8d-bcec-2293e294bcb9")
+	)
+	(label "VDD_PWR"
+		(at 298.45 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acba209c-a32a-47ae-96ea-0b4838802211")
+	)
+	(label "sw"
+		(at 302.26 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3795272-8921-440e-990f-4ed6c93522f8")
+	)
+	(label "th_out"
+		(at 300.99 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47d57bf-2c97-4e6f-815b-e0ea04462713")
+	)
+	(label "k7"
+		(at 182.88 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8f7e7a2-3ead-41a1-ad06-e984a482e174")
+	)
 	(label "~{rf_enable}"
 		(at 173.99 208.28 0)
 		(effects
@@ -13613,6 +13763,56 @@
 		)
 		(uuid "b9737ebb-9af8-4c88-8318-873170cb3bbc")
 	)
+	(label "k4"
+		(at 142.24 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba274eb3-2039-401b-aadd-3dabab9a9cbe")
+	)
+	(label "D2"
+		(at 288.29 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc683cae-58b4-4273-ab3d-6b623cbfd639")
+	)
+	(label "k6"
+		(at 184.15 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce97c2c6-7ec6-416d-8f9d-b1c61a161c59")
+	)
+	(label "th1"
+		(at 270.51 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceb41223-2f63-47f5-8d82-fd048866b876")
+	)
+	(label "fb"
+		(at 299.72 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45b8a8c-17e0-4b83-9a14-a27c930899b6")
+	)
 	(label "rfd+"
 		(at 191.77 165.1 0)
 		(effects
@@ -13622,6 +13822,36 @@
 			(justify left bottom)
 		)
 		(uuid "d46dbc5a-b8f8-4876-b7c4-aaaf678f247e")
+	)
+	(label "base"
+		(at 91.44 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebbbf491-ba46-4f6e-846a-02962bfa9c28")
+	)
+	(label "k1"
+		(at 73.66 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee467fe0-fc7d-4483-a7ca-843e97569e6a")
+	)
+	(label "k8"
+		(at 226.06 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f764113c-01b1-4a3d-9210-70125d36f862")
 	)
 	(hierarchical_label "VDD_AMP"
 		(shape output)
