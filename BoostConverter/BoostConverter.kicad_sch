@@ -1505,12 +1505,6 @@
 		(uuid "0849650e-acb2-4698-9da7-4b74df0abafc")
 	)
 	(junction
-		(at 144.78 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d7c9b2-5aea-4908-a66c-49c1aecf999d")
-	)
-	(junction
 		(at 119.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1679,6 +1673,12 @@
 		(uuid "e92c20b6-fac3-4bbc-ac63-9dada89c3e52")
 	)
 	(junction
+		(at 246.38 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebc33452-8b15-4852-814e-7f7afe9c58e3")
+	)
+	(junction
 		(at 110.49 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1689,16 +1689,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdbc1bd0-bbba-45d5-9af8-0f5fdd2da9ed")
-	)
-	(wire
-		(pts
-			(xy 144.78 82.55) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04104156-e7bc-4320-abf4-c11c9488b424")
 	)
 	(wire
 		(pts
@@ -1992,6 +1982,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 96.52) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f5c2df-7c8f-4282-be94-5d1a31b1a307")
+	)
+	(wire
+		(pts
 			(xy 115.57 91.44) (xy 119.38 91.44)
 		)
 		(stroke
@@ -2242,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 91.44) (xy 259.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a306e18b-0306-4809-bf09-c36f6a4551bc")
+	)
+	(wire
+		(pts
 			(xy 157.48 74.93) (xy 163.83 74.93)
 		)
 		(stroke
@@ -2302,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 144.78 82.55)
+			(xy 142.24 82.55) (xy 149.86 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2569,6 +2579,82 @@
 			(justify left bottom)
 		)
 		(uuid "fb8ac19a-ac70-4648-8f74-ffc1b41daa77")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f1875c7-eb6b-4da6-bac4-89cfcdf94ec2")
+		(property "Reference" "TP4"
+			(at 261.62 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" "534-5003"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b244bc-b8df-4072-94db-a91884af8965")
+		)
+		(instances
+			(project "BoostConverter"
+				(path "/20cef325-ce5d-4b8c-8ac6-d3c9b4d02b4b"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -3268,6 +3354,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 132.08 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c367f89-1a8d-4849-9ec2-b0f26196690b")
+		(property "Reference" "L2"
+			(at 132.08 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 132.08 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" ""
+			(at 132.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34d1bff4-9c52-4633-82f3-c22746e3e90a")
+		)
+		(pin "1"
+			(uuid "b0c215fe-3b38-4cd3-a514-65bddc0adaf3")
+		)
+		(instances
+			(project "BoostConverter"
+				(path "/20cef325-ce5d-4b8c-8ac6-d3c9b4d02b4b"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 124.46 92.71 0)
 		(unit 1)
@@ -3857,74 +4020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 132.08 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b677a176-94ff-4d5b-b438-27b861145541")
-		(property "Reference" "L1"
-			(at 132.08 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uH"
-			(at 132.08 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Horizontal_D9.5mm_P15.00mm_Diameter10-5mm_Amidon-T37"
-			(at 132.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 132.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00a09b21-f9bc-4e10-a5c2-eed52ce3b1c9")
-		)
-		(pin "1"
-			(uuid "245ad28d-4575-4dec-acae-54d00a8aa622")
-		)
-		(instances
-			(project ""
-				(path "/20cef325-ce5d-4b8c-8ac6-d3c9b4d02b4b"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 48.26 87.63 0)
 		(mirror y)
@@ -3988,82 +4083,6 @@
 			(project "BoostConverter"
 				(path "/20cef325-ce5d-4b8c-8ac6-d3c9b4d02b4b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 144.78 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5c6c4bc-3577-4fc8-8b76-c79c9084bf41")
-		(property "Reference" "TP4"
-			(at 147.32 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VFB"
-			(at 147.32 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserPN" "534-5003"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "133213f5-25be-416b-b303-7411ba5335d0")
-		)
-		(instances
-			(project "BoostConverter"
-				(path "/20cef325-ce5d-4b8c-8ac6-d3c9b4d02b4b"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
