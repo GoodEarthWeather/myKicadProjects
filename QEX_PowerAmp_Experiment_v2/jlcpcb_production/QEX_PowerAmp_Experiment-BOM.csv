@@ -1,0 +1,40 @@
+Reference,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,LCSC
+RV1,10K,DNP,Excluded from BOM,,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,
+R5,390,DNP,Excluded from BOM,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,
+L3,6.8uH,DNP,Excluded from BOM,,Inductor_SMD:L_10.4x10.4_H4.8,
+"L1,L2",L_Ferrite_Coupled,DNP,Excluded from BOM,,Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50,
+"J8,J9",Conn_01x03,DNP,Excluded from BOM,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,
+"J5,J11",SMA,DNP,Excluded from BOM,,Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal,
+"J3,J4,J6,J7,J10,J12",Conn_01x02,DNP,Excluded from BOM,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J2,Key In,DNP,Excluded from BOM,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,
+J1,Key In,DNP,Excluded from BOM,,Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal,
+D2,1N914A,DNP,Excluded from BOM,,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,
+D1,1N751A,DNP,Excluded from BOM,,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,
+U8,OPA1679,,,,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,C2878631
+U7,LMR51430,,,,Package_TO_SOT_SMD:SOT-23-6,C5185863
+"U5,U6",UCC27517DBVR,,,,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,C99395
+U3,MIC5205-3.3YM5,,,,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,C37970
+U2,INA180A2,,,,Package_TO_SOT_SMD:SOT-23-5,C192764
+U1,74LVC2G125,,,,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,C2675807
+TH1,Thermistor_NTC 10K,,,,PCM_JLCPCB:R_0603,
+R19,30kΩ,,,,PCM_JLCPCB:R_0603,C22984
+R13,2.7kΩ,,,,PCM_JLCPCB:R_0603,C13167
+"R11,R17,R18",0Ω,,,,PCM_JLCPCB:R_0603,C21189
+R7,11kΩ,,,,PCM_JLCPCB:R_0603,C25950
+R6,36kΩ,,,,PCM_JLCPCB:R_0603,C23147
+R4,8.2kΩ,,,,PCM_JLCPCB:R_0603,C25981
+R3,50m,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C858613
+R2,33kΩ,,,,PCM_JLCPCB:R_0603,C4216
+"R1,R9,R10,R12,R14,R15,R16,R20",10kΩ,,,,PCM_JLCPCB:R_0603,C25804
+Q3,BC847BS,,,,PCM_JLCPCB:SOT-363_SC-70-6,C41375126
+Q2,DMN10H220LPDW,,,,diodesInc:DMN10H220LPDW13,
+Q1,PZT2222A,,,,Package_TO_SOT_SMD:SOT-223,C115272
+C26,100nF,,,,PCM_JLCPCB:C_0805,C28233
+C25,100uF,,,,Capacitor_SMD:C_Elec_6.3x5.8,C7469933
+"C23,C24",22uF,,,,PCM_JLCPCB:C_0805,C45783
+"C18,C19",4.7uF,,,,PCM_JLCPCB:C_0805,C1779
+C13,22nF,,,,PCM_JLCPCB:C_0603,C21122
+"C7,C10,C16,C17",2.2uF,,,,PCM_JLCPCB:C_0805,C377773
+"C4,C12",220nF,,,,PCM_JLCPCB:C_0603,C21120
+"C2,C3,C6,C9,C11,C14,C15,C20,C21",100nF,,,,PCM_JLCPCB:C_0603,C14663
+"C1,C5,C8",1uF,,,,PCM_JLCPCB:C_0603,C15849

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "diodesInc")(type "KiCad")(uri "${KIPRJMOD}/DiodesInc_library.pretty")(options "")(descr ""))
+  (lib (name "DiodesInc_library")(type "KiCad")(uri "${KIPRJMOD}/DiodesInc_library.pretty")(options "")(descr ""))
+)
