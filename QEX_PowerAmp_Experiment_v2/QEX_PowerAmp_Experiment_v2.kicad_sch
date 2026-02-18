@@ -3370,219 +3370,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_US"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:B240"
 			(pin_numbers
 				(hide yes)
@@ -9795,16 +9582,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "to external control"
-		(exclude_from_sim no)
-		(at 181.356 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1bd1c82f-d7c2-40cd-b7a6-c999e928b990")
-	)
 	(text "external\nenable drive"
 		(exclude_from_sim no)
 		(at 154.686 208.788 0)
@@ -10058,7 +9835,7 @@
 		(uuid "3b864ed9-ec73-4835-a6b5-b3f347c4cc0f")
 	)
 	(junction
-		(at 257.81 73.66)
+		(at 255.27 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bea37de-edf4-42cb-9f27-5aac0f769c47")
@@ -10106,12 +9883,6 @@
 		(uuid "4b5c68fc-31ee-45f5-9c3e-e24715264c36")
 	)
 	(junction
-		(at 245.11 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cbab408-25c7-4988-bd4b-9c54e14cb0e9")
-	)
-	(junction
 		(at 57.15 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10134,12 +9905,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58db47c7-c752-4885-9bcf-672b37a729b2")
-	)
-	(junction
-		(at 218.44 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b6a1ad3-be17-4d7f-b5c1-4866f1fbc52f")
 	)
 	(junction
 		(at 350.52 182.88)
@@ -10406,12 +10171,6 @@
 		(uuid "c390087b-0683-450b-a6e1-0d41e6c0cb11")
 	)
 	(junction
-		(at 257.81 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6262440-29b7-4eb6-af19-5e0b0653d4aa")
-	)
-	(junction
 		(at 337.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10428,12 +10187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb499f4-ba39-40de-9019-d9b499d28d83")
-	)
-	(junction
-		(at 257.81 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00070e6-668f-4ace-b029-749ec03fe296")
 	)
 	(junction
 		(at 181.61 45.72)
@@ -10506,12 +10259,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea59d8bb-1a9b-4210-8a35-3f009674379a")
-	)
-	(junction
-		(at 50.8 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec2de4ce-bd80-4e60-8642-d3ece1643e0f")
 	)
 	(junction
 		(at 36.83 109.22)
@@ -11269,16 +11016,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 71.12) (xy 257.81 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31589b2a-0034-4e0d-ba3e-baf7db993b36")
-	)
-	(wire
-		(pts
 			(xy 104.14 121.92) (xy 104.14 130.81)
 		)
 		(stroke
@@ -11326,16 +11063,6 @@
 			(type default)
 		)
 		(uuid "351f352d-289a-464c-ba74-1fb1c63d7212")
-	)
-	(wire
-		(pts
-			(xy 198.12 26.67) (xy 199.39 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3571897a-666c-4fdb-952e-de1f6349acba")
 	)
 	(wire
 		(pts
@@ -11779,16 +11506,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 247.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb1cf67-b546-4e23-9340-17971058fb2e")
-	)
-	(wire
-		(pts
 			(xy 349.25 50.8) (xy 349.25 44.45)
 		)
 		(stroke
@@ -11936,16 +11653,6 @@
 			(type default)
 		)
 		(uuid "5b4a583c-8aa2-49a1-8b41-dcb0d7b9999e")
-	)
-	(wire
-		(pts
-			(xy 45.72 125.73) (xy 45.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bea996e-bee5-46dd-a574-ed1143272b61")
 	)
 	(wire
 		(pts
@@ -12149,7 +11856,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 21.59) (xy 215.9 25.4)
+			(xy 215.9 21.59) (xy 215.9 22.86)
 		)
 		(stroke
 			(width 0)
@@ -12239,7 +11946,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 73.66) (xy 257.81 76.2)
+			(xy 255.27 66.04) (xy 255.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -12249,7 +11956,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 45.72) (xy 245.11 66.04)
+			(xy 242.57 45.72) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12299,7 +12006,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 73.66) (xy 245.11 73.66)
+			(xy 250.19 66.04) (xy 242.57 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12439,16 +12146,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 66.04) (xy 257.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f41ae3-8f32-4352-9f51-fda7eaaef0ff")
-	)
-	(wire
-		(pts
 			(xy 41.91 120.65) (xy 45.72 120.65)
 		)
 		(stroke
@@ -12469,23 +12166,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 73.66)
+			(xy 252.73 68.58) (xy 252.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "774a48c8-0003-46a5-a02b-0b60fbe2a2d8")
-	)
-	(wire
-		(pts
-			(xy 251.46 69.85) (xy 251.46 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7772b2c1-56d7-4567-acb5-4addf128fff7")
 	)
 	(wire
 		(pts
@@ -13059,16 +12746,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 71.12) (xy 257.81 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed2f798-c735-42b4-8deb-582ea7758f95")
-	)
-	(wire
-		(pts
 			(xy 68.58 129.54) (xy 68.58 130.81)
 		)
 		(stroke
@@ -13096,16 +12773,6 @@
 			(type default)
 		)
 		(uuid "a0cdbd5b-2966-423d-b239-6aa968cdab3a")
-	)
-	(wire
-		(pts
-			(xy 41.91 125.73) (xy 45.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d86ea3-cd7b-44ed-8306-c89e3c4e8bb1")
 	)
 	(wire
 		(pts
@@ -13279,16 +12946,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 24.13) (xy 218.44 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6731ac2-d75d-41a6-8553-4149503cdbee")
-	)
-	(wire
-		(pts
 			(xy 306.07 35.56) (xy 311.15 35.56)
 		)
 		(stroke
@@ -13459,23 +13116,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 45.72) (xy 245.11 45.72)
+			(xy 181.61 45.72) (xy 242.57 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae8731f7-6d9d-4ef4-ab90-1bef17eed935")
-	)
-	(wire
-		(pts
-			(xy 199.39 26.67) (xy 199.39 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af75adae-c84f-4d7e-888c-eecabc6c1423")
 	)
 	(wire
 		(pts
@@ -13496,16 +13143,6 @@
 			(type default)
 		)
 		(uuid "b0fee4d9-7c88-423a-96cc-a1f20292160f")
-	)
-	(wire
-		(pts
-			(xy 45.72 130.81) (xy 50.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b151f7f2-8ef7-4741-9484-886c48d1402e")
 	)
 	(wire
 		(pts
@@ -13549,7 +13186,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 66.04) (xy 261.62 66.04)
+			(xy 255.27 66.04) (xy 261.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13739,16 +13376,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 33.02) (xy 215.9 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5774f66-1eb7-4e94-9ca7-49f205fca252")
-	)
-	(wire
-		(pts
 			(xy 194.31 118.11) (xy 210.82 118.11)
 		)
 		(stroke
@@ -13809,7 +13436,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 73.66) (xy 257.81 73.66)
+			(xy 252.73 66.04) (xy 255.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13936,16 +13563,6 @@
 			(type default)
 		)
 		(uuid "d3f488d0-f8ac-422c-a5da-f87b294824e7")
-	)
-	(wire
-		(pts
-			(xy 257.81 71.12) (xy 257.81 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d51d179b-034f-4bda-aa35-baa323a07560")
 	)
 	(wire
 		(pts
@@ -14349,16 +13966,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 73.66) (xy 245.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ef188b-0b8a-4d6f-8713-266ce72a997c")
-	)
-	(wire
-		(pts
 			(xy 168.91 203.2) (xy 171.45 203.2)
 		)
 		(stroke
@@ -14399,7 +14006,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 76.2) (xy 252.73 73.66)
+			(xy 250.19 68.58) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
@@ -14588,7 +14195,7 @@
 		(uuid "4f16b1a5-f2e9-46ab-aa36-393da551e642")
 	)
 	(label "k9"
-		(at 257.81 66.04 0)
+		(at 255.27 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15014,7 +14621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 35.56 0)
+		(at 215.9 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15023,7 +14630,7 @@
 		(fields_autoplaced yes)
 		(uuid "08b68db3-f611-491d-8318-62c4308048ff")
 		(property "Reference" "#PWR07"
-			(at 215.9 41.91 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +14639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 40.64 0)
+			(at 215.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +14648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 35.56 0)
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15050,7 +14657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 35.56 0)
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15059,7 +14666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 35.56 0)
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,73 +15591,6 @@
 			(project "powerAmp"
 				(path "/c63d077a-bb30-4740-8b96-a434a85a3a02"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12ffd2f6-7134-4199-b627-f1607b588fc8")
-		(property "Reference" "#PWR06"
-			(at 199.39 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "450c0d68-b65a-4938-b676-49ad44509326")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -20819,119 +20359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 193.04 24.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "661796a5-ae27-4899-8207-975549b274c2")
-		(property "Reference" "J8"
-			(at 192.532 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 191.516 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserPN" ""
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 193.04 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9675e4e5-369f-4350-aa93-c57e3e26bbba")
-		)
-		(pin "1"
-			(uuid "223e0f62-8b6a-4e18-9e5c-b479cccc5a60")
-		)
-		(instances
-			(project ""
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 170.18 139.7 0)
 		(unit 1)
@@ -22961,6 +22388,111 @@
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8119a388-30cd-40f4-9c17-d237166af298")
+		(property "Reference" "J3"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 36.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "917422f0-b6d7-4af3-9ee8-b20696034fda")
+		)
+		(pin "1"
+			(uuid "2da422c4-e561-42c7-a379-bce3833b6a23")
+		)
+		(instances
+			(project "QEX_PowerAmp_Experiment_v2"
+				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
+					(reference "J3")
+					(unit 1)
 				)
 			)
 		)
@@ -25381,7 +24913,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 255.27 81.28 90)
+		(at 252.73 73.66 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25390,7 +24922,7 @@
 		(dnp no)
 		(uuid "a7ef2802-cd31-4538-bcfa-fdf622a37da0")
 		(property "Reference" "J10"
-			(at 248.666 81.534 90)
+			(at 246.126 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25398,7 +24930,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 255.778 84.074 90)
+			(at 253.238 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25406,7 +24938,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 255.27 81.28 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25415,7 +24947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 81.28 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25424,7 +24956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 81.28 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25432,7 +24964,7 @@
 			)
 		)
 		(property "MouserPN" ""
-			(at 255.27 81.28 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25441,7 +24973,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 255.27 81.28 90)
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25450,7 +24982,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 255.27 81.28 90)
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25459,7 +24991,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 255.27 81.28 90)
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25468,7 +25000,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 255.27 81.28 90)
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27838,265 +27370,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
-		(at 215.9 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1a79bd0-ca96-46e2-8dbb-a4e2d4b1f4de")
-		(property "Reference" "R12"
-			(at 218.44 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 215.9 29.21 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 214.122 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "51181774"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0603WAF1002T5E"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10kΩ"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "100mW"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "75V"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad684232-6024-4315-a30e-776abb1b1bc5")
-		)
-		(pin "2"
-			(uuid "66517d50-e56d-4791-b93c-95ba457b49ce")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,36kΩ")
 		(at 132.08 48.26 90)
 		(unit 1)
@@ -30066,114 +29339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 36.83 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc6370bf-1815-437d-9129-468b2cca17ab")
-		(property "Reference" "J3"
-			(at 36.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 36.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 36.83 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1b8e1951-bb92-4f7f-afb1-83d5c28ca4e1")
-		)
-		(pin "2"
-			(uuid "6a3053be-ff46-45ff-a121-e678b02fe4b8")
-		)
-		(pin "1"
-			(uuid "5763c2f2-8d07-428c-868c-4ebadd3b9606")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment_v2"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
 		(at 257.81 181.61 0)
 		(mirror x)
@@ -31608,122 +30773,6 @@
 			(project "QEX_PowerAmp_Experiment"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 251.46 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea75751-df2f-4ead-8064-ae18965a0605")
-		(property "Reference" "RV1"
-			(at 251.46 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5K"
-			(at 251.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 251.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 251.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserPN" ""
-			(at 251.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 251.46 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 251.46 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 251.46 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 251.46 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab3887d8-4948-4e25-a279-09e3daa0ee32")
-		)
-		(pin "3"
-			(uuid "ecf40eae-12da-4b7d-885b-52fc062f5687")
-		)
-		(pin "2"
-			(uuid "e3471f14-2c88-4892-b93f-d19f32411c51")
-		)
-		(instances
-			(project "QEX_PowerAmp_Experiment"
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
