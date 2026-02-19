@@ -10231,6 +10231,12 @@
 		(uuid "df44bdbb-bfd4-4037-a59f-20df6109ffa5")
 	)
 	(junction
+		(at 251.46 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1853377-94fd-4f2a-9a1e-9b4fd60f3bb4")
+	)
+	(junction
 		(at 306.07 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10336,7 +10342,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 30.48) (xy 254 30.48)
+			(xy 248.92 30.48) (xy 251.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10916,6 +10922,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 30.48) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5bab88-c17f-4b75-bea5-5856760668e9")
+	)
+	(wire
+		(pts
 			(xy 120.65 109.22) (xy 115.57 109.22)
 		)
 		(stroke
@@ -11223,6 +11239,16 @@
 			(type default)
 		)
 		(uuid "3f486441-64e7-4ffc-b21c-dbe535a856aa")
+	)
+	(wire
+		(pts
+			(xy 251.46 21.59) (xy 251.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcfc7f8-2f0b-4ba1-ada1-dcae70539934")
 	)
 	(wire
 		(pts
@@ -13106,7 +13132,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 21.59) (xy 238.76 21.59)
+			(xy 220.98 21.59) (xy 251.46 21.59)
 		)
 		(stroke
 			(width 0)
@@ -24203,73 +24229,6 @@
 			(project ""
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 238.76 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e7aed7-4ba3-424f-b80b-f4f8ffa8d8ab")
-		(property "Reference" "#PWR08"
-			(at 234.95 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 242.57 21.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2aa3052a-297c-4492-997d-be7412ad0184")
-		)
-		(instances
-			(project ""
-				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
