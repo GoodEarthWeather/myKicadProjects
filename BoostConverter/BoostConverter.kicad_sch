@@ -3371,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "6.8uH"
 			(at 132.08 59.69 90)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "MouserPN" ""
+		(property "MouserPN" "994-XAL4030-682MEC"
 			(at 132.08 62.23 0)
 			(effects
 				(font
