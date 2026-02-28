@@ -14910,6 +14910,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C336786"
+			(at 312.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4201e6aa-ad19-41dd-a2e2-e09846f1f9a4")
 		)
@@ -14950,7 +14959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 77.47 118.618 90)
 			(effects
 				(font
@@ -15022,6 +15031,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22807"
+			(at 77.47 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19e8e7cb-5489-434e-9887-105e7ea7dedd")
 		)
@@ -15065,7 +15083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -15129,6 +15147,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 63.5 163.83 0)
 			(effects
 				(font
@@ -16159,6 +16186,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6807776"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a37c1b7-a1a2-4dfd-bd57-331e0d61cea9")
 		)
@@ -16434,7 +16470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 115.57 119.38 0)
 			(effects
 				(font
@@ -16498,6 +16534,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 115.57 119.38 0)
 			(effects
 				(font
@@ -17308,7 +17353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 325.12 135.89 0)
 			(effects
 				(font
@@ -17372,6 +17417,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 325.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 325.12 135.89 0)
 			(effects
 				(font
@@ -17993,6 +18047,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C192421"
+			(at 220.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "386e8aab-30c2-4729-aae4-8ce3a2c28279")
 		)
@@ -18553,7 +18616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 74.93 163.83 0)
 			(effects
 				(font
@@ -18617,6 +18680,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 74.93 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 74.93 163.83 0)
 			(effects
 				(font
@@ -19818,7 +19890,7 @@
 		(at 120.65 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19953,7 +20025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -20017,6 +20089,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -20679,7 +20760,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -21654,7 +21735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -21718,6 +21799,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 54.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -22231,7 +22321,7 @@
 		(at 170.18 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7513a530-1467-4708-b255-aa3cda649a80")
@@ -22495,6 +22585,15 @@
 			)
 		)
 		(property "MouserPN" "595-TLV61047DDCR"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C44538408"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -22846,6 +22945,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C192421"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "386e8aab-30c2-4729-aae4-8ce3a2c2827a")
 		)
@@ -22885,7 +22993,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -23580,6 +23688,15 @@
 			)
 		)
 		(property "MouserPN" ""
+			(at 160.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C192421"
 			(at 160.02 49.53 0)
 			(effects
 				(font
@@ -25246,6 +25363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C133193"
+			(at 58.42 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "215e6659-e816-4add-8583-93badc2122d8")
 		)
@@ -26199,7 +26325,7 @@
 		(at 143.51 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad1a07e9-bb18-4364-86a0-b337055dd48b")
@@ -29771,7 +29897,7 @@
 		(at 48.26 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -31826,7 +31952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -31890,6 +32016,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -32005,6 +32140,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C336786"
 			(at 43.18 163.83 0)
 			(effects
 				(font
@@ -32848,7 +32992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7202997"
 			(at 165.1 237.49 0)
 			(effects
 				(font
