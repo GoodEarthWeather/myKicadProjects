@@ -15867,7 +15867,7 @@
 		(at 220.98 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15888,7 +15888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Horizontal_D9.5mm_P15.00mm_Diameter10-5mm_Amidon-T37"
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0624"
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -15924,7 +15924,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22463814"
 			(at 220.98 100.33 90)
 			(effects
 				(font
@@ -18949,7 +18949,7 @@
 		(at 316.23 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18970,7 +18970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Horizontal_D9.5mm_P15.00mm_Diameter10-5mm_Amidon-T37"
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0624"
 			(at 316.23 33.02 0)
 			(effects
 				(font
@@ -19006,7 +19006,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2929498"
+		(property "JLCPCB" "C22463814"
 			(at 316.23 33.02 90)
 			(effects
 				(font
@@ -25291,7 +25291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0420"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -25363,7 +25363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C133193"
+		(property "LCSC" "C22463808"
 			(at 58.42 96.52 90)
 			(effects
 				(font
