@@ -6201,7 +6201,7 @@
 		)
 		(uuid "b4f955f2-9733-4eb1-95a7-fa38d368355d")
 	)
-	(text "L2 and L3 are transmission line\ntransformers, bifilar wound on\nbinocular ferrite cores."
+	(text "L2 and L3 are transmission line\ntransformers, bifilar wound on\ntoroid ferrite cores."
 		(exclude_from_sim no)
 		(at 199.898 167.386 0)
 		(effects
@@ -17307,7 +17307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4:3"
+		(property "Value" "5:4"
 			(at 210.82 132.842 90)
 			(effects
 				(font
