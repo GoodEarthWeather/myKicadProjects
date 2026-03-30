@@ -9592,6 +9592,16 @@
 		)
 		(uuid "4af1064d-c901-48ac-9005-bbf20b5a376a")
 	)
+	(text "Class D Amplifier Evaluation Board"
+		(exclude_from_sim no)
+		(at 359.664 243.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f08da05-5071-412e-8dc7-395c65fac380")
+	)
 	(text "RF Input\n3.3V square wave"
 		(exclude_from_sim no)
 		(at 129.286 172.466 0)
@@ -14735,7 +14745,7 @@
 			(uuid "5494a28a-4871-421e-99a6-a3456422227b")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "L6")
 					(unit 1)
@@ -14802,7 +14812,7 @@
 			(uuid "a5a0d7d0-f5f3-41df-8bb0-ff52946db193")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR07")
 					(unit 1)
@@ -15400,7 +15410,7 @@
 			(uuid "bebdf5f5-206d-4ba0-900a-6443577c21dd")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C5")
 					(unit 1)
@@ -15416,7 +15426,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cf6bf53-a893-4cbe-8bb6-ecb959182bbc")
 		(property "Reference" "R11"
 			(at 213.36 113.0299 0)
@@ -15427,8 +15436,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30kΩ"
-			(at 210.82 113.03 90)
+		(property "Value" "14kΩ"
+			(at 215.392 115.062 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15842,7 +15851,7 @@
 			(uuid "71932aa6-dcab-4edf-bc9d-a834c15d6124")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U6")
 					(unit 1)
@@ -16080,7 +16089,7 @@
 			(uuid "1359935e-2ad8-40e5-8bde-37d6de3ca4d8")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J7")
 					(unit 1)
@@ -16434,7 +16443,7 @@
 			(uuid "bcc2156f-b5e4-4994-a35a-96fa714b53b8")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C31")
 					(unit 1)
@@ -16856,7 +16865,7 @@
 			(uuid "87c8b567-3353-4d14-82f3-cd92c0464821")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C28")
 					(unit 1)
@@ -17556,7 +17565,7 @@
 			(uuid "bb8688e4-6dbc-423b-8373-2676dd4848e6")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C35")
 					(unit 1)
@@ -17814,7 +17823,7 @@
 			(uuid "f22a5254-d99a-4bfb-a821-aed784c931ad")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R9")
 					(unit 1)
@@ -18081,7 +18090,7 @@
 			(uuid "8c4a83ea-5d73-4c8f-891b-b468e491ad04")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U2")
 					(unit 2)
@@ -18348,7 +18357,7 @@
 			(uuid "4a546e09-b83f-491e-b56e-dd807034e82f")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R14")
 					(unit 1)
@@ -18580,7 +18589,7 @@
 			(uuid "bc7da8e6-56a7-4091-aabf-1a42063db412")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C22")
 					(unit 1)
@@ -18936,7 +18945,7 @@
 			(uuid "c33aee1b-2705-4640-b00c-c0023fe3947f")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C6")
 					(unit 1)
@@ -19049,7 +19058,7 @@
 			(uuid "881d49dd-73df-4f1f-9996-749eb0fc468b")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "L5")
 					(unit 1)
@@ -19115,7 +19124,7 @@
 			(uuid "822e4bbc-e2d8-42da-9bfd-d8729dc1d4a9")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY06")
 					(unit 1)
@@ -19579,7 +19588,7 @@
 			(uuid "851ef812-1347-4953-8ab6-a9a57fbe061f")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C20")
 					(unit 1)
@@ -19645,7 +19654,7 @@
 			(uuid "30d35d2a-56e2-44c9-b331-3cec799bbddf")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY07")
 					(unit 1)
@@ -20129,10 +20138,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dc3eba0-92e0-486f-a576-0a64348f9d11")
 		(property "Reference" "L4"
-			(at 307.086 163.83 0)
+			(at 307.086 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20145,6 +20153,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50"
@@ -20240,7 +20249,7 @@
 			(uuid "f5383aec-3900-4638-819b-a969907efdbc")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "L4")
 					(unit 1)
@@ -20448,7 +20457,7 @@
 			(uuid "7b3da8e0-842d-49f8-9809-31d05ea655d0")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "Q2")
 					(unit 2)
@@ -20680,7 +20689,7 @@
 			(uuid "1480abd6-615a-47c7-9e8e-e6cbf096bc2e")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C21")
 					(unit 1)
@@ -20917,7 +20926,7 @@
 			(uuid "57514e4d-3f28-4d46-97bc-64f1868236bb")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR05")
 					(unit 1)
@@ -21263,7 +21272,7 @@
 			(uuid "1069262d-1403-4015-9db6-027b0056ddd3")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C12")
 					(unit 1)
@@ -21521,7 +21530,7 @@
 			(uuid "4b6f6465-fb31-4421-8065-c58e467a5de9")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R3")
 					(unit 1)
@@ -21937,7 +21946,7 @@
 			(uuid "d04ea14d-07d6-4e4b-8722-2fd833579dde")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J9")
 					(unit 1)
@@ -22241,7 +22250,7 @@
 			(uuid "d5878564-8880-44c3-a89d-d510074a54a2")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR012")
 					(unit 1)
@@ -22485,7 +22494,7 @@
 			(uuid "879f3d21-2e23-4df8-9c18-1eb033f2fd50")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY03")
 					(unit 1)
@@ -22759,7 +22768,7 @@
 			(uuid "a84f0cf1-1604-4ee6-8625-31d53353d320")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "Q1")
 					(unit 2)
@@ -22853,10 +22862,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7cc8aaae-ddbe-4c65-8e48-f2117274fade")
 		(property "Reference" "U2"
-			(at 161.29 48.2599 0)
+			(at 161.798 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22865,7 +22873,7 @@
 			)
 		)
 		(property "Value" "OPA1678"
-			(at 161.29 50.7999 0)
+			(at 162.306 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22979,7 +22987,7 @@
 			(uuid "8c4a83ea-5d73-4c8f-891b-b468e491ad05")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U2")
 					(unit 3)
@@ -23343,7 +23351,7 @@
 			(uuid "b5657dd4-1b15-4636-9693-a4e8d8a90b3f")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R16")
 					(unit 1)
@@ -23410,7 +23418,7 @@
 			(uuid "c29fb65b-ed6d-4521-9bdb-9f581e082621")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR03")
 					(unit 1)
@@ -23476,7 +23484,7 @@
 			(uuid "42e01c1a-b55d-414a-b5a3-ad7e52610563")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY02")
 					(unit 1)
@@ -23590,7 +23598,7 @@
 			(uuid "fbf09b35-6ded-4da5-bdc2-0e6cdd57ce1d")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J4")
 					(unit 1)
@@ -23730,7 +23738,7 @@
 			(uuid "8c4a83ea-5d73-4c8f-891b-b468e491ad06")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U2")
 					(unit 1)
@@ -23962,7 +23970,7 @@
 			(uuid "fbd5e822-13f6-49f9-92e0-423e30396d6a")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C18")
 					(unit 1)
@@ -24261,7 +24269,7 @@
 			(uuid "1ea80c80-e7be-4a02-96fc-9cfe6a2fa584")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR011")
 					(unit 1)
@@ -24374,7 +24382,7 @@
 			(uuid "71a05b5d-0087-48b5-b0a4-8513bc3a0320")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J2")
 					(unit 1)
@@ -24579,7 +24587,7 @@
 			(uuid "abc91b94-7018-4893-97ac-de49c4326a30")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U3")
 					(unit 2)
@@ -24924,7 +24932,7 @@
 			(uuid "c2edf53a-23e2-447a-820d-14bf262f7d63")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J5")
 					(unit 1)
@@ -25107,7 +25115,7 @@
 			(uuid "087697f4-829d-45ff-95b1-a66c8bbae90a")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U7")
 					(unit 1)
@@ -25185,7 +25193,7 @@
 			(uuid "0a43fcae-d6ad-4600-b590-096c0341b240")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY04")
 					(unit 1)
@@ -25251,7 +25259,7 @@
 			(uuid "cca17650-6df2-4769-b0d1-d8ccd8e3b292")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY09")
 					(unit 1)
@@ -25445,7 +25453,7 @@
 			(uuid "eaa79115-e12a-4ca6-9c5d-0b3bdc703558")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY011")
 					(unit 1)
@@ -25569,7 +25577,7 @@
 			(uuid "f5285d0a-5a8e-40f6-95af-8074df46fca2")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J13")
 					(unit 1)
@@ -25684,7 +25692,7 @@
 			(uuid "a8dd683f-6853-43a2-ad0e-c214e160b968")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J10")
 					(unit 1)
@@ -25709,8 +25717,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 219.71 102.87 90)
+		(property "Value" "100k"
+			(at 223.774 105.156 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26173,7 +26181,7 @@
 			(uuid "df332cb7-1baa-4d54-803f-16ad8e23a299")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C25")
 					(unit 1)
@@ -26312,7 +26320,7 @@
 			(uuid "abc91b94-7018-4893-97ac-de49c4326a31")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U3")
 					(unit 1)
@@ -26721,7 +26729,7 @@
 			(uuid "568e4bea-1c18-4b7c-9fbe-4295efdab269")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C30")
 					(unit 1)
@@ -26787,7 +26795,7 @@
 			(uuid "b88d9023-9532-4b43-b385-10cf886eaa0a")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR04")
 					(unit 1)
@@ -26806,7 +26814,7 @@
 		(dnp no)
 		(uuid "b381b0b1-39ab-4c05-b863-5ec51cadde73")
 		(property "Reference" "L3"
-			(at 283.21 171.7041 90)
+			(at 273.558 169.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26821,6 +26829,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D14.0mm_Amidon-T50"
@@ -26917,7 +26926,7 @@
 			(uuid "7a0d3ca3-467b-4000-81de-8ff035723c73")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "L3")
 					(unit 1)
@@ -27188,7 +27197,7 @@
 			(uuid "9a553677-c876-4c5a-a389-25a8126c6de5")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R2")
 					(unit 1)
@@ -27420,7 +27429,7 @@
 			(uuid "731031c8-4e83-4e51-999c-3a9d882bfef2")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C14")
 					(unit 1)
@@ -27559,7 +27568,7 @@
 			(uuid "abc91b94-7018-4893-97ac-de49c4326a32")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U3")
 					(unit 3)
@@ -27915,7 +27924,7 @@
 			(uuid "1353fe15-a56f-49e6-b751-f77b04cc8534")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C33")
 					(unit 1)
@@ -28285,7 +28294,7 @@
 			(uuid "bed9ba5b-e4bd-4b67-8c5c-26c0ea589f2a")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R8")
 					(unit 1)
@@ -28514,7 +28523,7 @@
 			(uuid "0e649766-5b3e-471c-a0fe-f993b4d63f2f")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C11")
 					(unit 1)
@@ -29191,7 +29200,7 @@
 			(uuid "c0c57a75-2a16-4a57-b6e1-186f3ed236ca")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#PWR010")
 					(unit 1)
@@ -29303,7 +29312,7 @@
 			(uuid "e9c4fc3d-c2e0-4f80-a5e2-6c60ad4b2578")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "J12")
 					(unit 1)
@@ -29626,7 +29635,7 @@
 			(uuid "f29aa921-5f4a-432b-b4e8-3bb87662f4a7")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R17")
 					(unit 1)
@@ -29884,7 +29893,7 @@
 			(uuid "78318118-6509-4485-9041-5805b490b7d0")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R6")
 					(unit 1)
@@ -30137,7 +30146,7 @@
 			(uuid "a84f0cf1-1604-4ee6-8625-31d53353d321")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "Q1")
 					(unit 1)
@@ -30408,7 +30417,7 @@
 			(uuid "4598ffb8-e4d0-4eea-a7b4-249cd3c2943e")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R10")
 					(unit 1)
@@ -30640,7 +30649,7 @@
 			(uuid "6cae1025-669e-4629-8b39-265e10aa48c6")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C27")
 					(unit 1)
@@ -30872,7 +30881,7 @@
 			(uuid "64a2df0e-6e48-4313-928c-ff71d2a1e617")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C7")
 					(unit 1)
@@ -30999,7 +31008,7 @@
 			(uuid "ef094a29-65f8-4869-b279-e9dc24142bf3")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U8")
 					(unit 1)
@@ -31207,7 +31216,7 @@
 			(uuid "7b3da8e0-842d-49f8-9809-31d05ea655d1")
 		)
 		(instances
-			(project ""
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "Q2")
 					(unit 1)
@@ -31436,7 +31445,7 @@
 			(uuid "507ce9f2-8028-4bdd-91c7-2861096a64d6")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C13")
 					(unit 1)
@@ -31684,7 +31693,7 @@
 			(uuid "878d5c19-948e-4526-b8a9-5f165d524100")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "R15")
 					(unit 1)
@@ -32603,7 +32612,7 @@
 			(uuid "fa6484ab-7d75-4872-b49a-96871f1e9ded")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY010")
 					(unit 1)
@@ -32681,7 +32690,7 @@
 			(uuid "9ef6014c-6754-45fd-b78f-e96f3a6bed1b")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY08")
 					(unit 1)
@@ -32922,7 +32931,7 @@
 			(uuid "5299957b-3cc1-4469-8af5-903e15104885")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "C29")
 					(unit 1)
@@ -33053,7 +33062,7 @@
 			(uuid "40a2e018-564c-492d-938b-55c48a031199")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "U4")
 					(unit 1)
@@ -33119,7 +33128,7 @@
 			(uuid "85f5eff4-4959-4601-8a63-5eba3e87d045")
 		)
 		(instances
-			(project "QEX_PowerAmp_Experiment"
+			(project "QEX_PowerAmp_Experiment_v2"
 				(path "/935e9e9c-82c1-4356-84c2-284f4c07cb3d"
 					(reference "#SUPPLY01")
 					(unit 1)
