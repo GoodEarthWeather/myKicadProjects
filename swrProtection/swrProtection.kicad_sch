@@ -1539,6 +1539,12 @@
 		(uuid "2bd25af7-1258-4291-a4f0-842f50b40640")
 	)
 	(junction
+		(at 138.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ed41b6-bfa1-4bde-b3f7-fb97713b3852")
+	)
+	(junction
 		(at 77.47 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1585,6 +1591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a05ad066-c636-428d-bcbc-77219e2898d7")
+	)
+	(junction
+		(at 115.57 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a64ef18f-9094-449e-8267-07b4f1b277e3")
 	)
 	(junction
 		(at 80.01 72.39)
@@ -1639,6 +1651,26 @@
 			(type default)
 		)
 		(uuid "0326ba5b-b600-4c93-b00f-c7b37f1578ca")
+	)
+	(wire
+		(pts
+			(xy 115.57 44.45) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c3a674-5bf9-4918-bb19-594d6f2c2b7b")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a685ffc-5f0e-4cfa-b5ea-abdaee4a1b8f")
 	)
 	(wire
 		(pts
@@ -1729,6 +1761,16 @@
 			(type default)
 		)
 		(uuid "28b21f84-469b-4dcf-8d59-e4e7af7cb7ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6edd40-34f3-4414-b4f6-d9b21d775fd7")
 	)
 	(wire
 		(pts
@@ -1852,16 +1894,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 44.45) (xy 118.11 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2a929b-5d0e-4720-98e9-ac6cdaaecc84")
-	)
-	(wire
-		(pts
 			(xy 147.32 90.17) (xy 152.4 90.17)
 		)
 		(stroke
@@ -1892,6 +1924,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 44.45) (xy 115.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526bb5c1-5a3c-4e54-adda-41c871dd1739")
+	)
+	(wire
+		(pts
 			(xy 218.44 83.82) (xy 218.44 88.9)
 		)
 		(stroke
@@ -1909,6 +1951,16 @@
 			(type default)
 		)
 		(uuid "5dd6c10b-f356-4aee-9f36-428546176a0c")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2caafa-8ca7-4d4f-85b1-2daf4549d2cb")
 	)
 	(wire
 		(pts
@@ -1969,6 +2021,16 @@
 			(type default)
 		)
 		(uuid "84394ae3-e00a-4db4-b179-ee2fb8b2d44a")
+	)
+	(wire
+		(pts
+			(xy 115.57 64.77) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8921000d-fa20-4127-9c2e-b7fb25c528e3")
 	)
 	(wire
 		(pts
@@ -2059,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "adb63727-e116-4135-a4be-8c4a19f1e080")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeee0a2a-a7ea-4ba8-9dfc-f6a34163ea27")
 	)
 	(wire
 		(pts
@@ -2192,6 +2264,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 48.26) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccb781b-27d8-4526-84ad-35116ac1d37e")
+	)
+	(wire
+		(pts
 			(xy 90.17 149.86) (xy 90.17 156.21)
 		)
 		(stroke
@@ -2292,16 +2374,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 44.45) (xy 118.11 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56ad048-7fea-4fed-acd1-3d92a359553d")
-	)
-	(wire
-		(pts
 			(xy 218.44 105.41) (xy 218.44 109.22)
 		)
 		(stroke
@@ -2319,16 +2391,6 @@
 			(type default)
 		)
 		(uuid "eb22cfe6-787a-4e9b-a1d2-adec50081109")
-	)
-	(wire
-		(pts
-			(xy 118.11 62.23) (xy 152.4 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb7cb8c6-5b14-4a47-ae01-0cf849c44d07")
 	)
 	(wire
 		(pts
@@ -2409,6 +2471,16 @@
 			(type default)
 		)
 		(uuid "fef0473f-d4be-44ee-b967-c5832cec2927")
+	)
+	(label "VDD5"
+		(at 138.43 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cf340e3-89af-4921-b59f-0e717a202ef6")
 	)
 	(label "~{rf_reset}"
 		(at 125.73 62.23 0)
@@ -2562,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -2651,7 +2723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 218.44 91.44 90)
 			(effects
 				(font
@@ -2679,6 +2751,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" "606-CMD333URC2 "
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -2730,7 +2811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 90.17 166.37 0)
 			(effects
 				(font
@@ -2749,6 +2830,15 @@
 			)
 		)
 		(property "Description" "Dual NAND Gate, Low-Voltage CMOS"
+			(at 90.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" "595-SN74LVC2G00DCTR "
 			(at 90.17 166.37 0)
 			(effects
 				(font
@@ -2791,6 +2881,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d6cf11-f173-4206-87b3-3e67239ce4f3")
+		(property "Reference" "J5"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d611caa-43d0-4999-9cac-522280d87e62")
+		)
+		(pin "1"
+			(uuid "c7e73109-2448-445a-ac0c-a62b470e6bfb")
+		)
+		(instances
+			(project "swrProtection"
+				(path "/f582d0af-8075-4d38-b138-197f527fb7c0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 67.31 165.1 0)
 		(unit 1)
@@ -2798,10 +2957,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "220347f8-443d-41a0-9e8f-3609db784d3c")
 		(property "Reference" "C3"
-			(at 71.12 164.0839 0)
+			(at 64.262 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,8 +2967,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
-			(at 71.12 166.6239 0)
+		(property "Value" "0.1uF"
+			(at 61.468 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 67.31 165.1 0)
 			(effects
 				(font
@@ -2879,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "560"
 			(at 220.98 102.8699 0)
 			(effects
 				(font
@@ -2888,7 +3046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 219.456 101.854 90)
 			(effects
 				(font
@@ -3023,7 +3181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -3082,7 +3240,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "309k"
 			(at 53.086 91.694 90)
 			(effects
 				(font
@@ -3090,7 +3248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.514 91.694 90)
 			(effects
 				(font
@@ -3159,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 			(at 80.01 95.25 0)
 			(effects
 				(font
@@ -3178,6 +3336,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" "595-TLV4082DBVR "
 			(at 80.01 95.25 0)
 			(effects
 				(font
@@ -3240,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -3259,6 +3426,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" ""
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -3385,7 +3561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 48.26 149.86 0)
 			(effects
 				(font
@@ -3445,7 +3621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 59.944 105.664 0)
 			(effects
 				(font
@@ -3454,7 +3630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 67.056 104.394 90)
 			(effects
 				(font
@@ -3473,6 +3649,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" ""
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -3524,7 +3709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 116.84 166.37 0)
 			(effects
 				(font
@@ -3555,25 +3740,25 @@
 			(uuid "cd00ee58-7423-40b4-8a53-439433847751")
 		)
 		(pin "7"
-			(uuid "7f95317b-91ed-4103-917d-331afe657d07")
+			(uuid "7f95317b-91ed-4103-917d-331afe657d08")
 		)
 		(pin "2"
-			(uuid "838dc94a-5d35-4498-94d7-954d6996de4b")
+			(uuid "838dc94a-5d35-4498-94d7-954d6996de4c")
 		)
 		(pin "1"
-			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c31")
+			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c32")
 		)
 		(pin "4"
 			(uuid "f71e58a7-bab8-4c20-9e71-71af25389c59")
 		)
 		(pin "3"
-			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7891")
+			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7892")
 		)
 		(pin "6"
-			(uuid "df67fd7b-deff-426b-83ec-f16c5343feed")
+			(uuid "df67fd7b-deff-426b-83ec-f16c5343feee")
 		)
 		(pin "5"
-			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c3")
+			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c4")
 		)
 		(instances
 			(project "swrProtection"
@@ -3603,7 +3788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3.3k"
 			(at 97.79 82.5499 0)
 			(effects
 				(font
@@ -3612,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 96.266 81.534 90)
 			(effects
 				(font
@@ -3631,6 +3816,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" ""
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -3671,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "309k"
 			(at 52.578 96.774 90)
 			(effects
 				(font
@@ -3679,7 +3873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.514 96.774 90)
 			(effects
 				(font
@@ -3747,7 +3941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -3774,29 +3968,38 @@
 				(hide yes)
 			)
 		)
+		(property "MouserPN" "595-SN74LVC2G00DCTR "
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
-			(uuid "753635eb-1a65-4d99-b2f6-eef8cf827029")
+			(uuid "753635eb-1a65-4d99-b2f6-eef8cf82702a")
 		)
 		(pin "7"
-			(uuid "7f95317b-91ed-4103-917d-331afe657d07")
+			(uuid "7f95317b-91ed-4103-917d-331afe657d0a")
 		)
 		(pin "2"
-			(uuid "838dc94a-5d35-4498-94d7-954d6996de4b")
+			(uuid "838dc94a-5d35-4498-94d7-954d6996de4e")
 		)
 		(pin "1"
-			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c31")
+			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c34")
 		)
 		(pin "4"
-			(uuid "d65afa8a-735e-481d-9413-72024edeee96")
+			(uuid "d65afa8a-735e-481d-9413-72024edeee97")
 		)
 		(pin "3"
-			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7891")
+			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7893")
 		)
 		(pin "6"
-			(uuid "df67fd7b-deff-426b-83ec-f16c5343feed")
+			(uuid "df67fd7b-deff-426b-83ec-f16c5343feef")
 		)
 		(pin "5"
-			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c3")
+			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c5")
 		)
 		(instances
 			(project "swrProtection"
@@ -3825,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 49.53 105.918 0)
 			(effects
 				(font
@@ -3834,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 56.896 104.394 90)
 			(effects
 				(font
@@ -3884,10 +4087,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf0966d7-1933-4419-abf9-35ac32139012")
 		(property "Reference" "C2"
-			(at 81.28 164.0839 0)
+			(at 74.422 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,8 +4097,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
-			(at 81.28 166.6239 0)
+		(property "Value" "0.1uF"
+			(at 71.882 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.47 165.1 0)
 			(effects
 				(font
@@ -3947,6 +4149,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 138.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e8763f-df0b-4337-9fc5-76b3639c52df")
+		(property "Reference" "R7"
+			(at 140.97 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 140.97 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 139.446 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserPN" ""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06f11bf1-459a-49d3-ac29-029a383abb65")
+		)
+		(pin "1"
+			(uuid "6fbbc263-da7b-4e7c-8598-3b453f6f1937")
+		)
+		(instances
+			(project "swrProtection"
+				(path "/f582d0af-8075-4d38-b138-197f527fb7c0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 71.12 77.47 0)
 		(unit 1)
@@ -3954,10 +4235,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc22a030-322e-4b93-8ae2-1273f1b2288e")
 		(property "Reference" "C1"
-			(at 74.93 76.4539 0)
+			(at 67.818 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +4245,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
-			(at 74.93 78.9939 0)
+		(property "Value" "0.1uF"
+			(at 65.278 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 71.12 77.47 0)
 			(effects
 				(font
@@ -4083,6 +4363,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72a1374-10f6-42c8-b185-4063b95c8e81")
+		(property "Reference" "#PWR06"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eddd148-1151-484f-b462-8c2df5212878")
+		)
+		(instances
+			(project "swrProtection"
+				(path "/f582d0af-8075-4d38-b138-197f527fb7c0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC2G00")
 		(at 167.64 92.71 0)
 		(unit 2)
@@ -4108,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 167.64 92.71 0)
 			(effects
 				(font
@@ -4135,29 +4481,38 @@
 				(hide yes)
 			)
 		)
+		(property "MouserPN" "595-SN74LVC2G00DCTR "
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
-			(uuid "753635eb-1a65-4d99-b2f6-eef8cf827029")
+			(uuid "753635eb-1a65-4d99-b2f6-eef8cf82702c")
 		)
 		(pin "7"
-			(uuid "7f95317b-91ed-4103-917d-331afe657d07")
+			(uuid "7f95317b-91ed-4103-917d-331afe657d0b")
 		)
 		(pin "2"
-			(uuid "838dc94a-5d35-4498-94d7-954d6996de4b")
+			(uuid "838dc94a-5d35-4498-94d7-954d6996de4f")
 		)
 		(pin "1"
-			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c31")
+			(uuid "40261d7e-58cf-4b55-974e-3e69ce056c35")
 		)
 		(pin "4"
-			(uuid "d65afa8a-735e-481d-9413-72024edeee96")
+			(uuid "d65afa8a-735e-481d-9413-72024edeee99")
 		)
 		(pin "3"
-			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7891")
+			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7894")
 		)
 		(pin "6"
-			(uuid "df67fd7b-deff-426b-83ec-f16c5343feed")
+			(uuid "df67fd7b-deff-426b-83ec-f16c5343fef0")
 		)
 		(pin "5"
-			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c3")
+			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c6")
 		)
 		(instances
 			(project "swrProtection"
@@ -4259,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 251.46 62.23 0)
 			(effects
 				(font
@@ -4327,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
 			(at 214.63 62.23 0)
 			(effects
 				(font
@@ -4355,7 +4710,7 @@
 			)
 		)
 		(pin "8"
-			(uuid "753635eb-1a65-4d99-b2f6-eef8cf82702a")
+			(uuid "753635eb-1a65-4d99-b2f6-eef8cf82702d")
 		)
 		(pin "7"
 			(uuid "c39603d1-dd48-4474-b995-58231c98d531")
@@ -4367,16 +4722,16 @@
 			(uuid "90b819d1-eef1-442e-96d2-6d9e834e05af")
 		)
 		(pin "4"
-			(uuid "d65afa8a-735e-481d-9413-72024edeee97")
+			(uuid "d65afa8a-735e-481d-9413-72024edeee9a")
 		)
 		(pin "3"
-			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7892")
+			(uuid "5fec8cc3-ed1c-41b4-92e4-198b061e7895")
 		)
 		(pin "6"
-			(uuid "df67fd7b-deff-426b-83ec-f16c5343feee")
+			(uuid "df67fd7b-deff-426b-83ec-f16c5343fef1")
 		)
 		(pin "5"
-			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c4")
+			(uuid "522b1e19-1ca5-476e-a07d-c146721bd2c7")
 		)
 		(instances
 			(project "swrProtection"
