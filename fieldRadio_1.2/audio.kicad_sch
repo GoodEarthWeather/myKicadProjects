@@ -5,50 +5,37 @@
 	(uuid "7b0cde40-1d75-4e92-bc88-8b2e90468e18")
 	(paper "B")
 	(lib_symbols
-		(symbol "Amplifier_Audio:LM386"
-			(pin_names
-				(offset 0.127)
-			)
+		(symbol "Amplifier_Audio:LM4810"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 1.27 7.62 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LM386"
-				(at 1.27 5.08 0)
+			(property "Value" "LM4810"
+				(at 5.08 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 2.54 2.54 0)
+			(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4810.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "single Power opamp"
+			(property "Description" "Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSSOP*P0.65mm* TSSOP*3x3mm*P0.5mm*"
+			(property "ki_keywords" "audio amplifier headphone"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,11 +62,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM386_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+			(property "ki_fp_filters" "TSSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(symbol "LM4810_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -89,29 +84,11 @@
 					)
 				)
 			)
-			(symbol "LM386_1_1"
+			(symbol "LM4810_1_1"
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
+					(name "VIN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,10 +103,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VIN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -144,9 +121,45 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -162,31 +175,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "BYPASS"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "7"
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "VOUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "GAIN"
-						(effects
-							(font
-								(size 0.508 0.508)
 							)
 						)
 					)
@@ -198,17 +193,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 2.54 -7.62 90)
-					(length 6.35)
-					(name "GAIN"
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VOUT2"
 						(effects
 							(font
-								(size 0.508 0.508)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -216,10 +211,414 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Analog_Switch:TS5A3159ADBVR"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.175 4.699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TS5A3159ADBVR"
+				(at -3.175 2.921 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0.635 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+				(at 0.635 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Analog Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS5A3159ADBVR_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS5A3159ADBVR_2_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,6 +631,37 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS5A3159ADBVR_2_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1777,367 +2207,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "audioModule2-eagle-import:TS5A23157"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U$2"
-				(at 6.604 34.544 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TS5A23157"
-				(at 6.096 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "audioModule2:MSOP10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS5A23157_1_0"
-				(polyline
-					(pts
-						(xy 0 33.02) (xy 0 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 15.24 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 15.24 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 33.02) (xy 0 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 22.86) (xy 15.24 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 10.16) (xy 15.24 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 15.24 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 30.48 0)
-					(length 5.08)
-					(name "NO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 25.4 0)
-					(length 5.08)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 17.78 0)
-					(length 5.08)
-					(name "NO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 12.7 0)
-					(length 5.08)
-					(name "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 5.08 0)
-					(length 5.08)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 27.94 180)
-					(length 5.08)
-					(name "COM1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "COM2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "powerAmp_RevB-eagle-import:M02PTH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2363,17 +2432,6 @@
 		)
 		(uuid "f1123692-e88c-4735-9dea-b1b05fe89dfa")
 	)
-	(text "FILT_SEL = 0 = CW Filter"
-		(exclude_from_sim no)
-		(at 38.1 157.48 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "f19e33ae-597f-4b9a-8f2d-c4d9c6bead68")
-	)
 	(text "+12V supply"
 		(exclude_from_sim no)
 		(at 72.39 33.02 0)
@@ -2384,17 +2442,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1c64eca-3d00-409c-9add-85c22a3d0524")
-	)
-	(text "FILT_SEL = 1 = SSB Filter"
-		(exclude_from_sim no)
-		(at 38.1 160.02 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4708d09-7ba1-402c-9e48-47aea89c0016")
 	)
 	(junction
 		(at 190.5 137.16)
@@ -2407,12 +2454,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "044ed909-8654-4432-ad65-2607224e408b")
-	)
-	(junction
-		(at 301.625 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "048e1a36-6f0f-41aa-bdef-d53f8f4e99a2")
 	)
 	(junction
 		(at 165.1 177.8)
@@ -2455,12 +2496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32efed2e-5629-49a3-a1b9-8e0addb8e454")
-	)
-	(junction
-		(at 292.1 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3846df79-0bfc-412e-abf5-a0b3f6603f68")
 	)
 	(junction
 		(at 172.72 137.16)
@@ -2529,12 +2564,6 @@
 		(uuid "8b880fc1-d12c-4df5-9a35-a024673b5ed5")
 	)
 	(junction
-		(at 320.675 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91f7c339-0576-48ad-bed7-ce7811f6ea02")
-	)
-	(junction
 		(at 83.82 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,12 +2624,6 @@
 		(uuid "d9440e41-2b8b-4bf8-a38a-3a38188b9a14")
 	)
 	(junction
-		(at 301.625 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dac4361b-bb46-4bad-aba5-293f4131d43e")
-	)
-	(junction
 		(at 219.71 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2629,22 +2652,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feb40697-b18a-4b59-94b8-19a8d01bb359")
-	)
-	(junction
-		(at 83.82 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffed2abe-19c1-484a-85f6-c11ad414bcd4")
-	)
-	(wire
-		(pts
-			(xy 275.59 129.54) (xy 275.59 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026faacd-2a75-4876-b29c-9341abbfa982")
 	)
 	(wire
 		(pts
@@ -2678,16 +2685,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 139.7) (xy 134.62 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c9fff9-d234-4acc-8340-4f6ddcba6a9a")
-	)
-	(wire
-		(pts
 			(xy 231.14 45.72) (xy 219.71 45.72)
 		)
 		(stroke
@@ -2695,26 +2692,6 @@
 			(type default)
 		)
 		(uuid "06f51b1a-c89a-4a54-adf4-761a7721b04e")
-	)
-	(wire
-		(pts
-			(xy 114.3 157.48) (xy 114.3 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0771d364-a669-462b-8c26-3e56d6fd2b2c")
-	)
-	(wire
-		(pts
-			(xy 81.28 157.48) (xy 114.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09688cef-f244-4888-a2ef-2c405be9bf03")
 	)
 	(wire
 		(pts
@@ -2748,23 +2725,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 137.16) (xy 271.145 137.16)
+			(xy 391.795 105.41) (xy 387.35 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e2a0268-df72-46bf-9b51-81c2bd860a70")
-	)
-	(wire
-		(pts
-			(xy 114.3 137.16) (xy 134.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b00521-7c4e-40ed-8476-41166bc98232")
 	)
 	(wire
 		(pts
@@ -2858,16 +2825,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 125.222) (xy 317.5 121.666)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26499fa4-1f6f-46b7-b1e8-5e3aa9ffb0c4")
-	)
-	(wire
-		(pts
 			(xy 187.96 137.16) (xy 190.5 137.16)
 		)
 		(stroke
@@ -2955,26 +2912,6 @@
 			(type default)
 		)
 		(uuid "32b9af79-eb09-4e97-bbe6-c4585cf38477")
-	)
-	(wire
-		(pts
-			(xy 304.165 149.86) (xy 304.165 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a180c1-99b9-49b9-94ac-7bbf7a4ec035")
-	)
-	(wire
-		(pts
-			(xy 301.625 149.86) (xy 301.625 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b05eea-0400-458e-80c1-e99e91441307")
 	)
 	(wire
 		(pts
@@ -3078,16 +3015,6 @@
 	)
 	(wire
 		(pts
-			(xy 301.625 152.4) (xy 301.625 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca77dc2-beb7-444e-8097-e821f93cf90d")
-	)
-	(wire
-		(pts
 			(xy 210.82 91.44) (xy 210.82 102.362)
 		)
 		(stroke
@@ -3128,16 +3055,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 129.54) (xy 134.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514ae2b1-96b3-4a21-b8c7-764f8d6a410f")
-	)
-	(wire
-		(pts
 			(xy 247.65 129.54) (xy 252.73 129.54)
 		)
 		(stroke
@@ -3155,16 +3072,6 @@
 			(type default)
 		)
 		(uuid "5705f246-57fd-4472-9c6b-7e27294f482a")
-	)
-	(wire
-		(pts
-			(xy 304.165 175.895) (xy 306.705 175.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "570deac5-4548-4d66-b771-7018023d8134")
 	)
 	(wire
 		(pts
@@ -3248,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.165 121.666) (xy 317.5 121.666)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6357cfdd-2018-47d9-936c-6a59dbc0d8c8")
-	)
-	(wire
-		(pts
 			(xy 81.28 36.83) (xy 101.6 36.83)
 		)
 		(stroke
@@ -3288,26 +3185,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 142.24) (xy 292.1 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d698ac-76ce-440b-81a1-6fd7a00d329d")
-	)
-	(wire
-		(pts
-			(xy 101.6 54.61) (xy 83.82 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6966ab58-c390-4e82-aa4e-2b96b7605374")
-	)
-	(wire
-		(pts
 			(xy 196.85 132.08) (xy 196.85 134.62)
 		)
 		(stroke
@@ -3318,33 +3195,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 142.24) (xy 292.1 142.24)
+			(xy 387.35 110.49) (xy 408.305 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b5d3dc6-bd57-4de4-afe2-c685c6c2540c")
-	)
-	(wire
-		(pts
-			(xy 311.785 142.24) (xy 320.675 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d061c4c-b910-4ab4-9298-34798376405d")
-	)
-	(wire
-		(pts
-			(xy 165.1 114.3) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e2f7fa6-1ee9-4775-917f-ada02dc13bcd")
 	)
 	(wire
 		(pts
@@ -3438,16 +3295,6 @@
 	)
 	(wire
 		(pts
-			(xy 296.545 144.78) (xy 292.1 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860a0e3e-697d-4d43-9b42-1cd91907ec65")
-	)
-	(wire
-		(pts
 			(xy 148.59 66.04) (xy 156.21 66.04)
 		)
 		(stroke
@@ -3455,26 +3302,6 @@
 			(type default)
 		)
 		(uuid "8b1e57a1-43d0-4857-a8bd-040ded1764d1")
-	)
-	(wire
-		(pts
-			(xy 304.165 174.625) (xy 304.165 175.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e88b6a2-3d0d-4dcb-8c8f-e5673d1f1859")
-	)
-	(wire
-		(pts
-			(xy 160.02 114.3) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91125ed1-04ac-414b-89bd-9ef46367e239")
 	)
 	(wire
 		(pts
@@ -3535,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "9c546201-9be0-4c65-9246-379fbab964bf")
-	)
-	(wire
-		(pts
-			(xy 320.675 142.24) (xy 320.675 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc4a602-115f-47a6-9502-a1b0ecf603ba")
 	)
 	(wire
 		(pts
@@ -3638,16 +3455,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 177.8) (xy 301.625 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8684ef-f03b-4c10-a570-f921699f35fd")
-	)
-	(wire
-		(pts
 			(xy 190.5 151.13) (xy 190.5 137.16)
 		)
 		(stroke
@@ -3715,26 +3522,6 @@
 			(type default)
 		)
 		(uuid "b1de997c-35c1-45f5-a8e0-7ea4a1738bc7")
-	)
-	(wire
-		(pts
-			(xy 317.5 132.842) (xy 317.5 134.112)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fba212-ac96-4a4a-a564-1f4fb3f307ea")
-	)
-	(wire
-		(pts
-			(xy 165.1 101.6) (xy 127 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52c85a5-ff67-4555-aaf4-e70f1c30d55d")
 	)
 	(wire
 		(pts
@@ -3908,36 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.165 121.666) (xy 304.165 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1c9b0f-aea2-4c66-aa34-3c2c8b83fba5")
-	)
-	(wire
-		(pts
-			(xy 306.705 175.895) (xy 306.705 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdb11b3-b492-44d3-8cea-fa10b99ceb31")
-	)
-	(wire
-		(pts
-			(xy 292.1 144.78) (xy 292.1 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7199aa9-de8f-491c-b55c-91aeb5f05d99")
-	)
-	(wire
-		(pts
 			(xy 83.82 177.8) (xy 165.1 177.8)
 		)
 		(stroke
@@ -3945,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "d7abc30b-0879-4741-86ef-a26cf4381a4c")
-	)
-	(wire
-		(pts
-			(xy 127 101.6) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a72df0-904a-413a-8147-12e635dec35e")
 	)
 	(wire
 		(pts
@@ -3995,16 +3742,6 @@
 			(type default)
 		)
 		(uuid "e1e17a9e-43ef-4e73-9c83-5f227e942b59")
-	)
-	(wire
-		(pts
-			(xy 292.1 152.4) (xy 301.625 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e21d8d58-3885-4771-be87-5bbc58c94993")
 	)
 	(wire
 		(pts
@@ -4058,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 142.24) (xy 356.235 142.24)
+			(xy 389.89 160.02) (xy 405.13 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4078,26 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.675 157.48) (xy 320.675 159.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4b39f8-6b1d-4896-885a-f619b3dd87d1")
-	)
-	(wire
-		(pts
-			(xy 320.675 169.545) (xy 320.675 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef6ffade-8637-4220-8193-0814f74183a0")
-	)
-	(wire
-		(pts
 			(xy 194.31 76.2) (xy 194.31 82.55)
 		)
 		(stroke
@@ -4108,16 +3825,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.165 164.465) (xy 304.165 167.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33833cc-c3c5-468f-a5e2-a03d33efc5d2")
-	)
-	(wire
-		(pts
 			(xy 172.72 147.32) (xy 172.72 152.4)
 		)
 		(stroke
@@ -4125,16 +3832,6 @@
 			(type default)
 		)
 		(uuid "f38fe8c7-e201-4a5d-b85e-99900ccf700f")
-	)
-	(wire
-		(pts
-			(xy 320.675 142.24) (xy 333.375 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50fba60-2b53-4794-b879-0b0dcfabf178")
 	)
 	(wire
 		(pts
@@ -4168,16 +3865,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa31ff3-33f0-449b-ab60-44e8273f20af")
-	)
-	(wire
-		(pts
 			(xy 231.14 49.53) (xy 231.14 45.72)
 		)
 		(stroke
@@ -4198,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.145 139.7) (xy 296.545 139.7)
+			(xy 387.35 107.95) (xy 412.75 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4258,7 +3945,7 @@
 			)
 		)
 	)
-	(hierarchical_label "audio_narrow"
+	(hierarchical_label "audio_Q"
 		(shape input)
 		(at 81.28 116.84 180)
 		(effects
@@ -4291,7 +3978,7 @@
 		)
 		(uuid "5adfa173-07bb-4343-a10f-c4c7bf05ef33")
 	)
-	(hierarchical_label "audio_wide"
+	(hierarchical_label "audio_I"
 		(shape input)
 		(at 81.28 111.76 180)
 		(effects
@@ -4315,7 +4002,7 @@
 	)
 	(hierarchical_label "audio_out"
 		(shape output)
-		(at 356.235 142.24 0)
+		(at 405.13 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4323,17 +4010,6 @@
 			(justify left)
 		)
 		(uuid "b07fb70f-bd5f-4643-9ebc-fb027a3cb79c")
-	)
-	(hierarchical_label "filt_sel"
-		(shape input)
-		(at 81.28 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9d48799-4a47-4d34-92d0-730d2902f03a")
 	)
 	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
@@ -4846,90 +4522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Audio:LM386")
-		(at 304.165 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2783ceb3-5a0b-48ca-9417-bc2258031d8a")
-		(property "Reference" "U6"
-			(at 306.705 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM386"
-			(at 307.975 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W10.16mm_LongPads"
-			(at 306.705 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
-			(at 309.245 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.165 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2db2cbc8-d099-464d-b34d-da55ad6648b9")
-		)
-		(pin "5"
-			(uuid "cf3031b2-a119-45a2-8f93-47688ab8a4ea")
-		)
-		(pin "7"
-			(uuid "781d6041-26cd-4fc7-88cb-e4434c51a9de")
-		)
-		(pin "4"
-			(uuid "3c332d63-f881-4ce5-a4c2-8dee8cf9ca1e")
-		)
-		(pin "8"
-			(uuid "513289fe-8112-48ef-a65d-ebdc3fe5d074")
-		)
-		(pin "3"
-			(uuid "4d616014-3e75-4758-9919-8395a86a874d")
-		)
-		(pin "2"
-			(uuid "f933d72e-31e2-4375-ac0a-7a0fce61064d")
-		)
-		(pin "6"
-			(uuid "bcdd3345-98cd-4ace-851f-6551f048708e")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
 		(at 182.88 127 270)
 		(unit 1)
@@ -5069,83 +4661,6 @@
 			(project ""
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#SUPPLY05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "audioModule2-eagle-import:RESISTOR0603-RES")
-		(at 304.165 159.385 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3363baa1-0d62-4ac2-8ea3-53827c4da9b5")
-		(property "Reference" "R76"
-			(at 297.18 158.115 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DNS"
-			(at 296.545 161.29 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 304.165 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.165 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.165 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 304.165 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcb4eb68-9cc0-4dc6-9917-5f865356520c")
-		)
-		(pin "2"
-			(uuid "5c169984-4aff-4ba5-94d7-c7bcc1aca53a")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -5393,6 +4908,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Audio:LM4810")
+		(at 353.06 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a853be3-7799-4dd2-b2ac-1d8f99fc6df1")
+		(property "Reference" "U17"
+			(at 355.2033 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM4810"
+			(at 355.2033 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(at 353.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4810.pdf"
+			(at 353.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8"
+			(at 353.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "423c3542-4924-4a50-9189-5f62c6b8a7f9")
+		)
+		(pin "4"
+			(uuid "8e171dbb-2bee-4df7-805d-3ab76e3b7a2a")
+		)
+		(pin "5"
+			(uuid "3fda3d12-8c48-44ba-ae27-31f9379a3dd4")
+		)
+		(pin "8"
+			(uuid "f790e663-1802-4009-b641-51ad77606a44")
+		)
+		(pin "1"
+			(uuid "ed418640-305a-4836-b15b-4fe5715aea2b")
+		)
+		(pin "6"
+			(uuid "39d37ecd-c139-470b-9f95-c1f7d2247e36")
+		)
+		(pin "7"
+			(uuid "7b9e5623-31e7-410e-abc4-c3309f9e132b")
+		)
+		(pin "2"
+			(uuid "e5a074b7-72ff-4fd8-8abc-7a31a698d0af")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "audioModule2-eagle-import:GND")
+		(at 101.6 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ff63f6f-6970-45bb-bbe1-89ec83b94a40")
+		(property "Reference" "#SUPPLY012"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.695 60.325 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "audioModule2:"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a750f308-fa14-4912-9ad9-ea2acae8eb9e")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+					(reference "#SUPPLY012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "audioModule2-eagle-import:CAP0603-CAP")
 		(at 194.31 71.12 180)
 		(unit 1)
@@ -5461,151 +5130,6 @@
 			(project ""
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
-		(at 304.165 169.545 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "4957e504-ce58-4810-8a38-b2d65a309ec6")
-		(property "Reference" "C89"
-			(at 296.545 167.64 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DNS"
-			(at 296.545 170.815 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 304.165 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.165 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.165 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 304.165 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9aeaca81-b10b-465d-be82-283affd45037")
-		)
-		(pin "2"
-			(uuid "21680bf6-4cde-4424-9fe7-80913ea3f6fc")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "C89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "audioModule2-eagle-import:RESISTOR0603-RES")
-		(at 320.675 164.465 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5264bfc7-1aa5-40dd-ab94-63bfea8d05f9")
-		(property "Reference" "R77"
-			(at 314.96 165.735 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10"
-			(at 322.58 165.735 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 320.675 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.675 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2d1b62a-03d2-4988-abfd-74dde515b75c")
-		)
-		(pin "2"
-			(uuid "f15b3cc9-bdf3-4f88-8d51-2e0db782e58b")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -5761,7 +5285,7 @@
 	)
 	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
-		(at 317.5 127.762 0)
+		(at 400.05 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5769,7 +5293,7 @@
 		(dnp no)
 		(uuid "5a593b7e-abd1-4481-8c6f-3eb79fab01d1")
 		(property "Reference" "C90"
-			(at 319.024 126.492 0)
+			(at 401.574 121.92 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5778,7 +5302,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 321.056 129.794 0)
+			(at 403.606 125.222 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5787,7 +5311,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 317.5 127.762 0)
+			(at 400.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 127.762 0)
+			(at 400.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 127.762 0)
+			(at 400.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,6 +5593,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Switch:TS5A3159ADBVR")
+		(at 63.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72097454-9b5c-4a65-a195-d4d514e70b3a")
+		(property "Reference" "U16"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 63.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 64.135 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+			(at 64.135 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7e136ed6-1b9d-4556-8a3b-96cf3d9c8aaf")
+		)
+		(pin "2"
+			(uuid "e14c6636-2515-4f50-af35-bc187ddc892a")
+		)
+		(pin "5"
+			(uuid "948336b5-2ec4-44b0-ad59-af29364892df")
+		)
+		(pin "1"
+			(uuid "bb859b02-8007-471b-909e-708b9b2a4156")
+		)
+		(pin "6"
+			(uuid "5626281a-a6e0-4cc9-9898-414b0d13ba52")
+		)
+		(pin "4"
+			(uuid "16b86944-c769-42a6-aeed-c1cfc2e72b45")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "audioModule2-eagle-import:RESISTOR0603-RES")
 		(at 228.6 147.32 0)
 		(unit 1)
@@ -6146,71 +5752,6 @@
 			(project ""
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "audioModule2-eagle-import:GND")
-		(at 317.5 136.652 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8069628a-b3c2-4cc8-8c63-742e24160726")
-		(property "Reference" "#SUPPLY015"
-			(at 317.5 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 319.405 137.287 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "audioModule2:"
-			(at 317.5 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 317.5 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7d1fdbb-e8f7-4d5d-aa36-69b7c168ce00")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "#SUPPLY015")
 					(unit 1)
 				)
 			)
@@ -6366,7 +5907,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 266.065 139.7 0)
+		(at 382.27 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6375,7 +5916,7 @@
 		(dnp no)
 		(uuid "87970340-97e5-478e-a228-445f1d4b8366")
 		(property "Reference" "J10"
-			(at 262.255 138.43 0)
+			(at 378.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +5924,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 259.08 140.97 0)
+			(at 375.285 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +5932,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 266.065 139.7 0)
+			(at 382.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.065 139.7 0)
+			(at 382.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +5950,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.065 139.7 0)
+			(at 382.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,74 +6562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "audioModule2-eagle-import:CAP0603-CAP")
-		(at 320.675 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d205012c-8bfc-4469-a4fd-0b43c5a44154")
-		(property "Reference" "C91"
-			(at 322.199 152.273 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "47nF"
-			(at 322.199 156.845 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 320.675 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.675 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94869289-a7aa-4fd1-ac8d-0b4645a0cbd9")
-		)
-		(pin "2"
-			(uuid "1b339f35-e243-43d7-90ca-b66fe73d881c")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
 		(at 190.5 153.67 0)
 		(unit 1)
@@ -7157,104 +6630,6 @@
 			(project ""
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "audioModule2-eagle-import:TS5A23157")
-		(at 139.7 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e226f21d-d833-4b38-a2cd-20826072ac2f")
-		(property "Reference" "U$2"
-			(at 146.304 107.696 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TS5A23157"
-			(at 145.796 145.542 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07e949c9-5dcb-46f5-aaf7-f5997cc8a90a")
-		)
-		(pin "10"
-			(uuid "fa7a6ff2-91e8-47a3-8788-97a1388c06f6")
-		)
-		(pin "2"
-			(uuid "557efbe0-59d9-4c3b-875e-681f1d0eabac")
-		)
-		(pin "3"
-			(uuid "5eb244d0-032b-4a57-a147-44faacc0e313")
-		)
-		(pin "4"
-			(uuid "dbc0323b-700b-465c-8416-a9e9aea1c906")
-		)
-		(pin "5"
-			(uuid "1d7026ad-e7ce-455a-bbec-9db9975b9151")
-		)
-		(pin "6"
-			(uuid "c1e78faf-25fc-46b6-b4c5-f5cb445c8db9")
-		)
-		(pin "7"
-			(uuid "58a29587-ce99-4765-b407-30c1ea49813b")
-		)
-		(pin "8"
-			(uuid "73ede880-e7f5-4d7b-b9cb-33e82f1b044f")
-		)
-		(pin "9"
-			(uuid "aeeba41f-21f1-411c-816e-2bda876a1c79")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
-					(reference "U$2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "U$1")
 					(unit 1)
 				)
 			)
@@ -7407,7 +6782,7 @@
 	)
 	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
-		(at 335.915 142.24 90)
+		(at 406.4 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7415,7 +6790,7 @@
 		(dnp no)
 		(uuid "f87ff588-805f-4ae2-8abd-faa28cc71c85")
 		(property "Reference" "C92"
-			(at 335.153 139.827 90)
+			(at 405.638 133.477 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7424,7 +6799,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 339.471 145.669 90)
+			(at 409.956 139.319 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7433,7 +6808,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 335.915 142.24 0)
+			(at 406.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +6817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.915 142.24 0)
+			(at 406.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +6826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.915 142.24 0)
+			(at 406.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2561,17 +2561,6 @@
 		)
 		(uuid "65c3e2e8-a381-4f62-9226-743bf99012f6")
 	)
-	(text "For connection\nto internal\nspeaker"
-		(exclude_from_sim no)
-		(at 215.9 25.654 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71fa90b3-0281-4f7e-a3d7-ebdcf0135bcf")
-	)
 	(text "DB2"
 		(exclude_from_sim no)
 		(at 281.305 122.555 0)
@@ -3758,16 +3747,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 222.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31766839-5c79-4ef6-a453-d7bf0027cf1f")
-	)
-	(wire
-		(pts
 			(xy 171.45 119.38) (xy 94.615 119.38)
 		)
 		(stroke
@@ -3918,16 +3897,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 222.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46240dc8-7c32-4dda-abd0-7da00aa8569e")
-	)
-	(wire
-		(pts
 			(xy 250.825 102.87) (xy 269.875 102.87)
 		)
 		(stroke
@@ -4016,6 +3985,16 @@
 		)
 		(uuid "4a09625b-ab1e-4f7d-9cf5-e18f6b2c6e5e")
 	)
+	(wire
+		(pts
+			(xy 185.42 24.13) (xy 179.07 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac0c45b-a3c8-4f89-9ab7-82d38ba6342c")
+	)
 	(bus
 		(pts
 			(xy 28.575 50.8) (xy 28.575 53.34)
@@ -4038,23 +4017,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 24.13) (xy 176.53 33.02)
+			(xy 176.53 21.59) (xy 176.53 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4edbd2a7-3dd5-4202-9a12-f017780cd31e")
-	)
-	(wire
-		(pts
-			(xy 252.73 20.828) (xy 252.73 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f096963-0e27-4626-bd1c-8e43a53f8fd8")
 	)
 	(bus
 		(pts
@@ -4118,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 54.61) (xy 222.25 54.61)
+			(xy 150.495 54.61) (xy 179.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4175,16 +4144,6 @@
 			(type default)
 		)
 		(uuid "5bf38ef5-3977-482b-8863-ecd505264429")
-	)
-	(wire
-		(pts
-			(xy 247.396 39.37) (xy 247.396 23.368)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce19e58-b8b3-4927-8a99-6128bf93c726")
 	)
 	(wire
 		(pts
@@ -4628,16 +4587,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 20.828) (xy 252.73 20.828)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8a9976-4270-4662-9f28-408cf22d26a7")
-	)
-	(wire
-		(pts
 			(xy 226.06 88.265) (xy 212.09 88.265)
 		)
 		(stroke
@@ -4718,16 +4667,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.396 23.368) (xy 246.38 23.368)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0913eb8-342c-44fa-8e04-efcb1580e991")
-	)
-	(wire
-		(pts
 			(xy 148.59 125.73) (xy 148.59 58.42)
 		)
 		(stroke
@@ -4795,6 +4734,16 @@
 			(type default)
 		)
 		(uuid "a481751f-044f-4c31-8fb4-e5008cf3037f")
+	)
+	(wire
+		(pts
+			(xy 179.07 24.13) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d4288c-fae5-4cfd-b123-560da9410642")
 	)
 	(wire
 		(pts
@@ -4988,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 24.13) (xy 176.53 24.13)
+			(xy 185.42 21.59) (xy 176.53 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6728,87 +6677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_Switch")
-		(at 257.81 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ba44f93-bd51-435e-843a-dcd93b40bc96")
-		(property "Reference" "J6"
-			(at 257.81 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_Switch"
-			(at 268.605 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD3_Horizontal"
-			(at 257.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "568-NMJ4HFD3"
-			(at 257.81 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "4eb6483d-e684-4a6f-a96d-e069049d15b7")
-		)
-		(pin "SN"
-			(uuid "a36e642b-13ea-4517-aeaa-3114266c0377")
-		)
-		(pin "T"
-			(uuid "64fe996b-c446-4790-8d30-5f0a54f056b0")
-		)
-		(pin "TN"
-			(uuid "0865592b-f0c0-4a50-ad71-26bd0d5fa510")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
 		(at 265.43 79.375 0)
 		(unit 1)
@@ -7649,6 +7517,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Switch")
+		(at 266.7 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf080997-9f2f-414c-84b6-ceba35afcc63")
+		(property "Reference" "J12"
+			(at 268.605 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_Switch"
+			(at 268.605 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "550-20301"
+			(at 266.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "RN"
+			(uuid "465fdd92-1e03-4e81-a67d-91e873b06fd9")
+		)
+		(pin "TN"
+			(uuid "396f3b41-38b9-402e-88b9-0c940770452d")
+		)
+		(pin "T"
+			(uuid "7555bd2c-66da-4a06-a8e7-fdeaf8f1ebe3")
+		)
+		(pin "S"
+			(uuid "78c5b841-df7d-4059-ad07-a56f9d4ef0df")
+		)
+		(pin "SN"
+			(uuid "037a7a33-b533-45a0-b326-f48f58d0fb06")
+		)
+		(pin "R"
+			(uuid "f5202d5e-5319-4662-97f4-c7dcdc09646d")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 38.1 22.86 0)
 		(unit 1)
@@ -7935,84 +7891,6 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 241.3 20.828 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcb46c60-3438-4963-930a-12a993244ae5")
-		(property "Reference" "J12"
-			(at 238.76 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 238.76 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 241.3 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bc89c03-d51c-49a0-8106-28663d0436bc")
-		)
-		(pin "1"
-			(uuid "da0d7a45-6e32-4a5f-9ace-000087274f73")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8961,26 +8839,6 @@
 				(justify left top)
 			)
 		)
-		(pin "narrow" output
-			(at 200.66 19.685 0)
-			(uuid "edcce439-9937-47ac-be47-6070a4f44c8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "wide" output
-			(at 200.66 24.765 0)
-			(uuid "d98e4391-e80b-4317-b361-60e2779f5c66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "in" input
 			(at 185.42 19.05 180)
 			(uuid "f93273d4-bca0-466b-b942-5edcc5adfeef")
@@ -8992,13 +8850,33 @@
 			)
 		)
 		(pin "vbias" input
-			(at 185.42 24.13 180)
+			(at 185.42 21.59 180)
 			(uuid "653120ee-1653-4b86-99c7-0a745e2e6738")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "filt_sel" input
+			(at 185.42 24.13 180)
+			(uuid "dbccaf32-b7dc-4243-a1de-11244b7b3820")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "audio" output
+			(at 200.66 20.32 0)
+			(uuid "9c40c142-bf81-4f4d-8e40-18da19e962ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -9357,19 +9235,19 @@
 				(justify right)
 			)
 		)
-		(pin "audio_wide" output
-			(at 200.66 44.45 0)
-			(uuid "08b36da2-d5d3-4745-b62e-520fdec2de63")
+		(pin "sel_binaural" input
+			(at 185.42 49.53 180)
+			(uuid "1a82333a-0ab1-4eb5-ae08-674bb1ada932")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "audio_narrow" output
-			(at 200.66 48.26 0)
-			(uuid "dfbe0cbf-df76-45c0-901a-f80c7f5cec37")
+		(pin "audio" output
+			(at 200.66 44.45 0)
+			(uuid "bd74871b-2698-4eb7-9e7f-934080dad26c")
 			(effects
 				(font
 					(size 1.27 1.27)

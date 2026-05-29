@@ -5,7 +5,7 @@
 	(uuid "c11bdb6a-20a8-4a08-bcfc-6a6470792462")
 	(paper "B")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA1678"
+		(symbol "Amplifier_Operational:OPA1679"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA1678"
+			(property "Value" "OPA1679"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,7 +40,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-				(at 0 0 0)
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
+			(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA1678_1_1"
+			(symbol "OPA1679_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "OPA1678_2_1"
+			(symbol "OPA1679_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,143 @@
 					)
 				)
 			)
-			(symbol "OPA1678_3_1"
+			(symbol "OPA1679_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1679_5_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -230,7 +366,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -248,12 +384,447 @@
 							)
 						)
 					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Analog_Switch:TS5A3159ADBVR"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.175 4.699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TS5A3159ADBVR"
+				(at -3.175 2.921 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0.635 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+				(at 0.635 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Analog Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS5A3159ADBVR_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.794) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS5A3159ADBVR_2_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TS5A3159ADBVR_2_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 3.81 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1049,7 +1620,7 @@
 	)
 	(text "All Pass Filter and\nWide/Narrow Audio Filters"
 		(exclude_from_sim no)
-		(at 269.24 191.77 0)
+		(at 346.202 244.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1057,6 +1628,16 @@
 			(justify left bottom)
 		)
 		(uuid "1d09361a-51f3-46f9-9c93-bebe50083099")
+	)
+	(text "high - selects binaural\nlow - selects mono"
+		(exclude_from_sim no)
+		(at 378.714 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db98882a-dfa8-4baa-a59d-55f09cb2988d")
 	)
 	(junction
 		(at 214.63 107.95)
@@ -1093,12 +1674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a2b02f4-8100-4af1-9bc2-33242c1a1c8b")
-	)
-	(junction
-		(at 212.09 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b90dd29-414e-44f9-8d84-6c35fb32710d")
 	)
 	(junction
 		(at 113.03 153.67)
@@ -1155,13 +1730,19 @@
 		(uuid "43e01320-d628-4702-9243-5260b9c546de")
 	)
 	(junction
+		(at 320.04 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d5d7c3-c2eb-4638-831a-9a459ddf6537")
+	)
+	(junction
 		(at 113.03 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5705fd7f-e0d0-4535-a6ed-620e30f8044a")
 	)
 	(junction
-		(at 144.78 186.69)
+		(at 144.78 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b3c6961-1bd3-4ee1-8fce-70406ef3d075")
@@ -1173,7 +1754,7 @@
 		(uuid "5b3d56c6-21ee-4ce4-b445-d4e38b9a25ee")
 	)
 	(junction
-		(at 123.19 186.69)
+		(at 123.19 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b46cccb-3d24-47cd-a09b-718cbbbff6b2")
@@ -1191,12 +1772,6 @@
 		(uuid "6b6f991f-0f65-47c2-a814-8bbf8c28b4c5")
 	)
 	(junction
-		(at 110.49 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76eb1e86-a7de-4ab0-8a32-178467e5ed24")
-	)
-	(junction
 		(at 144.78 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1209,10 +1784,10 @@
 		(uuid "774328b9-43b1-40da-9b04-06da23e7ef09")
 	)
 	(junction
-		(at 110.49 165.1)
+		(at 212.09 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78848e4b-177a-4ce4-8393-e0cc1b6b90ab")
+		(uuid "7ba1a6e8-d046-4b86-a3f3-c0f8bc7e00b6")
 	)
 	(junction
 		(at 238.76 68.58)
@@ -1227,13 +1802,13 @@
 		(uuid "81fe7547-d385-4ba7-a7e0-e14243176092")
 	)
 	(junction
-		(at 167.64 186.69)
+		(at 167.64 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "863f0323-75b6-4d06-a36e-be6be7a40c24")
 	)
 	(junction
-		(at 137.16 186.69)
+		(at 137.16 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "900e3818-5d50-4ea4-86e7-db72063058c9")
@@ -1275,7 +1850,7 @@
 		(uuid "b1449733-6952-4938-99e1-a1795a922729")
 	)
 	(junction
-		(at 176.53 186.69)
+		(at 176.53 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1f58fc9-ea8f-4e87-b165-af8ce079a525")
@@ -1311,16 +1886,10 @@
 		(uuid "c8c7a5da-f7b2-4a52-9ef7-2cd708cf2c0e")
 	)
 	(junction
-		(at 153.67 186.69)
+		(at 153.67 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2842f9d-a31e-4d7e-b5d6-2289b507aa33")
-	)
-	(junction
-		(at 123.19 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2f8f0c7-e337-44fc-85ef-1bdfd9eb36df")
 	)
 	(junction
 		(at 173.99 66.04)
@@ -1351,12 +1920,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f13f9e69-a5a2-4314-acbd-e1b59023aeaf")
-	)
-	(junction
-		(at 96.52 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb063255-aed8-423a-9df2-6f605f9d3326")
 	)
 	(junction
 		(at 173.99 107.95)
@@ -1416,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 157.48) (xy 212.09 157.48)
+			(xy 372.11 152.4) (xy 212.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1443,16 +2006,6 @@
 			(type default)
 		)
 		(uuid "070672ed-1ab6-4925-9102-8c9f7c67d003")
-	)
-	(wire
-		(pts
-			(xy 110.49 186.69) (xy 96.52 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073f73ea-33ca-4fa9-88ba-23a794a1a246")
 	)
 	(wire
 		(pts
@@ -1486,6 +2039,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 85.09) (xy 320.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb11af1-2bf0-41a6-a17d-f220db485739")
+	)
+	(wire
+		(pts
 			(xy 187.96 68.58) (xy 196.85 68.58)
 		)
 		(stroke
@@ -1503,16 +2066,6 @@
 			(type default)
 		)
 		(uuid "0dc4addf-966a-434b-9744-509b3938affb")
-	)
-	(wire
-		(pts
-			(xy 110.49 165.1) (xy 123.19 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8b422d-9502-471b-9e02-9133b57f6924")
 	)
 	(wire
 		(pts
@@ -1536,6 +2089,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 152.4) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f2a9f-0ce1-4c86-bfb5-c1c1d9e1fc15")
+	)
+	(wire
+		(pts
 			(xy 260.35 96.52) (xy 269.24 96.52)
 		)
 		(stroke
@@ -1556,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 179.07) (xy 144.78 186.69)
+			(xy 144.78 179.07) (xy 144.78 194.31)
 		)
 		(stroke
 			(width 0)
@@ -1576,13 +2139,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 157.48) (xy 212.09 149.86)
+			(xy 325.12 80.01) (xy 347.98 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c493fe2-e45b-48e5-9330-7a44f6334e02")
+		(uuid "1bb7053c-fcea-470d-8b0e-2aadd0536cb1")
 	)
 	(wire
 		(pts
@@ -1596,17 +2159,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 182.88) (xy 110.49 186.69)
+			(xy 347.98 85.09) (xy 320.04 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dcbdf8f-b2cc-426c-b3f6-402634fe07ca")
+		(uuid "1cf058e0-c38f-4dcc-b600-ee05f32a7a65")
 	)
 	(wire
 		(pts
-			(xy 137.16 179.07) (xy 137.16 186.69)
+			(xy 137.16 179.07) (xy 137.16 194.31)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 161.29) (xy 176.53 186.69)
+			(xy 176.53 161.29) (xy 176.53 194.31)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 109.22 88.9)
+			(xy 95.25 110.49) (xy 128.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 109.22 83.82)
+			(xy 96.52 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +2449,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 186.69) (xy 96.52 187.96)
+			(xy 189.23 190.5) (xy 189.23 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415b9b6b-7083-40e5-9c28-a6f932a74aa8")
+	)
+	(wire
+		(pts
+			(xy 212.09 152.4) (xy 212.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41654392-3112-47f9-806d-4361a8eb7e05")
+	)
+	(wire
+		(pts
+			(xy 123.19 194.31) (xy 123.19 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 182.88) (xy 123.19 186.69)
+			(xy 123.19 182.88) (xy 123.19 194.31)
 		)
 		(stroke
 			(width 0)
@@ -1963,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "4805310c-9b65-42ff-83a7-e9c79d7bfbed")
+	)
+	(wire
+		(pts
+			(xy 355.6 74.93) (xy 355.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad5c9f5-36bd-433e-8a0b-d840de36b7ca")
 	)
 	(wire
 		(pts
@@ -1993,26 +2586,6 @@
 			(type default)
 		)
 		(uuid "526081f8-730d-4c88-8819-abbf17ed9638")
-	)
-	(wire
-		(pts
-			(xy 123.19 186.69) (xy 110.49 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549f0380-6e97-452d-b457-8211133f0072")
-	)
-	(wire
-		(pts
-			(xy 96.52 165.1) (xy 110.49 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560f4129-4666-44a1-a5cf-33fe72cd7992")
 	)
 	(wire
 		(pts
@@ -2116,7 +2689,17 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 92.075) (xy 331.47 157.48)
+			(xy 363.22 82.55) (xy 379.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d2641c-3e17-4a28-8de6-8c8ecdc5adf4")
+	)
+	(wire
+		(pts
+			(xy 372.11 86.995) (xy 372.11 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2133,16 +2716,6 @@
 			(type default)
 		)
 		(uuid "6ac361a2-35b6-44af-9476-fa8a221c8cc7")
-	)
-	(wire
-		(pts
-			(xy 109.22 110.49) (xy 128.27 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae3c069-db23-44a7-b170-db6e4d41c3ca")
 	)
 	(wire
 		(pts
@@ -2173,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "708e1ef6-eabe-495c-9979-53a46fecebe4")
-	)
-	(wire
-		(pts
-			(xy 354.33 92.71) (xy 379.73 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c75713-9c20-47ac-b505-82432963dfe4")
 	)
 	(wire
 		(pts
@@ -2226,13 +2789,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 179.07) (xy 153.67 186.69)
+			(xy 153.67 179.07) (xy 153.67 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7760d8b4-ff2f-4fce-8765-b90c5d8b4c20")
+	)
+	(wire
+		(pts
+			(xy 176.53 194.31) (xy 189.23 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7768f189-bf44-4a2c-a248-c3bb753c66c0")
 	)
 	(wire
 		(pts
@@ -2273,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "80182561-c0b0-4739-8ac7-99583bb5d4fb")
+	)
+	(wire
+		(pts
+			(xy 355.6 62.23) (xy 377.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80735f57-a6bd-43cf-ac87-72cddc601499")
 	)
 	(wire
 		(pts
@@ -2406,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 186.69) (xy 144.78 186.69)
+			(xy 137.16 194.31) (xy 144.78 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 87.63) (xy 379.73 87.63)
+			(xy 394.97 81.28) (xy 403.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 182.88) (xy 167.64 186.69)
+			(xy 167.64 182.88) (xy 167.64 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 186.69) (xy 153.67 186.69)
+			(xy 144.78 194.31) (xy 153.67 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2583,6 +3166,16 @@
 			(type default)
 		)
 		(uuid "a8f8f3a1-e3c6-4a55-9928-678f9b25cce3")
+	)
+	(wire
+		(pts
+			(xy 325.12 33.02) (xy 325.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1ff15d-958d-43fd-9222-89f253cb10f4")
 	)
 	(wire
 		(pts
@@ -2646,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 186.69) (xy 137.16 186.69)
+			(xy 123.19 194.31) (xy 137.16 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2706,16 +3299,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 109.22 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcded957-9131-48ba-a29f-fa6245a6374d")
-	)
-	(wire
-		(pts
 			(xy 224.79 68.58) (xy 229.87 68.58)
 		)
 		(stroke
@@ -2756,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 92.075) (xy 331.47 92.075)
+			(xy 379.73 86.995) (xy 372.11 86.995)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 165.1) (xy 167.64 165.1)
+			(xy 167.64 165.1) (xy 189.23 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2866,23 +3449,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 186.69) (xy 153.67 186.69)
+			(xy 167.64 194.31) (xy 153.67 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d27b29a1-6f0a-4788-b492-25cc3ea0cf80")
-	)
-	(wire
-		(pts
-			(xy 182.88 179.07) (xy 182.88 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c21261-e45e-477c-9515-24ead6741b8f")
 	)
 	(wire
 		(pts
@@ -2923,36 +3496,6 @@
 			(type default)
 		)
 		(uuid "d5fe9955-7410-4b64-87f7-fd9bc81d476c")
-	)
-	(wire
-		(pts
-			(xy 182.88 171.45) (xy 182.88 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7752ca7-eba5-439c-8a9a-ccbe4c7c40c5")
-	)
-	(wire
-		(pts
-			(xy 182.88 186.69) (xy 176.53 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da94995d-5b65-43a0-a73b-4a02a0c5a3a2")
-	)
-	(wire
-		(pts
-			(xy 110.49 165.1) (xy 110.49 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae6d191-4275-4770-bca0-d814da9dbbef")
 	)
 	(wire
 		(pts
@@ -3006,16 +3549,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 33.02) (xy 325.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1282dfc-af9e-452d-a5d1-5ca57d0c0eb2")
-	)
-	(wire
-		(pts
 			(xy 193.04 96.52) (xy 193.04 105.41)
 		)
 		(stroke
@@ -3056,17 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 182.88) (xy 96.52 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f41a2d-d4a4-4154-b35c-ca0234ec2ab2")
-	)
-	(wire
-		(pts
-			(xy 176.53 186.69) (xy 167.64 186.69)
+			(xy 176.53 194.31) (xy 167.64 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3096,16 +3619,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 96.52 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec799b8f-fb9b-4745-983c-ef0b30235a12")
-	)
-	(wire
-		(pts
 			(xy 214.63 66.04) (xy 224.79 66.04)
 		)
 		(stroke
@@ -3123,16 +3636,6 @@
 			(type default)
 		)
 		(uuid "f12fa6a7-3a41-447a-a4ee-8031f220cd2f")
-	)
-	(wire
-		(pts
-			(xy 109.22 83.82) (xy 109.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f556f1-43cb-4f6d-b03d-b0286e9bef48")
 	)
 	(wire
 		(pts
@@ -3194,6 +3697,16 @@
 		)
 		(uuid "ff81c3b7-2e68-451d-9ec7-7c4ebfbacad0")
 	)
+	(label "I"
+		(at 339.09 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31c1bf55-e6c3-4c32-998a-aa90bcd551c9")
+	)
 	(global_label "VDD5"
 		(shape bidirectional)
 		(at 104.14 139.7 180)
@@ -3215,20 +3728,9 @@
 			)
 		)
 	)
-	(hierarchical_label "audio_wide"
-		(shape output)
-		(at 379.73 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34564da4-2105-4a51-aa68-bfd96d30b18f")
-	)
 	(hierarchical_label "Q"
 		(shape input)
-		(at 105.41 88.9 180)
+		(at 95.25 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3248,9 +3750,20 @@
 		)
 		(uuid "53f294be-9ab3-4098-b1b6-174d8350d4e7")
 	)
+	(hierarchical_label "sel_binaural"
+		(shape input)
+		(at 377.19 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82fce22e-1bd7-4160-afd1-ca463db55930")
+	)
 	(hierarchical_label "I"
 		(shape input)
-		(at 105.41 83.82 180)
+		(at 96.52 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3259,9 +3772,9 @@
 		)
 		(uuid "ac3031db-5af3-473d-95a2-34b004a6ebdc")
 	)
-	(hierarchical_label "audio_narrow"
+	(hierarchical_label "audio"
 		(shape output)
-		(at 379.73 87.63 0)
+		(at 403.86 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3346,33 +3859,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 308.61 87.63 0)
-		(unit 2)
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 200.66 149.86 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01d27ced-5961-4820-a27d-c12f680eb83b")
-		(property "Reference" "U5"
-			(at 308.61 77.47 0)
+		(uuid "01d33584-3b5b-4e81-91c0-33c6d5c9a16f")
+		(property "Reference" "U18"
+			(at 200.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA1678"
-			(at 308.61 80.01 0)
+		(property "Value" "OPA1679"
+			(at 200.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 308.61 87.63 0)
+		(property "Footprint" ""
+			(at 199.39 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3894,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 308.61 87.63 0)
+			(at 201.93 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,49 +3902,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 308.61 87.63 0)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 200.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d06e8907-e552-4176-aebe-b168ea989a3b")
+		(pin "11"
+			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
 		)
-		(pin "2"
-			(uuid "bf723829-1c14-434a-bc53-631f7b571e00")
+		(pin "10"
+			(uuid "85e5271c-6f92-4218-b4e5-23826e10ed2d")
 		)
-		(pin "3"
-			(uuid "0fe6f9bd-c9cc-468f-b407-cc81f13284f3")
+		(pin "13"
+			(uuid "a9d72d4d-3c8e-4ed7-85d3-dec8ca2cb2f7")
 		)
-		(pin "5"
-			(uuid "421e5a8d-be23-4e2e-a47a-c00354649970")
-		)
-		(pin "6"
-			(uuid "5fcecbd6-a4a1-4f32-ad22-dd4883fb5ae8")
-		)
-		(pin "7"
-			(uuid "988bce46-c8c8-43e3-b3db-c0a24f43187c")
-		)
-		(pin "4"
-			(uuid "7bf9850d-70aa-49e4-85b0-8a21ca3cad38")
+		(pin "14"
+			(uuid "2a26edf0-0297-4e7c-ac2d-2ba81d8e7e6f")
 		)
 		(pin "8"
-			(uuid "2bf50fac-339a-404b-b31d-c900c45ca5a6")
+			(uuid "eca52d85-9984-4f39-baeb-e98248227ebc")
+		)
+		(pin "3"
+			(uuid "a621d276-d527-4e3a-b9bf-1cd68e94345f")
+		)
+		(pin "12"
+			(uuid "f75bf123-b6d0-4962-857f-7f1db97f90a9")
+		)
+		(pin "5"
+			(uuid "cb2f3356-051e-42cb-9ace-86f1e777d8a8")
+		)
+		(pin "1"
+			(uuid "b7c90b09-82cc-47c6-a2f3-41e068103796")
+		)
+		(pin "9"
+			(uuid "6553b902-e31c-4467-bc79-976795078c4b")
+		)
+		(pin "4"
+			(uuid "d22d6fc9-bf8c-4eac-b607-75fd7bc1d4fe")
+		)
+		(pin "7"
+			(uuid "d52bee07-f1b2-4bc7-a076-771e44a82696")
+		)
+		(pin "2"
+			(uuid "39cbf49c-8e7f-49b7-9a23-b430fc1cf57a")
+		)
+		(pin "6"
+			(uuid "4ab5c5c4-3700-4572-ab07-da0b7eef864a")
 		)
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U5")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U4")
-					(unit 2)
+					(reference "U18")
+					(unit 4)
 				)
 			)
 		)
@@ -3574,6 +4100,110 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 256.54 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b319bd-9c3a-4b92-8607-025444034270")
+		(property "Reference" "U18"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 257.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
+		)
+		(pin "10"
+			(uuid "85e5271c-6f92-4218-b4e5-23826e10ed2d")
+		)
+		(pin "13"
+			(uuid "a9d72d4d-3c8e-4ed7-85d3-dec8ca2cb2f7")
+		)
+		(pin "14"
+			(uuid "2a26edf0-0297-4e7c-ac2d-2ba81d8e7e6f")
+		)
+		(pin "8"
+			(uuid "eca52d85-9984-4f39-baeb-e98248227ebc")
+		)
+		(pin "3"
+			(uuid "a621d276-d527-4e3a-b9bf-1cd68e94345f")
+		)
+		(pin "12"
+			(uuid "f75bf123-b6d0-4962-857f-7f1db97f90a9")
+		)
+		(pin "5"
+			(uuid "cb2f3356-051e-42cb-9ace-86f1e777d8a8")
+		)
+		(pin "1"
+			(uuid "b7c90b09-82cc-47c6-a2f3-41e068103796")
+		)
+		(pin "9"
+			(uuid "6553b902-e31c-4467-bc79-976795078c4b")
+		)
+		(pin "4"
+			(uuid "d22d6fc9-bf8c-4eac-b607-75fd7bc1d4fe")
+		)
+		(pin "7"
+			(uuid "d52bee07-f1b2-4bc7-a076-771e44a82696")
+		)
+		(pin "2"
+			(uuid "39cbf49c-8e7f-49b7-9a23-b430fc1cf57a")
+		)
+		(pin "6"
+			(uuid "4ab5c5c4-3700-4572-ab07-da0b7eef864a")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -3723,17 +4353,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 113.03 175.26 0)
-		(unit 3)
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 170.18 175.26 0)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12d152e2-92ac-4a00-92fb-07bd2f73c800")
-		(property "Reference" "U3"
-			(at 111.76 173.9899 0)
+		(uuid "10e3485b-9d89-4584-b586-2f8bded23bc6")
+		(property "Reference" "U18"
+			(at 168.91 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,8 +4371,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA1678"
-			(at 111.76 176.5299 0)
+		(property "Value" "OPA1679"
+			(at 168.91 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,8 +4380,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 113.03 175.26 0)
+		(property "Footprint" ""
+			(at 168.91 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4390,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 113.03 175.26 0)
+			(at 171.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,49 +4398,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 175.26 0)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 170.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0ac4c12b-807e-49a5-aaea-2a8cef3b813a")
+		(pin "11"
+			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
 		)
-		(pin "2"
-			(uuid "351f11e1-4120-4e35-beca-7a66f28fafce")
+		(pin "10"
+			(uuid "85e5271c-6f92-4218-b4e5-23826e10ed2d")
 		)
-		(pin "3"
-			(uuid "b0f37a33-f68c-470e-9473-d7e14ebd2252")
+		(pin "13"
+			(uuid "a9d72d4d-3c8e-4ed7-85d3-dec8ca2cb2f7")
 		)
-		(pin "5"
-			(uuid "fbb9a688-fba2-4131-bfc3-a39422a1ba11")
-		)
-		(pin "6"
-			(uuid "0901636f-2e06-49a5-a828-1218c44f0d0c")
-		)
-		(pin "7"
-			(uuid "6953d8c7-f388-4962-98ce-6b7fcc00116e")
-		)
-		(pin "4"
-			(uuid "1e5b4ebf-6a68-4cb0-960e-7005c6122e70")
+		(pin "14"
+			(uuid "2a26edf0-0297-4e7c-ac2d-2ba81d8e7e6f")
 		)
 		(pin "8"
-			(uuid "07c7cec4-1fad-4039-b517-c63b0011696a")
+			(uuid "eca52d85-9984-4f39-baeb-e98248227ebc")
+		)
+		(pin "3"
+			(uuid "a621d276-d527-4e3a-b9bf-1cd68e94345f")
+		)
+		(pin "12"
+			(uuid "f75bf123-b6d0-4962-857f-7f1db97f90a9")
+		)
+		(pin "5"
+			(uuid "cb2f3356-051e-42cb-9ace-86f1e777d8a8")
+		)
+		(pin "1"
+			(uuid "b7c90b09-82cc-47c6-a2f3-41e068103796")
+		)
+		(pin "9"
+			(uuid "6553b902-e31c-4467-bc79-976795078c4b")
+		)
+		(pin "4"
+			(uuid "d22d6fc9-bf8c-4eac-b607-75fd7bc1d4fe")
+		)
+		(pin "7"
+			(uuid "d52bee07-f1b2-4bc7-a076-771e44a82696")
+		)
+		(pin "2"
+			(uuid "39cbf49c-8e7f-49b7-9a23-b430fc1cf57a")
+		)
+		(pin "6"
+			(uuid "4ab5c5c4-3700-4572-ab07-da0b7eef864a")
 		)
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
-					(unit 3)
+					(reference "U18")
+					(unit 5)
 				)
 			)
 		)
@@ -3969,310 +4612,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 170.18 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22c28c0e-67e8-4fe1-a4cf-d8fb0e0c6cf2")
-		(property "Reference" "U5"
-			(at 168.91 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 168.91 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0e4b13a-ef67-486e-9f2e-3c8888447d80")
-		)
-		(pin "2"
-			(uuid "4ab79c0d-3ad0-4b43-ad6e-83f4931bc201")
-		)
-		(pin "3"
-			(uuid "6a8f4fc9-ffa1-4f59-a0c7-c4a9d43cf415")
-		)
-		(pin "5"
-			(uuid "0de9a45b-0e74-4e4f-9d6d-1b6fb8607922")
-		)
-		(pin "6"
-			(uuid "a1ec2ca0-55c4-4ff7-8cd4-b2c9def74bed")
-		)
-		(pin "7"
-			(uuid "cc8a589e-3c29-4a3d-812f-3ee9d22a7447")
-		)
-		(pin "4"
-			(uuid "ef4db5d7-ce04-4973-b2e1-cbff82c4e818")
-		)
-		(pin "8"
-			(uuid "32772d59-563c-4d42-97e9-37e371a29636")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 99.06 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22d9cb2d-0146-4cda-abbe-b730dbd0734e")
-		(property "Reference" "U2"
-			(at 97.79 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 97.79 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2afb96e7-2b42-45e9-b984-065a7300cff1")
-		)
-		(pin "2"
-			(uuid "4c6b04a7-c913-47e3-a874-0bb5e69d1ad1")
-		)
-		(pin "3"
-			(uuid "e97fc434-80de-46e2-8184-2c55ea174d8e")
-		)
-		(pin "5"
-			(uuid "6167114c-05b3-41fe-899b-67ef778b2814")
-		)
-		(pin "6"
-			(uuid "18727e20-6c80-4b3c-bdd9-f1f9e116a749")
-		)
-		(pin "7"
-			(uuid "abf0948c-bc58-49d6-bdbe-282c4ca2b60c")
-		)
-		(pin "4"
-			(uuid "317ad74a-ba0e-42c1-a944-80f78a9556ba")
-		)
-		(pin "8"
-			(uuid "a7b587c7-8813-4d2d-9fb8-181646238694")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 154.94 107.95 0)
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 257.81 107.95 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "25b5bd75-5df8-41e4-aee3-b067f228cacf")
-		(property "Reference" "U2"
-			(at 156.21 101.6 0)
+		(uuid "25716020-c5d5-4349-a8fa-aa0c11a6c033")
+		(property "Reference" "U18"
+			(at 257.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA1678"
-			(at 158.75 104.14 0)
+		(property "Value" "OPA1679"
+			(at 257.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 154.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 154.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e560b24e-c858-4c60-be36-9c017401a1b2")
-		)
-		(pin "2"
-			(uuid "6fc2c7a0-49c2-49c3-b6ea-bb9621595d0e")
-		)
-		(pin "3"
-			(uuid "477f8e47-a661-4dbe-9771-32f6608d3386")
-		)
-		(pin "5"
-			(uuid "76cec44e-1374-41e1-9e39-24281d608b83")
-		)
-		(pin "6"
-			(uuid "ec41bd13-d169-4b04-82e8-82bf8614a606")
-		)
-		(pin "7"
-			(uuid "1f2dc288-4960-4a9d-8c0d-3474d8b43843")
-		)
-		(pin "4"
-			(uuid "fcf14cd3-1c35-4410-a4e7-f48335cd02f5")
-		)
-		(pin "8"
-			(uuid "031c2d08-9606-4174-8e47-c2cead412471")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 256.54 66.04 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a64f3f2-c2bd-42f0-9baf-4af7b8c34ecd")
-		(property "Reference" "U4"
-			(at 257.81 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 260.35 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 256.54 66.04 0)
+		(property "Footprint" ""
+			(at 256.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4647,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 256.54 66.04 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,49 +4655,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 66.04 0)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0c7a5bb1-cf74-49d9-8964-5a97c773b973")
+		(pin "11"
+			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
 		)
-		(pin "2"
-			(uuid "794d010b-cecc-45ec-935e-b541d28a3160")
+		(pin "10"
+			(uuid "85e5271c-6f92-4218-b4e5-23826e10ed2d")
 		)
-		(pin "3"
-			(uuid "d455a19e-22a1-4afb-a1b0-4272c7cee12b")
+		(pin "13"
+			(uuid "a9d72d4d-3c8e-4ed7-85d3-dec8ca2cb2f7")
 		)
-		(pin "5"
-			(uuid "2a24567e-4fa8-49b5-86d2-47ad8e43a4bf")
-		)
-		(pin "6"
-			(uuid "9db5e810-27de-4b7f-8e9f-12220980e906")
-		)
-		(pin "7"
-			(uuid "f86a6f33-395a-4d17-874e-fd19179704dc")
-		)
-		(pin "4"
-			(uuid "2f55b47b-f755-428a-8b8e-2d76e45aee77")
+		(pin "14"
+			(uuid "2a26edf0-0297-4e7c-ac2d-2ba81d8e7e6f")
 		)
 		(pin "8"
-			(uuid "b17f3fe3-0761-4de3-8425-8e72f947ce0b")
+			(uuid "eca52d85-9984-4f39-baeb-e98248227ebc")
+		)
+		(pin "3"
+			(uuid "a621d276-d527-4e3a-b9bf-1cd68e94345f")
+		)
+		(pin "12"
+			(uuid "f75bf123-b6d0-4962-857f-7f1db97f90a9")
+		)
+		(pin "5"
+			(uuid "cb2f3356-051e-42cb-9ace-86f1e777d8a8")
+		)
+		(pin "1"
+			(uuid "b7c90b09-82cc-47c6-a2f3-41e068103796")
+		)
+		(pin "9"
+			(uuid "6553b902-e31c-4467-bc79-976795078c4b")
+		)
+		(pin "4"
+			(uuid "d22d6fc9-bf8c-4eac-b607-75fd7bc1d4fe")
+		)
+		(pin "7"
+			(uuid "d52bee07-f1b2-4bc7-a076-771e44a82696")
+		)
+		(pin "2"
+			(uuid "39cbf49c-8e7f-49b7-9a23-b430fc1cf57a")
+		)
+		(pin "6"
+			(uuid "4ab5c5c4-3700-4572-ab07-da0b7eef864a")
 		)
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
-					(unit 1)
+					(reference "U18")
+					(unit 2)
 				)
 			)
 		)
@@ -4407,99 +4786,6 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 125.73 175.26 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c0a095d-b529-40dd-a689-49240de6e9bf")
-		(property "Reference" "U4"
-			(at 124.46 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 124.46 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cc47635-4f2a-41f9-bbaa-0effd063a874")
-		)
-		(pin "2"
-			(uuid "9d70adcb-7c86-46ea-bc28-23eb1f2a1a96")
-		)
-		(pin "3"
-			(uuid "9fda6b21-b721-4f71-ae17-dc1b61711e5f")
-		)
-		(pin "5"
-			(uuid "6d39d485-5bd2-4ced-b515-3dc1f07c5383")
-		)
-		(pin "6"
-			(uuid "370aff11-ec32-49b2-92fa-85f3612adb2f")
-		)
-		(pin "7"
-			(uuid "29ca118c-9a8a-46f8-b47b-c5df006dd1dd")
-		)
-		(pin "4"
-			(uuid "574723fb-ac5a-4806-b116-4dec4c02dd5e")
-		)
-		(pin "8"
-			(uuid "605982ff-2a21-4499-8bfe-4dd88cecc24a")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
@@ -4715,6 +5001,110 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 153.67 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40c5e90b-30c1-4d75-9d89-11d6c4abf62d")
+		(property "Reference" "U6"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec7")
+		)
+		(pin "6"
+			(uuid "875c6057-1494-4298-94f4-b139dfc2972e")
+		)
+		(pin "12"
+			(uuid "0163ce47-e41f-4a94-abd9-69fd0b535e23")
+		)
+		(pin "8"
+			(uuid "583a90b8-3210-4430-aa38-f9ab7e9e077d")
+		)
+		(pin "14"
+			(uuid "9dca3a52-2900-45bd-84f6-e8c9773fe68a")
+		)
+		(pin "3"
+			(uuid "9ffcc181-a239-4da3-8914-a9ca3196cdf6")
+		)
+		(pin "11"
+			(uuid "f65ff96e-e2d4-4472-85fc-a27ba0898fa5")
+		)
+		(pin "9"
+			(uuid "27fe7994-54ad-4dc0-ac56-37ccba207824")
+		)
+		(pin "4"
+			(uuid "b9c57820-eca7-4d6a-acb2-4ab087ddcb06")
+		)
+		(pin "7"
+			(uuid "3fee7dc8-e98a-4dac-8064-98c52e6779b3")
+		)
+		(pin "1"
+			(uuid "9aea6bd8-b139-4cdb-864e-47cb967ef28f")
+		)
+		(pin "10"
+			(uuid "e541d6a0-315d-4806-ba88-ee2629bb55df")
+		)
+		(pin "5"
+			(uuid "3270415d-7e4b-4178-a20c-07cefbfd384a")
+		)
+		(pin "2"
+			(uuid "6ff13019-8450-4ec9-9852-543c173df5e6")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5010,97 +5400,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 153.67 66.04 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53fda1fb-12bd-4536-80e1-aab5c0e3fc58")
-		(property "Reference" "U2"
-			(at 154.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 157.48 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 153.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 153.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58a87288-e2bf-4c88-9871-a753efc69e9d")
-		)
-		(pin "2"
-			(uuid "1527299a-08b3-47c3-929f-a75c83be365e")
-		)
-		(pin "3"
-			(uuid "aa288a22-ea1d-474d-8dae-efe971580843")
-		)
-		(pin "5"
-			(uuid "4715f272-afef-4462-9ae0-cf4ee707d3c2")
-		)
-		(pin "6"
-			(uuid "9367a390-0e2f-4dbe-a61c-3f0fa915035d")
-		)
-		(pin "7"
-			(uuid "e371a150-5681-4afa-bf98-4dc6459f136b")
-		)
-		(pin "4"
-			(uuid "eae6533a-f2f2-4d1f-a67a-55c57fefde0d")
-		)
-		(pin "8"
-			(uuid "4b5b51f1-7e04-4c41-b457-3111ef54ccd0")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5468,97 +5767,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 204.47 107.95 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76b68b3f-5d68-4613-b9ef-ca5d50ccc6b3")
-		(property "Reference" "U3"
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 208.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 204.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 204.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f178f908-d1b2-4892-a548-17ecfb67d017")
-		)
-		(pin "2"
-			(uuid "1f9b4835-533b-42ae-988b-f3add4d925d3")
-		)
-		(pin "3"
-			(uuid "05ccec47-d763-42b7-89f6-7ae8dfe5e583")
-		)
-		(pin "5"
-			(uuid "9db3b23f-79a7-45ce-b81d-76de3fa57fcc")
-		)
-		(pin "6"
-			(uuid "39031a28-e474-4460-b87d-643baad1a0c7")
-		)
-		(pin "7"
-			(uuid "8af1d8ff-25c5-46ee-99d6-164393753964")
-		)
-		(pin "4"
-			(uuid "8ceea26f-ff92-42e8-b04b-8efc4910558e")
-		)
-		(pin "8"
-			(uuid "6aac7719-afbc-4e0f-a7b0-c39aa3df55e3")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 175.26 0)
 		(unit 1)
@@ -5699,6 +5907,193 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 125.73 175.26 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8002b190-55d9-436f-b5a1-db817ef05246")
+		(property "Reference" "U6"
+			(at 124.46 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 124.46 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec7")
+		)
+		(pin "6"
+			(uuid "875c6057-1494-4298-94f4-b139dfc2972e")
+		)
+		(pin "12"
+			(uuid "0163ce47-e41f-4a94-abd9-69fd0b535e23")
+		)
+		(pin "8"
+			(uuid "583a90b8-3210-4430-aa38-f9ab7e9e077d")
+		)
+		(pin "14"
+			(uuid "9dca3a52-2900-45bd-84f6-e8c9773fe68a")
+		)
+		(pin "3"
+			(uuid "9ffcc181-a239-4da3-8914-a9ca3196cdf6")
+		)
+		(pin "11"
+			(uuid "f65ff96e-e2d4-4472-85fc-a27ba0898fa5")
+		)
+		(pin "9"
+			(uuid "27fe7994-54ad-4dc0-ac56-37ccba207824")
+		)
+		(pin "4"
+			(uuid "b9c57820-eca7-4d6a-acb2-4ab087ddcb06")
+		)
+		(pin "7"
+			(uuid "3fee7dc8-e98a-4dac-8064-98c52e6779b3")
+		)
+		(pin "1"
+			(uuid "9aea6bd8-b139-4cdb-864e-47cb967ef28f")
+		)
+		(pin "10"
+			(uuid "e541d6a0-315d-4806-ba88-ee2629bb55df")
+		)
+		(pin "5"
+			(uuid "3270415d-7e4b-4178-a20c-07cefbfd384a")
+		)
+		(pin "2"
+			(uuid "6ff13019-8450-4ec9-9852-543c173df5e6")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:TS5A3159ADBVR")
+		(at 355.6 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833d0e8c-73f2-4fa1-b24d-0f4b9c489a1d")
+		(property "Reference" "U14"
+			(at 355.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 355.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 354.965 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+			(at 354.965 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+			(at 355.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e1cf22d6-38a6-4cac-abb1-36e1991b1f1b")
+		)
+		(pin "5"
+			(uuid "c4aced73-a929-4b60-9831-23aa289b139d")
+		)
+		(pin "1"
+			(uuid "7759c24e-f6b1-4c73-aa85-a82f7f0b1a95")
+		)
+		(pin "4"
+			(uuid "e84faa72-8b4a-4f65-8040-d9817f3e33fb")
+		)
+		(pin "3"
+			(uuid "50a73c0b-7c86-41f0-8e77-5817dc8d74cc")
+		)
+		(pin "2"
+			(uuid "e882ed3d-4615-4006-a30e-25835abd0503")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -5846,6 +6241,90 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:TS5A3159ADBVR")
+		(at 189.23 177.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c5d3f1-ae5a-4da8-aba8-78a53faa61c8")
+		(property "Reference" "U15"
+			(at 194.31 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 194.31 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 189.865 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+			(at 189.865 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+			(at 189.23 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e1cf22d6-38a6-4cac-abb1-36e1991b1f1b")
+		)
+		(pin "5"
+			(uuid "c4aced73-a929-4b60-9831-23aa289b139d")
+		)
+		(pin "1"
+			(uuid "7759c24e-f6b1-4c73-aa85-a82f7f0b1a95")
+		)
+		(pin "4"
+			(uuid "e84faa72-8b4a-4f65-8040-d9817f3e33fb")
+		)
+		(pin "3"
+			(uuid "50a73c0b-7c86-41f0-8e77-5817dc8d74cc")
+		)
+		(pin "2"
+			(uuid "e882ed3d-4615-4006-a30e-25835abd0503")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U15")
+					(unit 2)
 				)
 			)
 		)
@@ -6577,6 +7056,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 204.47 107.95 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1109bfe-519e-43ab-9205-60a7028035d0")
+		(property "Reference" "U6"
+			(at 204.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec7")
+		)
+		(pin "6"
+			(uuid "875c6057-1494-4298-94f4-b139dfc2972e")
+		)
+		(pin "12"
+			(uuid "0163ce47-e41f-4a94-abd9-69fd0b535e23")
+		)
+		(pin "8"
+			(uuid "583a90b8-3210-4430-aa38-f9ab7e9e077d")
+		)
+		(pin "14"
+			(uuid "9dca3a52-2900-45bd-84f6-e8c9773fe68a")
+		)
+		(pin "3"
+			(uuid "9ffcc181-a239-4da3-8914-a9ca3196cdf6")
+		)
+		(pin "11"
+			(uuid "f65ff96e-e2d4-4472-85fc-a27ba0898fa5")
+		)
+		(pin "9"
+			(uuid "27fe7994-54ad-4dc0-ac56-37ccba207824")
+		)
+		(pin "4"
+			(uuid "b9c57820-eca7-4d6a-acb2-4ab087ddcb06")
+		)
+		(pin "7"
+			(uuid "3fee7dc8-e98a-4dac-8064-98c52e6779b3")
+		)
+		(pin "1"
+			(uuid "9aea6bd8-b139-4cdb-864e-47cb967ef28f")
+		)
+		(pin "10"
+			(uuid "e541d6a0-315d-4806-ba88-ee2629bb55df")
+		)
+		(pin "5"
+			(uuid "3270415d-7e4b-4178-a20c-07cefbfd384a")
+		)
+		(pin "2"
+			(uuid "6ff13019-8450-4ec9-9852-543c173df5e6")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 205.74 96.52 90)
 		(unit 1)
@@ -6643,170 +7226,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 200.66 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5b7df16-749d-48e3-86e7-37a445b373c4")
-		(property "Reference" "U5"
-			(at 201.93 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 204.47 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e131505b-0cd7-4385-b69a-7e96d74f368c")
-		)
-		(pin "2"
-			(uuid "9ce716b5-ae36-41f8-8dfb-271057e905ba")
-		)
-		(pin "3"
-			(uuid "803ce12e-d963-41dd-a399-6518fdc900e2")
-		)
-		(pin "5"
-			(uuid "b09526d6-0090-4c9b-9074-d90a735754ee")
-		)
-		(pin "6"
-			(uuid "1ff3469b-75c7-4fe5-996b-618100061c82")
-		)
-		(pin "7"
-			(uuid "a620c8d4-17b4-4744-80f1-7c1ca6e144e4")
-		)
-		(pin "4"
-			(uuid "584238e9-141b-45db-9852-f86cee6dca87")
-		)
-		(pin "8"
-			(uuid "cc7d2f2d-92f7-4722-82e3-dedb150712d8")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c64f024f-1c14-4f03-b814-9d0e5eb79106")
-		(property "Reference" "C66"
-			(at 184.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 184.15 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 183.8452 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7c34e5d-8be3-4bc7-becf-f8163fd4bf1c")
-		)
-		(pin "2"
-			(uuid "1917f677-42a5-448c-8e15-d413a3dd7b65")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7104,33 +7523,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 257.81 107.95 0)
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 204.47 66.04 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6d2d608-7d61-4d5f-a26d-58f26ae36a2f")
-		(property "Reference" "U4"
-			(at 259.08 101.6 0)
+		(uuid "e3660502-3131-49e2-a7c3-d6cd3ab4a6b5")
+		(property "Reference" "U6"
+			(at 204.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA1678"
-			(at 261.62 104.14 0)
+		(property "Value" "OPA1679"
+			(at 204.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 257.81 107.95 0)
+		(property "Footprint" ""
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7558,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 257.81 107.95 0)
+			(at 205.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,48 +7566,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 107.95 0)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4db27798-ae28-4906-9cd4-5e2f0aa26355")
-		)
-		(pin "2"
-			(uuid "45324b00-45df-4c1e-9734-afe1d386a575")
-		)
-		(pin "3"
-			(uuid "fb7cde65-c403-41b1-904d-6906d7c8cc30")
-		)
-		(pin "5"
-			(uuid "fb2dec04-4da7-4f95-be43-705532bf5c1f")
+		(pin "13"
+			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec7")
 		)
 		(pin "6"
-			(uuid "e440cd44-6d47-4fff-bd4c-abb11600f869")
+			(uuid "875c6057-1494-4298-94f4-b139dfc2972e")
 		)
-		(pin "7"
-			(uuid "11fb6bed-e928-4648-b97f-a99bf609adc0")
-		)
-		(pin "4"
-			(uuid "3d133f01-7f0b-446f-b8e3-5e682250303f")
+		(pin "12"
+			(uuid "0163ce47-e41f-4a94-abd9-69fd0b535e23")
 		)
 		(pin "8"
-			(uuid "46057817-13c4-45e0-89f7-1e116a1e85fd")
+			(uuid "583a90b8-3210-4430-aa38-f9ab7e9e077d")
+		)
+		(pin "14"
+			(uuid "9dca3a52-2900-45bd-84f6-e8c9773fe68a")
+		)
+		(pin "3"
+			(uuid "9ffcc181-a239-4da3-8914-a9ca3196cdf6")
+		)
+		(pin "11"
+			(uuid "f65ff96e-e2d4-4472-85fc-a27ba0898fa5")
+		)
+		(pin "9"
+			(uuid "27fe7994-54ad-4dc0-ac56-37ccba207824")
+		)
+		(pin "4"
+			(uuid "b9c57820-eca7-4d6a-acb2-4ab087ddcb06")
+		)
+		(pin "7"
+			(uuid "3fee7dc8-e98a-4dac-8064-98c52e6779b3")
+		)
+		(pin "1"
+			(uuid "9aea6bd8-b139-4cdb-864e-47cb967ef28f")
+		)
+		(pin "10"
+			(uuid "e541d6a0-315d-4806-ba88-ee2629bb55df")
+		)
+		(pin "5"
+			(uuid "3270415d-7e4b-4178-a20c-07cefbfd384a")
+		)
+		(pin "2"
+			(uuid "6ff13019-8450-4ec9-9852-543c173df5e6")
 		)
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -7411,6 +7843,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 308.61 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee87a04e-088c-4445-bd30-462891299b81")
+		(property "Reference" "U18"
+			(at 308.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 308.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 309.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
+		)
+		(pin "10"
+			(uuid "85e5271c-6f92-4218-b4e5-23826e10ed2d")
+		)
+		(pin "13"
+			(uuid "a9d72d4d-3c8e-4ed7-85d3-dec8ca2cb2f7")
+		)
+		(pin "14"
+			(uuid "2a26edf0-0297-4e7c-ac2d-2ba81d8e7e6f")
+		)
+		(pin "8"
+			(uuid "eca52d85-9984-4f39-baeb-e98248227ebc")
+		)
+		(pin "3"
+			(uuid "a621d276-d527-4e3a-b9bf-1cd68e94345f")
+		)
+		(pin "12"
+			(uuid "f75bf123-b6d0-4962-857f-7f1db97f90a9")
+		)
+		(pin "5"
+			(uuid "cb2f3356-051e-42cb-9ace-86f1e777d8a8")
+		)
+		(pin "1"
+			(uuid "b7c90b09-82cc-47c6-a2f3-41e068103796")
+		)
+		(pin "9"
+			(uuid "6553b902-e31c-4467-bc79-976795078c4b")
+		)
+		(pin "4"
+			(uuid "d22d6fc9-bf8c-4eac-b607-75fd7bc1d4fe")
+		)
+		(pin "7"
+			(uuid "d52bee07-f1b2-4bc7-a076-771e44a82696")
+		)
+		(pin "2"
+			(uuid "39cbf49c-8e7f-49b7-9a23-b430fc1cf57a")
+		)
+		(pin "6"
+			(uuid "4ab5c5c4-3700-4572-ab07-da0b7eef864a")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 124.46 68.58 90)
 		(unit 1)
@@ -7477,97 +8013,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1678")
-		(at 204.47 66.04 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1db813e-398b-4f1a-9deb-63f4a796b727")
-		(property "Reference" "U3"
-			(at 204.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678"
-			(at 207.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb817dea-74f5-4e61-b0ee-f8d298a1a38d")
-		)
-		(pin "2"
-			(uuid "430e1b4f-8371-4932-8019-bc9b3fc7daa0")
-		)
-		(pin "3"
-			(uuid "665818e9-02a2-44cb-9791-de2aa7d5fb1a")
-		)
-		(pin "5"
-			(uuid "16209cad-2f57-4b86-b8ae-b98e4fcc29f2")
-		)
-		(pin "6"
-			(uuid "4680aa7e-6f79-4d93-814b-b3d5a984f481")
-		)
-		(pin "7"
-			(uuid "dffe1684-cb3c-4074-8729-c37bbafc72d1")
-		)
-		(pin "4"
-			(uuid "54376298-32ba-4e0b-97bb-5db8f1b75f8b")
-		)
-		(pin "8"
-			(uuid "f18b2fc6-37bd-4499-87bd-8c8f53af329d")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7646,8 +8091,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1679")
+		(at 154.94 107.95 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc36a0bd-1247-46a1-ba7e-d95c7f69df27")
+		(property "Reference" "U6"
+			(at 154.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1679"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec7")
+		)
+		(pin "6"
+			(uuid "875c6057-1494-4298-94f4-b139dfc2972e")
+		)
+		(pin "12"
+			(uuid "0163ce47-e41f-4a94-abd9-69fd0b535e23")
+		)
+		(pin "8"
+			(uuid "583a90b8-3210-4430-aa38-f9ab7e9e077d")
+		)
+		(pin "14"
+			(uuid "9dca3a52-2900-45bd-84f6-e8c9773fe68a")
+		)
+		(pin "3"
+			(uuid "9ffcc181-a239-4da3-8914-a9ca3196cdf6")
+		)
+		(pin "11"
+			(uuid "f65ff96e-e2d4-4472-85fc-a27ba0898fa5")
+		)
+		(pin "9"
+			(uuid "27fe7994-54ad-4dc0-ac56-37ccba207824")
+		)
+		(pin "4"
+			(uuid "b9c57820-eca7-4d6a-acb2-4ab087ddcb06")
+		)
+		(pin "7"
+			(uuid "3fee7dc8-e98a-4dac-8064-98c52e6779b3")
+		)
+		(pin "1"
+			(uuid "9aea6bd8-b139-4cdb-864e-47cb967ef28f")
+		)
+		(pin "10"
+			(uuid "e541d6a0-315d-4806-ba88-ee2629bb55df")
+		)
+		(pin "5"
+			(uuid "3270415d-7e4b-4178-a20c-07cefbfd384a")
+		)
+		(pin "2"
+			(uuid "6ff13019-8450-4ec9-9852-543c173df5e6")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/f0aa9a49-1e26-47fb-bcc4-e46a9f74019c"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 96.52 187.96 0)
+		(at 123.19 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7656,7 +8205,7 @@
 		(fields_autoplaced yes)
 		(uuid "fecf7ae8-1e98-448f-b592-6fb82fd0d97b")
 		(property "Reference" "#PWR020"
-			(at 96.52 194.31 0)
+			(at 123.19 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +8214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 193.04 0)
+			(at 123.19 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +8222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 187.96 0)
+			(at 123.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +8231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 187.96 0)
+			(at 123.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +8240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 187.96 0)
+			(at 123.19 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +8266,7 @@
 		)
 	)
 	(sheet
-		(at 339.09 83.82)
+		(at 379.73 78.74)
 		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7733,7 +8282,7 @@
 		)
 		(uuid "a07c0629-fa52-4cc1-9263-ae3b29f1aaaa")
 		(property "Sheetname" "HPLP Filters"
-			(at 339.09 83.1084 0)
+			(at 379.73 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +8291,7 @@
 			)
 		)
 		(property "Sheetfile" "hplp_filters.kicad_sch"
-			(at 339.09 97.1046 0)
+			(at 379.73 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,28 +8299,8 @@
 				(justify left top)
 			)
 		)
-		(pin "narrow" output
-			(at 354.33 87.63 0)
-			(uuid "623d0dc3-91af-46a6-a032-8bb9f7f7ba51")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "wide" output
-			(at 354.33 92.71 0)
-			(uuid "6b7719a5-711d-4064-83fd-d5ca316cc010")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "in" input
-			(at 339.09 87.63 180)
+			(at 379.73 82.55 180)
 			(uuid "d55665df-0e69-4afd-af32-78558c2c23c3")
 			(effects
 				(font
@@ -7781,13 +8310,33 @@
 			)
 		)
 		(pin "vbias" input
-			(at 339.09 92.075 180)
+			(at 379.73 86.995 180)
 			(uuid "83aa75b7-8478-4c63-9b39-97b8ac720e68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "filt_sel" input
+			(at 379.73 90.17 180)
+			(uuid "ca088826-b451-4288-a4a6-ce22f06e7b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "audio" output
+			(at 394.97 81.28 0)
+			(uuid "ab234436-c9b1-4268-ac21-8328a16d41eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
