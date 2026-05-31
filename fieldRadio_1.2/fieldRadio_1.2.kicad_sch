@@ -4739,7 +4739,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 60.96) (xy 59.69 60.96)
+			(xy 67.945 60.96) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9273,8 +9273,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 58.42)
-		(size 16.51 7.62)
+		(at 67.945 58.42)
+		(size 20.955 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9288,7 +9288,7 @@
 		)
 		(uuid "de17e96d-acc8-4488-9767-c0e10e15a863")
 		(property "Sheetname" "powerAmp"
-			(at 72.39 57.7084 0)
+			(at 67.945 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +9297,7 @@
 			)
 		)
 		(property "Sheetfile" "powerAmp.kicad_sch"
-			(at 72.39 54.61 0)
+			(at 67.945 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9306,7 @@
 			)
 		)
 		(pin "pwrOut" output
-			(at 72.39 60.96 180)
+			(at 67.945 60.96 180)
 			(uuid "c106987c-eef9-47b2-8160-876d6066d4fc")
 			(effects
 				(font
@@ -9333,6 +9333,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "bst_enable" input
+			(at 67.945 66.04 180)
+			(uuid "9deae866-ddf8-4256-b2ae-cfd7475b75bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_AMP_enable" input
+			(at 67.945 68.58 180)
+			(uuid "d4d5d97f-8d5d-4126-b825-210ea63896ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "vdrv_enable" input
+			(at 67.945 71.12 180)
+			(uuid "630d050f-1de8-4240-9cfb-1c948e85b62f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{rf_enable}" input
+			(at 67.945 73.66 180)
+			(uuid "c5fb7c9d-ffac-4bd7-b9e1-a10e42d5b4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -3956,16 +3956,16 @@
 			(uuid "6b9f33ec-fe3e-4aa3-a65f-dfe5598a5862")
 		)
 		(pin "3"
-			(uuid "9731d4ef-a018-47be-8f5f-cbf9e14c8de9")
+			(uuid "9731d4ef-a018-47be-8f5f-cbf9e14c8dea")
 		)
 		(pin "5"
 			(uuid "af229ac9-8c90-4e83-9180-5e6ec8497511")
 		)
 		(pin "2"
-			(uuid "9f0f203c-c0db-46bd-aaf9-eee821a5422c")
+			(uuid "9f0f203c-c0db-46bd-aaf9-eee821a5422d")
 		)
 		(pin "1"
-			(uuid "d96662f5-0eed-4b97-b519-87c0114da66b")
+			(uuid "d96662f5-0eed-4b97-b519-87c0114da66c")
 		)
 		(pin "7"
 			(uuid "cac63cfc-1445-474c-8e5f-75ffe4c268c8")
@@ -4976,13 +4976,13 @@
 			)
 		)
 		(pin "8"
-			(uuid "6b9f33ec-fe3e-4aa3-a65f-dfe5598a5862")
+			(uuid "6b9f33ec-fe3e-4aa3-a65f-dfe5598a5863")
 		)
 		(pin "3"
 			(uuid "c976b1a6-fd04-4b5a-a8c0-8ff0a2ac8199")
 		)
 		(pin "5"
-			(uuid "1f00a084-131e-40b3-8db3-ae1e6ab11c51")
+			(uuid "1f00a084-131e-40b3-8db3-ae1e6ab11c52")
 		)
 		(pin "2"
 			(uuid "99461549-2167-4154-a723-0b43b9b21510")
@@ -4991,13 +4991,13 @@
 			(uuid "79a876d4-f103-46c0-99ed-63fbafef7d33")
 		)
 		(pin "7"
-			(uuid "ec8d7d83-c562-4456-bd00-c78da55f42a9")
+			(uuid "ec8d7d83-c562-4456-bd00-c78da55f42aa")
 		)
 		(pin "4"
-			(uuid "b7875d8d-7c6c-49ab-b2c5-792b12f0c6a9")
+			(uuid "b7875d8d-7c6c-49ab-b2c5-792b12f0c6aa")
 		)
 		(pin "6"
-			(uuid "38a0ede1-c857-4747-be42-2f4322ac6cd2")
+			(uuid "38a0ede1-c857-4747-be42-2f4322ac6cd3")
 		)
 		(instances
 			(project "fieldRadio_1.2"
