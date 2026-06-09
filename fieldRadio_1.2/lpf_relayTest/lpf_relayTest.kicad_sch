@@ -3899,6 +3899,16 @@
 		)
 		(uuid "c684bd7a-7657-4235-9a09-ce0b4b3c5432")
 	)
+	(text "+5V Power\nSupply"
+		(exclude_from_sim no)
+		(at 20.32 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8bff9dc-20c0-470c-808f-3c34acb92c60")
+	)
 	(junction
 		(at 257.81 88.9)
 		(diameter 0)
@@ -7949,6 +7959,16 @@
 		)
 		(uuid "02ec4a70-9f4d-42e8-a12e-323c0d79759e")
 	)
+	(label "QB"
+		(at 64.77 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d93ec5a-174b-4c56-bb46-d6c6cb74c351")
+	)
 	(label "VDD5_RELAY"
 		(at 104.14 163.83 180)
 		(effects
@@ -8189,6 +8209,16 @@
 		)
 		(uuid "ae6234fd-d6cf-42e0-a793-821dba775c80")
 	)
+	(label "QE"
+		(at 64.77 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b18556ee-b15b-4c59-aa2b-66206e44d086")
+	)
 	(label "VDD5_RELAY"
 		(at 50.8 35.56 180)
 		(effects
@@ -8229,6 +8259,26 @@
 		)
 		(uuid "c4f81a3e-72c7-42fe-a515-cade02de9769")
 	)
+	(label "QA"
+		(at 64.77 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf0dd333-f38e-4c2d-89bf-41f285d8cc52")
+	)
+	(label "QD"
+		(at 64.77 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d028a175-95e6-4276-ba1f-0e06350016c4")
+	)
 	(label "LP40M+"
 		(at 137.16 24.13 180)
 		(effects
@@ -8249,6 +8299,26 @@
 		)
 		(uuid "d8b9426f-bf00-444a-abc4-4d00b5760cbf")
 	)
+	(label "QC"
+		(at 64.77 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8cd99b0-31a8-48df-bed1-977afbb18d86")
+	)
+	(label "QF"
+		(at 64.77 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8cd1ade-b41e-423f-9553-669a36bdb156")
+	)
 	(label "HP2030M+"
 		(at 97.79 21.59 0)
 		(effects
@@ -8258,6 +8328,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea6b362a-9c82-479c-b808-9b4e6a6134a5")
+	)
+	(label "QA"
+		(at 64.77 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2d7ef64-955c-4420-97a8-339888594179")
 	)
 	(label "LP2030M-"
 		(at 46.99 161.29 0)
@@ -8278,6 +8358,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4f00c0a-44bd-496a-b19e-4751c91e109a")
+	)
+	(label "QB"
+		(at 64.77 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f707e8c1-21d9-4863-8b02-05fbf884f82b")
 	)
 	(label "LP2030M-"
 		(at 105.41 55.88 0)
@@ -9714,10 +9804,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fe922f4-3a41-41b0-bf56-d726e991b7c3")
 		(property "Reference" "J6"
-			(at 27.94 45.72 0)
+			(at 27.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,6 +9819,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -11556,10 +11646,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65617fd7-8ec9-4cb7-b793-8d83511ab38b")
 		(property "Reference" "J7"
-			(at 27.94 57.15 0)
+			(at 27.94 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,6 +11661,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -13020,10 +13110,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bd8e4ac-1636-4a51-915b-70c6a090172e")
 		(property "Reference" "J8"
-			(at 27.94 76.2 0)
+			(at 27.94 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,6 +13125,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -16108,10 +16198,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3056a8d-d933-4e72-9a0d-dfb9d6f53e95")
 		(property "Reference" "J5"
-			(at 27.94 35.56 0)
+			(at 28.194 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16124,6 +16213,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
