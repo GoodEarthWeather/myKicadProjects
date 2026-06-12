@@ -7999,7 +7999,7 @@
 		)
 		(uuid "26f4de32-5f67-4a9b-aa7a-459bf007bf75")
 	)
-	(label "LP1517M+"
+	(label "LP1517M-"
 		(at 160.02 113.03 0)
 		(effects
 			(font
