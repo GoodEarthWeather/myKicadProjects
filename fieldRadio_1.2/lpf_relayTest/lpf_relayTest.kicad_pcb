@@ -280,7 +280,7 @@
 		(path "/5fa7c348-1d76-493e-ab6d-1921591e2b73")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.71 1.95)
 			(end -1.71 0.84)
@@ -682,7 +682,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "608742f2-6892-488c-ac08-6639a9ebbad7")
+			(uuid "759b8da4-ff19-4bc2-a879-44832e34faed")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -692,7 +692,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "608742f2-6892-488c-ac08-6639a9ebbad7")
+			(uuid "7bdf999e-b9e0-43b5-b5e7-dceb0ba2c479")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -702,7 +702,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "608742f2-6892-488c-ac08-6639a9ebbad7")
+			(uuid "6d039fcf-43cb-420d-ac03-9481f83b34d7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
@@ -773,7 +773,7 @@
 		(path "/d3056a8d-d933-4e72-9a0d-dfb9d6f53e95")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -997,7 +997,7 @@
 		(path "/1fe922f4-3a41-41b0-bf56-d726e991b7c3")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -1256,6 +1256,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C576916"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceb2f46d-1672-4ebf-acd5-0cb13806ea82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/85fb0792-2823-40e4-9baa-a48e1012e61e")
 		(sheetname "/")
@@ -1431,6 +1444,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4dcd9365-fdb0-427e-b935-68f8765c0261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "931aac52-5a46-4f33-b1f2-4cf45e9d904b")
 			(effects
 				(font
 					(size 1 1)
@@ -1845,7 +1871,7 @@
 		(path "/19504ddf-d2f9-4cf1-8f12-8ec969c35310")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.71 1.95)
 			(end -1.71 0.84)
@@ -2247,7 +2273,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "55b1003c-1e9c-403b-a3a2-3f11ffc3cf04")
+			(uuid "c5b56385-0585-4fed-b72c-edeb99d6ab2c")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -2257,7 +2283,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "55b1003c-1e9c-403b-a3a2-3f11ffc3cf04")
+			(uuid "5e6cd870-6f9b-4499-9c45-0ca4f039bc88")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -2267,7 +2293,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "55b1003c-1e9c-403b-a3a2-3f11ffc3cf04")
+			(uuid "00313554-22b3-43e4-bf43-28b619c9ce74")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
@@ -2804,6 +2830,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C576916"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce480580-fea7-41ec-af42-dac83b152d75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/58de84d1-c8a4-4f11-9792-fd1f273a4504")
 		(sheetname "/")
@@ -2977,6 +3016,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6299e001-5fe9-4fc5-843b-53ff174f698c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C107106"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24b9604f-85a0-4bd4-bb4b-c0188c1137fd")
 			(effects
 				(font
 					(size 1 1)
@@ -3587,6 +3639,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79c9cb8e-953e-482e-bedb-ab0f430b791a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C107106"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8741987-94b8-4642-910e-e5cd66e2aa75")
 			(effects
 				(font
 					(size 1 1)
@@ -4569,6 +4634,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C527205"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cba7c583-6a2b-4b4a-9a7c-5b1effad78c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e7a9c02d-519d-4b11-a089-bf7d5fc86ca6")
 		(sheetname "/")
@@ -4742,6 +4820,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d04465a-d332-4500-9666-e55b662b5189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C10092"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5f0d8a0-861f-4eca-bb8a-d3ea5ec60c52")
 			(effects
 				(font
 					(size 1 1)
@@ -5233,6 +5324,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C113820"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6064d5bb-1f80-4a62-877d-d53af6fffe5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/eb5224f5-17e3-4740-bbde-cb780ecd763d")
 		(sheetname "/")
@@ -5378,7 +5482,7 @@
 		(path "/f496bc0d-5101-4e15-8cde-f35bff9a6b25")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -5674,7 +5778,7 @@
 		(path "/65617fd7-8ec9-4cb7-b793-8d83511ab38b")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -5898,7 +6002,7 @@
 		(path "/efbcdd44-ed1b-4f2b-a0c2-7e0a15720207")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -6222,6 +6326,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8a678c8-7160-459a-8d3f-fed0629777b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C527206"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2615124-0b4e-4402-9131-dd8af5b3e150")
 			(effects
 				(font
 					(size 1 1)
@@ -6832,7 +6949,7 @@
 		(path "/fd91b43f-e0f7-4206-9b04-1073b2b28ed9")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.71 1.95)
 			(end -1.71 0.84)
@@ -7234,7 +7351,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "4c59f14d-5dc0-4ea3-9b7b-b0dbf8fe553f")
+			(uuid "d890d826-e0aa-451e-a34a-1c1e54df419c")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -7244,7 +7361,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "4c59f14d-5dc0-4ea3-9b7b-b0dbf8fe553f")
+			(uuid "be3a9d78-3bc6-4624-a2e2-69f919b5db33")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -7254,7 +7371,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "4c59f14d-5dc0-4ea3-9b7b-b0dbf8fe553f")
+			(uuid "af8a66ea-c2b9-43e2-ae97-e6322d3e0adc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
@@ -7325,7 +7442,7 @@
 		(path "/ef060e87-6d58-449d-89e5-653a10a6574a")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -7651,6 +7768,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "73cfebf8-374e-4f02-ae6f-ad51da8f5cc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73c5f9a1-3c3a-4008-90c5-51f379b708ed")
 			(effects
 				(font
 					(size 1 1)
@@ -8832,7 +8962,7 @@
 		(path "/52f2b3eb-c6e8-4c05-81da-a64b80fb3916")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -9128,7 +9258,7 @@
 		(path "/274d4c28-f010-48bc-a358-e17759f34d7d")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -9459,6 +9589,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C113820"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fec6f2e0-6b06-4885-a276-3255a614a8f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/91b45971-a2ae-4387-8973-1b3ac9a84695")
 		(sheetname "/")
@@ -9632,6 +9775,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d703747d-a6cc-4f0f-9d25-1c79c8ff55bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C513601"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6125682b-4f80-4c89-9f23-c6d2c965fe5b")
 			(effects
 				(font
 					(size 1 1)
@@ -9819,6 +9975,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C527206"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777f8a71-6636-4e60-ad7b-9530543a19a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0bc6e25b-926e-47e6-8ed4-eadf19b9a793")
 		(sheetname "/")
@@ -9994,6 +10163,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a8fb791-c8b5-4550-b061-ea132f4bc486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdae8c99-78b1-41dd-a1b4-22d1c2e013b5")
 			(effects
 				(font
 					(size 1 1)
@@ -10408,6 +10590,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b199349-c4ec-4a8f-87b7-61f78c500adc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C513601"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26be924f-023a-4f92-9bf9-9906b91f27c9")
 			(effects
 				(font
 					(size 1 1)
@@ -11020,6 +11215,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c49e5105-5951-48cf-b9c8-7f2a81f3253e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f726d30d-3e39-4238-ad63-4bc05b06ea2b")
 			(effects
 				(font
 					(size 1 1)
@@ -11805,6 +12013,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C527205"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df97e0c-7d19-4d93-8508-7d536fd066ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/93fb5543-2979-4a14-9543-c98c40d81489")
 		(sheetname "/")
@@ -11952,7 +12173,7 @@
 		(path "/80e4ee5c-8aa6-409c-a385-135355bb79f0")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.71 1.95)
 			(end -1.71 0.84)
@@ -12354,7 +12575,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "40a49243-feaf-42fe-9e02-8b0c2f7e0584")
+			(uuid "ec4c36e4-035f-4f01-a089-8e58c702101d")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -12364,7 +12585,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "40a49243-feaf-42fe-9e02-8b0c2f7e0584")
+			(uuid "d0645269-37e6-4c9c-86e3-b4b93eb0b1b5")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825)
@@ -12374,7 +12595,7 @@
 			(net 9 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "40a49243-feaf-42fe-9e02-8b0c2f7e0584")
+			(uuid "8cad67fa-55f2-49f1-b740-14a4736beea1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
@@ -12473,6 +12694,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5abbd9aa-3397-4a9d-af06-3e0c33fcc289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C527205"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f198187b-990f-4015-8c55-98ee8e118939")
 			(effects
 				(font
 					(size 1 1)
@@ -12625,7 +12859,7 @@
 		(path "/c24a60e5-8ee6-4b95-b3f1-1375eb943e63")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -12949,6 +13183,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "440ef97b-73b7-4069-a728-3acd21f9a804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6930"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19085c2c-e232-447b-ba89-d21084570a48")
 			(effects
 				(font
 					(size 1 1)
@@ -13440,6 +13687,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C527205"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fef617d0-4d18-4154-b6a4-a95f704b90e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/eb7976ca-6e19-4237-962c-b57a13fb3f6e")
 		(sheetname "/")
@@ -13613,6 +13873,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f0d8ba0-b1e8-4d5d-901c-8d657a3d6ff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C107106"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a1fc49d-b7d8-46d7-8a2b-9687a44d5373")
 			(effects
 				(font
 					(size 1 1)
@@ -14626,7 +14899,7 @@
 		(path "/07fe7d8e-e36e-481f-aa3a-b8e3b5b5f07c")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -14922,7 +15195,7 @@
 		(path "/dcff9edf-00f0-456b-9fdc-74b42be695e4")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -15246,6 +15519,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38e8005d-4eb9-485b-be24-6aa4f1fe5d89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C527206"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e9b5f22-4849-434c-acbb-9911974987b1")
 			(effects
 				(font
 					(size 1 1)
@@ -15863,6 +16149,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C107105"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0853053-3c2a-432d-b3b2-2259be906472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a5e008fe-e71d-47fe-abe0-cfb66c7cdc90")
 		(sheetname "/")
@@ -16438,7 +16737,7 @@
 		(path "/c90aefcd-bcd7-40d3-ad21-6fb0491f660c")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 6.17)
 			(end 1.431 6.17)
@@ -17164,7 +17463,7 @@
 		(path "/7ce87cfa-253e-4f9c-a559-280ecc58ca17")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -17488,6 +17787,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc20a3ca-0418-43d4-bd22-7c020d59e8fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C527205"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d6601f7-4a12-4d94-b845-f6227bd5fc31")
 			(effects
 				(font
 					(size 1 1)
@@ -18444,6 +18756,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C113820"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef690108-7994-46a6-92b7-84620345c6b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/855ffc26-c445-4511-ae3e-7a2cf5532ffc")
 		(sheetname "/")
@@ -18589,7 +18914,7 @@
 		(path "/8bd8e4ac-1636-4a51-915b-70c6a090172e")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -18841,6 +19166,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5050c8c-75bc-4b76-8a58-5d8b2bb04737")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C113820"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf8bf1c-c8d9-47fb-ad15-37d9d81cdf46")
 			(effects
 				(font
 					(size 1 1)
@@ -19423,7 +19761,7 @@
 		(path "/c887c95d-fb83-4682-8ec7-9a46cd533bc8")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -19680,7 +20018,7 @@
 				)
 			)
 		)
-		(property "Value" "560pF"
+		(property "Value" "560nF"
 			(at 0 8.15 90)
 			(layer "F.Fab")
 			(uuid "e53a1287-0928-4e77-8655-270d65965425")
@@ -19715,11 +20053,37 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4172fecc-a816-4f62-b9f2-7e850b67f6bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MouserPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b09272-e21b-4fa6-8db7-66dfb46dadfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/d882cc7c-7792-42bf-8fc0-c66a00fa2d7e")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -20050,6 +20414,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C527206"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ba4ffa8-2cec-462b-a642-5c3d4e4f2528")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2a7e3607-eb66-4d36-9a9b-c58494d8f5d3")
 		(sheetname "/")
@@ -20195,7 +20572,7 @@
 		(path "/9018b851-2a39-4982-938e-d81ce416eaf0")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -20491,7 +20868,7 @@
 		(path "/905c96ca-d16c-4f3b-a292-1fd521b89613")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -20787,7 +21164,7 @@
 		(path "/4c090f28-2062-4e66-9897-00ec3e5e3480")
 		(sheetname "/")
 		(sheetfile "lpf_relayTest.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.62 -0.57)
 			(end 6.62 6.17)
@@ -21113,6 +21490,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba571bd0-058d-4aec-b635-d559d6276151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d04ae42-3293-4619-bae1-ce6588727ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -21898,6 +22288,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C113254"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e171a5-db50-492a-80d7-2416b1add1ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/581ca4d1-1388-4f8e-86fc-316c2ac67472")
 		(sheetname "/")
@@ -22345,6 +22748,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9669953-c487-4540-9fb9-7356b0b7cde7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1560948"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4d688a6-c6a2-4035-ae12-201b856e0a0d")
 			(effects
 				(font
 					(size 1 1)
@@ -29265,7 +29681,7 @@
 				(xy 130.094723 114.014668) (xy 130.094726 114.014672) (xy 130.185327 114.105273) (xy 130.185331 114.105276)
 				(xy 130.291866 114.176461) (xy 130.291872 114.176464) (xy 130.291873 114.176465) (xy 130.410256 114.225501)
 				(xy 130.454174 114.234237) (xy 130.507471 114.244839) (xy 130.569382 114.277224) (xy 130.570961 114.278775)
-				(xy 131.211861 114.919675) (xy 131.325989 114.985567) (xy 131.453283 115.019675) (xy 131.585068 115.019675)
+				(xy 131.118675 114.826489) (xy 131.211861 114.919675) (xy 131.325989 114.985567) (xy 131.453283 115.019675)
 				(xy 131.720351 115.019675) (xy 131.78739 115.03936) (xy 131.833145 115.092164) (xy 131.84001 115.113419)
 				(xy 131.841457 115.116914) (xy 131.859829 115.14441) (xy 131.896823 115.199776) (xy 131.960071 115.242036)
 				(xy 131.979684 115.255141) (xy 131.979688 115.255142) (xy 132.052745 115.269674) (xy 132.052748 115.269675)
@@ -35765,8 +36181,8 @@
 				(xy 153.5495 113.735931) (xy 153.5495 113.864069) (xy 153.5495 113.864071) (xy 153.549499 113.864071)
 				(xy 153.574497 113.989738) (xy 153.574499 113.989744) (xy 153.623533 114.108124) (xy 153.623538 114.108133)
 				(xy 153.678602 114.190541) (xy 153.69948 114.257218) (xy 153.6995 114.259432) (xy 153.6995 115.665891)
-				(xy 153.733608 115.793187) (xy 153.766554 115.85025) (xy 153.7995 115.907314) (xy 156.092686 118.2005)
-				(xy 156.206814 118.266392) (xy 156.334108 118.3005) (xy 156.465893 118.3005) (xy 172.941324 118.3005)
+				(xy 153.733608 115.793187) (xy 153.766554 115.85025) (xy 153.7995 115.907314) (xy 155.9995 118.107314)
+				(xy 156.092686 118.2005) (xy 156.206814 118.266392) (xy 156.334108 118.3005) (xy 172.941324 118.3005)
 				(xy 172.970764 118.309144) (xy 173.000751 118.315668) (xy 173.005766 118.319422) (xy 173.008363 118.320185)
 				(xy 173.029005 118.336819) (xy 173.121224 118.429038) (xy 173.154709 118.490361) (xy 173.15516 118.492527)
 				(xy 173.174497 118.589738) (xy 173.174499 118.589744) (xy 173.223533 118.708124) (xy 173.223538 118.708133)
