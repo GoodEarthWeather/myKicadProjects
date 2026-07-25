@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "45eb654e-990b-4f8e-aa4c-995990d16b9d")
 	(paper "B")
 	(lib_symbols
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,6 +28,8 @@
 			)
 			(property "Value" "Q_NJFET_DSG"
 				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,38 +39,46 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "N-JFET transistor, drain/source/gate"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "transistor NJFET N-JFET"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Q_NJFET_DSG_0_1"
@@ -129,24 +143,6 @@
 				)
 			)
 			(symbol "Q_NJFET_DSG_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.334)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -183,6 +179,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -190,8 +204,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -201,6 +219,8 @@
 			)
 			(property "Value" "MCP1802x-xx02xOT"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -210,49 +230,59 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at -6.35 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LDO Linear Voltage Regulator"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MCP1802x-xx02xOT_0_1"
@@ -287,24 +317,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -316,6 +328,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -370,8 +400,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -381,6 +415,8 @@
 			)
 			(property "Value" "INA821ID"
 				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -390,82 +426,98 @@
 			)
 			(property "Footprint" "SOIC127P600X175-8N"
 				(at 24.13 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
 				(at 24.13 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
 				(at 24.13 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Height" "1.75"
 				(at 24.13 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "595-INA821ID"
 				(at 24.13 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
 				(at 24.13 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
 				(at 24.13 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "INA821ID"
 				(at 24.13 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(symbol "INA821ID_0_0"
@@ -542,34 +594,16 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 0 180)
+					(at 27.94 -7.62 180)
 					(length 5.08)
-					(name "+VS"
+					(name "-VS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -596,16 +630,34 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -7.62 180)
+					(at 27.94 -2.54 180)
 					(length 5.08)
-					(name "-VS"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -634,8 +686,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 1.016 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -645,6 +701,8 @@
 			)
 			(property "Value" "10UF-25V-20%(PTH)"
 				(at 1.016 -4.191 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -654,33 +712,41 @@
 			)
 			(property "Footprint" "qsd_revB:CPOL-RADIAL-10UF-25V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -801,8 +867,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 1.524 2.921 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -812,6 +882,8 @@
 			)
 			(property "Value" "CAP0603-CAP"
 				(at 1.524 -2.159 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -821,33 +893,41 @@
 			)
 			(property "Footprint" "qsd_revB:0603-CAP"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -941,21 +1021,27 @@
 			(embedded_fonts no)
 		)
 		(symbol "qsd_revB-eagle-import:GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#SUPPLY"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at -1.905 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -965,33 +1051,41 @@
 			)
 			(property "Footprint" "qsd_revB:"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1060,8 +1154,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -2.54 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1071,6 +1169,8 @@
 			)
 			(property "Value" "M02PTH"
 				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1080,33 +1180,41 @@
 			)
 			(property "Footprint" "qsd_revB:1X02"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1187,24 +1295,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 0 180)
 					(length 5.08)
 					(name "1"
@@ -1222,6 +1312,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1229,8 +1337,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at -3.81 1.4986 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1240,6 +1352,8 @@
 			)
 			(property "Value" "RESISTOR0603-RES"
 				(at -3.81 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1249,33 +1363,41 @@
 			)
 			(property "Footprint" "qsd_revB:0603-RES"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1430,265 +1552,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "qsd_revB-eagle-import:SN74AUP2G79DCUR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC1002"
-				(at 19.304 4.318 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SN74AUP2G79DCUR"
-				(at 3.81 -12.7 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "qsd_revB:SOP50P310X90-8N"
-				(at 5.08 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74AUP2G79DCUR_1_0"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 22.86 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -10.16) (xy 22.86 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "2Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "1Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "2D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "2CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "qsd_revB-eagle-import:SN74CBTLV3253"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC1004"
 				(at 14.478 46.482 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1698,6 +1571,8 @@
 			)
 			(property "Value" "SN74CBTLV3253"
 				(at 12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1707,33 +1582,41 @@
 			)
 			(property "Footprint" "qsd_revB:TSSOP16"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1789,53 +1672,17 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -5.08 40.64 0)
-					(length 5.08)
-					(name "1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 22.86 0)
-					(length 5.08)
-					(name "2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -5.08 10.16 0)
+					(at -5.08 5.08 0)
 					(length 5.08)
-					(name "S0"
+					(name "1~{OE}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1861,71 +1708,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 5.08 0)
-					(length 5.08)
-					(name "1~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "2~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 27.94 43.18 180)
+					(at 27.94 35.56 180)
 					(length 5.08)
-					(name "1B1"
+					(name "1B4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 40.64 180)
-					(length 5.08)
-					(name "1B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1952,16 +1745,88 @@
 					)
 				)
 				(pin bidirectional line
-					(at 27.94 35.56 180)
+					(at 27.94 40.64 180)
 					(length 5.08)
-					(name "1B4"
+					(name "1B2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 43.18 180)
+					(length 5.08)
+					(name "1B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 40.64 0)
+					(length 5.08)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 22.86 0)
+					(length 5.08)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2042,6 +1907,42 @@
 					)
 				)
 				(pin input line
+					(at -5.08 10.16 0)
+					(length 5.08)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "2~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 27.94 10.16 180)
 					(length 5.08)
 					(name "VCC"
@@ -2059,223 +1960,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 27.94 5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "qsd_revB-eagle-import:SN74LVC1G04DBVT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SN74LVC1G04DBVT"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "qsd_revB:SOT95P280X145-5N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC1G04DBVT_1_0"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 -7.62) (xy 20.32 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -2283,8 +1967,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "T2"
 				(at 5.08 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2294,6 +1982,8 @@
 			)
 			(property "Value" "T50-TRIFILAR"
 				(at 7.62 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2303,33 +1993,41 @@
 			)
 			(property "Footprint" "qsd_revB:T50-TRIFILAR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2907,378 +2605,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "qsd_revB-eagle-import:TS5A23157"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC1003"
-				(at 6.604 34.544 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TS5A23157"
-				(at 6.096 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "qsd_revB:MSOP10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS5A23157_1_0"
-				(polyline
-					(pts
-						(xy 0 33.02) (xy 0 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 15.24 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 15.24 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 33.02) (xy 0 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 22.86) (xy 15.24 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 10.16) (xy 15.24 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 0) (xy 15.24 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 30.48 0)
-					(length 5.08)
-					(name "NO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 25.4 0)
-					(length 5.08)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 17.78 0)
-					(length 5.08)
-					(name "NO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 12.7 0)
-					(length 5.08)
-					(name "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 5.08 0)
-					(length 5.08)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 27.94 180)
-					(length 5.08)
-					(name "COM1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "COM2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "Clock In"
-		(exclude_from_sim no)
-		(at 57.785 130.81 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ff45d99-ae5e-49d7-bd61-cd04b0ba0f76")
 	)
 	(text "RF Gain Pot\n50K"
 		(exclude_from_sim no)
@@ -3291,20 +2617,9 @@
 		)
 		(uuid "29d8f941-4db2-4b82-bc37-c285f1e6cbab")
 	)
-	(text "Sideband\nSelect"
-		(exclude_from_sim no)
-		(at 129.54 203.2 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "35faa368-c380-4ef6-8f30-52d3fe92050f")
-	)
 	(text "MCP1801"
 		(exclude_from_sim no)
-		(at 81.28 220.345 0)
+		(at 185.42 172.085 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -3337,7 +2652,7 @@
 	)
 	(text "+5V"
 		(exclude_from_sim no)
-		(at 40.005 215.265 0)
+		(at 144.145 167.005 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -3404,7 +2719,7 @@
 		(uuid "16af23af-c4ed-4e6a-9ffa-31f24bf9d684")
 	)
 	(junction
-		(at 52.07 208.28)
+		(at 156.21 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16e9bdcd-d794-45ce-bba3-51173a5a48ea")
@@ -3428,13 +2743,13 @@
 		(uuid "2659d783-7429-4ec4-8067-41dd0a939fd0")
 	)
 	(junction
-		(at 80.01 246.38)
+		(at 184.15 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "280d0e53-7104-41de-b267-0a8f55418818")
 	)
 	(junction
-		(at 57.15 208.28)
+		(at 161.29 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2824938c-8cce-40fb-8755-abebf6f02a13")
@@ -3444,12 +2759,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ad7df62-deff-4e18-8b3c-73ced1139680")
-	)
-	(junction
-		(at 210.82 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ecc9e62-4f64-411e-8c94-269109fb6e00")
 	)
 	(junction
 		(at 378.46 88.9)
@@ -3470,16 +2779,10 @@
 		(uuid "3de0d7b8-385d-4183-bd20-819bac4e98e9")
 	)
 	(junction
-		(at 105.41 208.28)
+		(at 209.55 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e3eddf4-3c82-4c19-995c-89c81466a48f")
-	)
-	(junction
-		(at 116.84 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "410d8c01-b570-4d71-b6b9-fcd4c5879562")
 	)
 	(junction
 		(at 284.48 107.95)
@@ -3500,12 +2803,6 @@
 		(uuid "4563fe6f-4259-4441-bdf3-f33f9275bcba")
 	)
 	(junction
-		(at 215.9 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46307d42-a5e5-48de-b190-cb1fde1f7771")
-	)
-	(junction
 		(at 264.16 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3516,18 +2813,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57fbcc0f-ccb4-4ea2-a3f5-556c32ff5df7")
-	)
-	(junction
-		(at 160.02 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "585748c9-4af4-4b80-8447-c8fc5ac9423d")
-	)
-	(junction
-		(at 149.86 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eb33633-a8b8-41e7-93e5-73a6a956d05d")
 	)
 	(junction
 		(at 373.38 92.71)
@@ -3560,12 +2845,6 @@
 		(uuid "7897b416-9922-4c25-b5d1-48f8dffb312a")
 	)
 	(junction
-		(at 215.9 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b4be722-bf89-45ef-bc95-048589231206")
-	)
-	(junction
 		(at 271.78 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3590,18 +2869,6 @@
 		(uuid "82709d1f-dd0b-47cd-b690-ed918d00f550")
 	)
 	(junction
-		(at 116.84 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88f125bd-e555-4099-b0a6-9d5c116f1fc3")
-	)
-	(junction
-		(at 152.4 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90ad0d8b-654e-4858-acc9-d45ac788776c")
-	)
-	(junction
 		(at 119.38 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3614,12 +2881,6 @@
 		(uuid "9e2f3323-6066-4f68-addc-9cd0e4761451")
 	)
 	(junction
-		(at 170.18 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3caccbb-6d1f-4a16-a3d1-7a13fe6cf821")
-	)
-	(junction
 		(at 295.91 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3630,12 +2891,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6411213-71cd-4213-a9f2-681f0b15607c")
-	)
-	(junction
-		(at 114.3 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a74d2fd2-9095-4b5d-9bc8-938c8d87f8c7")
 	)
 	(junction
 		(at 147.32 104.14)
@@ -3656,12 +2911,6 @@
 		(uuid "b5d7980b-0a9c-4762-ab72-c7e9d2d8373d")
 	)
 	(junction
-		(at 177.8 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b647a1b8-43c0-449e-8cc8-c6b6ac20e7c4")
-	)
-	(junction
 		(at 129.54 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3671,19 +2920,7 @@
 		(at 226.06 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b93e0347-18d2-440d-a49e-647684d95444")
-	)
-	(junction
-		(at 172.72 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c542e58a-177e-416e-8086-b51293df6c6e")
-	)
-	(junction
-		(at 116.84 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c55b801b-c60e-4ced-8dde-8e44211e3fbe")
+		(uuid "bb87421c-4e8c-4cc9-a8c7-853b3b8b284b")
 	)
 	(junction
 		(at 147.32 73.66)
@@ -3722,19 +2959,13 @@
 		(uuid "d1f3b779-44ca-4ea0-bfb1-7b78c383823d")
 	)
 	(junction
-		(at 76.2 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4b9b26b-85bc-42f2-ba0f-6783a6598002")
-	)
-	(junction
 		(at 378.46 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2553323-5216-4e52-b3a3-ac9a7d7837d9")
 	)
 	(junction
-		(at 105.41 246.38)
+		(at 209.55 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e84b7f2f-c2f1-4cf3-b67a-d661d56eef8f")
@@ -3744,12 +2975,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb5d6ede-6e46-4457-9934-63305e67f569")
-	)
-	(junction
-		(at 149.86 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebea4654-a5b2-430f-b7f9-ae36deef8088")
 	)
 	(junction
 		(at 251.46 144.78)
@@ -3762,12 +2987,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd9c5c81-7c71-40fa-9307-5a1b46ed415a")
-	)
-	(junction
-		(at 149.86 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fea12980-fe97-4aa7-9174-aec767fbab84")
 	)
 	(wire
 		(pts
@@ -3788,16 +3007,6 @@
 			(type default)
 		)
 		(uuid "010b855c-6dd8-437b-a2b1-34454ba0826c")
-	)
-	(wire
-		(pts
-			(xy 177.8 154.94) (xy 177.8 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025db254-9e3e-42fe-9be9-ebd669ea092c")
 	)
 	(wire
 		(pts
@@ -3851,16 +3060,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 132.08) (xy 180.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae37627-9efb-4cae-9d4b-190e0d23a162")
-	)
-	(wire
-		(pts
 			(xy 373.38 115.57) (xy 373.38 116.84)
 		)
 		(stroke
@@ -3891,33 +3090,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 246.38) (xy 80.01 246.38)
+			(xy 156.21 198.12) (xy 184.15 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d88c532-80ca-4d68-a0fb-7946ef764a79")
-	)
-	(wire
-		(pts
-			(xy 218.44 109.22) (xy 231.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f2182f9-058e-4006-ac1b-71a11b71b5c0")
-	)
-	(wire
-		(pts
-			(xy 111.76 154.94) (xy 116.84 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10595c47-d7d1-4303-993c-c050d7b4a3c4")
 	)
 	(wire
 		(pts
@@ -3928,16 +3107,6 @@
 			(type default)
 		)
 		(uuid "11c41f69-c420-4e92-b618-c2d777e42738")
-	)
-	(wire
-		(pts
-			(xy 180.34 144.78) (xy 170.18 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13074438-4be4-4581-8a85-705958dbe5a9")
 	)
 	(wire
 		(pts
@@ -3971,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 152.4) (xy 177.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15aa261f-cd98-40e1-b558-f96d6bcec653")
-	)
-	(wire
-		(pts
 			(xy 147.32 86.36) (xy 147.32 88.9)
 		)
 		(stroke
@@ -4011,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 129.54) (xy 218.44 129.54)
+			(xy 205.74 109.22) (xy 231.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4071,26 +3230,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 142.24) (xy 220.98 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1beac580-9bec-4bff-9f65-918c30fa3323")
-	)
-	(wire
-		(pts
-			(xy 210.82 180.34) (xy 226.06 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbfaee1-4361-4dbe-9f81-54db12ba58b7")
-	)
-	(wire
-		(pts
 			(xy 313.69 116.84) (xy 313.69 118.11)
 		)
 		(stroke
@@ -4098,16 +3237,6 @@
 			(type default)
 		)
 		(uuid "1efeecf7-9393-4269-82f3-aa65c5b942e6")
-	)
-	(wire
-		(pts
-			(xy 149.86 127) (xy 149.86 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2072704f-086c-439e-b330-6bdeb436eac7")
 	)
 	(wire
 		(pts
@@ -4131,16 +3260,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 139.7) (xy 119.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224f4de2-ca14-4ac2-80b4-74090fd43886")
-	)
-	(wire
-		(pts
 			(xy 373.38 107.95) (xy 373.38 115.57)
 		)
 		(stroke
@@ -4161,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 236.22) (xy 105.41 246.38)
+			(xy 209.55 187.96) (xy 209.55 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4181,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 218.44) (xy 80.01 246.38)
+			(xy 184.15 170.18) (xy 184.15 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4251,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 246.38) (xy 105.41 246.38)
+			(xy 184.15 198.12) (xy 209.55 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4268,16 +3387,6 @@
 			(type default)
 		)
 		(uuid "32976443-266d-47ce-9553-5a9e83397ea7")
-	)
-	(wire
-		(pts
-			(xy 215.9 144.78) (xy 215.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337b7bbd-685b-44d1-83a3-6a4bee0a8bac")
 	)
 	(wire
 		(pts
@@ -4321,16 +3430,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 129.54) (xy 116.84 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3990aa64-893c-4459-9ce0-b6b35fa4131e")
-	)
-	(wire
-		(pts
 			(xy 335.28 102.87) (xy 341.63 102.87)
 		)
 		(stroke
@@ -4351,16 +3450,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 139.7) (xy 160.02 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ade5025-63ad-4b15-827b-9041241b9d30")
-	)
-	(wire
-		(pts
 			(xy 271.78 99.06) (xy 271.78 107.95)
 		)
 		(stroke
@@ -4368,16 +3457,6 @@
 			(type default)
 		)
 		(uuid "3b7e6e29-5066-4fdc-b32c-525d5680df59")
-	)
-	(wire
-		(pts
-			(xy 149.86 127) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d53a053-544f-401d-87c9-ec1d53b46d5f")
 	)
 	(wire
 		(pts
@@ -4391,23 +3470,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 208.28) (xy 105.41 208.28)
+			(xy 194.31 160.02) (xy 209.55 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e845423-1deb-47b8-be71-7a18e130536c")
-	)
-	(wire
-		(pts
-			(xy 218.44 129.54) (xy 218.44 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef0b88e-40ad-42ad-bae9-5982dc5c86ce")
 	)
 	(wire
 		(pts
@@ -4441,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 116.84 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e20334-e365-4720-9087-2caf0568a5dd")
-	)
-	(wire
-		(pts
 			(xy 152.4 73.66) (xy 147.32 73.66)
 		)
 		(stroke
@@ -4458,16 +3517,6 @@
 			(type default)
 		)
 		(uuid "461ca862-6cbb-43c3-aea8-746a4a3e32a3")
-	)
-	(wire
-		(pts
-			(xy 147.32 137.16) (xy 149.86 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470d8110-5fd1-4bc1-a70f-ddd82d2157bc")
 	)
 	(wire
 		(pts
@@ -4551,16 +3600,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 215.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c0ff2c-be87-430c-a1d7-35ddc6d36429")
-	)
-	(wire
-		(pts
 			(xy 226.06 114.3) (xy 226.06 116.84)
 		)
 		(stroke
@@ -4601,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 236.22) (xy 52.07 246.38)
+			(xy 156.21 187.96) (xy 156.21 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4611,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 210.82) (xy 57.15 210.82)
+			(xy 173.99 162.56) (xy 161.29 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4631,26 +3670,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 139.7) (xy 160.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58311079-2d2c-4f35-a208-31db424b8cf2")
-	)
-	(wire
-		(pts
-			(xy 152.4 139.7) (xy 152.4 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599b66d2-3966-4491-adfe-08d9aa45f6a7")
-	)
-	(wire
-		(pts
 			(xy 180.34 45.72) (xy 185.42 45.72)
 		)
 		(stroke
@@ -4658,16 +3677,6 @@
 			(type default)
 		)
 		(uuid "5b7ec1f8-03c1-41d5-805a-827370926d01")
-	)
-	(wire
-		(pts
-			(xy 172.72 139.7) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6de060-27e1-4021-a828-934562683965")
 	)
 	(wire
 		(pts
@@ -4691,53 +3700,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 152.4) (xy 111.76 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62824b2c-7a5b-41de-9535-243d411f16bb")
-	)
-	(wire
-		(pts
-			(xy 86.36 149.86) (xy 83.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6502781c-ce22-4cc8-89ab-b6849635e2f8")
-	)
-	(wire
-		(pts
-			(xy 105.41 208.28) (xy 105.41 228.6)
+			(xy 209.55 160.02) (xy 209.55 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65a94dd6-f1e1-4d1b-b02b-23c1bbb389a2")
-	)
-	(wire
-		(pts
-			(xy 205.74 154.94) (xy 210.82 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6604b8a8-37cc-43eb-bd4c-80cbbcdd1f0f")
-	)
-	(wire
-		(pts
-			(xy 170.18 127) (xy 180.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6608ee67-e53f-4db3-a883-c0a0f72e9187")
 	)
 	(wire
 		(pts
@@ -4771,23 +3740,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 208.28) (xy 52.07 208.28)
+			(xy 137.16 160.02) (xy 156.21 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a820635-dbdf-497d-a22c-32fb6531a51f")
-	)
-	(wire
-		(pts
-			(xy 119.38 142.24) (xy 114.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b083e5f-24ea-4ca9-b5d6-d5295ff7922c")
 	)
 	(wire
 		(pts
@@ -4798,16 +3757,6 @@
 			(type default)
 		)
 		(uuid "6c99f084-6016-40f2-a83c-62041959f325")
-	)
-	(wire
-		(pts
-			(xy 116.84 144.78) (xy 116.84 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d357990-0acf-49b5-bc59-283402216aca")
 	)
 	(wire
 		(pts
@@ -4831,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 144.78) (xy 154.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71675b9c-afda-4923-89d9-32a302b0f926")
-	)
-	(wire
-		(pts
 			(xy 147.32 53.34) (xy 147.32 48.26)
 		)
 		(stroke
@@ -4848,26 +3787,6 @@
 			(type default)
 		)
 		(uuid "72dd04d3-7a28-4db5-8afe-7064f6406b69")
-	)
-	(wire
-		(pts
-			(xy 149.86 137.16) (xy 149.86 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739dc27e-ee71-4b5e-9b2a-7470287e7653")
-	)
-	(wire
-		(pts
-			(xy 76.2 162.56) (xy 76.2 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b21bc0-0791-4b86-86b8-4cf04aaf767b")
 	)
 	(wire
 		(pts
@@ -4888,26 +3807,6 @@
 			(type default)
 		)
 		(uuid "74f3036d-3023-46d4-a51d-ab3bfe475bc3")
-	)
-	(wire
-		(pts
-			(xy 177.8 152.4) (xy 177.8 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7587d692-0859-4f62-b557-77e5ad43a244")
-	)
-	(wire
-		(pts
-			(xy 119.38 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770fe883-aa84-4706-907e-33dd058d0153")
 	)
 	(wire
 		(pts
@@ -4958,26 +3857,6 @@
 			(type default)
 		)
 		(uuid "7c9c042d-e72c-4a32-8060-3c9ac6483cfe")
-	)
-	(wire
-		(pts
-			(xy 210.82 154.94) (xy 210.82 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f965342-9912-46ac-87ad-217ce3f8445f")
-	)
-	(wire
-		(pts
-			(xy 180.34 139.7) (xy 172.72 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81fb8a70-e979-4705-9a7a-a0991c2064a1")
 	)
 	(wire
 		(pts
@@ -5041,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 226.06 180.34)
+			(xy 226.06 127) (xy 226.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5081,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 208.28) (xy 52.07 228.6)
+			(xy 156.21 160.02) (xy 156.21 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5111,16 +3990,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 208.28 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ee0303-32f1-4858-a3b6-f86569d74b65")
-	)
-	(wire
-		(pts
 			(xy 119.38 68.58) (xy 120.65 68.58)
 		)
 		(stroke
@@ -5138,16 +4007,6 @@
 			(type default)
 		)
 		(uuid "921f038d-ac6c-400d-b68d-b5f3bcd6787f")
-	)
-	(wire
-		(pts
-			(xy 172.72 152.4) (xy 172.72 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9220f51c-22ca-4d84-a5a7-3799e5f6eb42")
 	)
 	(wire
 		(pts
@@ -5181,36 +4040,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 111.76) (xy 231.14 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953e450b-1ac4-4d79-930d-ae67ebd801c8")
-	)
-	(wire
-		(pts
-			(xy 149.86 137.16) (xy 149.86 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9541aa56-3e24-4bd9-ad8d-0d45878b5155")
-	)
-	(wire
-		(pts
-			(xy 147.32 144.78) (xy 154.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96756690-9b13-4f35-8a01-69c7bee2d178")
-	)
-	(wire
-		(pts
 			(xy 119.38 63.5) (xy 119.38 68.58)
 		)
 		(stroke
@@ -5221,23 +4050,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 208.28) (xy 52.07 208.28)
+			(xy 161.29 160.02) (xy 156.21 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "978b23ea-f979-42e8-8fe0-62c84b09e6b7")
-	)
-	(wire
-		(pts
-			(xy 147.32 139.7) (xy 152.4 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98527b9c-8f3e-4b7c-8002-5987b0cbb3fa")
 	)
 	(wire
 		(pts
@@ -5261,16 +4080,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2f8a7d-fdfe-4ed5-b73f-05efec259997")
-	)
-	(wire
-		(pts
 			(xy 264.16 127) (xy 251.46 127)
 		)
 		(stroke
@@ -5278,16 +4087,6 @@
 			(type default)
 		)
 		(uuid "9d28c3dd-720f-4590-ac53-e58520dcdd49")
-	)
-	(wire
-		(pts
-			(xy 180.34 154.94) (xy 177.8 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d39f603-3635-4eff-a198-eafac274b5a9")
 	)
 	(wire
 		(pts
@@ -5391,43 +4190,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 180.34) (xy 149.86 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1159cf6-785c-47a2-8ad3-2aa3f08d8ec2")
-	)
-	(wire
-		(pts
-			(xy 149.86 162.56) (xy 149.86 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33340a8-e2e2-440e-9d1f-826e8dfe6a10")
-	)
-	(wire
-		(pts
-			(xy 205.74 142.24) (xy 220.98 142.24)
+			(xy 205.74 111.76) (xy 231.14 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b76cfd22-ea3b-453b-a325-a962f72ef9d1")
-	)
-	(wire
-		(pts
-			(xy 119.38 144.78) (xy 116.84 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83329f5-ec46-497e-ae32-56d38437b62e")
 	)
 	(wire
 		(pts
@@ -5441,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8df628c-8d0b-4c70-bbb2-875a19838f2d")
-	)
-	(wire
-		(pts
 			(xy 223.52 78.74) (xy 231.14 78.74)
 		)
 		(stroke
@@ -5458,26 +4217,6 @@
 			(type default)
 		)
 		(uuid "b9ecab2f-69a6-43ae-b546-cdfd52a4a3cc")
-	)
-	(wire
-		(pts
-			(xy 160.02 180.34) (xy 210.82 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babbb256-0e03-4051-94d3-07cdc859f714")
-	)
-	(wire
-		(pts
-			(xy 205.74 152.4) (xy 215.9 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baff38fe-1d05-40a2-be1e-97f916ab7b94")
 	)
 	(wire
 		(pts
@@ -5591,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 208.28) (xy 105.41 193.04)
+			(xy 209.55 160.02) (xy 209.55 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5611,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 210.82) (xy 57.15 208.28)
+			(xy 161.29 162.56) (xy 161.29 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5711,23 +4450,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 152.4) (xy 215.9 144.78)
+			(xy 209.55 144.78) (xy 251.46 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6241460-777b-458b-b397-518c4d737f86")
-	)
-	(wire
-		(pts
-			(xy 76.2 154.94) (xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9196cf9-97bf-47dc-8cdd-e29d514e1def")
+		(uuid "d82edb36-0ece-45d6-af36-874202373291")
 	)
 	(wire
 		(pts
@@ -5741,17 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 251.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb09e8e-0a7a-49a1-a86a-550fda54d3ed")
-	)
-	(wire
-		(pts
-			(xy 69.85 208.28) (xy 57.15 208.28)
+			(xy 173.99 160.02) (xy 161.29 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5771,16 +4490,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 152.4) (xy 86.36 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e061fe74-f5e0-4d61-82f4-a6753a06bb84")
-	)
-	(wire
-		(pts
 			(xy 326.39 76.2) (xy 341.63 76.2)
 		)
 		(stroke
@@ -5788,26 +4497,6 @@
 			(type default)
 		)
 		(uuid "e07c3218-694c-4286-9c35-c6055a43dc28")
-	)
-	(wire
-		(pts
-			(xy 160.02 127) (xy 170.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e139c4f9-31cd-4e26-8f7d-d9d1629f63f4")
-	)
-	(wire
-		(pts
-			(xy 152.4 142.24) (xy 147.32 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1780415-db72-49ea-a216-f6c73fbd9a04")
 	)
 	(wire
 		(pts
@@ -5851,16 +4540,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 215.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51546e0-cdc1-466d-a0ad-fd21a374408a")
-	)
-	(wire
-		(pts
 			(xy 251.46 139.7) (xy 251.46 144.78)
 		)
 		(stroke
@@ -5888,26 +4567,6 @@
 			(type default)
 		)
 		(uuid "e69a3a52-291b-4221-8c3c-300f9312c7cd")
-	)
-	(wire
-		(pts
-			(xy 83.82 149.86) (xy 83.82 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e3c750-4b97-42b2-a31f-b5f8fb9b3c50")
-	)
-	(wire
-		(pts
-			(xy 177.8 203.2) (xy 154.94 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e712e427-ad18-49e6-bdee-b1431fb4b480")
 	)
 	(wire
 		(pts
@@ -5981,36 +4640,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 144.78) (xy 170.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f051ea1f-6e22-4acf-ae5e-956f659f9756")
-	)
-	(wire
-		(pts
-			(xy 149.86 180.34) (xy 160.02 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e5d0d9-3231-455a-b6f0-9f0a1164a8c2")
-	)
-	(wire
-		(pts
-			(xy 76.2 127) (xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14218b1-5b27-4c1c-8f74-9543c5c41a3d")
-	)
-	(wire
-		(pts
 			(xy 339.09 73.66) (xy 341.63 73.66)
 		)
 		(stroke
@@ -6028,26 +4657,6 @@
 			(type default)
 		)
 		(uuid "f2dfe465-a215-4c08-8f0d-89a0e34721f4")
-	)
-	(wire
-		(pts
-			(xy 114.3 152.4) (xy 172.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44b7032-9167-4a54-b57c-4fa29f4d1ba0")
-	)
-	(wire
-		(pts
-			(xy 114.3 142.24) (xy 114.3 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f492904d-86c4-4709-8dd8-f34c3121030d")
 	)
 	(wire
 		(pts
@@ -6091,16 +4700,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 180.34) (xy 76.2 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91feb83-60b0-453f-a479-ded7c03ff6d3")
-	)
-	(wire
-		(pts
 			(xy 264.16 127) (xy 264.16 132.08)
 		)
 		(stroke
@@ -6121,7 +4720,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 246.38) (xy 105.41 248.92)
+			(xy 209.55 198.12) (xy 209.55 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6169,28 +4768,8 @@
 		)
 		(uuid "15ec9001-431f-4ff0-8c76-8d5aaa1fc144")
 	)
-	(label "P0"
-		(at 160.02 127 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e30ccf8-f112-4161-8209-2fcca579715f")
-	)
-	(label "P1"
-		(at 172.72 139.7 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "2956afc5-4273-4d79-aec1-edd0d8f08001")
-	)
 	(label "ICLK"
-		(at 205.74 129.54 0)
+		(at 219.71 109.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6210,17 +4789,7 @@
 		(uuid "426e930d-9148-4e80-baae-1b608234b9fe")
 	)
 	(label "VCC3.3"
-		(at 215.9 52.07 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1503ee7-5547-488e-ae69-765b0c4a4e12")
-	)
-	(label "VCC3.3"
-		(at 208.28 45.72 180)
+		(at 236.22 144.78 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6250,7 +4819,7 @@
 		(uuid "b78227ab-a1fc-4650-b778-46132a1a0ba3")
 	)
 	(label "VCC3.3"
-		(at 105.41 193.04 0)
+		(at 200.66 160.02 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6270,7 +4839,7 @@
 		(uuid "de93a360-ee3e-4bef-8930-663f2471ff33")
 	)
 	(label "QCLK"
-		(at 205.74 142.24 0)
+		(at 219.71 111.76 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6278,16 +4847,6 @@
 			(justify left bottom)
 		)
 		(uuid "e1134875-65be-4bac-bcbd-c3587033143d")
-	)
-	(label "CLK0"
-		(at 106.68 137.16 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb82c92d-88f3-4cc0-81de-31c81be776fd")
 	)
 	(global_label "VDD5"
 		(shape input)
@@ -6302,6 +4861,8 @@
 		(uuid "29db3d13-3f0c-4f8d-846e-dcf24b79ee59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 172.5167 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,6 +4884,8 @@
 		(uuid "8279a8c1-854b-4e93-9df0-a2dee732f309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.6167 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,6 +4907,8 @@
 		(uuid "97a9d0eb-5fbe-4952-82b9-e6a5233e1404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 335.0767 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +4919,7 @@
 	)
 	(global_label "VDD5"
 		(shape input)
-		(at 33.02 208.28 180)
+		(at 137.16 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6364,7 +4929,9 @@
 		)
 		(uuid "cc05f4ea-0c84-486d-ab9a-581c744f3f95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1967 208.28 0)
+			(at 129.3367 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,16 +4962,27 @@
 		)
 		(uuid "1dd47129-fce9-4471-9ff3-d037d5227d91")
 	)
-	(hierarchical_label "rfClock"
+	(hierarchical_label "iclk"
 		(shape input)
-		(at 66.04 137.16 180)
+		(at 205.74 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "57733a97-a462-4102-b5e1-f64aecc83ee8")
+		(uuid "5c2d7ca1-f538-41d0-be61-f49f72779df0")
+	)
+	(hierarchical_label "qclk"
+		(shape input)
+		(at 205.74 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "681d665e-0df9-4519-aaa9-665c04329c1e")
 	)
 	(hierarchical_label "rf_in"
 		(shape input)
@@ -6416,17 +4994,6 @@
 			(justify right)
 		)
 		(uuid "8eefff60-30a3-4c24-a2fa-0b2dda99259f")
-	)
-	(hierarchical_label "SIDEBAND_SEL"
-		(shape input)
-		(at 154.94 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0fadac6-d5dc-479f-b95e-3ee9531fb5e8")
 	)
 	(hierarchical_label "Qout"
 		(shape output)
@@ -6441,16 +5008,20 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MCP1802x-xx02xOT")
-		(at 80.01 210.82 0)
+		(at 184.15 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0704d9ad-73b5-434f-bbe3-4eb0df422588")
 		(property "Reference" "U9"
-			(at 80.01 200.66 0)
+			(at 184.15 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +5029,9 @@
 			)
 		)
 		(property "Value" "MCP1801-3.3V"
-			(at 80.01 203.2 0)
+			(at 184.15 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,27 +5039,33 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 73.66 201.93 0)
+			(at 177.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
-			(at 80.01 213.36 0)
+			(at 184.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 80.01 210.82 0)
+			(at 184.15 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,14 +5101,18 @@
 		(at 129.54 50.8 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07add09f-c1fc-4b6e-942d-c8653e8286d3")
 		(property "Reference" "Q20"
 			(at 129.54 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,6 +5121,8 @@
 		)
 		(property "Value" "J309"
 			(at 129.54 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,24 +5131,30 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 132.08 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 129.54 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,13 +5189,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 303.53 83.82 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "166e7b76-2cc9-40d6-ab5c-5377bec0d039")
 		(property "Reference" "R143"
 			(at 300.99 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6614,6 +5209,8 @@
 		)
 		(property "Value" "47k"
 			(at 309.88 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6623,24 +5220,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 303.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 303.53 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,13 +5275,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 185.42 73.66 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "17d89e72-bf08-4cc2-beb0-963fa5ce761c")
 		(property "Reference" "R140"
 			(at 182.88 71.6026 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6688,6 +5295,8 @@
 		)
 		(property "Value" "4.32K"
 			(at 183.642 74.422 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6697,24 +5306,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 185.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 185.42 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,13 +5361,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 284.48 101.6 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bd121a2-7f71-4184-acfc-f1fa857b9878")
 		(property "Reference" "C146"
 			(at 289.56 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6762,6 +5381,8 @@
 		)
 		(property "Value" "330pF"
 			(at 293.37 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6771,24 +5392,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 284.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 284.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 284.48 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,11 +5424,13 @@
 		)
 		(property "Mouser Part Number" ""
 			(at 284.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6827,15 +5456,19 @@
 	)
 	(symbol
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
-		(at 52.07 231.14 180)
+		(at 156.21 182.88 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1be47dda-91c5-41ca-ac56-45252a26a8e7")
 		(property "Reference" "C135"
-			(at 57.404 228.981 0)
+			(at 161.544 180.721 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6844,7 +5477,9 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 57.15 234.315 0)
+			(at 161.29 186.055 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6853,25 +5488,31 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 52.07 231.14 0)
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 231.14 0)
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 52.07 231.14 0)
+			(at 156.21 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,13 +5544,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 284.48 85.09 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe1061b-90ec-4b1d-9e91-9685d51bd1dd")
 		(property "Reference" "C145"
 			(at 289.56 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6919,6 +5564,8 @@
 		)
 		(property "Value" "330pF"
 			(at 292.1 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6928,24 +5575,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 284.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 284.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 284.48 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,11 +5607,13 @@
 		)
 		(property "Mouser Part Number" ""
 			(at 284.48 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6986,13 +5641,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 193.04 86.36 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ff9b4c-d7a3-4502-8936-83341eea3b3f")
 		(property "Reference" "C141"
 			(at 196.596 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7002,6 +5661,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 199.644 89.789 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7011,24 +5672,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 193.04 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 193.04 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,13 +5727,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 251.46 134.62 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "283310a8-8ae6-4216-ad3f-6043a7b2d630")
 		(property "Reference" "C143"
 			(at 256.54 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7076,6 +5747,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 258.572 137.541 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7085,24 +5758,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 251.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 251.46 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 251.46 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,16 +5810,97 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
-		(at 303.53 100.33 180)
+		(lib_id "qsd_revB-eagle-import:GND")
+		(at 226.06 133.35 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3064df44-d80c-4cae-b82c-f4934b3ccd52")
+		(property "Reference" "#SUPPLY04"
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.155 136.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "qsd_revB:"
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef777795-bca8-4c5c-81cc-8c83441f7299")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+					(reference "#SUPPLY04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
+		(at 303.53 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "38c245c9-0dfa-4086-aaeb-abc79e9b64fa")
 		(property "Reference" "R145"
 			(at 300.99 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7150,6 +5910,8 @@
 		)
 		(property "Value" "47k"
 			(at 309.88 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7159,24 +5921,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 303.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 303.53 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,13 +5976,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 123.19 68.58 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "394d5297-f177-4f4b-9e6b-56a1eb704d8f")
 		(property "Reference" "C139"
 			(at 123.19 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7224,6 +5996,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 120.65 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7233,24 +6007,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 123.19 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 123.19 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,13 +6062,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 386.08 76.2 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d9ea9a1-7363-4fdc-a2ec-7eb5e0f51f95")
 		(property "Reference" "C150"
 			(at 380.746 75.565 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7298,6 +6082,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 389.636 75.565 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7307,24 +6093,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 386.08 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 386.08 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 386.08 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,15 +6146,19 @@
 	)
 	(symbol
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
-		(at 105.41 231.14 180)
+		(at 209.55 182.88 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "45a330ca-cbd5-457e-b2ce-6ba6f194aa69")
 		(property "Reference" "C138"
-			(at 110.998 228.981 0)
+			(at 215.138 180.721 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7371,7 +6167,9 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 110.744 234.061 0)
+			(at 214.884 185.801 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7380,25 +6178,31 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 105.41 231.14 0)
+			(at 209.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 231.14 0)
+			(at 209.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 105.41 231.14 0)
+			(at 209.55 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,13 +6234,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 330.2 102.87 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ad14f70-7de6-438a-8e25-9b4f1301eb9b")
 		(property "Reference" "R147"
 			(at 327.66 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7446,6 +6254,8 @@
 		)
 		(property "Value" "499"
 			(at 337.82 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7455,24 +6265,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 330.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 330.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 330.2 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,11 +6297,13 @@
 		)
 		(property "Mouser Part Number" ""
 			(at 330.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7510,114 +6328,20 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:TS5A23157")
-		(at 185.42 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d82252d-100e-432f-868f-e0818fe31b4a")
-		(property "Reference" "IC5"
-			(at 192.024 122.936 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TS5A23157"
-			(at 191.516 160.782 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 185.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d6c29f0-1417-46d1-b511-185a0343e5d4")
-		)
-		(pin "10"
-			(uuid "1783fbb1-ed58-45d9-b598-4bb12c94adc1")
-		)
-		(pin "2"
-			(uuid "48fd7a2b-1123-4ab9-ac49-618f9de85bdc")
-		)
-		(pin "3"
-			(uuid "8a127f4f-bdde-4750-9414-bf88812466bf")
-		)
-		(pin "4"
-			(uuid "299cb149-9be8-46c8-86bc-a026f61f6a2e")
-		)
-		(pin "5"
-			(uuid "e2503d80-d300-4afd-919f-37b25f097fba")
-		)
-		(pin "6"
-			(uuid "edd85ae7-0d3f-4e78-ac7c-58cdc2ba1632")
-		)
-		(pin "7"
-			(uuid "08ba0326-1a17-4e4c-9a43-73d1131579da")
-		)
-		(pin "8"
-			(uuid "12fb8abd-4dc1-41fd-83ad-ba52520a6ff3")
-		)
-		(pin "9"
-			(uuid "dc588743-b7bc-4a33-9400-e36db8907394")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC5")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 365.76 85.09 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d049be1-8e01-420c-ac2a-79d797ba9298")
 		(property "Reference" "C147"
 			(at 360.426 84.455 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7627,6 +6351,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 369.316 84.455 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7636,24 +6362,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 365.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 365.76 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 365.76 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,13 +6417,17 @@
 		(lib_id "qsd_revB-eagle-import:SN74CBTLV3253")
 		(at 236.22 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6259be84-ab0a-4763-a4c9-bf5886150b3e")
 		(property "Reference" "IC6"
 			(at 250.698 72.898 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7701,6 +6437,8 @@
 		)
 		(property "Value" "SN74CBTLV3253"
 			(at 248.92 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7710,24 +6448,30 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 236.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 236.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 236.22 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,87 +6542,20 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:GND")
-		(at 160.02 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67c48907-fc2a-414a-a786-e43169c01b4b")
-		(property "Reference" "#SUPPLY027"
-			(at 160.02 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.115 186.055 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "qsd_revB:"
-			(at 160.02 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5827962f-728a-4dac-99cc-d16a269862c3")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY027")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "#SUPPLY05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 147.32 81.28 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6be0eecc-3e25-4de5-a947-461a038ad013")
 		(property "Reference" "R139"
 			(at 144.78 78.4606 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7888,6 +6565,8 @@
 		)
 		(property "Value" "1K"
 			(at 143.51 81.534 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7897,24 +6576,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 147.32 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,13 +6631,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 119.38 58.42 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cff3e12-f8c8-4690-8555-d7708b072beb")
 		(property "Reference" "R137"
 			(at 116.84 56.3626 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7962,6 +6651,8 @@
 		)
 		(property "Value" "100"
 			(at 117.602 59.182 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7971,24 +6662,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 119.38 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 119.38 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,13 +6717,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 147.32 58.42 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b0624a2-f6f0-4834-8289-3e043a7666b6")
 		(property "Reference" "R138"
 			(at 154.305 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8036,6 +6737,8 @@
 		)
 		(property "Value" "100"
 			(at 153.67 58.674 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8045,24 +6748,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 147.32 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,13 +6803,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 303.53 105.41 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "85a3f0d4-2ea6-491c-aafc-61f86cc4a1b0")
 		(property "Reference" "R146"
 			(at 300.99 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8110,6 +6823,8 @@
 		)
 		(property "Value" "47k"
 			(at 309.88 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8119,24 +6834,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 303.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 303.53 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,22 +6889,28 @@
 		(lib_id "qsd_revB-eagle-import:GND")
 		(at 147.32 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b47b116-a0fd-418c-9f71-669a7be77cf5")
 		(property "Reference" "#SUPPLY026"
 			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 145.415 112.395 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8193,24 +6920,30 @@
 		)
 		(property "Footprint" "qsd_revB:"
 			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 147.32 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,13 +6972,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 303.53 90.17 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c24f715-b955-42a8-9990-e63101566d61")
 		(property "Reference" "R144"
 			(at 300.99 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8255,6 +6992,8 @@
 		)
 		(property "Value" "47k"
 			(at 309.88 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8264,24 +7003,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 303.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 303.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 303.53 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,13 +7058,17 @@
 		(lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)")
 		(at 200.66 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ce0c054-b39e-4839-b03f-dcf381ed90e0")
 		(property "Reference" "C142"
 			(at 201.676 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8329,6 +7078,8 @@
 		)
 		(property "Value" "10uF"
 			(at 201.676 90.551 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8338,24 +7089,30 @@
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,13 +7144,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 365.76 92.71 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "90260c01-b58b-4f26-b54c-de7e1921a224")
 		(property "Reference" "C148"
 			(at 360.426 92.075 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8403,6 +7164,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 369.316 92.075 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8412,24 +7175,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 365.76 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 365.76 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 365.76 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,13 +7230,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 264.16 134.62 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "903fef9e-841f-436b-a01e-7846f2973004")
 		(property "Reference" "C144"
 			(at 264.16 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8477,6 +7250,8 @@
 		)
 		(property "Value" "1uF"
 			(at 269.24 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8486,24 +7261,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 264.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 264.16 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,14 +7316,18 @@
 		(lib_id "SamacSys_Parts:INA821ID")
 		(at 341.63 71.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea1afb1-2233-46f7-913b-f7f306ce294f")
 		(property "Reference" "IC7"
 			(at 355.6 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,6 +7336,8 @@
 		)
 		(property "Value" "INA821ID"
 			(at 355.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,82 +7346,98 @@
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 365.76 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
 			(at 365.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
 			(at 365.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Height" "1.75"
 			(at 365.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "595-INA821ID"
 			(at 365.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
 			(at 365.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
 			(at 365.76 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA821ID"
 			(at 365.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8677,90 +7480,20 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
-		(at 149.86 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae028edc-d4b2-44f9-b363-ab91bf82a8c0")
-		(property "Reference" "C140"
-			(at 153.924 155.321 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 157.226 160.401 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "858f5490-5f4c-405f-97f1-f0926c1751a7")
-		)
-		(pin "2"
-			(uuid "59c329dd-75a9-4538-b877-700260c16ea4")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C140")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "qsd_revB-eagle-import:M02PTH")
 		(at 100.33 71.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae1f3394-63ba-4b3a-a8d2-cc425b92c37d")
 		(property "Reference" "JP2"
 			(at 97.79 65.278 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8770,6 +7503,8 @@
 		)
 		(property "Value" "M02PTH"
 			(at 97.79 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8779,24 +7514,30 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 100.33 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,22 +7569,28 @@
 		(lib_id "qsd_revB-eagle-import:GND")
 		(at 403.86 50.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb361da-670e-4f37-9e10-9887d63f6cc9")
 		(property "Reference" "#SUPPLY029"
 			(at 403.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 401.955 53.975 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8853,24 +7600,30 @@
 		)
 		(property "Footprint" "qsd_revB:"
 			(at 403.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 403.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 403.86 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,174 +7649,20 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:SN74LVC1G04DBVT")
-		(at 111.76 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c03553b8-1ebe-402f-8d4e-6f3f15d281ce")
-		(property "Reference" "IC3"
-			(at 106.426 145.542 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC1G04DBVT"
-			(at 113.03 160.02 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 111.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d62e5f1e-2336-4807-a3db-e19d33bfe3d7")
-		)
-		(pin "2"
-			(uuid "2404c1c6-a0b1-41e4-9143-a5a739fcb055")
-		)
-		(pin "3"
-			(uuid "0520a7e0-fe65-43a1-ae39-124679aa4646")
-		)
-		(pin "4"
-			(uuid "6255fd8e-0cd3-41aa-849c-a0a0a3a80715")
-		)
-		(pin "5"
-			(uuid "217c1be2-4f78-40a8-bbfb-270beacccb76")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
-		(at 76.2 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca7feb48-43b9-470d-b23f-3972a327ce63")
-		(property "Reference" "C136"
-			(at 80.772 155.829 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 83.312 160.147 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c65a54c1-5c15-4523-a58c-1790df76c684")
-		)
-		(pin "2"
-			(uuid "373d6195-3e79-467b-be6a-472a80e216f9")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C136")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 334.01 73.66 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd5b8a84-b329-4ff1-97b6-5c67f2732af1")
 		(property "Reference" "R148"
 			(at 331.47 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9073,6 +7672,8 @@
 		)
 		(property "Value" "499"
 			(at 341.63 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9082,24 +7683,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 334.01 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 334.01 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 334.01 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,11 +7715,13 @@
 		)
 		(property "Mouser Part Number" ""
 			(at 334.01 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9137,117 +7746,31 @@
 		)
 	)
 	(symbol
-		(lib_id "qsd_revB-eagle-import:SN74AUP2G79DCUR")
-		(at 119.38 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf466968-7a84-44b1-8471-228247567921")
-		(property "Reference" "IC4"
-			(at 138.684 132.842 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74AUP2G79DCUR"
-			(at 123.19 149.86 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-			(at 124.46 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48ee94d0-407b-4999-b35a-fb4fc03f4ed5")
-		)
-		(pin "2"
-			(uuid "1af7ff25-2032-4ffb-a340-898077aab32f")
-		)
-		(pin "3"
-			(uuid "9dfada07-ad89-4417-a70e-8569ff092765")
-		)
-		(pin "4"
-			(uuid "2d87d628-ba74-40f5-bedf-ac77b388d757")
-		)
-		(pin "5"
-			(uuid "576bd194-f7a7-4d74-b8b7-912d9b81d1da")
-		)
-		(pin "6"
-			(uuid "e99d3c30-c044-4cfb-8744-d1663a2a08d9")
-		)
-		(pin "7"
-			(uuid "11147af8-8f14-4561-a26a-4b288d9878cc")
-		)
-		(pin "8"
-			(uuid "e81c76cf-15c4-4666-ba1d-3e5f84815f19")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "qsd_revB-eagle-import:GND")
 		(at 313.69 120.65 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f50add-731e-4fab-b6d2-d2b02461a819")
 		(property "Reference" "#SUPPLY028"
 			(at 313.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 311.785 123.825 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9257,24 +7780,30 @@
 		)
 		(property "Footprint" "qsd_revB:"
 			(at 313.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 313.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 313.69 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,13 +7832,17 @@
 		(lib_id "qsd_revB-eagle-import:10UF-25V-20%(PTH)")
 		(at 388.62 38.1 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d70c6eae-cd84-47e8-aa48-c1a9b3cdcf3c")
 		(property "Reference" "C151"
 			(at 386.842 35.941 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9319,6 +7852,8 @@
 		)
 		(property "Value" "10uF"
 			(at 398.018 35.433 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9328,24 +7863,30 @@
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 388.62 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,13 +7918,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 383.54 115.57 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c386f9-e0b5-468e-9933-df2a1b0104da")
 		(property "Reference" "C149"
 			(at 378.206 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9393,6 +7938,8 @@
 		)
 		(property "Value" "0.1uF"
 			(at 387.096 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9402,24 +7949,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 383.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 383.54 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,13 +8004,17 @@
 		(lib_id "qsd_revB-eagle-import:T50-TRIFILAR")
 		(at 157.48 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "eadd3c67-5874-475e-bd31-863bf77bd891")
 		(property "Reference" "T2"
 			(at 162.56 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9467,6 +8024,8 @@
 		)
 		(property "Value" "T50-TRIFILAR"
 			(at 165.1 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9476,24 +8035,30 @@
 		)
 		(property "Footprint" "qsd:T50-TRIFILAR"
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 157.48 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,13 +8099,17 @@
 		(lib_id "qsd_revB-eagle-import:CAP0603-CAP")
 		(at 101.6 48.26 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee74a400-9b36-4ed9-a98e-d826797aca01")
 		(property "Reference" "C137"
 			(at 103.124 44.831 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9550,6 +8119,8 @@
 		)
 		(property "Value" "0.01uF"
 			(at 102.616 52.705 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9559,24 +8130,30 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 101.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 101.6 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,14 +8185,18 @@
 		(lib_id "SamacSys_Parts:INA821ID")
 		(at 341.63 100.33 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21bc737-9b10-4306-9b23-3087b80e8233")
 		(property "Reference" "IC8"
 			(at 355.6 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,6 +8205,8 @@
 		)
 		(property "Value" "INA821ID"
 			(at 355.6 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,82 +8215,98 @@
 		)
 		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 365.76 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
 			(at 365.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
 			(at 365.76 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Height" "1.75"
 			(at 365.76 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "595-INA821ID"
 			(at 365.76 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
 			(at 365.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
 			(at 365.76 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA821ID"
 			(at 365.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9753,13 +8352,17 @@
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
 		(at 185.42 88.9 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f39e43b6-2ce5-4ee2-b263-9afd49400e68")
 		(property "Reference" "R141"
 			(at 182.88 86.8426 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9769,6 +8372,8 @@
 		)
 		(property "Value" "4.32K"
 			(at 183.642 89.662 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9778,24 +8383,30 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 185.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 185.42 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,24 +8436,30 @@
 	)
 	(symbol
 		(lib_id "qsd_revB-eagle-import:GND")
-		(at 105.41 251.46 0)
+		(at 209.55 203.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f43c4872-caa7-4045-8dc4-f2606d21e202")
 		(property "Reference" "#SUPPLY025"
-			(at 105.41 251.46 0)
+			(at 209.55 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 103.505 254.635 0)
+			(at 207.645 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9851,25 +8468,31 @@
 			)
 		)
 		(property "Footprint" "qsd_revB:"
-			(at 105.41 251.46 0)
+			(at 209.55 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 251.46 0)
+			(at 209.55 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 105.41 251.46 0)
+			(at 209.55 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
