@@ -674,7 +674,7 @@
         "uuid": "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
       }
     ],
-    "used_designators": "#SYM1-2,SW1,U26-28,R15,R78-80,#SUPPLY4,L1-5,L7-11,L17-21,K1-6,J19-26,D6-17,C10-37,#PWR13-19,#PWR59-60,#PWR65-77",
+    "used_designators": "RV3,#SYM1-2,SW1,Q7,U26-30,R15-24,R78-80,R163-164,R168-169,R171-172,R179-180,R198-217,#SUPPLY4,L1-5,L7-11,L17-21,K1-6,J6,J9,J13-15,J19-26,D6-18,C10-45,C173-174,C176-177,C182-183,C186-187,C222-229,#PWR13-19,#PWR59-60,#PWR65-77",
     "variants": []
   },
   "sheets": [
@@ -701,6 +701,10 @@
     [
       "f0aa9a49-1e26-47fb-bcc4-e46a9f74019c",
       "AudioFilters"
+    ],
+    [
+      "f19ef97c-ee79-4323-a504-703e7fbf4841",
+      "toneDecoder"
     ],
     [
       "ac2f1cb1-df94-4091-865f-0947d1b52aed",

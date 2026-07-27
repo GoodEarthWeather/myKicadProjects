@@ -2361,6 +2361,12 @@
 		(uuid "a30c2de8-d3a6-4ce2-9ac4-87be0eb0ac57")
 	)
 	(junction
+		(at 287.02 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4bd3513-f0b1-4e07-9388-b520a43e360a")
+	)
+	(junction
 		(at 148.59 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2565,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "0a287cad-f503-49e8-a243-c68b779c9283")
+	)
+	(wire
+		(pts
+			(xy 287.02 100.33) (xy 287.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abc7f6a-d641-41c4-acb0-ce0864bf96db")
 	)
 	(wire
 		(pts
@@ -2825,6 +2841,16 @@
 			(type default)
 		)
 		(uuid "32b9af79-eb09-4e97-bbe6-c4585cf38477")
+	)
+	(wire
+		(pts
+			(xy 313.69 97.79) (xy 387.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b4dabe-b92f-4178-b866-e66f39a89433")
 	)
 	(wire
 		(pts
@@ -3225,6 +3251,16 @@
 			(type default)
 		)
 		(uuid "7201cfbe-2604-41d5-85d2-616349afc88e")
+	)
+	(wire
+		(pts
+			(xy 287.02 137.16) (xy 294.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724880c2-7abf-452d-a913-6aeeb8f05721")
 	)
 	(wire
 		(pts
@@ -3888,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 137.16) (xy 294.64 137.16)
+			(xy 265.43 137.16) (xy 287.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4045,6 +4081,16 @@
 			(type default)
 		)
 		(uuid "dcd5004b-5933-4e88-9833-12f50396c7c8")
+	)
+	(wire
+		(pts
+			(xy 294.64 100.33) (xy 287.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6c4fd4-9ddc-4a19-a603-c3c8aa77f3c5")
 	)
 	(wire
 		(pts
@@ -4366,6 +4412,17 @@
 			(justify left)
 		)
 		(uuid "b07fb70f-bd5f-4643-9ebc-fb027a3cb79c")
+	)
+	(hierarchical_label "tone_detect"
+		(shape output)
+		(at 387.35 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de3f7c25-1a70-4aed-a6fa-966149f57c1e")
 	)
 	(symbol
 		(lib_id "audioModule2-eagle-import:CAP_POLPTH1")
@@ -9755,6 +9812,72 @@
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
 					(reference "#SUPPLY015")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 294.64 93.98)
+		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f19ef97c-ee79-4323-a504-703e7fbf4841")
+		(property "Sheetname" "toneDecoder"
+			(at 294.64 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "toneDecoder.kicad_sch"
+			(at 294.64 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "audio_in" input
+			(at 294.64 100.33 180)
+			(uuid "0ab1cbd9-7600-4bb8-a5bb-d37d3c408d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "detect" output
+			(at 313.69 97.79 0)
+			(uuid "b66b7cb5-c3b9-46ae-a2db-d8f247909dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/ac2f1cb1-df94-4091-865f-0947d1b52aed"
+					(page "7")
 				)
 			)
 		)
