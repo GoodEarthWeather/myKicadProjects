@@ -2098,161 +2098,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -2430,6 +2275,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Capacitors:0603,100nF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 2.032 -0.3782 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0603"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C14663"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "70324515"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.006USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603,100nF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,100nF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -2545,7 +2688,7 @@
 	)
 	(text "DB4"
 		(exclude_from_sim no)
-		(at 281.94 110.49 0)
+		(at 281.94 109.22 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2556,7 +2699,7 @@
 	)
 	(text "DB5"
 		(exclude_from_sim no)
-		(at 281.94 113.03 0)
+		(at 281.94 111.76 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2567,7 +2710,7 @@
 	)
 	(text "DB1"
 		(exclude_from_sim no)
-		(at 281.94 102.87 0)
+		(at 281.94 101.6 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2576,9 +2719,9 @@
 		)
 		(uuid "2c27fe72-9177-4604-9232-108d6a5c4682")
 	)
-	(text "to TX led"
+	(text "to TX led\nand zero beat led"
 		(exclude_from_sim no)
-		(at 275.082 66.04 0)
+		(at 272.288 61.722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,7 +2731,7 @@
 	)
 	(text "DB0"
 		(exclude_from_sim no)
-		(at 281.94 100.33 0)
+		(at 281.94 99.06 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2599,7 +2742,7 @@
 	)
 	(text "RS"
 		(exclude_from_sim no)
-		(at 280.67 92.71 0)
+		(at 280.67 91.44 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2610,7 +2753,7 @@
 	)
 	(text "DB3"
 		(exclude_from_sim no)
-		(at 281.94 107.95 0)
+		(at 281.94 106.68 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2621,7 +2764,7 @@
 	)
 	(text "A"
 		(exclude_from_sim no)
-		(at 279.4 120.65 0)
+		(at 279.4 119.38 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2632,7 +2775,7 @@
 	)
 	(text "R/W"
 		(exclude_from_sim no)
-		(at 281.94 95.25 0)
+		(at 281.94 93.98 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2643,7 +2786,7 @@
 	)
 	(text "E"
 		(exclude_from_sim no)
-		(at 279.4 97.79 0)
+		(at 279.4 96.52 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2654,7 +2797,7 @@
 	)
 	(text "DB2"
 		(exclude_from_sim no)
-		(at 281.94 105.41 0)
+		(at 281.94 104.14 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2665,7 +2808,7 @@
 	)
 	(text "DB6"
 		(exclude_from_sim no)
-		(at 281.94 115.57 0)
+		(at 281.94 114.3 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2676,7 +2819,7 @@
 	)
 	(text "VDD"
 		(exclude_from_sim no)
-		(at 281.94 87.63 0)
+		(at 281.94 86.36 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2687,7 +2830,7 @@
 	)
 	(text "DB7"
 		(exclude_from_sim no)
-		(at 281.94 118.11 0)
+		(at 281.94 116.84 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2730,7 +2873,7 @@
 	)
 	(text "K/R"
 		(exclude_from_sim no)
-		(at 281.305 122.555 0)
+		(at 281.305 121.285 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2741,7 +2884,7 @@
 	)
 	(text "VO"
 		(exclude_from_sim no)
-		(at 280.67 90.17 0)
+		(at 280.67 88.9 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2752,7 +2895,7 @@
 	)
 	(text "VSS"
 		(exclude_from_sim no)
-		(at 281.94 85.09 0)
+		(at 281.94 83.82 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2772,6 +2915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c8be096-656c-461b-8895-08b9beb394da")
+	)
+	(junction
+		(at 204.47 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db727f5-b4bf-426b-968b-f70ccecb96b8")
 	)
 	(junction
 		(at 158.75 187.96)
@@ -2798,6 +2947,12 @@
 		(uuid "864fa1cb-da16-431c-a6a4-69f67526cf39")
 	)
 	(junction
+		(at 182.88 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e917627-58d2-467d-be6a-4affb04ba5e7")
+	)
+	(junction
 		(at 260.35 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2816,16 +2971,10 @@
 		(uuid "a6926479-44c1-4ee5-9313-2a11d8427cc6")
 	)
 	(junction
-		(at 204.47 40.64)
+		(at 256.54 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e98da60a-3972-4eac-9dbf-8de551a1eae7")
-	)
-	(junction
-		(at 182.88 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee64691b-5aad-417a-a780-1b63ec82b09b")
+		(uuid "f94bc7d1-2df8-4b1c-b9f7-021dbc95b739")
 	)
 	(junction
 		(at 176.53 33.02)
@@ -3175,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 40.64) (xy 222.25 40.64)
+			(xy 204.47 40.64) (xy 221.615 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3355,6 +3504,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 66.04) (xy 270.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3343d11f-6542-4d6e-a7d1-179aedd15d87")
+	)
+	(wire
+		(pts
 			(xy 217.17 71.12) (xy 270.51 71.12)
 		)
 		(stroke
@@ -3415,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 56.515) (xy 222.25 56.515)
+			(xy 146.685 56.515) (xy 221.615 56.515)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 54.61) (xy 182.88 54.61)
+			(xy 221.615 54.61) (xy 182.88 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3645,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 35.56) (xy 246.38 35.56)
+			(xy 238.76 35.56) (xy 246.38 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3894,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 43.18) (xy 222.25 43.18)
+			(xy 238.76 49.53) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7996c6-6054-46f9-95d4-cff27bf1da8b")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 221.615 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 38.1) (xy 243.84 38.1)
+			(xy 238.76 38.1) (xy 243.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4235,6 +4404,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 49.53) (xy 248.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4093746-75b1-4f1e-aab0-6f7b24635f16")
+	)
+	(wire
+		(pts
 			(xy 179.07 24.13) (xy 179.07 52.07)
 		)
 		(stroke
@@ -4325,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 73.66) (xy 270.51 73.66)
+			(xy 267.97 73.66) (xy 270.51 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4455,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 222.25 45.72)
+			(xy 200.66 45.72) (xy 221.615 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4625,6 +4804,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 68.58) (xy 256.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1577e6-a15a-44d8-8cb5-5a76bf25a067")
+	)
+	(wire
+		(pts
+			(xy 256.54 68.58) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb1a0bd-71cf-46cb-9bb0-123fb1f95bbb")
+	)
+	(wire
+		(pts
 			(xy 212.09 99.06) (xy 252.73 99.06)
 		)
 		(stroke
@@ -4705,7 +4904,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 222.25 58.42)
+			(xy 148.59 58.42) (xy 221.615 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5331,8 +5530,7 @@
 	)
 	(global_label "VDD5"
 		(shape input)
-		(at 265.43 73.66 180)
-		(fields_autoplaced yes)
+		(at 267.97 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5341,7 +5539,7 @@
 		)
 		(uuid "9fe0e710-33bd-4743-9c61-37f658b45495")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.9276 73.66 0)
+			(at 275.844 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5649,6 +5847,94 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 275.59 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374b5bf9-b49c-4261-88e0-0efbd0fb5575")
+		(property "Reference" "J8"
+			(at 278.13 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 278.13 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 275.59 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f2d5dfe4-3033-4939-9331-a15c17891d28")
+		)
+		(pin "1"
+			(uuid "7c7405ac-d36b-4017-8041-afbaac3affcb")
+		)
+		(pin "4"
+			(uuid "d358f20e-7318-4b1e-b254-67fa258f975c")
+		)
+		(pin "2"
+			(uuid "cb937c6e-1a7c-4489-9873-c6d72b070edc")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
 		(at 198.12 67.31 0)
 		(mirror y)
 		(unit 1)
@@ -6738,8 +7024,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 197.1548 71.12 0)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 199.898 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 198.12 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6760,8 +7046,163 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 196.088 69.3562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 198.12 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7050,98 +7491,6 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 275.59 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc92c169-f9b8-457e-b039-e082528581c1")
-		(property "Reference" "J8"
-			(at 274.32 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 278.13 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 275.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 275.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9db1edae-f5fa-43dc-940d-e441630af773")
-		)
-		(pin "1"
-			(uuid "fd96e2ff-5cfe-400e-9a64-4971c564712f")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8593,7 @@
 		)
 	)
 	(sheet
-		(at 222.25 33.02)
+		(at 221.615 33.02)
 		(size 17.145 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8259,7 +8608,7 @@
 		)
 		(uuid "ac2f1cb1-df94-4091-865f-0947d1b52aed")
 		(property "Sheetname" "Audio"
-			(at 222.25 32.3084 0)
+			(at 221.615 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,7 +8619,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 229.87 30.48 0)
+			(at 229.235 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8281,7 +8630,7 @@
 			)
 		)
 		(pin "vbias" input
-			(at 222.25 40.64 180)
+			(at 221.615 40.64 180)
 			(uuid "6d79f8f1-ab9d-4ff0-808b-412344ee1dce")
 			(effects
 				(font
@@ -8291,7 +8640,7 @@
 			)
 		)
 		(pin "mute" input
-			(at 222.25 56.515 180)
+			(at 221.615 56.515 180)
 			(uuid "6628c21e-c7dc-48f2-ba03-14dbb8b651a8")
 			(effects
 				(font
@@ -8301,7 +8650,7 @@
 			)
 		)
 		(pin "SIDETONE" input
-			(at 222.25 58.42 180)
+			(at 221.615 58.42 180)
 			(uuid "e8e85a01-dc00-4805-b76c-2e66a5dc9be7")
 			(effects
 				(font
@@ -8311,7 +8660,7 @@
 			)
 		)
 		(pin "audio_Q_out" output
-			(at 239.395 38.1 0)
+			(at 238.76 38.1 0)
 			(uuid "a8d19f75-eefd-4a65-ab97-eb7206b299ca")
 			(effects
 				(font
@@ -8321,7 +8670,7 @@
 			)
 		)
 		(pin "audio_I" input
-			(at 222.25 45.72 180)
+			(at 221.615 45.72 180)
 			(uuid "53561efe-133f-4c46-9f43-2776101e3a1f")
 			(effects
 				(font
@@ -8331,7 +8680,7 @@
 			)
 		)
 		(pin "audio_Q" input
-			(at 222.25 43.18 180)
+			(at 221.615 43.18 180)
 			(uuid "c2eb4808-b012-4a9e-a2f8-747b37b1c545")
 			(effects
 				(font
@@ -8341,7 +8690,7 @@
 			)
 		)
 		(pin "sel_binaural" input
-			(at 222.25 54.61 180)
+			(at 221.615 54.61 180)
 			(uuid "336c082f-05ae-44e1-8ec5-b60a4a51fc3a")
 			(effects
 				(font
@@ -8351,8 +8700,18 @@
 			)
 		)
 		(pin "audio_I_out" output
-			(at 239.395 35.56 0)
+			(at 238.76 35.56 0)
 			(uuid "1e60dbb3-6dbf-4529-85fb-a7ceb9a98886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "tone_detect" output
+			(at 238.76 49.53 0)
+			(uuid "dfd01c92-b9f4-4b45-ac77-54f16615d99b")
 			(effects
 				(font
 					(size 1.27 1.27)
