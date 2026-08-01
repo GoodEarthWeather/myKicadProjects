@@ -8746,6 +8746,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50533")
 		)
@@ -9218,6 +9229,17 @@
 			)
 		)
 		(property "JLCPCB" "C2878631"
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2878631"
 			(at 256.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9712,6 +9734,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 170.18 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50535")
 		)
@@ -10071,6 +10104,17 @@
 			)
 		)
 		(property "JLCPCB" "C2878631"
+			(at 257.81 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2878631"
 			(at 257.81 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11201,7 +11245,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11883,6 +11927,17 @@
 			)
 		)
 		(property "JLCPCB" "C2878631"
+			(at 153.67 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2878631"
 			(at 153.67 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15015,6 +15070,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 125.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec8")
 		)
@@ -15134,6 +15200,17 @@
 			)
 		)
 		(property "JLCPCB" "C46388"
+			(at 355.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C46388"
 			(at 355.6 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15577,6 +15654,17 @@
 			)
 		)
 		(property "JLCPCB" "C46388"
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C46388"
 			(at 189.23 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17941,6 +18029,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 204.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "152b2e88-d436-4d4b-98ce-b0146019dec9")
 		)
@@ -19398,6 +19497,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 204.47 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "152b2e88-d436-4d4b-98ce-b0146019deca")
 		)
@@ -20341,6 +20451,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2878631"
+			(at 308.61 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "4e26f2cb-b737-4a6f-9be5-9ee936e50537")
 		)
@@ -21002,6 +21123,17 @@
 			)
 		)
 		(property "JLCPCB" "C2878631"
+			(at 154.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2878631"
 			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)

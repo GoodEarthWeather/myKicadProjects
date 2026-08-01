@@ -594,7 +594,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -609,22 +609,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -871,14 +871,110 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Transfer Capacitance (Crss@Vds)",
+          "name": "Reverse Transfer Capacitance (Crss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance (Ciss@Vds)",
+          "name": "Input Capacitance (Ciss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Drain Current (Id)",
+          "name": "Continuous Drain Current (Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Current Gain (hFE@Ic,Vce)",
+          "name": "DC Current Gain (hFE@Ic,Vce)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector Current (Ic)",
+          "name": "Collector Current (Ic)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Total Gate Charge (Qg@Vgs)",
+          "name": "Total Gate Charge (Qg@Vgs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Transistor Type",
+          "name": "Transistor Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Transition Frequency (fT)",
+          "name": "Transition Frequency (fT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Dissipation (Pd)",
+          "name": "Power Dissipation (Pd)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source Voltage (Vdss)",
+          "name": "Drain Source Voltage (Vdss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector Cut-Off Current (Icbo)",
+          "name": "Collector Cut-Off Current (Icbo)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector-Emitter Breakdown Voltage (Vceo)",
+          "name": "Collector-Emitter Breakdown Voltage (Vceo)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
+          "name": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "LCSC"
     },
     "bus_aliases": {
       "BAND_CTL": [
@@ -975,7 +1071,7 @@
         "uuid": "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
       }
     ],
-    "used_designators": "RV3-4,#SYM1-2,SW1,Q7-8,U26-32,R11,R15-25,R78-80,R100-109,R113,R163-164,R168-169,R171-172,R179-180,R198-221,#SUPPLY4,#SUPPLY42,L1-5,L7-11,L17-22,L27,K1-6,J6,J8-9,J13-15,J19-26,D6-18,C10-49,C108,C113,C132,C136,C140,C173-174,C176-177,C182-183,C186-187,C222-236,#PWR13-19,#PWR28-30,#PWR59-60,#PWR62,#PWR65-77",
+    "used_designators": "RV3-4,#SYM1-2,SW1,Q7-8,U26-32,R11,R15-25,R78-80,R100-109,R113,R163-164,R168-169,R171-172,R179-180,R198-225,#SUPPLY4,#SUPPLY42,L1-5,L7-11,L17-22,L27,K1-6,J6,J8-9,J13-15,J19-26,D6-18,C10-49,C53-55,C93,C108,C113,C132,C136,C140,C173-174,C176-177,C182-183,C186-187,C222-238,#PWR13-19,#PWR28-30,#PWR59-60,#PWR62,#PWR65-77",
     "variants": []
   },
   "sheets": [
