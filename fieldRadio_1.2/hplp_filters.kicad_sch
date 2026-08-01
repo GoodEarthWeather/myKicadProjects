@@ -11942,13 +11942,14 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 55.88 93.98 0)
+			(at 57.658 91.0618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
