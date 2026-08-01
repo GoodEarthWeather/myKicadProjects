@@ -9539,7 +9539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 45.72 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9594,7 +9594,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C192421"
 			(at 45.72 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10316,7 +10316,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2878631"
 			(at 191.77 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12211,7 +12211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -12266,7 +12266,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C192421"
 			(at 132.08 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13285,7 +13285,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2878631"
 			(at 74.93 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13382,7 +13382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 74.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13437,7 +13437,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C192421"
 			(at 74.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14282,7 +14282,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2878631"
 			(at 132.08 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14434,7 +14434,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2878631"
 			(at 250.19 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14580,7 +14580,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46388"
 			(at 59.69 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14947,7 +14947,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2878631"
 			(at 31.75 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15903,7 +15903,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46388"
 			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)

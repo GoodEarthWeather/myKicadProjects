@@ -6975,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7020,6 +7020,17 @@
 			)
 		)
 		(property "LCSC" "C2878631"
+			(at 233.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
 			(at 233.68 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11233,7 +11244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11278,6 +11289,17 @@
 			)
 		)
 		(property "LCSC" "C2878631"
+			(at 233.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
 			(at 233.68 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 220.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13686,6 +13708,17 @@
 			)
 		)
 		(property "LCSC" "C2878631"
+			(at 222.25 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
 			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14676,7 +14709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 218.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14721,6 +14754,17 @@
 			)
 		)
 		(property "LCSC" "C2878631"
+			(at 219.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
 			(at 219.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16672,7 +16716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 264.16 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16717,6 +16761,17 @@
 			)
 		)
 		(property "LCSC" "C2878631"
+			(at 265.43 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
 			(at 265.43 71.12 0)
 			(hide yes)
 			(show_name no)

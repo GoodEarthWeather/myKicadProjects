@@ -2032,6 +2032,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C504891"
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "46f8ed2d-610f-4545-bd70-3c6efa4f551e")
 		)
@@ -2576,6 +2587,17 @@
 			)
 		)
 		(property "JLCPCB" "C596913"
+			(at 166.243 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C596913"
 			(at 166.243 85.09 90)
 			(hide yes)
 			(show_name no)

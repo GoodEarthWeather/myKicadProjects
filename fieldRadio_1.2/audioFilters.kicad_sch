@@ -8702,7 +8702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 199.39 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9195,7 +9195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 255.27 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9690,7 +9690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 168.91 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 256.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11893,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15026,7 +15026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -17985,7 +17985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 203.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19453,7 +19453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 203.2 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -20407,7 +20407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 307.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -21089,7 +21089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 153.67 110.49 0)
 			(hide yes)
 			(show_name no)

@@ -8576,6 +8576,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5361354"
+			(at 157.48 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23dfe476-8a28-43aa-9258-7baef3dcc5bf")
 		)
@@ -10528,6 +10539,17 @@
 			)
 		)
 		(property "JLCPCB" "C5361354"
+			(at 171.45 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5361354"
 			(at 171.45 132.08 90)
 			(hide yes)
 			(show_name no)

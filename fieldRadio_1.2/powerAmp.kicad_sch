@@ -34242,6 +34242,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22463814"
+			(at 220.98 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7658c217-2efd-4bde-aa2a-cf8fd81b5571")
 		)
@@ -35341,6 +35352,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 316.23 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22463814"
 			(at 316.23 36.83 90)
 			(hide yes)
 			(show_name no)
