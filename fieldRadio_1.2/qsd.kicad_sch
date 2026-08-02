@@ -5,6 +5,252 @@
 	(uuid "45eb654e-990b-4f8e-aa4c-995990d16b9d")
 	(paper "B")
 	(lib_symbols
+		(symbol "Amplifier_Instrumentation:INA821xD"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.556 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA821xD"
+				(at 7.366 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0.254 -27.432 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ina821"
+				(at 0.508 -29.972 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, SOIC-8"
+				(at 0 -24.892 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "opamp operational-amplifier"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INA821xD_0_1"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 -7.62) (xy 10.16 0) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA821xD_1_1"
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "Rg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "Rg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "Vs-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 5.08)
+					(name "Ref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vs+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Q_NJFET_DSG"
 			(pin_names
 				(offset 0)
@@ -3158,295 +3404,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:INA821ID"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "INA821ID"
-				(at 24.13 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOIC127P600X175-8N"
-				(at 24.13 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
-				(at 24.13 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
-				(at 24.13 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Height" "1.75"
-				(at 24.13 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mouser Part Number" "595-INA821ID"
-				(at 24.13 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
-				(at 24.13 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer_Part_Number" "INA821ID"
-				(at 24.13 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(symbol "INA821ID_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "RG_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "RG_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "REF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA821ID_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "qsd_revB-eagle-import:CAP0603-CAP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5280,16 +5237,16 @@
 		(uuid "073c777e-084d-45a3-8bca-b350a53bc379")
 	)
 	(junction
+		(at 295.91 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ebdcd04-66de-4270-b0cc-7aec4649e434")
+	)
+	(junction
 		(at 193.04 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12be1925-11af-499f-929d-6917ce854085")
-	)
-	(junction
-		(at 378.46 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16af23af-c4ed-4e6a-9ffa-31f24bf9d684")
 	)
 	(junction
 		(at 156.21 160.02)
@@ -5326,12 +5283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ad7df62-deff-4e18-8b3c-73ced1139680")
-	)
-	(junction
-		(at 378.46 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35025fd6-1240-4bcd-869e-eb95c0411137")
 	)
 	(junction
 		(at 226.06 116.84)
@@ -5376,22 +5327,28 @@
 		(uuid "478d195b-0207-4d0b-b062-3d8c2daef7de")
 	)
 	(junction
+		(at 351.79 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54124ab4-2f0b-49b6-9f22-6f70c8057e8b")
+	)
+	(junction
 		(at 119.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57fbcc0f-ccb4-4ea2-a3f5-556c32ff5df7")
 	)
 	(junction
+		(at 378.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f2f0da6-da4b-46ab-99d7-637fdc28f2ed")
+	)
+	(junction
 		(at 373.38 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c33214d-ec8f-4ef5-9740-c56104f5f676")
-	)
-	(junction
-		(at 381 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d172dd2-83fc-4a2a-95ff-7edd8cdc6fce")
 	)
 	(junction
 		(at 185.42 104.14)
@@ -5404,12 +5361,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e50e83-4d33-4789-8a48-01197003e1a6")
-	)
-	(junction
-		(at 373.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7897b416-9922-4c25-b5d1-48f8dffb312a")
 	)
 	(junction
 		(at 271.78 99.06)
@@ -5430,28 +5381,16 @@
 		(uuid "7ff8b0be-16f4-489b-bde9-78c61da6da71")
 	)
 	(junction
-		(at 381 76.2)
+		(at 381 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82709d1f-dd0b-47cd-b690-ed918d00f550")
+		(uuid "84b5f902-a43d-44dc-a5d5-f4c69b5f1e91")
 	)
 	(junction
 		(at 119.38 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "987c0336-9aae-4cea-978d-a666ad2e288d")
-	)
-	(junction
-		(at 295.91 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e2f3323-6066-4f68-addc-9cd0e4761451")
-	)
-	(junction
-		(at 295.91 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a54db710-1be0-4cb8-844c-3ef8ffba9a1d")
 	)
 	(junction
 		(at 284.48 78.74)
@@ -5508,6 +5447,12 @@
 		(uuid "c697a106-f29b-4c0a-9340-dd41c875f662")
 	)
 	(junction
+		(at 295.91 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca662dba-c05d-46cf-9ee2-5f5c52542137")
+	)
+	(junction
 		(at 373.38 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5526,10 +5471,22 @@
 		(uuid "cc716457-523f-48df-a205-b2d303890a4b")
 	)
 	(junction
+		(at 381 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd85f294-15a8-4864-91ad-8ac772575fda")
+	)
+	(junction
 		(at 313.69 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f3b779-44ca-4ea0-bfb1-7b78c383823d")
+	)
+	(junction
+		(at 378.46 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc4292b5-dde6-47cc-b405-7d3dac6a495a")
 	)
 	(junction
 		(at 378.46 38.1)
@@ -5560,6 +5517,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd9c5c81-7c71-40fa-9307-5a1b46ed415a")
+	)
+	(no_connect
+		(at 189.23 162.56)
+		(uuid "0b768173-251e-4f2b-848d-f998fa40e118")
 	)
 	(wire
 		(pts
@@ -5603,7 +5564,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 71.12) (xy 378.46 88.9)
+			(xy 378.46 63.5) (xy 378.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5623,7 +5584,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 105.41) (xy 323.85 102.87)
+			(xy 323.85 106.68) (xy 323.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5673,16 +5634,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 100.33) (xy 378.46 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c41f69-c420-4e92-b618-c2d777e42738")
-	)
-	(wire
-		(pts
 			(xy 203.2 104.14) (xy 193.04 104.14)
 		)
 		(stroke
@@ -5703,7 +5654,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 100.33) (xy 378.46 88.9)
+			(xy 378.46 95.25) (xy 378.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5723,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 76.2) (xy 391.16 85.09)
+			(xy 391.16 82.55) (xy 391.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5833,7 +5784,37 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 107.95) (xy 373.38 115.57)
+			(xy 351.79 95.25) (xy 378.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f068bf-5754-4bcb-9a59-93a73ce6b241")
+	)
+	(wire
+		(pts
+			(xy 364.49 104.14) (xy 391.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2311caf9-c3e1-4363-b781-9d6959855c71")
+	)
+	(wire
+		(pts
+			(xy 339.09 72.39) (xy 344.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248ba7c3-7e25-4bef-b3d3-24ed04a38a39")
+	)
+	(wire
+		(pts
+			(xy 373.38 92.71) (xy 373.38 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5863,17 +5844,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 105.41) (xy 381 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26517aa0-9cd5-43d3-90f8-aae5a6185f08")
-	)
-	(wire
-		(pts
-			(xy 381 107.95) (xy 381 105.41)
+			(xy 381 82.55) (xy 381 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5903,7 +5874,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 73.66) (xy 326.39 73.66)
+			(xy 328.93 72.39) (xy 326.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5933,13 +5904,13 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 73.66) (xy 392.43 82.55)
+			(xy 295.91 80.01) (xy 295.91 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32976443-266d-47ce-9553-5a9e83397ea7")
+		(uuid "32857765-98ff-4e81-af0d-3ea1fad85ccb")
 	)
 	(wire
 		(pts
@@ -5950,16 +5921,6 @@
 			(type default)
 		)
 		(uuid "3581a117-bc5b-4b21-b590-7c51d4fc1de1")
-	)
-	(wire
-		(pts
-			(xy 369.57 73.66) (xy 392.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3604722c-bd23-4801-98c9-4e4554ced9f0")
 	)
 	(wire
 		(pts
@@ -5983,23 +5944,13 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 102.87) (xy 341.63 102.87)
+			(xy 295.91 109.22) (xy 295.91 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39dccd57-5626-47a0-b5f8-7dbe900db6fb")
-	)
-	(wire
-		(pts
-			(xy 392.43 82.55) (xy 394.97 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a37d549-d759-47ee-aae0-c970aad7b1ff")
+		(uuid "3b76c4a2-a664-48c3-b43b-2e0af5602b7e")
 	)
 	(wire
 		(pts
@@ -6023,7 +5974,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 102.87) (xy 325.12 102.87)
+			(xy 323.85 101.6) (xy 327.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6063,26 +6014,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 107.95) (xy 373.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478a85cd-1519-4a86-9f6c-0adc508e475b")
-	)
-	(wire
-		(pts
-			(xy 373.38 92.71) (xy 373.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4909cad3-cba9-4b37-adcd-fd9d669d4b0a")
-	)
-	(wire
-		(pts
 			(xy 373.38 85.09) (xy 391.16 85.09)
 		)
 		(stroke
@@ -6110,16 +6041,6 @@
 			(type default)
 		)
 		(uuid "4b696b89-cf96-4556-a2c1-3656c7cd5caf")
-	)
-	(wire
-		(pts
-			(xy 381 105.41) (xy 381 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d88b8f5-de73-40db-bddf-8d4d10208fca")
 	)
 	(wire
 		(pts
@@ -6163,16 +6084,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 76.2) (xy 369.57 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546ba5ea-c049-4fad-96fe-521c27a993fe")
-	)
-	(wire
-		(pts
 			(xy 129.54 104.14) (xy 147.32 104.14)
 		)
 		(stroke
@@ -6190,6 +6101,16 @@
 			(type default)
 		)
 		(uuid "555c2b73-59d4-49b8-90c0-cf94132068d0")
+	)
+	(wire
+		(pts
+			(xy 364.49 74.93) (xy 394.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5627dc32-ee38-4840-9285-61663f9ca32a")
 	)
 	(wire
 		(pts
@@ -6220,16 +6141,6 @@
 			(type default)
 		)
 		(uuid "5e13fa8c-c74a-4aa7-ab9b-ac2b0a0237e5")
-	)
-	(wire
-		(pts
-			(xy 369.57 78.74) (xy 373.38 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee5a4e3-94cd-4c78-adb8-e5ba33cf1c92")
 	)
 	(wire
 		(pts
@@ -6313,7 +6224,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 87.63) (xy 394.97 87.63)
+			(xy 391.16 87.63) (xy 394.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6333,7 +6244,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 107.95) (xy 341.63 107.95)
+			(xy 295.91 109.22) (xy 344.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6353,13 +6264,23 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 102.87) (xy 392.43 87.63)
+			(xy 391.16 104.14) (xy 391.16 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79863afa-1d2a-4b06-b2db-4d1580142885")
+	)
+	(wire
+		(pts
+			(xy 356.87 111.76) (xy 381 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b24b385-27b6-4dd8-9126-4c79600a23e4")
 	)
 	(wire
 		(pts
@@ -6383,7 +6304,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 100.33) (xy 341.63 100.33)
+			(xy 331.47 99.06) (xy 344.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6483,16 +6404,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 102.87) (xy 392.43 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "910421f0-f902-4885-88f7-e100ff01af44")
-	)
-	(wire
-		(pts
 			(xy 360.68 92.71) (xy 363.22 92.71)
 		)
 		(stroke
@@ -6520,6 +6431,16 @@
 			(type default)
 		)
 		(uuid "921f038d-ac6c-400d-b68d-b5f3bcd6787f")
+	)
+	(wire
+		(pts
+			(xy 351.79 111.76) (xy 351.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922dd777-c545-4c71-ac32-89189b3fa64e")
 	)
 	(wire
 		(pts
@@ -6583,13 +6504,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 78.74) (xy 373.38 85.09)
+			(xy 351.79 63.5) (xy 351.79 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a1916c4-d668-4dae-9f7c-95e89c4b89d0")
+		(uuid "99c1ed21-2a74-4584-af60-3fd3b7298528")
 	)
 	(wire
 		(pts
@@ -6683,16 +6604,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 71.12) (xy 378.46 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab8eea79-255d-4fc7-b4cf-f3f5c535175f")
-	)
-	(wire
-		(pts
 			(xy 392.43 115.57) (xy 392.43 107.95)
 		)
 		(stroke
@@ -6720,6 +6631,16 @@
 			(type default)
 		)
 		(uuid "b002399c-5db4-4cec-a4da-8caa47ddb82b")
+	)
+	(wire
+		(pts
+			(xy 351.79 63.5) (xy 378.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a68922-e159-40b0-a052-fe534a54b026")
 	)
 	(wire
 		(pts
@@ -6753,7 +6674,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 78.74) (xy 341.63 78.74)
+			(xy 295.91 80.01) (xy 344.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6763,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 83.82) (xy 295.91 78.74)
+			(xy 295.91 83.82) (xy 295.91 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6780,6 +6701,16 @@
 			(type default)
 		)
 		(uuid "be5567b5-8760-4637-bb48-6891340f0dea")
+	)
+	(wire
+		(pts
+			(xy 337.82 101.6) (xy 344.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf38343f-cc49-46df-8a58-60c1ee8d795b")
 	)
 	(wire
 		(pts
@@ -6913,7 +6844,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 71.12) (xy 341.63 71.12)
+			(xy 318.77 69.85) (xy 344.17 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6923,7 +6854,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 116.84) (xy 313.69 116.84)
+			(xy 373.38 116.84) (xy 351.79 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6973,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 105.41) (xy 341.63 105.41)
+			(xy 323.85 106.68) (xy 344.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7033,7 +6964,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 76.2) (xy 341.63 76.2)
+			(xy 326.39 77.47) (xy 344.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7063,7 +6994,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 96.52) (xy 331.47 100.33)
+			(xy 331.47 96.52) (xy 331.47 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7100,6 +7031,16 @@
 			(type default)
 		)
 		(uuid "e416c633-d0e4-4876-8d9b-e00494fb42ee")
+	)
+	(wire
+		(pts
+			(xy 351.79 95.25) (xy 351.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e515bd7d-fcf3-4804-aabf-82cf3185478e")
 	)
 	(wire
 		(pts
@@ -7213,6 +7154,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 82.55) (xy 381 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa38020-3ebc-4ea5-ab21-f44d4d5df646")
+	)
+	(wire
+		(pts
 			(xy 147.32 83.82) (xy 147.32 88.9)
 		)
 		(stroke
@@ -7223,13 +7174,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 73.66) (xy 341.63 73.66)
+			(xy 351.79 116.84) (xy 313.69 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2070a55-9531-4376-a36e-2bc766f4e930")
+		(uuid "f29ec347-0fc0-4e4d-9334-150784c6fc9c")
 	)
 	(wire
 		(pts
@@ -7243,7 +7194,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 76.2) (xy 383.54 76.2)
+			(xy 381 82.55) (xy 383.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7214,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 38.1) (xy 378.46 71.12)
+			(xy 378.46 38.1) (xy 378.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7273,7 +7224,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 93.98) (xy 318.77 71.12)
+			(xy 318.77 93.98) (xy 318.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7293,7 +7244,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 73.66) (xy 326.39 76.2)
+			(xy 326.39 72.39) (xy 326.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7310,6 +7261,16 @@
 			(type default)
 		)
 		(uuid "fa05c5a0-100b-4f84-abd5-246a0be9ba94")
+	)
+	(wire
+		(pts
+			(xy 381 111.76) (xy 381 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa800b0b-d9d7-48c4-b762-a361dbbdf25a")
 	)
 	(wire
 		(pts
@@ -7351,18 +7312,8 @@
 		)
 		(uuid "15ec9001-431f-4ff0-8c76-8d5aaa1fc144")
 	)
-	(label "ICLK"
-		(at 219.71 109.22 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f815a68-e87d-4c17-be94-2076cbbf4193")
-	)
 	(label "90-DEG"
-		(at 323.85 107.95 0)
+		(at 320.04 109.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7382,7 +7333,7 @@
 		(uuid "a85ed68d-8fae-487a-b679-84ded191b3e7")
 	)
 	(label "0-DEG"
-		(at 320.04 78.74 0)
+		(at 320.04 80.01 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7392,7 +7343,7 @@
 		(uuid "b0065494-3df7-4a6b-ac64-f6829d215ff8")
 	)
 	(label "270-DEG"
-		(at 321.31 96.52 0)
+		(at 320.04 96.52 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7412,7 +7363,7 @@
 		(uuid "bf6d0aa0-976a-4010-bc7a-72430a0a110e")
 	)
 	(label "180-DEG"
-		(at 318.77 71.12 0)
+		(at 318.77 69.85 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7420,16 +7371,6 @@
 			(justify left bottom)
 		)
 		(uuid "de93a360-ee3e-4bef-8930-663f2471ff33")
-	)
-	(label "QCLK"
-		(at 219.71 111.76 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1134875-65be-4bac-bcbd-c3587033143d")
 	)
 	(global_label "VDD5"
 		(shape input)
@@ -7525,7 +7466,7 @@
 	)
 	(hierarchical_label "Iout"
 		(shape output)
-		(at 394.97 82.55 0)
+		(at 394.97 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7600,7 +7541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c695d1-fe5c-4413-b673-c12b91823552")
-		(property "Reference" "U32"
+		(property "Reference" "U24"
 			(at 181.61 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +7678,115 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "U32")
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Instrumentation:INA821xD")
+		(at 351.79 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "075bab0d-da32-4202-80d1-dbfe27e22295")
+		(property "Reference" "U33"
+			(at 357.632 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA821xD"
+			(at 360.172 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 352.044 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina821"
+			(at 352.298 134.112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, SOIC-8"
+			(at 351.79 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2060822"
+			(at 351.79 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9725b0a1-d603-445b-8519-8b07a622f564")
+		)
+		(pin "2"
+			(uuid "506f9f5a-f1d0-4251-b926-ee5f2963d431")
+		)
+		(pin "6"
+			(uuid "62718589-41cc-4f8a-8670-6a34b1731e2a")
+		)
+		(pin "5"
+			(uuid "64936670-f310-4dbc-a081-51fdba26a8d3")
+		)
+		(pin "4"
+			(uuid "db398e2e-f857-451a-b719-579546c69824")
+		)
+		(pin "7"
+			(uuid "b845f13b-f060-496a-972c-5fba7e7b6db9")
+		)
+		(pin "8"
+			(uuid "12c5d1b2-5848-4558-86e5-1fb30c109df5")
+		)
+		(pin "1"
+			(uuid "ed02fec7-7934-4796-994e-1a1f5d106312")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+					(reference "U33")
 					(unit 1)
 				)
 			)
@@ -7756,7 +7805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07add09f-c1fc-4b6e-942d-c8653e8286d3")
-		(property "Reference" "Q20"
+		(property "Reference" "Q9"
 			(at 129.54 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +7880,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "Q20")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7854,7 +7903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "166e7b76-2cc9-40d6-ab5c-5377bec0d039")
-		(property "Reference" "R143"
+		(property "Reference" "R105"
 			(at 302.26 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +8153,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R143")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17d89e72-bf08-4cc2-beb0-963fa5ce761c")
-		(property "Reference" "R140"
+		(property "Reference" "R103"
 			(at 193.04 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +8426,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R140")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -8400,7 +8449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bd121a2-7f71-4184-acfc-f1fa857b9878")
-		(property "Reference" "C146"
+		(property "Reference" "C135"
 			(at 290.83 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,7 +8545,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C146")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -8519,7 +8568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1be47dda-91c5-41ca-ac56-45252a26a8e7")
-		(property "Reference" "C135"
+		(property "Reference" "C128"
 			(at 164.084 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8737,7 +8786,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C135")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe1061b-90ec-4b1d-9e91-9685d51bd1dd")
-		(property "Reference" "C145"
+		(property "Reference" "C134"
 			(at 290.576 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8905,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C145")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -8879,7 +8928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ff9b4c-d7a3-4502-8936-83341eea3b3f")
-		(property "Reference" "C141"
+		(property "Reference" "C129"
 			(at 199.136 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,7 +9146,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C141")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -9120,7 +9169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "283310a8-8ae6-4216-ad3f-6043a7b2d630")
-		(property "Reference" "C143"
+		(property "Reference" "C132"
 			(at 257.81 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,7 +9387,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C143")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -9361,7 +9410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3064df44-d80c-4cae-b82c-f4934b3ccd52")
-		(property "Reference" "#SUPPLY04"
+		(property "Reference" "#SUPPLY019"
 			(at 226.06 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9421,7 +9470,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY04")
+					(reference "#SUPPLY019")
 					(unit 1)
 				)
 			)
@@ -9438,7 +9487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38c245c9-0dfa-4086-aaeb-abc79e9b64fa")
-		(property "Reference" "R145"
+		(property "Reference" "R107"
 			(at 302.006 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9688,7 +9737,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R145")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -9711,7 +9760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "394d5297-f177-4f4b-9e6b-56a1eb704d8f")
-		(property "Reference" "C139"
+		(property "Reference" "C127"
 			(at 124.46 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,7 +9978,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C139")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -9943,7 +9992,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 387.35 76.2 270)
+		(at 387.35 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9952,8 +10001,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d9ea9a1-7363-4fdc-a2ec-7eb5e0f51f95")
-		(property "Reference" "C150"
-			(at 382.016 75.565 90)
+		(property "Reference" "C139"
+			(at 382.016 81.915 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9964,7 +10013,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 390.906 75.565 90)
+			(at 389.382 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9975,7 +10024,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 387.35 74.422 90)
+			(at 387.35 80.772 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9986,7 +10035,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9997,7 +10046,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10057,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10068,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10030,7 +10079,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10041,7 +10090,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10101,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10063,7 +10112,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10074,7 +10123,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10085,7 +10134,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10096,7 +10145,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10107,7 +10156,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10118,7 +10167,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 385.3038 78.232 0)
+			(at 385.3038 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10129,7 +10178,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10140,7 +10189,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10151,7 +10200,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 387.35 76.2 0)
+			(at 387.35 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10170,7 +10219,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C150")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -10193,7 +10242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45a330ca-cbd5-457e-b2ce-6ba6f194aa69")
-		(property "Reference" "C138"
+		(property "Reference" "C131"
 			(at 217.932 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10460,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C138")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -10425,7 +10474,7 @@
 	)
 	(symbol
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
-		(at 330.2 102.87 180)
+		(at 332.74 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10434,8 +10483,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ad14f70-7de6-438a-8e25-9b4f1301eb9b")
-		(property "Reference" "R147"
-			(at 327.66 100.33 0)
+		(property "Reference" "R109"
+			(at 330.2 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10446,7 +10495,7 @@
 			)
 		)
 		(property "Value" "499"
-			(at 337.82 100.33 0)
+			(at 340.36 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10457,7 +10506,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,7 +10517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10489,7 +10538,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10500,7 +10549,7 @@
 			)
 		)
 		(property "JLCPCB" "C137714"
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10511,7 +10560,7 @@
 			)
 		)
 		(property "LCSC" "C137714"
-			(at 330.2 102.87 0)
+			(at 332.74 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10530,13 +10579,90 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R147")
+					(reference "R109")
 					(unit 1)
 				)
 			)
 			(project "qsd_revC"
 				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "qsd_revB-eagle-import:GND")
+		(at 351.79 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58ba466c-bb11-41c1-96c6-cb372fa7d0de")
+		(property "Reference" "#SUPPLY031"
+			(at 351.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.885 88.265 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "qsd_revB:"
+			(at 351.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c0bba91-0916-4dc0-8075-54c8bc9150ec")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+					(reference "#SUPPLY031")
 					(unit 1)
 				)
 			)
@@ -10553,7 +10679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d049be1-8e01-420c-ac2a-79d797ba9298")
-		(property "Reference" "C147"
+		(property "Reference" "C136"
 			(at 361.696 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10897,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C147")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -10794,7 +10920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6259be84-ab0a-4763-a4c9-bf5886150b3e")
-		(property "Reference" "IC6"
+		(property "Reference" "IC1"
 			(at 250.698 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10932,7 +11058,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC6")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -10955,7 +11081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6be0eecc-3e25-4de5-a947-461a038ad013")
-		(property "Reference" "R139"
+		(property "Reference" "R101"
 			(at 145.796 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11205,7 +11331,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R139")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cff3e12-f8c8-4690-8555-d7708b072beb")
-		(property "Reference" "R137"
+		(property "Reference" "R99"
 			(at 117.856 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11604,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R137")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b0624a2-f6f0-4834-8289-3e043a7666b6")
-		(property "Reference" "R138"
+		(property "Reference" "R100"
 			(at 155.448 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11877,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R138")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -11774,7 +11900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "808ce892-1341-4e65-86a5-627379b65a18")
-		(property "Reference" "R109"
+		(property "Reference" "R102"
 			(at 170.688 164.338 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12024,7 +12150,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R109")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -12041,7 +12167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85a3f0d4-2ea6-491c-aafc-61f86cc4a1b0")
-		(property "Reference" "R146"
+		(property "Reference" "R108"
 			(at 301.752 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12291,7 +12417,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R146")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -12314,7 +12440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b47b116-a0fd-418c-9f71-669a7be77cf5")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY017"
 			(at 147.32 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12374,7 +12500,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY017")
 					(unit 1)
 				)
 			)
@@ -12397,7 +12523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c24f715-b955-42a8-9990-e63101566d61")
-		(property "Reference" "R144"
+		(property "Reference" "R106"
 			(at 302.006 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12647,7 +12773,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R144")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -12670,7 +12796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ce0c054-b39e-4839-b03f-dcf381ed90e0")
-		(property "Reference" "C142"
+		(property "Reference" "C130"
 			(at 204.216 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +13014,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C142")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -12911,7 +13037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90260c01-b58b-4f26-b54c-de7e1921a224")
-		(property "Reference" "C148"
+		(property "Reference" "C137"
 			(at 361.696 92.075 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13129,7 +13255,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C148")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -13152,7 +13278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "903fef9e-841f-436b-a01e-7846f2973004")
-		(property "Reference" "C144"
+		(property "Reference" "C133"
 			(at 270.002 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13370,202 +13496,13 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C144")
+					(reference "C133")
 					(unit 1)
 				)
 			)
 			(project "qsd_revC"
 				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:INA821ID")
-		(at 341.63 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ea1afb1-2233-46f7-913b-f7f306ce294f")
-		(property "Reference" "IC7"
-			(at 355.6 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA821ID"
-			(at 355.6 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 365.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
-			(at 365.76 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
-			(at 365.76 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.75"
-			(at 365.76 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" "595-INA821ID"
-			(at 365.76 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
-			(at 365.76 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 365.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "INA821ID"
-			(at 365.76 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB" "C2060822"
-			(at 341.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2060822"
-			(at 341.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6703398e-89f8-4c37-8c05-9883908de112")
-		)
-		(pin "8"
-			(uuid "898f1902-9fe9-468c-a9ef-95873bdadddc")
-		)
-		(pin "7"
-			(uuid "7e1cd9c2-c730-485b-bfbd-4524bfbb5c11")
-		)
-		(pin "3"
-			(uuid "21c4c355-b424-4799-87a1-6653edb2d7df")
-		)
-		(pin "5"
-			(uuid "41f49aaa-8462-4c51-8b78-47d45b325a1a")
-		)
-		(pin "6"
-			(uuid "7cdca21a-dab7-45f3-a8f7-a04059604973")
-		)
-		(pin "2"
-			(uuid "7fb2276e-3c3d-429f-9336-2627a24ec689")
-		)
-		(pin "4"
-			(uuid "bd5a16b1-9622-4902-b50f-0bc573125ead")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -13582,7 +13519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a723cf77-a27a-421a-8ad8-a20364105b26")
-		(property "Reference" "C38"
+		(property "Reference" "C140"
 			(at 388.112 35.814 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13800,7 +13737,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C38")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -13817,7 +13754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae1f3394-63ba-4b3a-a8d2-cc425b92c37d")
-		(property "Reference" "JP2"
+		(property "Reference" "JP4"
 			(at 97.79 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13880,7 +13817,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "JP2")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13903,7 +13840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbb361da-670e-4f37-9e10-9887d63f6cc9")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY021"
 			(at 403.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13963,7 +13900,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY021")
 					(unit 1)
 				)
 			)
@@ -13976,8 +13913,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Instrumentation:INA821xD")
+		(at 351.79 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd041e5b-bb2f-4527-a147-23733f818c0c")
+		(property "Reference" "U32"
+			(at 356.87 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA821xD"
+			(at 359.156 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 352.044 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina821"
+			(at 352.298 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, SOIC-8"
+			(at 351.79 99.822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2060822"
+			(at 351.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0937ee67-e929-421a-8066-dd6ef6e48937")
+		)
+		(pin "2"
+			(uuid "32ed8f35-4d24-4c6d-aa88-44766919080b")
+		)
+		(pin "6"
+			(uuid "7c63b0d6-222b-4144-9ed6-15c18f353f6f")
+		)
+		(pin "5"
+			(uuid "8ab840a0-aba0-4147-ae5d-fcf01ef7dee8")
+		)
+		(pin "4"
+			(uuid "f1d5b592-f67d-40b5-893a-16d85e2b5237")
+		)
+		(pin "7"
+			(uuid "48deae79-1767-4acb-8327-903df7a7fe2f")
+		)
+		(pin "8"
+			(uuid "0915788e-a3e9-407b-b735-9a75f9766b09")
+		)
+		(pin "1"
+			(uuid "b527eb65-d6ec-4e77-8119-29d2453af83f")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "qsd_revB-eagle-import:RESISTOR0603-RES")
-		(at 334.01 73.66 180)
+		(at 334.01 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13986,8 +14031,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd5b8a84-b329-4ff1-97b6-5c67f2732af1")
-		(property "Reference" "R148"
-			(at 331.47 71.12 0)
+		(property "Reference" "R110"
+			(at 332.486 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13998,7 +14043,7 @@
 			)
 		)
 		(property "Value" "499"
-			(at 341.63 71.12 0)
+			(at 341.376 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14009,7 +14054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +14065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14031,7 +14076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14041,7 +14086,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14052,7 +14097,7 @@
 			)
 		)
 		(property "JLCPCB" "C137714"
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +14108,7 @@
 			)
 		)
 		(property "LCSC" "C137714"
-			(at 334.01 73.66 0)
+			(at 334.01 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14082,7 +14127,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R148")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -14105,7 +14150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5f50add-731e-4fab-b6d2-d2b02461a819")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY020"
 			(at 313.69 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14165,7 +14210,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY020")
 					(unit 1)
 				)
 			)
@@ -14188,7 +14233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c386f9-e0b5-468e-9933-df2a1b0104da")
-		(property "Reference" "C149"
+		(property "Reference" "C138"
 			(at 379.476 114.935 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14406,7 +14451,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C149")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -14429,7 +14474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eadd3c67-5874-475e-bd31-863bf77bd891")
-		(property "Reference" "T2"
+		(property "Reference" "T1"
 			(at 162.56 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +14496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "qsd:T50-TRIFILAR"
+		(property "Footprint" "DaveLibrary:T50-TRIFILAR"
 			(at 157.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14501,7 +14546,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "T2")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -14524,7 +14569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee74a400-9b36-4ed9-a98e-d826797aca01")
-		(property "Reference" "C137"
+		(property "Reference" "C126"
 			(at 104.394 44.831 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14742,202 +14787,13 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C137")
+					(reference "C126")
 					(unit 1)
 				)
 			)
 			(project "qsd_revC"
 				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:INA821ID")
-		(at 341.63 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f21bc737-9b10-4306-9b23-3087b80e8233")
-		(property "Reference" "IC8"
-			(at 355.6 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA821ID"
-			(at 355.6 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 365.76 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina821.pdf"
-			(at 365.76 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Instrumentation Amplifiers Precision Low Power INA"
-			(at 365.76 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.75"
-			(at 365.76 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" "595-INA821ID"
-			(at 365.76 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA821ID?qs=LDGDZb5k%2F%252B%252BuXWq1hdAlSA%3D%3D"
-			(at 365.76 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 365.76 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "INA821ID"
-			(at 365.76 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB" "C2060822"
-			(at 341.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2060822"
-			(at 341.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10c3335d-ce01-4c7d-8808-de3b65cb0525")
-		)
-		(pin "8"
-			(uuid "37a8a231-41fc-4c3c-8417-4491342a59d1")
-		)
-		(pin "7"
-			(uuid "2cd4dfe7-a92c-4450-9efb-8ac3b83d256c")
-		)
-		(pin "3"
-			(uuid "fb69cfe7-a74a-419f-825c-54c7ea014410")
-		)
-		(pin "5"
-			(uuid "a22ee7c0-fe9a-4161-8b8e-ef30b4f3dab4")
-		)
-		(pin "6"
-			(uuid "05481008-6344-4a18-9aa3-79816c68778a")
-		)
-		(pin "2"
-			(uuid "58f04760-2190-446e-a8df-e9156e26b75c")
-		)
-		(pin "4"
-			(uuid "3bab5fa6-02ac-4df6-8712-1e4bdcac41cf")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "IC8")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -14954,7 +14810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f39e43b6-2ce5-4ee2-b263-9afd49400e68")
-		(property "Reference" "R141"
+		(property "Reference" "R104"
 			(at 183.134 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15204,7 +15060,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "R141")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -15227,7 +15083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f43c4872-caa7-4045-8dc4-f2606d21e202")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY018"
 			(at 209.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15287,7 +15143,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY018")
 					(unit 1)
 				)
 			)

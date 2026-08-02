@@ -221,6 +221,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -6296,6 +6628,12 @@
 		(uuid "360bc27d-0795-49b3-bc02-59d12a413b00")
 	)
 	(junction
+		(at 375.92 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "369bf6a1-56ee-4a3c-b863-9fc6439be797")
+	)
+	(junction
 		(at 128.27 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6590,6 +6928,12 @@
 		(uuid "e6a7f613-11cf-4f2c-a000-8f3948b3fc8b")
 	)
 	(junction
+		(at 353.06 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6aabea9-cbc1-47d7-9463-1577f02d85ae")
+	)
+	(junction
 		(at 86.36 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6613,6 +6957,10 @@
 		(color 0 0 0 0)
 		(uuid "fd3a74b4-30f3-4b07-9290-31d35e93f640")
 	)
+	(no_connect
+		(at 120.65 41.91)
+		(uuid "65d141ec-f4a3-42be-80b9-5a47f32dd668")
+	)
 	(wire
 		(pts
 			(xy 76.2 205.74) (xy 78.74 205.74)
@@ -6622,6 +6970,16 @@
 			(type default)
 		)
 		(uuid "0014bdc0-5bb3-4d72-a01b-d0faf75f9c1e")
+	)
+	(wire
+		(pts
+			(xy 372.11 207.01) (xy 388.62 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ca83af-8c08-4781-9066-d16180bd24ca")
 	)
 	(wire
 		(pts
@@ -6652,6 +7010,26 @@
 			(type default)
 		)
 		(uuid "02eddbc5-5313-4446-8245-c405a6d18173")
+	)
+	(wire
+		(pts
+			(xy 363.22 214.63) (xy 388.62 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c0335d-9b7e-4fd9-b444-4cc9cfd83e28")
+	)
+	(wire
+		(pts
+			(xy 363.22 208.28) (xy 363.22 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f7e5dc-fd96-4a64-aecd-db02d988d4b6")
 	)
 	(wire
 		(pts
@@ -6692,16 +7070,6 @@
 			(type default)
 		)
 		(uuid "06ac96da-1d61-46b8-9223-28a1848eb063")
-	)
-	(wire
-		(pts
-			(xy 293.37 208.28) (xy 368.3 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06f44054-fd33-47a4-9a46-b6f69d08713f")
 	)
 	(wire
 		(pts
@@ -6885,6 +7253,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 208.28) (xy 363.22 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103a1314-9f94-4cc3-9213-5cf46cbec398")
+	)
+	(wire
+		(pts
 			(xy 180.34 76.2) (xy 180.34 101.6)
 		)
 		(stroke
@@ -6965,6 +7343,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 228.6) (xy 381 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f4d28d-6b2f-4c92-b580-84fba6bb389b")
+	)
+	(wire
+		(pts
 			(xy 154.94 157.48) (xy 179.07 157.48)
 		)
 		(stroke
@@ -7022,6 +7410,16 @@
 			(type default)
 		)
 		(uuid "1b050e92-2636-4cdd-baa1-d32e869934f2")
+	)
+	(wire
+		(pts
+			(xy 374.65 204.47) (xy 388.62 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b73b707-cf84-4931-b4da-fbd4d5977740")
 	)
 	(wire
 		(pts
@@ -7205,16 +7603,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 208.28) (xy 182.88 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca6c3fb-6523-4f90-8ade-bb9735e9745f")
-	)
-	(wire
-		(pts
 			(xy 384.81 127) (xy 389.89 127)
 		)
 		(stroke
@@ -7315,6 +7703,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 228.6) (xy 381 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364910c1-3d84-49c2-a0ef-630f0169158b")
+	)
+	(wire
+		(pts
 			(xy 293.37 157.48) (xy 346.71 157.48)
 		)
 		(stroke
@@ -7385,6 +7783,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 172.72) (xy 374.65 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b810f19-9db9-448a-8518-04223aa66d06")
+	)
+	(wire
+		(pts
 			(xy 363.22 132.08) (xy 384.81 132.08)
 		)
 		(stroke
@@ -7412,6 +7820,16 @@
 			(type default)
 		)
 		(uuid "3dfe7a3d-c89b-4c17-aa28-f4bd15086afd")
+	)
+	(wire
+		(pts
+			(xy 365.76 203.2) (xy 365.76 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f393845-7a84-418a-885a-3ffd29c2c187")
 	)
 	(wire
 		(pts
@@ -7715,6 +8133,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 217.17) (xy 388.62 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591599f0-fb0c-4a97-967b-416fde4ed06f")
+	)
+	(wire
+		(pts
 			(xy 349.25 119.38) (xy 349.25 116.84)
 		)
 		(stroke
@@ -7955,6 +8383,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 220.98) (xy 353.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e8b556-c578-41a3-933b-7a63fdbbc77f")
+	)
+	(wire
+		(pts
 			(xy 314.96 218.44) (xy 314.96 220.98)
 		)
 		(stroke
@@ -8015,6 +8453,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 187.96) (xy 372.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779288b4-cf6d-4215-bcc1-11b380a40dd2")
+	)
+	(wire
+		(pts
 			(xy 52.07 147.32) (xy 194.31 147.32)
 		)
 		(stroke
@@ -8022,6 +8470,16 @@
 			(type default)
 		)
 		(uuid "77c99a71-aec7-44ee-a302-42c50c8cfdd0")
+	)
+	(wire
+		(pts
+			(xy 388.62 219.71) (xy 388.62 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b969a3-c270-4bdc-9f94-7b2cb0b29cb1")
 	)
 	(wire
 		(pts
@@ -8315,6 +8773,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 201.93) (xy 375.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e792e5-733e-48e5-8162-3be89c7ba6ce")
+	)
+	(wire
+		(pts
 			(xy 106.68 180.34) (xy 106.68 177.8)
 		)
 		(stroke
@@ -8352,6 +8820,16 @@
 			(type default)
 		)
 		(uuid "9611b1b8-7e39-4a89-bec9-c4869dd75af7")
+	)
+	(wire
+		(pts
+			(xy 194.31 208.28) (xy 191.77 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c936e3-9ffc-4d97-b036-9f53ffa08c41")
 	)
 	(wire
 		(pts
@@ -8485,6 +8963,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 212.09) (xy 388.62 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edb39af-3a67-4bf6-bea7-502d06d3da68")
+	)
+	(wire
+		(pts
 			(xy 327.66 106.68) (xy 349.25 106.68)
 		)
 		(stroke
@@ -8535,6 +9023,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 172.72) (xy 374.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5984bee-9808-4fd3-bb67-7eba7dd8ae49")
+	)
+	(wire
+		(pts
 			(xy 119.38 180.34) (xy 121.92 180.34)
 		)
 		(stroke
@@ -8542,6 +9040,16 @@
 			(type default)
 		)
 		(uuid "a67e1a03-f38d-4e5a-bb7f-3be42873577a")
+	)
+	(wire
+		(pts
+			(xy 369.57 198.12) (xy 369.57 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fc241d-56a0-4947-9ac2-181e138d917c")
 	)
 	(wire
 		(pts
@@ -8582,6 +9090,16 @@
 			(type default)
 		)
 		(uuid "ab639a8e-809a-40d3-9ea3-15d4c0ecb146")
+	)
+	(wire
+		(pts
+			(xy 388.62 201.93) (xy 375.92 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad26c92e-981f-495c-846d-223610888a2a")
 	)
 	(wire
 		(pts
@@ -8705,6 +9223,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 208.28) (xy 191.77 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d53cfc-e914-4a1c-91c9-4e7df68e1409")
+	)
+	(wire
+		(pts
 			(xy 314.96 116.84) (xy 314.96 210.82)
 		)
 		(stroke
@@ -8762,6 +9290,26 @@
 			(type default)
 		)
 		(uuid "bc8e4a53-b8e4-42d2-bb96-56ff78a8fa0b")
+	)
+	(wire
+		(pts
+			(xy 293.37 203.2) (xy 365.76 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda31378-dd9d-4e18-882b-5a2a4bd66cd0")
+	)
+	(wire
+		(pts
+			(xy 369.57 209.55) (xy 388.62 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0568d6e-d0e5-4a8e-b670-a9bffcb646fe")
 	)
 	(wire
 		(pts
@@ -9065,6 +9613,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 187.96) (xy 372.11 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf818a3-1a88-4060-940e-5c2f5dc38f5f")
+	)
+	(wire
+		(pts
 			(xy 138.43 167.64) (xy 148.59 167.64)
 		)
 		(stroke
@@ -9275,16 +9833,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 203.2) (xy 368.3 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2dc6023-730a-4c37-bca4-e79b61d927c9")
-	)
-	(wire
-		(pts
 			(xy 96.52 41.91) (xy 92.71 41.91)
 		)
 		(stroke
@@ -9295,13 +9843,13 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 198.12) (xy 368.3 198.12)
+			(xy 293.37 198.12) (xy 369.57 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f585085a-20f0-428c-8c56-881c52c45be0")
+		(uuid "f7630a86-f583-4268-967b-ff1733aec54c")
 	)
 	(wire
 		(pts
@@ -9403,15 +9951,15 @@
 		)
 		(uuid "1638bce6-8eb7-4feb-83f4-b2718fac5948")
 	)
-	(label "LCD_DB0"
-		(at 364.49 198.12 180)
+	(label "P3.7"
+		(at 295.91 172.72 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "2046da39-5af9-4524-ba1a-4b9360d175df")
+		(uuid "2def7293-93a0-411a-bd34-7251b9d4a5fa")
 	)
 	(label "VDD3.3"
 		(at 149.86 91.44 180)
@@ -9453,15 +10001,15 @@
 		)
 		(uuid "42edb4b5-fe69-4830-8988-2648784fd1dc")
 	)
-	(label "LCD_DB1"
-		(at 364.49 203.2 180)
+	(label "P3.4"
+		(at 294.64 203.2 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "5621fe31-ac05-4e28-9737-4f8c3a1f704e")
+		(uuid "55e8c950-ac4f-4cc1-bb3b-7a6e92417f9a")
 	)
 	(label "VDD3.3"
 		(at 349.25 99.06 0)
@@ -9483,6 +10031,16 @@
 		)
 		(uuid "6aa373d7-c83f-439e-b610-a6a5c30dff32")
 	)
+	(label "P3.3"
+		(at 295.91 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d689af7-8c3e-4fcb-a7ed-64e5e6902f26")
+	)
 	(label "LCD_DB7"
 		(at 184.15 137.16 0)
 		(effects
@@ -9493,16 +10051,6 @@
 		)
 		(uuid "8febce42-e5c3-44f7-b693-de8979867de4")
 	)
-	(label "LCD_DB2"
-		(at 364.49 208.28 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "92428be5-b8cb-4ec9-97f6-713a2bd783a9")
-	)
 	(label "LCD_DB4"
 		(at 184.15 121.92 0)
 		(effects
@@ -9512,16 +10060,6 @@
 			(justify left bottom)
 		)
 		(uuid "94d17f3a-9f6e-428c-b245-039a50ebabf4")
-	)
-	(label "LCD_DB3"
-		(at 184.15 208.28 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5b5d8ae-6340-4c58-ba49-76df2e40a8a7")
 	)
 	(label "VDD3.3"
 		(at 383.54 179.07 0)
@@ -9552,6 +10090,36 @@
 			(justify left bottom)
 		)
 		(uuid "b7420b61-b326-4806-9c72-ef3972f52928")
+	)
+	(label "P2.5"
+		(at 294.64 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1aa4c3f-b6f8-4641-8b62-039e4bff7932")
+	)
+	(label "P2.3"
+		(at 294.64 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb1205ae-d065-4641-8b23-24ec333ac751")
+	)
+	(label "P3.1"
+		(at 294.64 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee7b5dc1-93cc-429d-b230-6015ea8bd62a")
 	)
 	(global_label "VDD5"
 		(shape passive)
@@ -9766,17 +10334,6 @@
 		)
 		(uuid "495bb6a1-87e1-4164-9803-f299ba04ac5d")
 	)
-	(hierarchical_label "LCD_DB2"
-		(shape output)
-		(at 368.3 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b301b30-df50-4efa-9be4-4c60fa0d6605")
-	)
 	(hierarchical_label "sel_binaural"
 		(shape output)
 		(at 93.98 187.96 180)
@@ -9898,17 +10455,6 @@
 		)
 		(uuid "966979e7-31ff-42fd-878b-30401c27d664")
 	)
-	(hierarchical_label "LCD_DB0"
-		(shape output)
-		(at 368.3 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a06137d7-b9b1-4440-bfd9-094c388fb35d")
-	)
 	(hierarchical_label "LED_ENCODER_B"
 		(shape input)
 		(at 373.38 106.68 0)
@@ -9997,17 +10543,6 @@
 		)
 		(uuid "be1cf20d-baab-4f4c-bd74-8d9c020d7e08")
 	)
-	(hierarchical_label "LCD_DB1"
-		(shape output)
-		(at 368.3 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7c1c7df-2bab-4fd1-9dd7-902423a0492d")
-	)
 	(hierarchical_label "VDD_AMP_ENABLE"
 		(shape output)
 		(at 134.62 203.2 180)
@@ -10074,17 +10609,6 @@
 		)
 		(uuid "f0c60666-3902-45ff-990b-395a4bdce5e5")
 	)
-	(hierarchical_label "LCD_DB3"
-		(shape output)
-		(at 182.88 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f568d78c-abfa-49de-8d83-e6c277cfc737")
-	)
 	(symbol
 		(lib_id "main-eagle-import:GND")
 		(at 327.66 223.52 0)
@@ -10097,7 +10621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "015b93d6-6969-4461-9ce3-9a765af6e2e6")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY029"
 			(at 327.66 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -10157,7 +10681,91 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 96.52 100.965 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d436c9-3277-40d9-9f70-2e2c7317dea2")
+		(property "Reference" "RV3"
+			(at 93.98 99.6949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 93.98 102.2349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
+			(at 96.52 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 100.965 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a72e6f-8356-4cec-80a5-0402052ecf32")
+		)
+		(pin "2"
+			(uuid "a13428be-d3be-4532-99a5-16c2958fa2f7")
+		)
+		(pin "3"
+			(uuid "ae103488-e0cf-4a9d-b1bd-b8f25880fc67")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -10174,7 +10782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01f748dc-6ce8-446e-ada2-b8f3cc640192")
-		(property "Reference" "C136"
+		(property "Reference" "C156"
 			(at 303.784 213.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +11011,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C136")
+					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -10420,7 +11028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "081d4bc5-8b64-4d16-890c-8402bc1f4881")
-		(property "Reference" "R115"
+		(property "Reference" "R137"
 			(at 362.458 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10682,7 +11290,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R115")
+					(reference "R137")
 					(unit 1)
 				)
 			)
@@ -10699,7 +11307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09ea3357-7df3-4a22-8c7a-50ba9ffca6b0")
-		(property "Reference" "R96"
+		(property "Reference" "R122"
 			(at 130.81 170.688 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +11569,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R96")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -10978,7 +11586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a0c8bb6-ee8b-4228-bb6d-ed6517fa24b4")
-		(property "Reference" "R112"
+		(property "Reference" "R127"
 			(at 215.392 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11239,7 +11847,107 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R112")
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 393.7 209.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b751b38-a578-400c-a565-ca4bb04e1e7d")
+		(property "Reference" "J15"
+			(at 396.24 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 396.24 212.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 393.7 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 393.7 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "ecc0fe41-93b8-4039-b8bc-d91102e61f78")
+		)
+		(pin "4"
+			(uuid "48b36d17-1d45-4945-9b98-597e62dd6f3f")
+		)
+		(pin "3"
+			(uuid "b582a83f-5557-422a-8b54-6b182c456028")
+		)
+		(pin "1"
+			(uuid "419a977e-4c17-4eb4-b434-1e9e38fd1763")
+		)
+		(pin "7"
+			(uuid "97490ad7-1c80-41d3-adad-6a712d91eead")
+		)
+		(pin "6"
+			(uuid "6bf5a000-81e8-4ae3-bffe-1179d19d4dc9")
+		)
+		(pin "2"
+			(uuid "2003a8c7-7b99-421b-92a8-7692829b0c99")
+		)
+		(pin "8"
+			(uuid "4cc75810-2b51-4a90-9910-9324910ab839")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -11257,7 +11965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11042276-a2fa-4ea8-a5d5-dece06caa01b")
-		(property "Reference" "R92"
+		(property "Reference" "R114"
 			(at 70.358 202.438 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11519,7 +12227,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R92")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -11536,7 +12244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "187042ee-9244-4b97-9e64-037aa32048e6")
-		(property "Reference" "R108"
+		(property "Reference" "R116"
 			(at 102.616 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11797,7 +12505,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R108")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -11814,7 +12522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b00e1c4-7d69-4c94-a198-ed70d05bb0f5")
-		(property "Reference" "C140"
+		(property "Reference" "C157"
 			(at 310.134 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12043,7 +12751,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C140")
+					(reference "C157")
 					(unit 1)
 				)
 			)
@@ -12060,7 +12768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b4fa651-3314-4c1a-abec-e4f3dc577ab9")
-		(property "Reference" "C108"
+		(property "Reference" "C144"
 			(at 128.27 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12289,7 +12997,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C108")
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -12306,7 +13014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26fbc7e6-7480-47f6-b4f4-c9399ea376a3")
-		(property "Reference" "C112"
+		(property "Reference" "C148"
 			(at 156.21 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +13243,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C112")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -12553,7 +13261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ea847b1-303e-4d57-9852-87cd1e0c5b7b")
-		(property "Reference" "R99"
+		(property "Reference" "R119"
 			(at 112.268 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12814,7 +13522,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R99")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -12832,7 +13540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "345e1349-128f-4653-9838-cd7ddb2f35e5")
-		(property "Reference" "#SUPPLY016"
+		(property "Reference" "#SUPPLY022"
 			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12892,7 +13600,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY016")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -12909,7 +13617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37034fed-f370-4727-bbe0-40490410d2f4")
-		(property "Reference" "R123"
+		(property "Reference" "R141"
 			(at 375.92 127.762 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13170,7 +13878,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R123")
+					(reference "R141")
 					(unit 1)
 				)
 			)
@@ -13188,7 +13896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39ec7d32-2f17-4d98-a5d3-c4267bc15ba9")
-		(property "Reference" "R114"
+		(property "Reference" "R134"
 			(at 356.108 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13461,7 +14169,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R114")
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -13478,7 +14186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b7e39bd-db1c-469e-b6f7-6fa4c08b29ce")
-		(property "Reference" "C122"
+		(property "Reference" "C154"
 			(at 288.29 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13707,7 +14415,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C122")
+					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -13724,7 +14432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4992cca4-97a6-4d0a-9003-1c7e4cce0813")
-		(property "Reference" "C130"
+		(property "Reference" "C162"
 			(at 341.376 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +14661,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C130")
+					(reference "C162")
 					(unit 1)
 				)
 			)
@@ -13970,7 +14678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f2486d8-6ee6-41e5-878d-0f990fade208")
-		(property "Reference" "C109"
+		(property "Reference" "C145"
 			(at 143.51 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +14907,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C109")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -14217,7 +14925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f589a87-aa8d-44d6-b305-2b581cfda82d")
-		(property "Reference" "R124"
+		(property "Reference" "R145"
 			(at 376.682 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14478,7 +15186,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R124")
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -14495,7 +15203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50416da5-7458-4210-8592-e97388fe08c5")
-		(property "Reference" "C120"
+		(property "Reference" "C152"
 			(at 210.82 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14722,7 +15430,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C120")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -14739,7 +15447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58b012cd-a15a-4615-86c1-f8f178433501")
-		(property "Reference" "#SUPPLY018"
+		(property "Reference" "#SUPPLY024"
 			(at 128.27 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14799,7 +15507,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY018")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -14816,7 +15524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a3a47ed-521b-4211-8202-5f1a98d6ee64")
-		(property "Reference" "C153"
+		(property "Reference" "C159"
 			(at 324.104 213.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15045,7 +15753,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C153")
+					(reference "C159")
 					(unit 1)
 				)
 			)
@@ -15062,7 +15770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ef3fac5-9b90-4432-937b-8d1cebf9eb49")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY027"
 			(at 284.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15122,7 +15830,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -15139,7 +15847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fd8026b-d0cc-4c06-88ed-a07efaf2acf8")
-		(property "Reference" "C121"
+		(property "Reference" "C153"
 			(at 287.02 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15368,7 +16076,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C121")
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -15385,7 +16093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67007dc0-98e7-42f7-b347-617292a6431e")
-		(property "Reference" "C117"
+		(property "Reference" "C151"
 			(at 186.69 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15614,7 +16322,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C117")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -15632,7 +16340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67a2cfc6-dfe9-4c76-bf33-b41c41f2760c")
-		(property "Reference" "R118"
+		(property "Reference" "R144"
 			(at 375.666 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15893,7 +16601,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R118")
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -15911,7 +16619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69c1c1d3-49c8-486f-86d5-ae02d6084688")
-		(property "Reference" "R97"
+		(property "Reference" "R118"
 			(at 112.268 175.006 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16172,7 +16880,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R97")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -16191,7 +16899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6beb2603-6341-4503-9c52-dfae552ef410")
-		(property "Reference" "Q19"
+		(property "Reference" "Q10"
 			(at 57.15 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16489,7 +17197,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "Q19")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -16506,7 +17214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5baa32-0fe8-4427-bd39-e9d47fbaa53b")
-		(property "Reference" "C106"
+		(property "Reference" "C142"
 			(at 74.93 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16735,7 +17443,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C106")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -16752,7 +17460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ec7b8ed-51aa-474d-a1a3-26d0027b3b1f")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY028"
 			(at 298.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16812,7 +17520,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -16829,7 +17537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78e79285-9aff-43df-b7b1-b26ce2b00493")
-		(property "Reference" "R119"
+		(property "Reference" "R139"
 			(at 362.458 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17091,7 +17799,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R119")
+					(reference "R139")
 					(unit 1)
 				)
 			)
@@ -17108,7 +17816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "791c981d-eae6-4005-aa42-31b74f94f4fb")
-		(property "Reference" "R90"
+		(property "Reference" "R112"
 			(at 63.246 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17369,7 +18077,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R90")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -17387,7 +18095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e01a356-3af4-4172-9b1d-05b0d9d9f554")
-		(property "Reference" "#SUPPLY017"
+		(property "Reference" "#SUPPLY023"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17447,7 +18155,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY017")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -17464,7 +18172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f88231d-238b-479f-b912-3a94f255f0ce")
-		(property "Reference" "C131"
+		(property "Reference" "C163"
 			(at 348.234 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17693,7 +18401,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C131")
+					(reference "C163")
 					(unit 1)
 				)
 			)
@@ -17710,7 +18418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b72b0f0-32e0-4bd5-8275-cac316d73b71")
-		(property "Reference" "C113"
+		(property "Reference" "C149"
 			(at 163.576 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +18647,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C113")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -17956,7 +18664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "920e4412-13dd-4851-9b5e-1e21a3594922")
-		(property "Reference" "R125"
+		(property "Reference" "R142"
 			(at 375.666 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18217,7 +18925,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R125")
+					(reference "R142")
 					(unit 1)
 				)
 			)
@@ -18234,7 +18942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96f0d14b-ff13-4f84-8184-4aa55c605d7c")
-		(property "Reference" "C151"
+		(property "Reference" "C158"
 			(at 317.754 213.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18463,91 +19171,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 96.52 100.965 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a495571-7a3f-4e73-b412-6b0307dd8d8e")
-		(property "Reference" "RV2"
-			(at 93.98 99.6949 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 93.98 102.2349 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
-			(at 96.52 100.965 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 100.965 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 100.965 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75a72e6f-8356-4cec-80a5-0402052ecf32")
-		)
-		(pin "2"
-			(uuid "a13428be-d3be-4532-99a5-16c2958fa2f7")
-		)
-		(pin "3"
-			(uuid "ae103488-e0cf-4a9d-b1bd-b8f25880fc67")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "RV2")
+					(reference "C158")
 					(unit 1)
 				)
 			)
@@ -18564,7 +19188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdbe33e-d898-4431-9e9c-48cf8ac2d3cc")
-		(property "Reference" "R117"
+		(property "Reference" "R138"
 			(at 362.712 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18826,7 +19450,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R117")
+					(reference "R138")
 					(unit 1)
 				)
 			)
@@ -18843,7 +19467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2c082ef-52b8-443e-bcf2-a4d7b1f41b05")
-		(property "Reference" "U$4"
+		(property "Reference" "U$1"
 			(at 238.76 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19077,7 +19701,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "U$4")
+					(reference "U$1")
 					(unit 1)
 				)
 			)
@@ -19094,7 +19718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4bc8943-1520-4deb-9954-b01062583a1c")
-		(property "Reference" "R111"
+		(property "Reference" "R126"
 			(at 169.672 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19355,7 +19979,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R111")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -19372,7 +19996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5a23495-e2f3-4d97-b140-577ace0fa13f")
-		(property "Reference" "R94"
+		(property "Reference" "R121"
 			(at 131.572 165.862 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19645,7 +20269,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R94")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -19662,7 +20286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a81a77d3-84e5-4f05-acd2-313699640997")
-		(property "Reference" "R122"
+		(property "Reference" "R140"
 			(at 375.92 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19923,7 +20547,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R122")
+					(reference "R140")
 					(unit 1)
 				)
 			)
@@ -19940,7 +20564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9172b23-8e3c-4664-9ebb-0a4794335987")
-		(property "Reference" "J11"
+		(property "Reference" "J14"
 			(at 205.105 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20009,7 +20633,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "J11")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -20026,7 +20650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac14da03-1f59-44f4-8e54-45b2d804ace4")
-		(property "Reference" "R101"
+		(property "Reference" "R132"
 			(at 340.36 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20287,7 +20911,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R101")
+					(reference "R132")
 					(unit 1)
 				)
 			)
@@ -20304,7 +20928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad19475a-d3ef-4434-abfb-6fb366fae19a")
-		(property "Reference" "C111"
+		(property "Reference" "C147"
 			(at 149.86 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20533,7 +21157,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C111")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -20551,7 +21175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae024e7f-1e34-43cf-bd6d-9538a518a75e")
-		(property "Reference" "R105"
+		(property "Reference" "R130"
 			(at 321.056 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20813,7 +21437,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R105")
+					(reference "R130")
 					(unit 1)
 				)
 			)
@@ -20831,7 +21455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b120d549-19f6-4197-a240-7123dfe4faa4")
-		(property "Reference" "R95"
+		(property "Reference" "R117"
 			(at 112.522 169.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21092,7 +21716,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R95")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -21110,7 +21734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5bea489-c41c-4d21-9dc6-d38a3ec322d7")
-		(property "Reference" "R107"
+		(property "Reference" "R120"
 			(at 113.03 195.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21371,7 +21995,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R107")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -21500,7 +22124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9b18cfe-92b8-49c9-aa32-b49344765ea9")
-		(property "Reference" "R116"
+		(property "Reference" "R143"
 			(at 376.174 152.654 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21761,7 +22385,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R116")
+					(reference "R143")
 					(unit 1)
 				)
 			)
@@ -21778,7 +22402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bba7b7eb-63af-449a-9f9b-b3f8ba7f7fac")
-		(property "Reference" "R102"
+		(property "Reference" "R133"
 			(at 340.106 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22039,7 +22663,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R102")
+					(reference "R133")
 					(unit 1)
 				)
 			)
@@ -22057,7 +22681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc356cc6-bd6c-41a4-9fd4-f78f6351a8ef")
-		(property "Reference" "R103"
+		(property "Reference" "R128"
 			(at 320.548 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22330,7 +22954,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R103")
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -22347,7 +22971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0d41284-02d0-4c40-8584-42f68c7e832f")
-		(property "Reference" "R110"
+		(property "Reference" "R125"
 			(at 169.418 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22608,7 +23232,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R110")
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -22625,7 +23249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2527136-0f75-4aef-8c94-ab45979936a4")
-		(property "Reference" "R89"
+		(property "Reference" "R111"
 			(at 54.356 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22886,7 +23510,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R89")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -22903,7 +23527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3fd2237-3079-461e-9bd7-3a0289e88fa5")
-		(property "Reference" "C132"
+		(property "Reference" "C155"
 			(at 297.434 213.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23132,7 +23756,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C132")
+					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -23149,7 +23773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c44df22b-8986-4112-845e-f70c2498c5e7")
-		(property "Reference" "C107"
+		(property "Reference" "C143"
 			(at 90.17 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23378,7 +24002,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C107")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -23395,7 +24019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9317aa2-8d39-49ed-80b6-751508b97453")
-		(property "Reference" "C155"
+		(property "Reference" "C160"
 			(at 330.454 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23624,7 +24248,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C155")
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -23641,7 +24265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5072d28-56cb-4318-8b76-a13516378e9c")
-		(property "Reference" "C129"
+		(property "Reference" "C161"
 			(at 335.026 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23870,7 +24494,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C129")
+					(reference "C161")
 					(unit 1)
 				)
 			)
@@ -23888,7 +24512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da09d52b-94a3-469a-98cb-5c89f17e5d40")
-		(property "Reference" "R120"
+		(property "Reference" "R135"
 			(at 356.362 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24150,7 +24774,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R120")
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -24168,7 +24792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de3e0547-e7d2-4cbc-a89a-b4aad5821fa2")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY025"
 			(at 161.29 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -24228,7 +24852,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -24246,7 +24870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e48ec306-6f28-4114-9dfe-ee536beaa5a6")
-		(property "Reference" "R121"
+		(property "Reference" "R136"
 			(at 356.616 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24508,7 +25132,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R121")
+					(reference "R136")
 					(unit 1)
 				)
 			)
@@ -24525,7 +25149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec2f7b4c-263f-43db-bf30-6cde77f8844f")
-		(property "Reference" "C105"
+		(property "Reference" "C141"
 			(at 57.15 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24752,7 +25376,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C105")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -24769,7 +25393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee8378aa-6a7d-4a84-a7fc-709a551a04a2")
-		(property "Reference" "C110"
+		(property "Reference" "C146"
 			(at 143.51 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24998,7 +25622,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C110")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -25015,7 +25639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f04236b0-72bc-4e7b-8eed-6eba07e02811")
-		(property "Reference" "R100"
+		(property "Reference" "R131"
 			(at 340.36 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25276,7 +25900,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R100")
+					(reference "R131")
 					(unit 1)
 				)
 			)
@@ -25294,7 +25918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1d02924-fcbe-47e0-9a5b-0e34b185b124")
-		(property "Reference" "R104"
+		(property "Reference" "R129"
 			(at 320.802 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25556,7 +26180,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R104")
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -25573,7 +26197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2c25599-27f0-4869-8c5e-92db2455d5d3")
-		(property "Reference" "R106"
+		(property "Reference" "R124"
 			(at 143.51 189.738 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25835,7 +26459,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R106")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -25852,7 +26476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f354b381-f55c-4322-a66c-a9441e65e236")
-		(property "Reference" "R98"
+		(property "Reference" "R123"
 			(at 131.064 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26114,7 +26738,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R98")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -26131,7 +26755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f56d3bb3-3554-4cc5-86f5-3f7ed0a165da")
-		(property "Reference" "C114"
+		(property "Reference" "C150"
 			(at 174.244 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26360,7 +26984,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "C114")
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -26378,7 +27002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f771ccd3-8bb2-4f32-a296-6c8e21baff18")
-		(property "Reference" "R91"
+		(property "Reference" "R113"
 			(at 67.31 190.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26639,7 +27263,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R91")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -26657,7 +27281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7729e2b-7b0e-4fce-a5da-2c5fafe5ba57")
-		(property "Reference" "R93"
+		(property "Reference" "R115"
 			(at 79.756 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26918,7 +27542,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "R93")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -26935,7 +27559,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f836ebfd-7eea-4d94-8b9e-cb477ae39f3a")
-		(property "Reference" "U31"
+		(property "Reference" "U25"
 			(at 113.03 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27072,7 +27696,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "U31")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -27089,7 +27713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcca7099-3b04-4b51-bff0-5d5fdff19324")
-		(property "Reference" "#SUPPLY019"
+		(property "Reference" "#SUPPLY026"
 			(at 163.83 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -27149,7 +27773,7 @@
 		(instances
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/75918d39-3f78-4c42-b57f-e1e8147edd37"
-					(reference "#SUPPLY019")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
