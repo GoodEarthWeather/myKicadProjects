@@ -5369,12 +5369,6 @@
 		(uuid "7c3fb090-c21a-4c91-bbd3-f7105c47e2a0")
 	)
 	(junction
-		(at 251.46 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e51c966-96ed-42de-a534-c6ebf5bafcb4")
-	)
-	(junction
 		(at 284.48 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5505,12 +5499,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb5d6ede-6e46-4457-9934-63305e67f569")
-	)
-	(junction
-		(at 251.46 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd52443f-ee80-4dd3-8fdf-edb0bd82a119")
 	)
 	(junction
 		(at 313.69 116.84)
@@ -5964,16 +5952,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 264.16 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4ec1ea-b4b2-497c-a239-417cabc6962e")
-	)
-	(wire
-		(pts
 			(xy 323.85 101.6) (xy 327.66 101.6)
 		)
 		(stroke
@@ -6134,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 251.46 127)
+			(xy 226.06 127) (xy 264.16 127)
 		)
 		(stroke
 			(width 0)
@@ -6514,16 +6492,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 127) (xy 251.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d28c3dd-720f-4590-ac53-e58520dcdd49")
-	)
-	(wire
-		(pts
 			(xy 284.48 82.55) (xy 284.48 78.74)
 		)
 		(stroke
@@ -6611,16 +6579,6 @@
 			(type default)
 		)
 		(uuid "ad443d6f-5ee4-423a-95db-b26294e9a207")
-	)
-	(wire
-		(pts
-			(xy 251.46 132.08) (xy 251.46 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af146930-2929-4bb5-9092-bfa3cacd311b")
 	)
 	(wire
 		(pts
@@ -6914,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 144.78) (xy 251.46 144.78)
+			(xy 209.55 144.78) (xy 264.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7041,16 +6999,6 @@
 			(type default)
 		)
 		(uuid "e515bd7d-fcf3-4804-aabf-82cf3185478e")
-	)
-	(wire
-		(pts
-			(xy 251.46 139.7) (xy 251.46 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e551a9a9-095d-4758-8efc-8bf18c1f4561")
 	)
 	(wire
 		(pts
@@ -9153,247 +9101,6 @@
 			(project "qsd_revC"
 				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 251.46 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "283310a8-8ae6-4216-ad3f-6043a7b2d630")
-		(property "Reference" "C132"
-			(at 257.81 132.842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 258.572 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 253.238 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "70324515"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.006USD"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CC0603KRX7R9BB104"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 249.428 133.8438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 251.46 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8f651c5-6cf7-4ce8-8d07-8abf246c2aff")
-		)
-		(pin "2"
-			(uuid "93705c94-db9c-4c02-b4c8-ad09776befec")
-		)
-		(instances
-			(project "fieldRadio_1.2"
-				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/b9a43a44-ac26-41be-aaf6-05c85180cb06"
-					(reference "C132")
-					(unit 1)
-				)
-			)
-			(project "qsd_revC"
-				(path "/f12afe60-319a-4dbd-9291-4cc8914dd5dd"
-					(reference "C10")
 					(unit 1)
 				)
 			)
