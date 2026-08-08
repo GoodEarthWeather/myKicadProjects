@@ -540,6 +540,41 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "name": "+5VA",
+        "pcb_color": "rgb(255, 97, 27)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "VBIAS",
+        "pcb_color": "rgb(27, 255, 244)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "VDD12",
+        "pcb_color": "rgb(88, 255, 44)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "VDD3.3",
+        "pcb_color": "rgb(255, 255, 43)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "VDD5",
+        "pcb_color": "rgb(255, 245, 251)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -547,7 +582,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "+5VA",
+        "pattern": "+5VA"
+      },
+      {
+        "netclass": "VDD12",
+        "pattern": "VDD12"
+      },
+      {
+        "netclass": "VDD3.3",
+        "pattern": "VDD3.3"
+      },
+      {
+        "netclass": "VBIAS",
+        "pattern": "/Audio/vbias"
+      },
+      {
+        "netclass": "VDD5",
+        "pattern": "VDD5"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1065,7 +1121,7 @@
         "uuid": "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
       }
     ],
-    "used_designators": "D1-20,#SUPPLY1-31,#SUPPLY42,U1-34,C1-191,C222-238,JP1-4,R1-169,R171-172,R179-180,R198-225,J1-26,K1-6,IC1-3,F1,Q1-11,SW1,#SYM1-2,U$1,RV1-4,L1-25,L27,T1,#PWR1-54,#PWR59-60,#PWR62,#PWR65-77,Y1-2",
+    "used_designators": "#SYM1-2,SW1,IC1-3,K1-6,J1-26,R1-169,R171-172,R179-180,R198-225,Y1-2,#PWR1-54,#PWR59-60,#PWR62,#PWR65-77,T1,L1-25,L27,RV1-4,U$1,C1-191,C222-238,#SUPPLY1-31,#SUPPLY42,D1-20,U1-34,F1,Q1-11,JP1-4",
     "variants": []
   },
   "sheets": [
