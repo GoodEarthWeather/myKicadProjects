@@ -119,6 +119,7 @@
 		(capping no)
 		(filling no)
 		(aux_axis_origin 72.25 231)
+		(grid_origin 72.25 231)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -642,6 +643,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0134d145-34d5-4a60-b450-d5f8893229db")
 		(at 106.2 226.53 180)
@@ -8123,6 +8125,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "098f8410-80bb-4a1d-ae4a-e77030e78d75")
 		(at 136.9 188.76)
@@ -68247,6 +68250,7 @@
 		)
 	)
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD3_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "580a58ce-5b7c-4ab3-bb94-2ac8ea4822ea")
 		(at 207.755 88.165 90)
@@ -81084,6 +81088,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6862e588-0956-411e-bb82-beae8f474fe6")
 		(at 82.95 203.92)
@@ -92449,6 +92454,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7ccf5d47-05fb-4980-843f-12f40e105585")
 		(at 82.75 196.8 180)
@@ -144716,6 +144722,7 @@
 		)
 	)
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d3893bee-4a1a-4898-9aa5-e0cbabb90442")
 		(at 184.015 89.605 90)
@@ -168620,6 +168627,7 @@
 		)
 	)
 	(footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f59b009b-3e05-4607-9812-19dfd48582ec")
 		(at 162.153111 89.516985 90)
@@ -178475,44 +178483,9 @@
 			(type default)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "0743b3e5-65b4-4df9-955a-b09cdb32d496")
-	)
-	(gr_text "Field Radio - 1.2\n5 Band QRP CW Transceiver\nN7WMN\n1-August-2026"
-		(at 69.75 -2.25 0)
-		(layer "F.SilkS")
-		(uuid "437c2209-f710-4966-802d-534873cb2de2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Power In"
-		(at 73.95 -21.56 0)
-		(layer "F.SilkS")
-		(uuid "b66423cb-519e-4f60-bbad-1e5e5ff39a2f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 79.75 -17.75 0)
-		(layer "F.SilkS")
-		(uuid "b35606a8-b47f-472e-98c0-96328d5e0487")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
 	)
 	(gr_text "SPKR"
 		(at 161.41 96.32 0)
@@ -178530,6 +178503,18 @@
 		(at 182.52 97.01 0)
 		(layer "F.SilkS")
 		(uuid "97d15d3e-afff-4762-a75d-e62b76baaab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Field Radio - 1.2\n5 Band QRP CW Transceiver\nN7WMN\n1-August-2026"
+		(at 194.5 220.5 0)
+		(layer "F.SilkS")
+		(uuid "437c2209-f710-4966-802d-534873cb2de2")
 		(effects
 			(font
 				(size 1 1)

@@ -199,10 +199,29 @@
       ],
       "zones_allow_external_fillets": false
     },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -393,10 +412,18 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -409,9 +436,16 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -423,7 +457,7 @@
   },
   "meta": {
     "filename": "fieldRadio_1.1.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -438,15 +472,17 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 3
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -457,6 +493,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -465,6 +502,135 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "bus_aliases": {
+      "BAND_CTL": [
+        "40M",
+        "30M",
+        "20M",
+        "17M",
+        "15M"
+      ],
+      "Button": [
+        "BTN_SPOT",
+        "BTN_MENU",
+        "BTN_TUNE",
+        "BTN_MODE",
+        "BTN_FILTER_SEL",
+        "BTN_DIGIT_SEL",
+        "BTN_BAND_SEL",
+        "BTN_MUTE",
+        "BTN_TXMODE",
+        "TX_LED"
+      ],
+      "ENCODER": [
+        "ENCODER_A",
+        "ENCODER_B",
+        "ENCODER_SW"
+      ],
+      "KEY": [
+        "PADDLE_DIT",
+        "PADDLE_DAH",
+        "STRAIGHT_KEY"
+      ],
+      "LCD": [
+        "LCD_E",
+        "LCD_RS",
+        "LCD_DB4",
+        "LCD_DB5",
+        "LCD_DB6",
+        "LCD_DB7",
+        "LCD_A",
+        "LCD_VO"
+      ]
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -477,6 +643,7 @@
           "visible": false
         }
       ],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -484,6 +651,11 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -495,18 +667,32 @@
     "net_format_name": "",
     "page_layout_descr_file": "myDrawingSheet.kicad_wks",
     "plot_directory": "",
+    "reuse_designators": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "fieldRadio_1.1.kicad_sch",
+        "name": "fieldRadio_1.1",
+        "uuid": "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617",
-      ""
+      "fieldRadio_1.1"
+    ],
+    [
+      "b9a43a44-ac26-41be-aaf6-05c85180cb06",
+      "qsd"
     ],
     [
       "07223125-3b0c-43ef-b5d7-ce26f2ddaddd",
@@ -525,6 +711,10 @@
       "AudioFilters"
     ],
     [
+      "a07c0629-fa52-4cc1-9263-ae3b29f1aaaa",
+      "HPLP Filters"
+    ],
+    [
       "ac2f1cb1-df94-4091-865f-0947d1b52aed",
       "Audio"
     ],
@@ -541,17 +731,15 @@
       "clock"
     ],
     [
-      "b9a43a44-ac26-41be-aaf6-05c85180cb06",
-      "qsd"
-    ],
-    [
       "56bfcbb6-5b4c-41a3-a0f1-0c3e063460f4",
       "powerInput"
-    ],
-    [
-      "a07c0629-fa52-4cc1-9263-ae3b29f1aaaa",
-      "HPLP Filters"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
