@@ -62752,6 +62752,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "517f50c6-7dd1-4c70-9068-de23493e6469")
 		(at 198 110.725)
@@ -84382,6 +84383,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "715907de-15ce-4cc0-abaf-48bd2b4fd0ad")
 		(at 192.08 187.35 -90)
@@ -117460,6 +117462,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a6e5256e-6f52-4bc5-afb8-0f1e84e23d40")
 		(at 193.675 128.7 90)
@@ -123095,6 +123098,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b26ad12b-e731-4b89-b7a9-65b2b42cdbb3")
 		(at 194.825 208.85 90)
@@ -153254,6 +153258,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "dee7140e-9a0e-4bf3-bb75-e7d9f8425b28")
 		(at 198 118.5)

@@ -8429,7 +8429,7 @@
 		(uuid "1638bce6-8eb7-4feb-83f4-b2718fac5948")
 	)
 	(label "P3.7"
-		(at 295.91 172.72 0)
+		(at 381 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8479,7 +8479,7 @@
 		(uuid "42edb4b5-fe69-4830-8988-2648784fd1dc")
 	)
 	(label "P3.4"
-		(at 294.64 203.2 0)
+		(at 381 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8509,7 +8509,7 @@
 		(uuid "6aa373d7-c83f-439e-b610-a6a5c30dff32")
 	)
 	(label "P3.3"
-		(at 295.91 228.6 0)
+		(at 382.27 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8517,6 +8517,16 @@
 			(justify left bottom)
 		)
 		(uuid "6d689af7-8c3e-4fcb-a7ed-64e5e6902f26")
+	)
+	(label "VDD3.3"
+		(at 381 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ef3a5b8-88aa-4762-bfb7-4fce9327f15b")
 	)
 	(label "LCD_DB7"
 		(at 184.15 137.16 0)
@@ -8569,7 +8579,7 @@
 		(uuid "b7420b61-b326-4806-9c72-ef3972f52928")
 	)
 	(label "P2.5"
-		(at 294.64 187.96 0)
+		(at 381 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8578,8 +8588,18 @@
 		)
 		(uuid "c1aa4c3f-b6f8-4641-8b62-039e4bff7932")
 	)
+	(label "GND"
+		(at 382.27 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9ba15e8-0e82-4192-ba56-cf16aea91d02")
+	)
 	(label "P2.3"
-		(at 294.64 208.28 0)
+		(at 381 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8589,7 +8609,7 @@
 		(uuid "eb1205ae-d065-4641-8b23-24ec333ac751")
 	)
 	(label "P3.1"
-		(at 294.64 198.12 0)
+		(at 381 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)

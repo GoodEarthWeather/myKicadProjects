@@ -4379,7 +4379,7 @@
 		)
 		(uuid "811ef7f4-9ea8-4eea-b182-3dbe507553cc")
 	)
-	(text "to 20K pot\nmain volume adjust"
+	(text "to 10K pot\nmain volume adjust"
 		(exclude_from_sim no)
 		(at 256.54 150.114 0)
 		(effects
@@ -4422,7 +4422,7 @@
 		)
 		(uuid "d91819de-125b-4e04-82c1-203ae74b4cc8")
 	)
-	(text "to 20K pot\nmain volume adjust"
+	(text "to 10K pot\nmain volume adjust"
 		(exclude_from_sim no)
 		(at 243.078 115.57 0)
 		(effects
@@ -7126,7 +7126,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV112-4_Dual_Vertical"
 			(at 250.19 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/ptvptt.pdf"
 			(at 250.19 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7150,6 +7150,17 @@
 		)
 		(property "Description" ""
 			(at 250.19 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV112-4420AA103 "
+			(at 250.19 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9746,7 +9757,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV112-4_Dual_Vertical"
 			(at 250.19 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9757,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/ptvptt.pdf"
 			(at 250.19 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9770,6 +9781,17 @@
 		)
 		(property "Description" ""
 			(at 250.19 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "652-PTV112-4420AA103 "
+			(at 250.19 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
