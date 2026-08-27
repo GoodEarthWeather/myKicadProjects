@@ -1280,6 +1280,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4298,14 +4421,6 @@
 		(color 0 0 0 0)
 		(uuid "feeb1d9c-ba85-46b9-aea0-acc87617cf15")
 	)
-	(no_connect
-		(at 144.78 91.44)
-		(uuid "1a227fa7-35da-4881-8e91-9ed72b3555d9")
-	)
-	(no_connect
-		(at 144.78 93.98)
-		(uuid "b81cae9c-dd68-4eb0-a537-647e5599613c")
-	)
 	(wire
 		(pts
 			(xy 128.27 118.11) (xy 128.27 120.65)
@@ -5168,6 +5283,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 91.44) (xy 147.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4836f923-676c-4754-b6c7-227023d387cf")
+	)
+	(wire
+		(pts
 			(xy 323.85 93.98) (xy 327.66 93.98)
 		)
 		(stroke
@@ -5658,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 114.3) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696f0f6f-7ee3-4294-bdee-32fd490927be")
+	)
+	(wire
+		(pts
 			(xy 184.15 113.03) (xy 189.23 113.03)
 		)
 		(stroke
@@ -5855,6 +5990,16 @@
 			(type default)
 		)
 		(uuid "7aed12fd-76d7-47dc-b5be-556f401ee37c")
+	)
+	(wire
+		(pts
+			(xy 146.05 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfb81fe-99c1-4a03-a24e-d6e0d2a2c315")
 	)
 	(wire
 		(pts
@@ -6608,6 +6753,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d0addb-4ee4-444b-9363-d11d9305d497")
+	)
+	(wire
+		(pts
 			(xy 142.24 204.47) (xy 151.13 204.47)
 		)
 		(stroke
@@ -6778,6 +6933,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 115.57) (xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed1b26e-fd98-44ef-8112-b96d946af357")
+	)
+	(wire
+		(pts
 			(xy 214.63 148.59) (xy 214.63 158.75)
 		)
 		(stroke
@@ -6878,7 +7043,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 144.78 107.95)
+			(xy 144.78 99.06) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7045,6 +7210,16 @@
 			(type default)
 		)
 		(uuid "d66d625a-2d6d-44c1-a7bb-6199ca35a5e3")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7196c21-bab6-465f-bbf0-b631789bfaf1")
 	)
 	(wire
 		(pts
@@ -7238,6 +7413,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 93.98) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7f663f-385a-4ebe-baac-f0190d9bccda")
+	)
+	(wire
+		(pts
 			(xy 167.64 68.58) (xy 167.64 63.5)
 		)
 		(stroke
@@ -7248,7 +7433,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 144.78 107.95)
+			(xy 114.3 106.68) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7475,6 +7660,16 @@
 			(type default)
 		)
 		(uuid "fa70a588-835e-4254-a8f8-6bfdeadbc9d5")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaa5ce4-1cf6-40db-88d9-3730f956d1b1")
 	)
 	(wire
 		(pts
@@ -8047,7 +8242,7 @@
 	)
 	(hierarchical_label "SERIAL_OUT"
 		(shape output)
-		(at 114.3 107.95 180)
+		(at 114.3 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8140,6 +8335,85 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/6a8dc824-6730-4320-bf89-77665ebbf86c"
 					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "027d54d7-1f9f-4cde-976a-2f8cff293e39")
+		(property "Reference" "TP1"
+			(at 126.492 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 109.7279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15c16ce3-2cb8-4043-9a56-c253827221f2")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/6a8dc824-6730-4320-bf89-77665ebbf86c"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9118,6 +9392,85 @@
 			(project "fieldRadio_1.2"
 				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/6a8dc824-6730-4320-bf89-77665ebbf86c"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17571561-d2c8-4e6b-bde7-4489132dad05")
+		(property "Reference" "TP2"
+			(at 115.062 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 109.7279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966f9ead-9c4a-4c73-b07d-5fc6f909fcc6")
+		)
+		(instances
+			(project "fieldRadio_1.2"
+				(path "/a1d1b2b0-2f27-4dc0-94ba-bb0e02933617/6a8dc824-6730-4320-bf89-77665ebbf86c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
