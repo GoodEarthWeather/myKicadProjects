@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 2,
@@ -165,7 +165,7 @@
         "min_via_diameter": 0.25,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -524,7 +524,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -1121,7 +1121,7 @@
         "uuid": "a1d1b2b0-2f27-4dc0-94ba-bb0e02933617"
       }
     ],
-    "used_designators": "C1-191,C222-238,D1-20,#SUPPLY1-31,#SUPPLY42,U1-34,Q1-11,Q44,F1,SW1,U$1,RV1-4,L1-25,L27,#SYM1-2,R1-169,R171-172,R179-180,R198-225,JP1-4,TP1-2,T1,Y1-2,#PWR1-54,#PWR59-60,#PWR62,#PWR65-77,IC1-3,K1-6,J1-26",
+    "used_designators": "JP1-4,R1-169,R171-172,R179-180,R198-225,#SYM1-2,RV1-4,L1-25,L27,U$1,SW1,J1-26,K1-6,IC1-3,#PWR1-54,#PWR59-60,#PWR62,#PWR65-77,Y1-2,T1,TP1-2,C1-191,C222-238,D1-20,#SUPPLY1-31,#SUPPLY42,U1-34,Q1-11,Q44,F1",
     "variants": []
   },
   "sheets": [

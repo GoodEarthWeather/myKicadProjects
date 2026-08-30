@@ -1,5 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "qsd")(type "KiCad")(uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/qsd/qsd_revB.pretty")(options "")(descr ""))
-  (lib (name "DiodesInc_library")(type "KiCad")(uri "/home/david/Documents/kicad_projects/myKicadProjects/QEX_PowerAmp_Experiment/DiodesInc_library.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "qsd") (type "KiCad") (uri "C:/Users/David/Documents/kicad_projects/myKicadProjects/5BandCWTranceiver/qsd/qsd_revB.pretty") (options "") (descr ""))
+	(lib (name "DiodesInc_library") (type "KiCad") (uri "/home/david/Documents/kicad_projects/myKicadProjects/QEX_PowerAmp_Experiment/DiodesInc_library.pretty") (options "") (descr ""))
+	(lib (name "DaveLibrary") (type "KiCad") (uri "${KIPRJMOD}/DaveLibrary.pretty") (options "") (descr ""))
 )
