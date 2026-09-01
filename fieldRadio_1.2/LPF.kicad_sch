@@ -8374,7 +8374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9431,7 +9431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
