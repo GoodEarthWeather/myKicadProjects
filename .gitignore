@@ -1,2 +1,4 @@
-
+# KiCad 10 Recommended .gitignore (includes .history/ for KiCad 9/10, *.kicad_prl, backups, netlists, and temp files)
+.history
+.kicad_prl
 *.zip
