@@ -1585,6 +1585,26 @@
 		)
 		(uuid "7768c1b5-a112-4e0b-9938-c3bc282c9961")
 	)
+	(text "VF"
+		(exclude_from_sim no)
+		(at 26.162 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85d84513-d8a0-40db-a8e8-8c3f8b484e9b")
+	)
+	(text "VREF"
+		(exclude_from_sim no)
+		(at 256.794 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96405c20-3b1d-421f-a349-55e0518a1ec3")
+	)
 	(text "RF In"
 		(exclude_from_sim no)
 		(at 46.99 54.61 0)
@@ -1604,6 +1624,16 @@
 			)
 		)
 		(uuid "c4844cd0-1b24-4f33-bd9c-943c4cb42e3f")
+	)
+	(text "VDD\nSupply"
+		(exclude_from_sim no)
+		(at 23.368 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df192baf-c291-4023-92db-dfc84538ab01")
 	)
 	(junction
 		(at 67.31 97.79)
@@ -2734,6 +2764,7 @@
 	(symbol
 		(lib_id "Device:L_Iron_Coupled_1243")
 		(at 151.13 68.58 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2743,7 +2774,7 @@
 		(dnp no)
 		(uuid "00cb6c44-0508-4344-90dc-f408fc5c70df")
 		(property "Reference" "L2"
-			(at 156.972 68.326 0)
+			(at 156.972 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2754,7 +2785,7 @@
 			)
 		)
 		(property "Value" "L_Iron_Coupled_1243"
-			(at 152.0189 64.77 90)
+			(at 152.0189 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 59.944 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -3726,10 +3757,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44f79415-0861-47b9-9375-0c8ba23c6a63")
 		(property "Reference" "L1"
-			(at 127.889 55.88 0)
+			(at 134.62 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3914,7 +3944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 46.99 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 236.22 58.42 0)
 			(hide yes)
 			(show_name no)
