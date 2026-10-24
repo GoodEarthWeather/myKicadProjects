@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NHD-0216K1Z-FSB-FBW-L"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-10-07-09:19:31)
+    (mountForm default
+        (footprintRef "NHD0216K1ZFSBFBWL")
+        (spec "System")
+    )
+)

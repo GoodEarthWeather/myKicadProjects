@@ -1,0 +1,16 @@
+.NHD-0216K1Z-FSB-FBW-L :1 ;Character Display Module Transflective 5 x 8 Dots FSTN - Film Super-Twisted Nematic LED - Blue Parallel 80.00mm x 36.00mm x 13.50mm,-20C ~ 70C
+NHD0216K1ZFSBFBWL
+*STM DS
+*NGS
+*PLB 1="VSS_1" 2="VDD_1" 3="V0_1" 4="RS_1" 5="RW_1" 6="E_1" 7="DB0_1" 8="DB1_1" 9="DB2_1" 10="DB3_1" 11="DB4_1" 12="DB5_1" 13="DB6_1" 14="DB7_1" 15="LED+_1" 16="LED-_1" 17="VSS_2" 18="VDD_2" 19="V0_2" 20="RS_2" 21="RW_2" 22="E_2" 23="DB0_2" 24="DB1_2" 25="DB2_2" 26="DB3_2" 27="DB4_2" 28="DB5_2" 29="DB6_2" 30="DB7_2" 31="LED+_2" 32="LED-_2" 33="MH_1" 34="MH_2" 35="MH_3" 36="MH_4"
+*MXP 36
+*DFN NHD-0216K1Z-FSB-FBW-L
+~!Mouser Part Number (763-0216K1Z-FSB-FBW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Newhaven-Display/NHD-0216K1Z-FSB-FBW-L?qs=3vk7fz9CmNz%2FJwPuhj3GIw%3D%3D)
+~!Manufacturer_Name (Newhaven Display)
+~!Manufacturer_Part_Number (NHD-0216K1Z-FSB-FBW-L)
+~!Link Datasheet (https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-0216K1Z-FSB-FBW-L/1701181?msockid=07b6a70c65cf63c135a0b17364d56200)
+~!Height (13.5mm)
+~!3D_Model (NHD-0216K1Z-FSB-FBW-L)
+NHD-0216K1Z-FSB-FBW-L
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 36.1!U 

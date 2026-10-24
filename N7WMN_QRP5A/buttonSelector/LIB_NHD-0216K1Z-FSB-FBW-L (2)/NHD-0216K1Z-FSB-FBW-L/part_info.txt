@@ -1,0 +1,9 @@
+Manufacturer=Newhaven Display
+PartNumber=NHD-0216K1Z-FSB-FBW-L
+PartCategory=Display
+PackageCategory=Other
+PinCount=36
+Version=1.4
+Released=2025-10-07 09:19:31
+Downloaded=2026-08-15 21:27:36
+3D=Y
