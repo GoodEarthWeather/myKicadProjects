@@ -7180,6 +7180,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Bandpass Filter\n-3dB low = 320 Hz\n-3dB high = 2.7kHz\nFcenter = 900 Hz\ndelta = 2.38 kHz"
+		(exclude_from_sim no)
+		(at 85.598 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0994d763-dfa8-48c2-80c5-63f7b070b565")
+	)
 	(text "\nWide/Narrow Audio Filters"
 		(exclude_from_sim no)
 		(at 214.63 173.99 0)
@@ -7190,6 +7200,16 @@
 			(justify left bottom)
 		)
 		(uuid "697b70ab-44ab-480a-84c6-dfbb052e2871")
+	)
+	(text "Narrow Filter\nFcenter = 660 Hz\n-3dB low = 537 Hz\n-3dB high = 820 Hz\ndelta = 283 Hz"
+		(exclude_from_sim no)
+		(at 190.754 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bad2a39b-2c7e-4655-badb-32afdbeba3a9")
 	)
 	(text "High = Narrow Filter\nLow = Wide Filter"
 		(exclude_from_sim no)
